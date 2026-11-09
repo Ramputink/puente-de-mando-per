@@ -1,0 +1,373 @@
+{
+ "id": 7,
+ "title": "Maniobras",
+ "blocks": [
+  "man"
+ ],
+ "summary": "Voces de manejo de cabos (cobrar, virar, lascar, amollar, templar, adujar…), cabos de amarre y sus efectos, gobierno con caña o rueda, efectos de hélice y timón, curva de evolución y maniobras de atraque, desatraque, ciaboga y amarre a boya. En el examen PER son las preguntas 28 y 29 (2 de 45); se repiten mucho las de esprines y efecto de la hélice dextrógira.",
+ "subtemas": [
+  {
+   "id": "7.1",
+   "title": "Amarras",
+   "html": "<h4>Hacer firme un cabo</h4><table><thead><tr><th>Expresión</th><th>Significado</th></tr></thead><tbody><tr><td><b>Encapillar</b></td><td>Pasar la gaza de una amarra por un noray o bita. Si ya hay otra gaza, se pasa la nuestra por dentro de la otra para que ambos barcos puedan largar sin estorbarse.</td></tr><tr><td><b>Amarrar por seno</b></td><td>Pasar el seno del cabo por una argolla, noray o boya y <b>devolver el chicote a bordo</b>, haciendo firmes ambos extremos en el barco. Permite <b>largar desde cubierta</b> sin ir al muelle ni a la boya y sin ayuda.</td></tr><tr><td><b>Tomar vueltas</b></td><td>Sujetar un cabo a una bita o cornamusa dándole vueltas <b>en forma de ocho</b>.</td></tr><tr><td><b>Hacer firme</b></td><td>Fijar un cabo impidiéndole todo movimiento.</td></tr></tbody></table><h4>Manejo de cabos</h4><table><thead><tr><th>Voz</th><th>Significado</th></tr></thead><tbody><tr><td><b>Cobrar</b></td><td>Tirar de un cabo para recogerlo (a mano).</td></tr><tr><td><b>Virar</b></td><td>Cobrar un cabo o cadena <b>por medios mecánicos</b> (molinete, cabrestante, chigre).</td></tr><tr><td><b>Tesar</b></td><td><b>Poner tirantes</b> cabos, cadenas, velas o toldos.</td></tr><tr><td><b>Templar</b></td><td>Tensar un cabo hasta que <b>quede sin seno</b>; <b>equilibrar proporcionalmente</b> la tensión entre varios cabos.</td></tr><tr><td><b>Amollar</b></td><td>Soltar un poco, <b>aflojar gradualmente</b> la tensión de un cabo (lo contrario de cazar).</td></tr><tr><td><b>Lascar</b></td><td><b>Aflojar</b> un poco un cabo que está tenso/trabajando.</td></tr><tr><td><b>Arriar</b></td><td>Aflojar y dejar correr un cabo; bajar una vela o bandera.</td></tr><tr><td><b>Largar</b></td><td>Soltar totalmente un cabo (las amarras).</td></tr><tr><td><b>Adujar</b></td><td>Recoger un cabo en <b>vueltas circulares u oblongas</b> (adujas) ordenadas sobre cubierta para que no se enrede.</td></tr></tbody></table><h4>Cabos de amarre</h4><table><thead><tr><th>Cabo</th><th>Cómo va</th><th>Efecto al cobrarlo/virarlo</th></tr></thead><tbody><tr><td><b>Largo de proa</b></td><td>De la proa hacia el muelle, por delante (hacia proa)</td><td>Atraca la proa y mueve el barco <b>avante</b></td></tr><tr><td><b>Largo de popa</b></td><td>De la popa hacia el muelle, por detrás</td><td>Atraca la popa y mueve el barco <b>atrás</b></td></tr><tr><td><b>Esprín de proa</b></td><td>De la proa hacia popa, inclinado</td><td>Atraca la proa y mueve el barco <b>hacia atrás</b>; impide que vaya avante</td></tr><tr><td><b>Esprín de popa</b></td><td>De la popa hacia proa, inclinado</td><td>Atraca la popa y mueve el barco <b>hacia proa</b>; impide que vaya atrás</td></tr><tr><td><b>Traveses</b></td><td>Perpendiculares a crujía</td><td>Atracan el barco de costado</td></tr><tr><td><b>Codera</b></td><td>Dada por la banda <b>contraria al muelle</b> (a boya, muerto u otro barco)</td><td>Aguanta el barco <b>separado del muelle</b> cuando el viento o la mar vienen de fuera; ayuda a desatracar. En atraque de punta, la codera/muerto sujeta el extremo opuesto.</td></tr></tbody></table><h4>Ajustes típicos (amarrados de costado)</h4><ul><li>Evitar que nuestra <b>roda</b> toque al barco de proa → cobrar el <b>esprín de proa</b> (el barco va atrás).</li><li>Evitar que nuestra <b>popa</b> toque al barco de popa → cobrar el <b>esprín de popa</b> (el barco va avante).</li><li>Que la roda del barco de popa no golpee nuestro <b>fueraborda</b> → mover el barco avante: <b>cobrar largo de proa y esprín de popa, lascando largo de popa y esprín de proa</b>.</li><li>Acolchar la proa al muelle y mover el barco hacia popa → <b>esprín de proa</b>.</li><li>Amarrados solo con el esprín de proa, si se vira → atraca la proa, desplaza el barco <b>hacia atrás</b> y <b>abre (desatraca) la popa</b>.</li><li>Viento o corriente de la mar que nos golpea contra el muelle → dar <b>coderas</b>.</li><li>Antes de salir, dejar los largos <b>por seno</b> → se larga cómodamente desde a bordo.</li></ul><h4>Primer cabo al atracar</h4><ul><li>Viento o corriente <b>de tierra</b> (desatracante): primero el <b>largo de proa</b>.</li><li>Viento o corriente <b>de la mar</b> (atracante): la codera (de popa) evita que el barco golpee el muelle.</li></ul>",
+   "keyFacts": [
+    "Amarrar por seno: el cabo pasa por la argolla y vuelve a bordo; se larga desde cubierta.",
+    "Tomar vueltas: en forma de ocho en bita o cornamusa.",
+    "Virar: cobrar con medios mecánicos.",
+    "Tesar: poner tirante. Templar: tensar sin seno o igualar tensiones de varios cabos.",
+    "Amollar: aflojar gradualmente. Lascar: aflojar un cabo tenso.",
+    "Adujar: recoger el cabo en vueltas circulares u oblongas.",
+    "Esprín de proa: atraca la proa y lleva el barco atrás.",
+    "Esprín de popa: atraca la popa y lleva el barco avante.",
+    "Largo de proa: atraca la proa y lleva el barco avante.",
+    "Codera: por la banda de fuera; evita que el barco golpee el muelle con mar o viento de fuera.",
+    "Viento de tierra: primer cabo, el largo de proa."
+   ],
+   "traps": [
+    "Tesar ≠ templar: «dar igual tensión a varios cabos» es templar.",
+    "Amollar no es cazar ni tensar.",
+    "Adujar no es «embobinar» ni «enroscar».",
+    "Amarrar por seno no es dar vueltas en ocho (eso es tomar vueltas) ni unir cabos.",
+    "Para no tocar al de proa se cobra el ESPRÍN de proa, no el largo de proa.",
+    "El esprín de proa impide el movimiento HACIA PROA (avante), no hacia popa.",
+    "Contra el viento de la mar que nos aprieta al muelle: coderas, no esprines ni largos."
+   ],
+   "upd2026": null,
+   "sources": [
+    "Apuntes PER pp.81–82 (7.1)",
+    "Banco oficial q_man 2022–2026"
+   ],
+   "kw": [
+    "amarrar por seno",
+    "seno",
+    "tomar vueltas",
+    "hacer firme",
+    "encapillar",
+    "cobrar",
+    "virar",
+    "tesar",
+    "templar",
+    "amollar",
+    "lascar",
+    "arriar",
+    "largar",
+    "adujar",
+    "largo de proa",
+    "largo de popa",
+    "espring",
+    "esprin",
+    "esprin de proa",
+    "esprin de popa",
+    "traves",
+    "codera",
+    "roda",
+    "embarcacion adyacente",
+    "fueraborda",
+    "acolchar",
+    "forma de ocho",
+    "cabo"
+   ],
+   "flash": [
+    {
+     "q": "Amarrar un cabo a una bita o cornamusa en forma de ocho",
+     "a": "Tomar vueltas."
+    },
+    {
+     "q": "Amarrar por seno: ventaja",
+     "a": "Se puede largar desde a bordo sin ir al muelle o a la boya."
+    },
+    {
+     "q": "Cobrar un cabo por medios mecánicos",
+     "a": "Virar."
+    },
+    {
+     "q": "Tesar",
+     "a": "Poner tirantes cabos, cadenas, velas, toldos."
+    },
+    {
+     "q": "Equilibrar la tensión de varios cabos",
+     "a": "Templar."
+    },
+    {
+     "q": "Templar un cabo",
+     "a": "Tensarlo hasta que quede sin seno."
+    },
+    {
+     "q": "Amollar",
+     "a": "Aflojar gradualmente; soltar un poco."
+    },
+    {
+     "q": "Lascar",
+     "a": "Aflojar un cabo cuando está tenso."
+    },
+    {
+     "q": "Adujar",
+     "a": "Recoger un cabo en vueltas circulares u oblongas para que no se enrede."
+    },
+    {
+     "q": "Evitar que nuestra roda toque al barco de proa",
+     "a": "Cobrar el esprín de proa."
+    },
+    {
+     "q": "Evitar que nuestra popa toque al barco de popa",
+     "a": "Cobrar el esprín de popa."
+    },
+    {
+     "q": "Virar el esprín de proa (único cabo)",
+     "a": "Atraca la proa, mueve el barco atrás y abre la popa."
+    },
+    {
+     "q": "Viento de la mar nos golpea contra el muelle: ¿qué cabos?",
+     "a": "Coderas."
+    },
+    {
+     "q": "Primer cabo con viento de tierra",
+     "a": "Largo de proa."
+    }
+   ]
+  },
+  {
+   "id": "7.2",
+   "title": "Gobierno con caña o rueda",
+   "html": "<h4>Caña y rueda</h4><table><thead><tr><th></th><th>Caña</th><th>Rueda</th></tr></thead><tbody><tr><td>Caída de la proa</td><td>Al lado <b>contrario</b> al que se mete la caña</td><td>Al <b>mismo</b> lado que se gira la rueda</td></tr><tr><td>Respuesta</td><td>Más rápida y directa</td><td>Más lenta (guardines), menos esfuerzo</td></tr></tbody></table><p><b>Timón a la vía</b>: el plano de la pala coincide con el plano de crujía. <b>Velocidad de gobierno</b>: velocidad <b>mínima</b> para que el timón sea eficaz y el barco pueda maniobrar y mantener el rumbo. <b>Arrancada</b>: movimiento avante o atrás que lleva el barco con independencia del motor. Se pierde la capacidad de gobierno <b>al perder la arrancada</b> (el timón necesita agua que le pase).</p><h4>Efecto de meter el timón</h4><ul><li>Navegando avante, al meter timón a una banda: la <b>proa cae a la banda de metida</b> y la <b>popa sale a la contraria</b> (timón a babor → proa a babor, popa a estribor).</li><li>Efectos iniciales: <b>pérdida de velocidad</b>, <b>desplazamiento lateral a la banda contraria</b> y <b>escora a la banda de metida</b>.</li><li><b>Punto giratorio</b>: hacia 1/3 de la eslora desde proa en marcha avante (1/3 desde popa en marcha atrás). La popa recorre mucho más: cuidado con la popa al maniobrar junto a muelles.</li><li><b>Rabeo</b>: al girar, la popa describe una trayectoria de <b>radio mayor</b> que la del punto giratorio (la popa «barre» hacia fuera).</li></ul><h4>Curva de evolución (marcha avante)</h4><p>Trayectoria del centro de gravedad al girar con máquina y ángulo de timón constantes. Tres fases:</p><ol><li><b>De maniobra</b>: desde que se <b>mete el timón</b> hasta que la pala alcanza el ángulo deseado.</li><li><b>Variable</b>: timón constante pero fuerzas aún no equilibradas; radio decreciente.</li><li><b>Uniforme</b>: equilibrio de fuerzas; giro de radio constante.</li></ol><h4>Efectos de la hélice (dextrógira, una hélice)</h4><ul><li><b>Presión lateral de las palas</b>: las palas inferiores trabajan en agua más densa/a más presión que las superiores → <b>diferencia de presión entre las palas</b> que empuja la popa lateralmente. Se nota sobre todo con el barco parado o ciando.</li><li><b>Avante</b>: la popa tiende a <b>estribor</b> (proa a babor); efecto pequeño, se corrige con timón.</li><li><b>Atrás</b>: la popa cae a <b>babor</b> (proa a estribor), muy marcado; la corriente de expulsión golpea la bovedilla de estribor y suma. Con hélice levógira, todo al revés (atrás → popa a estribor).</li><li>Parados, timón a la vía, damos atrás: <b>popa a babor</b>.</li></ul><h4>Efecto combinado hélice-timón</h4><table><thead><tr><th>Arrancada</th><th>Máquina</th><th>Eficacia del timón</th></tr></thead><tbody><tr><td>Avante</td><td>Avante</td><td>Aumenta (la corriente de expulsión incide en la pala)</td></tr><tr><td>Avante</td><td>Atrás</td><td>Disminuye; con dextrógira la popa cae a babor y la proa a estribor aunque el timón esté a la vía</td></tr><tr><td>Atrás</td><td>Atrás</td><td>Aumenta algo, pero se gobierna mal</td></tr><tr><td>Atrás</td><td>Avante</td><td>Disminuye</td></tr></tbody></table><h4>Agentes externos</h4><ul><li><b>Viento</b>: actúa sobre la obra muerta → <b>abatimiento</b>: desvío a sotavento. <b>Ángulo de abatimiento</b>: entre la proa (rumbo/orientación verdadera) y la derrota causada por el viento. Si notamos que el viento nos aparta del pantalán, es abatimiento por <b>viento</b>.</li><li><b>Corriente</b>: actúa sobre la obra viva → <b>deriva</b>. Al entrar en puerto con fuerte corriente, maniobrar <b>proa a la corriente</b> para conservar el gobierno.</li><li>Un barco con una <b>estructura alta solo a popa</b> tiende a <b>aproarse al viento</b> (la popa abate más). Con la obra muerta alta a proa, la proa abate (se aparta del viento).</li><li><b>Viento aparente</b> = viento real combinado con el de la marcha. Si navegando avante parece no haber viento: aparente nulo; el real viene <b>de popa</b> con la velocidad del barco.</li><li><b>Libre a sotavento</b>: tener <b>suficiente resguardo</b> entre el barco y la costa o escollos hacia el lado donde el viento, la mar o la corriente nos empujan.</li></ul>",
+   "keyFacts": [
+    "Caña: proa al lado contrario. Rueda: proa al mismo lado.",
+    "Timón a la vía: pala en el plano de crujía.",
+    "Velocidad de gobierno: mínima para que el timón sea eficaz.",
+    "Sin arrancada se pierde el gobierno.",
+    "Timón a una banda: pierde velocidad, se desplaza lateral a la contraria y escora a la de metida.",
+    "Curva de evolución: fase de maniobra, variable y uniforme.",
+    "Fase de maniobra: desde que se mete el timón hasta alcanzar el ángulo.",
+    "Rabeo: la popa describe un radio mayor que el punto giratorio.",
+    "Presión lateral: diferencia de presión entre palas superiores e inferiores.",
+    "Dextrógira avante: popa a estribor. Dextrógira atrás: popa a babor.",
+    "Abatimiento: viento. Deriva: corriente.",
+    "Estructura alta a popa: el barco se aproa al viento.",
+    "Libre a sotavento: resguardo suficiente hacia donde nos empujan."
+   ],
+   "traps": [
+    "Dextrógira dando atrás: la popa cae a BABOR (no a estribor).",
+    "La presión lateral con el barco parado NO se debe a la diferencia entre las caras de una pala, sino entre las palas (arriba/abajo).",
+    "Meter timón NO aumenta la velocidad; la escora inicial es a la banda de metida y el desplazamiento lateral a la contraria.",
+    "Fases de la curva: maniobra–variable–uniforme (no «inicial/final», ni «deriva/abatimiento»).",
+    "Rabeo: radio de la popa MAYOR, no menor.",
+    "Sin viento sensible navegando: el aparente es nulo y el real viene de POPA.",
+    "Con corriente fuerte en puerto: proa a la corriente, no de través ni de popa."
+   ],
+   "upd2026": "Los apuntes de 2015 dicen que con la obra muerta más a proa el barco tiende a orzar; según el banco oficial, un barco con estructura alta solo a popa tiende a aproarse al viento (y uno con la obra muerta alta a proa tiende a apartar la proa del viento).",
+   "sources": [
+    "Apuntes PER pp.82–85 (7.2)",
+    "Banco oficial q_man 2022–2026"
+   ],
+   "kw": [
+    "cana",
+    "rueda",
+    "timon a la via",
+    "velocidad de gobierno",
+    "arrancada",
+    "capacidad de gobierno",
+    "curva de evolucion",
+    "fase de maniobra",
+    "fase variable",
+    "fase uniforme",
+    "rabear",
+    "rabeo",
+    "punto giratorio",
+    "presion lateral",
+    "palas",
+    "dextrogira",
+    "levogira",
+    "maquina atras",
+    "popa caera",
+    "abatimiento",
+    "deriva",
+    "angulo de abatimiento",
+    "viento aparente",
+    "viento real",
+    "libre a sotavento",
+    "aproarse",
+    "corriente",
+    "banda de metida"
+   ],
+   "flash": [
+    {
+     "q": "Timón a la vía",
+     "a": "El plano del timón coincide con el plano de crujía."
+    },
+    {
+     "q": "Velocidad de gobierno",
+     "a": "Mínima velocidad para que el timón sea eficaz y el barco mantenga el rumbo."
+    },
+    {
+     "q": "¿Cuándo se pierde la capacidad de gobierno?",
+     "a": "Al perder la arrancada."
+    },
+    {
+     "q": "Fases de la curva de evolución",
+     "a": "Maniobra, variable y uniforme."
+    },
+    {
+     "q": "Fase de maniobra",
+     "a": "Desde que se mete el timón hasta alcanzar el ángulo deseado."
+    },
+    {
+     "q": "Rabear",
+     "a": "Al girar, la popa describe un radio mayor que el del punto giratorio."
+    },
+    {
+     "q": "Dextrógira, parado, timón a la vía, damos atrás",
+     "a": "La popa cae a babor."
+    },
+    {
+     "q": "Dextrógira avante: efecto de la presión lateral",
+     "a": "La popa tiende a estribor."
+    },
+    {
+     "q": "Arrancada avante, máquina atrás, dextrógira, timón a la vía",
+     "a": "La popa cae a babor y la proa a estribor."
+    },
+    {
+     "q": "Causa de la presión lateral con el barco parado",
+     "a": "La diferencia de presión entre las palas."
+    },
+    {
+     "q": "Timón a babor navegando avante",
+     "a": "La proa va a babor y la popa a estribor."
+    },
+    {
+     "q": "Efecto de meter timón con arrancada avante",
+     "a": "Pérdida de velocidad, desplazamiento lateral a la contraria y escora a la banda de metida."
+    },
+    {
+     "q": "Ángulo entre la orientación verdadera y la derrota por el viento",
+     "a": "Ángulo de abatimiento."
+    },
+    {
+     "q": "Barco con estructura alta solo a popa",
+     "a": "Tiende a aproarse al viento."
+    },
+    {
+     "q": "Navegando no se nota viento",
+     "a": "Aparente nulo; real de popa a la velocidad del barco."
+    },
+    {
+     "q": "Libre a sotavento",
+     "a": "Suficiente resguardo hacia el lado donde nos empujan viento, mar o corriente."
+    }
+   ]
+  },
+  {
+   "id": "7.3",
+   "title": "Maniobras",
+   "html": "<h4>Ciaboga</h4><p>Hacer girar el barco <b>sobre sí mismo</b> en el menor espacio posible.</p><ul><li><b>Una hélice dextrógira</b>: el giro es más fácil <b>a estribor</b>. Timón a estribor, poca avante (la proa cae a Er); al coger arrancada, poca atrás (la popa cae a Br, proa a Er) para parar la arrancada; se alternan avante y atrás <b>sin mover el timón</b> hasta completar el giro. Es la forma correcta en un canal angosto. Con levógira, más fácil a babor.</li><li><b>Hélices gemelas de giro al exterior</b>: una máquina avante y la otra atrás. Para caer a estribor: babor avante y estribor atrás.</li><li><b>Viento</b>: si cae la proa hacia el mismo lado al que nos empuja el viento, ayuda. Ciaboga por babor con viento de estribor → <b>facilita</b>.</li></ul><h4>Atraque</h4><ul><li><b>Normas generales</b>: aproximarse despacio y <b>proa al viento o a la corriente</b> (al elemento más fuerte); defensas listas por la banda de atraque; dando atrás se gobierna peor.</li><li><b>De costado con viento de tierra</b>: llegar con ángulo (~30°), parar a unas dos esloras y con la arrancada acercar la proa; <b>primer cabo: largo de proa</b>. Con viento de la mar, parar antes (el viento nos arrima) y usar coderas para no golpear.</li><li><b>De punta (proa o popa)</b>: perpendicular al muelle, con un <b>muerto o ancla</b> por el extremo opuesto. Con viento de tierra se dan primero los largos; con viento de mar, primero la codera/muerto.</li><li><b>Abarloarse</b>: atracar al costado de otro barco; ambos con defensas; esprines y traveses al otro barco y largos a tierra.</li></ul><h4>Desatraque de costado</h4><table><thead><tr><th>Situación</th><th>Maniobra</th></tr></thead><tbody><tr><td>Amarrados por Er, viento por Br (atracante), hay que <b>abrir la popa</b></td><td><b>Poca avante, rueda a estribor</b> (hacia el muelle) y <b>esprín de proa firme</b>: la popa se separa.</td></tr><tr><td>Amarrados por Er, viento atracante, hay que <b>abrir la proa</b></td><td><b>Poca atrás con el esprín de popa firme</b>: la proa se separa.</td></tr><tr><td>Atracados por Br, viento de tierra por la amura de Br (nos separa)</td><td><b>Largar todo</b>, timón a estribor (hacia fuera) y poca avante; una vez abiertos, gobernar a la salida.</td></tr><tr><td>Viento o corriente por la proa</td><td>Largar esprín de proa y largo de popa; resto menos esprín de popa; poca avante con timón a la banda; soltar el esprín de popa al salvar al de delante.</td></tr><tr><td>Viento por la popa</td><td>Largar esprín de popa y largo de proa; aguantar con el largo de popa hasta salvar a los demás.</td></tr></tbody></table><h4>Desatraque de punta</h4><p>Atracados de punta <b>por proa</b>: largar primero las amarras de proa, después la del <b>muerto</b> y salir <b>dando poca atrás</b>, controlando el efecto de la hélice (la popa caerá a babor con dextrógira). Vigilar especialmente la banda de sotavento.</p><h4>Amarre a una boya</h4><ul><li>Siempre que sea posible, aproximarse <b>proa (o casi proa) a la boya y al viento</b>, o <b>contra la corriente</b> (sin viento), a poca máquina; al tenerla por la proa, dar atrás para parar la arrancada, cogerla con el <b>bichero</b> y amarrar <b>primero por proa</b>.</li><li>Si no se puede proa al viento (falta de espacio), aproximarse por el <b>barlovento</b> de la boya: al tenerla por el través, el viento nos arrima a ella.</li><li>Nunca con el viento por popa ni a máxima velocidad. Por su sotavento el viento nos aleja de la boya.</li></ul><h4>Fondeo (voces)</h4><p>Al llegar al punto escogido, la primera orden al tripulante es <b>«¡Larga el ancla!»</b>; después se fila cadena con ligera arrancada atrás.</p><h4>Libre a sotavento en la maniobra</h4><p>Antes de cualquier maniobra en puerto, asegurarse de tener espacio libre hacia donde el viento nos desplaza, para no golpear estructuras ni barcos.</p>",
+   "keyFacts": [
+    "Ciaboga: girar el barco sobre sí mismo.",
+    "Dextrógira: ciaboga por estribor, timón a Er alternando avante y atrás.",
+    "Gemelas: una avante y otra atrás.",
+    "Ciaboga por babor con viento de estribor: el viento ayuda.",
+    "Atracar proa al viento/corriente y despacio; con viento de tierra primer cabo el largo de proa.",
+    "Abrir la popa: poca avante, timón hacia el muelle, esprín de proa firme.",
+    "Abrir la proa: poca atrás con esprín de popa firme.",
+    "Viento de tierra que nos separa: largar todo, timón hacia fuera, poca avante.",
+    "De punta por proa: largar proa, luego el muerto, salir con poca atrás.",
+    "Boya: proa al viento/contra la corriente, cogerla con el bichero y amarrar por proa.",
+    "Amarre de punta: perpendicular al muelle con muerto o ancla."
+   ],
+   "traps": [
+    "Ciaboga con dextrógira por BABOR → menos eficaz; la correcta es por estribor.",
+    "Para abrir la popa se aguanta en el ESPRÍN DE PROA, no en el largo de popa.",
+    "Para abrir la proa: atrás con el ESPRÍN DE POPA firme.",
+    "Desatraque de punta por proa: no dar atrás toda; primero amarras de proa, luego el muerto.",
+    "Boya: no con viento por popa ni por sotavento ni a la máxima velocidad.",
+    "Amarrar de punta no es un nudo ni amarrar de costado.",
+    "Ciaboga no es «la maniobra a evitar en canales»: en canal angosto se hace alternando avante y atrás."
+   ],
+   "upd2026": null,
+   "sources": [
+    "Apuntes PER pp.85–88 (7.3)",
+    "Banco oficial q_man 2022–2026"
+   ],
+   "kw": [
+    "ciaboga",
+    "canal angosto",
+    "atraque",
+    "atracar",
+    "desatraque",
+    "desatracar",
+    "abrir la popa",
+    "abrir la proa",
+    "amarrados por el costado",
+    "viento atracante",
+    "viento de tierra",
+    "de punta",
+    "amarrar de punta",
+    "muerto",
+    "boya",
+    "bichero",
+    "proa al viento",
+    "corriente",
+    "abarloarse",
+    "larga el ancla",
+    "helices gemelas",
+    "rueda a estribor",
+    "pantalan",
+    "barlovento",
+    "sotavento"
+   ],
+   "flash": [
+    {
+     "q": "Ciaboga",
+     "a": "Hacer girar el barco sobre sí mismo en el menor espacio."
+    },
+    {
+     "q": "Ciaboga con dextrógira en canal angosto",
+     "a": "Timón a estribor, alternando avante y atrás, la proa cae a estribor."
+    },
+    {
+     "q": "Ciaboga por babor con viento de estribor",
+     "a": "El viento facilita la maniobra."
+    },
+    {
+     "q": "Ciaboga con gemelas",
+     "a": "Una máquina avante y la otra atrás."
+    },
+    {
+     "q": "Amarrados por Er, viento por Br, hay que abrir la popa",
+     "a": "Poca avante, rueda a estribor, esprín de proa firme."
+    },
+    {
+     "q": "Amarrados por Er, viento atracante, hay que abrir la proa",
+     "a": "Poca atrás con el esprín de popa firme."
+    },
+    {
+     "q": "Atracados por Br con viento de tierra por la amura de Br",
+     "a": "Largar todo, timón a estribor, poca avante."
+    },
+    {
+     "q": "Salir atracados de punta por proa",
+     "a": "Largar amarras de proa, luego el muerto y dar poca atrás."
+    },
+    {
+     "q": "Aproximación a una boya",
+     "a": "Proa al viento (o contra la corriente) y amarrar primero por proa."
+    },
+    {
+     "q": "Boya sin espacio para ir proa al viento",
+     "a": "Aproximarse por su barlovento: el viento nos arrima a ella."
+    },
+    {
+     "q": "Amarrar de punta",
+     "a": "Amarrar perpendicular al muelle, por proa o popa, con un muerto o ancla."
+    },
+    {
+     "q": "Primera orden al llegar al punto de fondeo",
+     "a": "«Larga el ancla»."
+    },
+    {
+     "q": "Primer cabo al atracar de costado con viento de tierra",
+     "a": "El largo de proa."
+    }
+   ]
+  }
+ ]
+}

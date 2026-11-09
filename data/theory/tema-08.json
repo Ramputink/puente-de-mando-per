@@ -1,0 +1,648 @@
+{
+ "id": 8,
+ "title": "Emergencias en la mar",
+ "blocks": [
+  "eme"
+ ],
+ "summary": "Actuación ante accidentes personales (primeros auxilios y Centro Radio-Médico), varadas, abordajes, vías de agua, incendios y abandono del barco. Aporta 3 preguntas por examen (P30–P32); son preguntas de sentido común marinero con muchas trampas tipo «¿qué NO se debe hacer?».",
+ "subtemas": [
+  {
+   "id": "8.1",
+   "title": "Accidentes personales",
+   "html": "\n<p>Antes de cualquier cura: lavarse/desinfectarse las manos y usar material limpio o estéril. Ante la duda, <b>consulta radio-médica</b>.</p>\n<h4>Contusiones</h4>\n<p>Golpe sin rotura de piel (hematoma). Compresas frías y reposo de la zona.</p>\n<h4>Heridas</h4>\n<ul>\n<li><b>Leve</b>: lavar con agua y jabón (o suero) <b>sin frotar con algodón</b> (deja fibras), secar con gasa, antiséptico y cubrir; si es alargada, aproximar bordes con tiras adhesivas (no taponar).</li>\n<li><b>Grave</b> (profunda, infectada, con hemorragia, con cuerpos extraños, en cara/manos/articulaciones, por mordedura…): cubrir con un <b>apósito estéril</b>, <b>sin aplicar antisépticos ni pomadas</b>, no extraer cuerpos clavados, y consultar/evacuar.</li>\n</ul>\n<h4>Hemorragias</h4>\n<ul>\n<li><b>Externa</b>: <span class=\"hl\">comprimir fuertemente con la mano sobre gasas limpias</span> en el punto sangrante al menos 4–5 minutos (sin levantar para mirar) y después un <b>vendaje compresivo</b>; elevar el miembro. Arterial = sangre roja viva a borbotones; venosa = roja oscura continua.</li>\n<li>Si no cede, compresión de la arteria <b>entre la herida y el corazón</b> (por encima de la herida), contra un plano óseo.</li>\n<li><b>Torniquete</b> (último recurso, solo en extremidades): ancho, por encima de la herida; <b>anotar la hora</b> de colocación; mantener fría la parte del miembro situada por debajo; <b>no aflojarlo</b> (la práctica antigua de aflojar cada 15–20 min está desaconsejada); evacuación urgente.</li>\n<li><b>Interna</b> (palidez, sudor frío, pulso rápido, sed tras un golpe): <span class=\"hl\">acostar al afectado en horizontal; si pierde el conocimiento, posición lateral de seguridad</span>; abrigar, no dar de beber ni comer, no masajear; consulta radio-médica y evacuación.</li>\n<li><b>Nasal (epistaxis)</b>: sentado con la <b>cabeza inclinada hacia delante</b> y <b>presionar ambas fosas nasales</b> cerca del hueso de la nariz unos 10 minutos. No echar la cabeza atrás.</li>\n</ul>\n<h4>Quemaduras</h4>\n<table>\n<thead><tr><th>Grado</th><th>Afecta</th><th>Signos</th></tr></thead>\n<tbody>\n<tr><td>1.º</td><td>Capa superficial de la piel</td><td>Enrojecimiento, dolor, sin ampollas</td></tr>\n<tr><td>2.º</td><td>Capa profunda de la piel</td><td><b>Ampollas</b> con líquido claro, dolor intenso</td></tr>\n<tr><td>3.º</td><td>Todo el espesor de la piel y tejidos</td><td>Piel blanquecina, amarillenta o carbonizada; poco dolor</td></tr>\n</tbody></table>\n<p><b>Tratamiento</b>:</p>\n<ul>\n<li>Apartar de la fuente de calor; si la quemadura impide respirar, <b>abrir la vía aérea</b> inmediatamente.</li>\n<li><b>Enfriar con agua fría</b> (no helada) unos minutos (10–20).</li>\n<li><b>Cortar la ropa</b>, sin tirar de ella si está pegada a la piel; quitar anillos y relojes.</li>\n<li><b>No romper las ampollas</b>; solo recortar las que ya estén rotas.</li>\n<li>Cubrir con gasa estéril (o gasa grasa) y vendaje <b>flojo</b>, nunca compresivo.</li>\n<li>Brazos y piernas: <b>elevar la extremidad</b> para reducir la inflamación.</li>\n<li>Si afecta a una <b>articulación</b> y es de 2.º grado o más: <b>inmovilizar</b> la zona; y administrar <b>antibiótico</b> para prevenir la infección (según consulta).</li>\n<li>Dar líquidos (agua, suero oral) si está consciente; nunca alcohol ni estimulantes.</li>\n</ul>\n<table>\n<thead><tr><th>Se pueden tratar a bordo (sin lesión por inhalación)</th><th>Requieren evacuación a hospital</th></tr></thead>\n<tbody>\n<tr><td>1.º grado con extensión &lt; 20 % de la superficie corporal<br>2.º grado &lt; 10 %<br>3.º grado &lt; 1 %</td><td>Extensiones mayores (p. ej. 1.º grado del 25 % o del 30 %)<br>Quemaduras en <b>cara, cuello, manos, pies, genitales u orificios naturales</b><br>Lesiones por inhalación (vías respiratorias)</td></tr>\n</tbody></table>\n<h4>Insolación y golpe de calor</h4>\n<ul>\n<li>Llevar a un lugar <b>fresco, seco y bien ventilado</b>, a la sombra; aflojar o quitar ropa; enfriar con <b>paños de agua fría</b>.</li>\n<li>Si la temperatura supera 40 °C, bajarla <b>hasta 38,5 °C (no por debajo)</b> y controlarla cada 10 minutos.</li>\n<li>Si está consciente, dar a beber <b>suero oral disuelto en agua fresca</b>. <b>Nunca alcohol ni estimulantes</b>.</li>\n</ul>\n<h4>Mareo (mal de mar)</h4>\n<p>Situarse en un lugar <b>fresco y aireado</b>, cerca del centro del barco (crujía y flotación), en <b>posición reclinada</b>, mirando el horizonte; tomar <b>pequeñas cantidades de alimentos secos</b> (galletas, pan) y líquidos; no quedarse en ayunas ni encerrado en un camarote de proa. Antihistamínicos con prudencia (somnolencia).</p>\n<h4>Centro Radio-Médico Español (CRME)</h4>\n<ul>\n<li>Depende del <b>Instituto Social de la Marina (ISM)</b>; está conectado con Salvamento Marítimo para evacuaciones.</li>\n<li>Asistencia médica de urgencia a distancia <b>gratuita</b>, <b>24 horas, todos los días del año</b> (festivos incluidos), <b>en español</b> (no se garantiza en inglés).</li>\n<li>Contacto: por radio (estaciones costeras / Salvamento Marítimo) o directamente por teléfono móvil o satélite al <b>91 310 34 75</b>.</li>\n<li>Consultas <b>no urgentes</b> o de control preferiblemente <b>de 9:00 a 15:00</b> (hora de Madrid); el resto del tiempo, urgencias.</li>\n<li><b>Guía Sanitaria a Bordo</b>: editada por el ISM; se descarga gratis de su web o se solicita al ISM. Obligatoria si se lleva botiquín (botiquín tipo balsa de salvamento en zonas 1–4, RD 339/2021 art. 13).</li>\n</ul>\n<h4>RCP (ERC 2025)</h4>\n<p>30 compresiones : 2 ventilaciones, 100–120/min, 5–6 cm; en ahogados empezar con 5 ventilaciones (ver 3.8).</p>\n",
+   "keyFacts": [
+    "Hemorragia externa: compresión directa fuerte sobre gasas 4–5 min y vendaje compresivo",
+    "Torniquete: anotar la hora, frío en la parte inferior del miembro, no aflojarlo",
+    "Hemorragia interna: horizontal; si pierde el conocimiento, posición lateral de seguridad",
+    "Epistaxis: cabeza hacia delante y presionar ambas fosas cerca del hueso",
+    "Quemaduras: agua fría, no romper ampollas, no vendaje compresivo, elevar extremidades",
+    "A bordo solo: 1.º <20 %, 2.º <10 %, 3.º <1 %; cara, cuello, manos u orificios → evacuar",
+    "Golpe de calor: enfriar hasta 38,5 °C (no menos), suero oral, nada de alcohol ni estimulantes",
+    "Mareo: lugar fresco y aireado, reclinado, alimentos secos en poca cantidad",
+    "CRME: 91 310 34 75, 24 h/365 días, gratuito, en español, depende del ISM; no urgentes 9–15 h",
+    "Herida grave: apósito estéril, sin antisépticos ni pomadas"
+   ],
+   "traps": [
+    "Torniquete «aflojar cada 20 minutos» → desaconsejado.",
+    "«Las quemaduras de 2.º grado de menos del 20 % se tratan a bordo» → FALSO: el límite es 10 %.",
+    "«Romper las ampollas» o «vendaje que comprima» → incorrecto.",
+    "Golpe de calor: «lugar húmedo», «paños de agua caliente», «bajar a 37,5 °C», «bebida estimulante» → incorrectos.",
+    "Mareo: «quieto, caliente y en ayunas en un camarote a proa/popa» → incorrecto.",
+    "CRME «en español e inglés», «de 6:00 a 00:00», «solo por canal 70», «depende del Instituto de Medicina Preventiva» o teléfono 91 308 33 02/34 75 → falsos.",
+    "La Guía Sanitaria NO se adquiere solo en direcciones provinciales: se descarga gratis.",
+    "Epistaxis: cabeza hacia atrás → error."
+   ],
+   "upd2026": "RCP actualizada a ERC 2025. Criterio moderno: no aflojar el torniquete. Teléfono del CRME 91 310 34 75 (24 h, en español).",
+   "sources": [
+    "Apuntes PER pp.90–92",
+    "Guía Sanitaria a Bordo (ISM)",
+    "RD 339/2021 art. 13",
+    "ERC Guidelines 2025"
+   ],
+   "kw": [
+    "accidente",
+    "accidentes personales",
+    "herida",
+    "hemorragia",
+    "hemorragia interna",
+    "torniquete",
+    "epistaxis",
+    "nasal",
+    "quemadura",
+    "quemaduras",
+    "ampollas",
+    "superficie corporal",
+    "primer grado",
+    "segundo grado",
+    "tercer grado",
+    "cara",
+    "cuello",
+    "evacuar",
+    "insolacion",
+    "golpe de calor",
+    "mal de mar",
+    "mareo",
+    "centro radio-medico",
+    "crme",
+    "91 310 34 75",
+    "guia sanitaria",
+    "posicion lateral de seguridad",
+    "suero oral",
+    "tratamientos de urgencia",
+    "patologia",
+    "urgencia"
+   ],
+   "flash": [
+    {
+     "q": "Hemorragia interna: ¿cómo se coloca al herido?",
+     "a": "En horizontal; si pierde el conocimiento, en posición lateral de seguridad."
+    },
+    {
+     "q": "Hemorragia nasal: ¿qué se hace?",
+     "a": "Cabeza hacia delante y presionar ambas fosas nasales cerca del hueso."
+    },
+    {
+     "q": "Hemorragia externa en zona compresible",
+     "a": "Comprimir fuerte sobre gasas al menos 4–5 minutos y luego vendaje compresivo."
+    },
+    {
+     "q": "¿Qué se anota al poner un torniquete?",
+     "a": "La hora de colocación."
+    },
+    {
+     "q": "¿Se rompen las ampollas de una quemadura?",
+     "a": "No; solo se recortan si ya están rotas."
+    },
+    {
+     "q": "Quemadura de 1.er grado del 25 %",
+     "a": "Evacuar a un centro hospitalario."
+    },
+    {
+     "q": "Quemadura en cara, cuello u orificios naturales",
+     "a": "No se trata a bordo: evacuar."
+    },
+    {
+     "q": "Límite de 2.º grado tratable a bordo",
+     "a": "Menos del 10 % de la superficie corporal."
+    },
+    {
+     "q": "Límite de 3.er grado tratable a bordo",
+     "a": "Menos del 1 % y sin lesión por inhalación."
+    },
+    {
+     "q": "Quemadura de 2.º grado en una articulación",
+     "a": "Inmovilizar la zona (y antibiótico para prevenir infección)."
+    },
+    {
+     "q": "Quemadura en brazos o piernas",
+     "a": "Elevar la extremidad para disminuir la inflamación."
+    },
+    {
+     "q": "Golpe de calor: ¿hasta qué temperatura se enfría?",
+     "a": "Hasta 38,5 °C, no por debajo; controlar cada 10 min."
+    },
+    {
+     "q": "¿Qué se da a beber en un golpe de calor?",
+     "a": "Suero oral en agua fresca, si está consciente."
+    },
+    {
+     "q": "Teléfono del Centro Radio-Médico Español",
+     "a": "91 310 34 75."
+    },
+    {
+     "q": "Horario del CRME",
+     "a": "24 horas, todos los días del año; no urgentes de 9 a 15 h."
+    },
+    {
+     "q": "¿En qué idioma atiende el CRME?",
+     "a": "En español."
+    },
+    {
+     "q": "¿De quién depende el CRME?",
+     "a": "Del Instituto Social de la Marina."
+    },
+    {
+     "q": "Mareo: posición y alimentación",
+     "a": "Lugar fresco y aireado, reclinado, pequeñas cantidades de alimentos secos."
+    }
+   ]
+  },
+  {
+   "id": "8.2",
+   "title": "Varada involuntaria",
+   "html": "\n<p><b>Varada involuntaria</b> o <b>embarrancada</b>: el barco toca fondo sin querer y queda inmovilizado. Causas: navegar por aguas someras, errores en la derrota trazada o en la situación, bajos no cartografiados, mareas muy bajas, garreo, niebla.</p>\n<h4>Primeras medidas</h4>\n<ol>\n<li><b>Evaluar los daños</b> (personas y casco): obra viva, posibles <b>vías de agua</b>, timón y hélice.</li>\n<li><b>Sondar alrededor</b> de la embarcación (plano de sondas) y <b>verificar el tipo de fondo</b>.</li>\n<li>Conocer la marea (hora de la próxima <b>pleamar</b>) y el tiempo previsto.</li>\n<li>Solo entonces decidir: reflotar con medios propios, pedir ayuda o, en último extremo, abandonar.</li>\n</ol>\n<p>No se da atrás a toda máquina de inmediato: en roca puede desgarrar el casco y en fango la toma de refrigeración aspira lodo. No se abandona el barco antes de evaluar los daños.</p>\n<h4>Factores para reflotar</h4>\n<ul>\n<li><b>Tipo de fondo</b>: condiciona la maniobra y los daños (roca = más daños; arena/fango = menos).</li>\n<li><b>Mareas</b>: esperar a la <b>pleamar</b> (marea más alta). Entre dos pleamares (o dos bajamares) pasan unas <b>12 h 25 min</b> (≈12,5 h).</li>\n<li><b>Distribución de pesos</b>: pueden haberse desplazado; trasladarlos para cambiar asiento o escora y reducir calado.</li>\n<li><b>Tipo de avería</b> y estado del casco.</li>\n<li><b>Medios externos</b>: otro barco o remolcador si es necesario (tirando con suavidad, no a toda potencia).</li>\n</ul>\n<h4>Según el fondo</h4>\n<table>\n<thead><tr><th>Fondo</th><th>Actuación</th></tr></thead>\n<tbody>\n<tr><td><b>Rocoso</b></td><td>Evaluar daños primero; si <b>no hay vías de agua</b>, se puede dar atrás rápidamente para salir. Si hay vía de agua, a veces es mejor seguir varado hasta controlarla.</td></tr>\n<tr><td><b>Fango o arena</b></td><td>Planificar: levantar un plano de sondas, estudiar la salida y <b>esperar a la pleamar</b>. <b>Trasladar pesos</b> para cambiar el asiento, <b>balancear</b> el barco de banda a banda para «abrir la cama» (el fango hace de ventosa), aligerar (achicar tanques, desembarcar pesos). Remolcador solo si hace falta.</td></tr>\n</tbody></table>\n",
+   "keyFacts": [
+    "Primera medida: evaluar daños, sondar alrededor y verificar el tipo de fondo",
+    "Reflotar en la pleamar; entre pleamares ≈12 h 25 min",
+    "Factores: tipo de fondo, mareas, distribución de pesos, tipo de avería, ayuda externa",
+    "Fango: trasladar pesos, balancear para despegar (efecto ventosa), esperar la pleamar",
+    "Roca sin vías de agua: dar atrás rápidamente",
+    "El ancla y el equipo de fondeo no son factor primordial según la clave oficial"
+   ],
+   "traps": [
+    "«Esperar a la bajamar» → FALSO: pleamar.",
+    "«Pleamar = marea más baja» → falso.",
+    "«6 h y media entre dos pleamares» → falso: unas 12,5 h.",
+    "«Avisar a Salvamento y abandonar antes de evaluar daños» → falso.",
+    "«Los pesos son inamovibles» → falso.",
+    "«Siempre hace falta remolcador» o «remolcador a toda potencia» → falso.",
+    "«El tipo de fondo no influye en los daños» → falso.",
+    "«Es más probable varar lejos de la costa» → falso."
+   ],
+   "upd2026": null,
+   "sources": [
+    "Apuntes PER p.92",
+    "Preguntas oficiales 2022–2026"
+   ],
+   "kw": [
+    "varada",
+    "varada involuntaria",
+    "embarrancada",
+    "reflotar",
+    "reflote",
+    "pleamar",
+    "bajamar",
+    "fondo fangoso",
+    "fango",
+    "arena",
+    "fondo rocoso",
+    "rocas",
+    "pesos",
+    "asiento",
+    "escora",
+    "balancear",
+    "ventosa",
+    "plano de sondas",
+    "remolcador",
+    "mareas",
+    "12 horas"
+   ],
+   "flash": [
+    {
+     "q": "Primera medida tras una varada",
+     "a": "Evaluar daños, sondar alrededor y verificar el tipo de fondo."
+    },
+    {
+     "q": "¿En qué momento de la marea se intenta reflotar?",
+     "a": "En la pleamar (marea más alta)."
+    },
+    {
+     "q": "Tiempo entre dos pleamares",
+     "a": "Unas 12 horas y media."
+    },
+    {
+     "q": "Varada en fango: tres medidas",
+     "a": "Trasladar pesos, balancear el barco para despegarlo y esperar la pleamar."
+    },
+    {
+     "q": "Varada en roca sin vías de agua",
+     "a": "Se puede dar atrás rápidamente."
+    },
+    {
+     "q": "¿Por qué se balancea el barco en el fango?",
+     "a": "Porque el fango hace de ventosa; balanceándolo se abre la cama."
+    },
+    {
+     "q": "¿Es imprescindible un remolcador?",
+     "a": "No; solo si se considera necesario."
+    },
+    {
+     "q": "¿Influye el tipo de fondo en los daños?",
+     "a": "Sí."
+    }
+   ]
+  },
+  {
+   "id": "8.3",
+   "title": "Abordaje",
+   "html": "\n<p><b>Abordaje</b>: choque entre dos buques o embarcaciones. Hay que actuar con calma y rapidez.</p>\n<h4>Medidas tras un abordaje</h4>\n<ol>\n<li><b>Evaluar inmediatamente</b> (a la mayor brevedad) <b>las averías</b> y <b>atender a los heridos</b>. Prestar especial atención a los daños bajo la línea de flotación (vías de agua).</li>\n<li><b>No separar las embarcaciones sin evaluar antes las averías</b>: con <b>buen tiempo</b>, mantenerlas unidas hasta controlar la avería (la proa del abordante puede estar «taponando» el agujero). Con <b>mal tiempo</b>, los golpes entre cascos agravan los daños, por lo que conviene separarse antes (pero siempre tras una evaluación rápida).</li>\n<li>Cerrar compartimentos estancos; controlar vías de agua (achique, taponamiento). Si la vía está en la flotación, <b>escorar el barco a la banda contraria</b> para que el orificio quede <b>fuera del agua</b>.</li>\n<li>Comunicar el abordaje a Salvamento Marítimo / Centro de Coordinación de Salvamento si hay riesgo, y prestarse auxilio mutuo.</li>\n<li>Intercambiar datos (nombre, matrícula, patrón, seguro) y comunicarlo a la compañía aseguradora. El parte no es la prioridad.</li>\n<li>Una vez controlado, dirigirse al puerto más próximo o, si se hunde, varar voluntariamente en una playa.</li>\n</ol>\n<p>La responsabilidad no depende de quién iba más rápido; la determina el cumplimiento del RIPA. El modo de proceder depende de si la avería está por encima o por debajo de la flotación.</p>\n<h4>Prevención de abordajes</h4>\n<ul>\n<li>Vigilancia permanente (una persona siempre al timón/puente), atención a los <b>ángulos muertos</b> (velas, toldos, proa levantada al planear).</li>\n<li><b>Hacer todo lo posible para ser visto y oído</b>: izar el <b>reflector de radar</b> lo más alto posible, luces correctas, <b>bocina de niebla</b> con visibilidad reducida.</li>\n<li>Estimar rumbo y velocidad de los demás buques; los buques grandes van rápidos y maniobran mal: apartarse con antelación.</li>\n<li><b>Usar el VHF</b> (canal 16/13) para alertar a un buque en rumbo de colisión.</li>\n<li>A vela, <b>no confiar en que respetarán la preferencia</b>; arrancar el motor y maniobrar si hace falta.</li>\n<li>A motor, respetar la preferencia del velero; modificar rumbo y/o velocidad con claridad y a tiempo.</li>\n<li>No suponer que todo el mundo cumple el RIPA ni que nos ven y oyen.</li>\n</ul>\n",
+   "keyFacts": [
+    "Lo primero tras un abordaje: evaluar los daños (y atender heridos) a la mayor brevedad",
+    "Buen tiempo: no separar los barcos hasta controlar la avería",
+    "Mal tiempo: separarse antes para que los golpes no agraven los daños",
+    "Vía de agua en la flotación: escorar a la banda contraria para sacar el orificio del agua",
+    "Prevención: ser visto y oído, reflector de radar alto, VHF, no confiar en la preferencia",
+    "A vela, arrancar el motor si es preciso para evitar el abordaje"
+   ],
+   "traps": [
+    "«Separarse lo antes posible siempre» → falso.",
+    "«Lanzar socorro y llamar al seguro» o «abandonar» como primera medida → falso.",
+    "«Evaluar daños en la peritación en puerto» → falso.",
+    "«Escorar para que el orificio quede debajo del agua» → falso.",
+    "«No usar el VHF para alertar» → falso.",
+    "«A vela, confiar en que respetarán su preferencia» → INCORRECTO.",
+    "«Obligación de prestar asistencia LEGAL al otro patrón» → falso.",
+    "La pregunta d87fb3d3cf tiene dos claves (buen/mal tiempo); según los apuntes, NO se separa con buen tiempo."
+   ],
+   "upd2026": null,
+   "sources": [
+    "Apuntes PER p.93",
+    "RIPA Reglas 5–8"
+   ],
+   "kw": [
+    "abordaje",
+    "colision",
+    "averias",
+    "evaluar los daños",
+    "separar",
+    "despegar",
+    "embarcaciones",
+    "buen tiempo",
+    "mal tiempo",
+    "prevencion de los abordajes",
+    "reflector de radar",
+    "vhf",
+    "preferencia",
+    "vela",
+    "angulos muertos",
+    "ser visto",
+    "parte amistoso"
+   ],
+   "flash": [
+    {
+     "q": "¿Qué es lo primero tras un abordaje?",
+     "a": "Evaluar los daños sufridos (y asistir a heridos)."
+    },
+    {
+     "q": "¿Se separan los barcos tras el abordaje?",
+     "a": "No sin evaluar antes las averías; con buen tiempo, no hasta controlarlas."
+    },
+    {
+     "q": "Medida contraproducente tras un abordaje",
+     "a": "Separar las embarcaciones sin evaluar las averías."
+    },
+    {
+     "q": "Vía de agua en la flotación por abordaje",
+     "a": "Escorar para que el orificio quede fuera del agua."
+    },
+    {
+     "q": "¿Dónde se iza el reflector de radar?",
+     "a": "Lo más alto posible."
+    },
+    {
+     "q": "¿Puede usarse el VHF para alertar a un buque en colisión?",
+     "a": "Sí, es recomendable."
+    },
+    {
+     "q": "A vela, ¿se puede arrancar el motor para evitar un abordaje?",
+     "a": "Sí, si es preciso."
+    },
+    {
+     "q": "Regla general de prevención",
+     "a": "Hacer todo lo posible para ser visto y oído; no confiar en la preferencia."
+    }
+   ]
+  },
+  {
+   "id": "8.4",
+   "title": "Vías de agua e inundación",
+   "html": "\n<p><b>Vía de agua</b>: entrada de agua por una rotura o abertura del casco u otro conducto, que compromete la flotabilidad.</p>\n<h4>Puntos de mayor riesgo</h4>\n<ul>\n<li><b>Bocina</b> (paso del eje de la hélice; estanqueidad por el prensaestopas).</li>\n<li><b>Limera del timón</b> (paso de la mecha).</li>\n<li><b>Grifos de fondo</b>, <b>pasacascos</b> y orificios (tomas de refrigeración, aseos, sonda, corredera).</li>\n<li><b>Manguitos y abrazaderas</b> de los circuitos de agua.</li>\n</ul>\n<p>(Las lumbreras, imbornales, escobenes, trancanil o la propia hélice no son los puntos de mayor riesgo.) Revisarlos a fondo cada vez que el barco esté en seco.</p>\n<h4>Prevención</h4>\n<p>Cerrar las válvulas que no se usen, asegurar la estanqueidad de portillos y escotillas, <b>fijar el ancla</b> para que no golpee el casco, trincar baterías y material pesado, mantener la sentina seca (para detectar enseguida agua nueva) y revisar bombas de achique.</p>\n<h4>Actuación al detectar agua en la sentina</h4>\n<ol>\n<li>Localizar el origen (probar si es dulce o salada; fría suele indicar exterior, pero no siempre refrigeración).</li>\n<li><b>Aislar la zona</b> inundada (cerrar puertas/compartimentos) y <b>poner en marcha inmediatamente todas las bombas de achique</b>.</li>\n<li><b>Mantener el motor encendido</b> (alimenta las bombas eléctricas y permite maniobrar). Para reforzar el achique: <b>soltar la toma de agua de mar de refrigeración del motor, cerrar el grifo de fondo y hacer que aspire el agua embarcada</b>.</li>\n<li>Una persona en la bomba manual y el resto achicando con baldes.</li>\n<li><b>Taponar</b>: válvula o pasacascos roto → cerrarlo o colocar un <b>espiche cónico de madera</b> a medida (para orificios pequeños/redondos; se puede completar con trapos o estopa). Orificios grandes → <b>colchonetas</b> o cojines presionados contra el casco, pallete de colisión (lona) o pasta reparadora.</li>\n<li>Si la vía está cerca de la flotación, escorar el barco a la banda contraria.</li>\n<li>Si <b>no se puede detener la entrada de agua</b>: <b>llamada de socorro</b> (lo primero) y, mientras llega la ayuda, aumentar la flotabilidad: <b>vaciar el depósito de agua dulce</b> al mínimo imprescindible y <b>arrojar peso inútil</b> por la borda. Prepararse para abandonar <b>en el último momento</b>.</li>\n</ol>\n<p>Un barco medio hundido es mejor refugio y más visible que una balsa: no se abandona inmediatamente.</p>\n<h4>Bombas de achique (RD 339/2021 art. 20)</h4>\n<p>Zonas 1–3: bomba accionada por el motor u otra fuente + bomba manual + 2 baldes de 5 l. Zonas 4–6: bomba manual o eléctrica + 1 balde. Zona 7: bomba manual o eléctrica. Mantenimiento: limpiar los filtros (alcachofas) de las aspiraciones, comprobar los automáticos (flotador) y las baterías.</p>\n",
+   "keyFacts": [
+    "Mayor riesgo: bocina, limera del timón, grifos de fondo, pasacascos, manguitos y abrazaderas",
+    "Agua en la sentina: aislar la zona y arrancar todas las bombas; mantener el motor encendido",
+    "Refuerzo: la toma de refrigeración del motor aspira de la sentina",
+    "Espiche cónico de madera para válvulas/pasacascos; colchonetas para orificios grandes",
+    "Si no se detiene: llamada de socorro primero; luego vaciar agua dulce y tirar peso inútil",
+    "Abandonar solo en el último momento",
+    "Prevención: cerrar válvulas no usadas, estanqueidad, fijar ancla y pesos, sentina seca"
+   ],
+   "traps": [
+    "«Apague el motor» al detectar agua → INCORRECTO.",
+    "«Achicar con baldes antes de poner las bombas» → incorrecto.",
+    "«Abrir válvulas y portillos para evacuar el agua» → absurdo.",
+    "«Abandonar inmediatamente» o «navegar a toda máquina a puerto sin achicar» → incorrecto.",
+    "Puntos de riesgo «lumbreras, imbornales, hélice, pala del timón, escobenes» → falsos.",
+    "«Espiche para grandes orificios» → falso: es para orificios pequeños/válvulas.",
+    "«Taponar desde el interior con colchonetas una válvula» o «agua fría siempre es refrigeración» → falsos."
+   ],
+   "upd2026": "Medios de achique según RD 339/2021 art. 20.",
+   "sources": [
+    "Apuntes PER pp.93–94",
+    "RD 339/2021 art. 20"
+   ],
+   "kw": [
+    "via de agua",
+    "vias de agua",
+    "inundacion",
+    "sentina",
+    "bombas de achique",
+    "achicar",
+    "bocina",
+    "limera",
+    "grifos de fondo",
+    "pasacascos",
+    "valvula",
+    "espiche",
+    "colchonetas",
+    "toma de agua de mar",
+    "refrigeracion",
+    "motor",
+    "agua dulce",
+    "peso inutil",
+    "llamada de socorro",
+    "baldes",
+    "aislar"
+   ],
+   "flash": [
+    {
+     "q": "Puntos de mayor riesgo de vía de agua",
+     "a": "Bocina y limera del timón (y grifos de fondo/pasacascos)."
+    },
+    {
+     "q": "Detectas agua en la sentina: ¿apagas el motor?",
+     "a": "No; mantenlo encendido y arranca todas las bombas."
+    },
+    {
+     "q": "¿Cómo se usa el motor para achicar?",
+     "a": "Soltando la toma de refrigeración, cerrando el grifo y haciendo que aspire de la sentina."
+    },
+    {
+     "q": "¿Con qué se tapona un pasacascos roto?",
+     "a": "Con un espiche cónico de madera a medida."
+    },
+    {
+     "q": "¿Y un orificio grande?",
+     "a": "Con colchonetas o un pallete presionados contra el casco."
+    },
+    {
+     "q": "No puedes detener la entrada de agua: ¿qué haces primero?",
+     "a": "Una llamada de socorro."
+    },
+    {
+     "q": "¿Cómo aumentas la flotabilidad mientras llega ayuda?",
+     "a": "Vaciando el agua dulce al mínimo y arrojando peso inútil."
+    },
+    {
+     "q": "¿Cuándo se abandona el barco?",
+     "a": "En el último momento."
+    },
+    {
+     "q": "Medidas inmediatas ante vía de agua en sentina",
+     "a": "Aislar la zona y poner en marcha las bombas de achique."
+    }
+   ]
+  },
+  {
+   "id": "8.5",
+   "title": "Prevención de incendios y explosiones",
+   "html": "\n<h4>Lugares de riesgo</h4>\n<p><b>Cocina</b> (gas butano/propano: el gas es más pesado que el aire y se acumula en la sentina), <b>cámara de motores</b>, tomas y depósitos de combustible, <b>cuarto de baterías</b> (desprenden hidrógeno), instalaciones eléctricas (cortocircuitos) y <b>pañol de pinturas</b>. La bañera no es un lugar de riesgo de incendio. Prevención: ventilar, detectores de gas, cerrar la llave del gas tras usarlo, circuitos con fusibles, sentina limpia de hidrocarburos.</p>\n<h4>Tetraedro del fuego</h4>\n<p>Para que haya fuego con llama deben concurrir <b>cuatro factores</b>: <b>combustible</b>, <b>comburente</b> (oxígeno; el aire tiene un 21 %), <b>calor</b> (energía de activación) y <b>reacción en cadena</b> (sucesión de reacciones químicas autoalimentadas que producen calor y gases inflamables y mantienen el fuego). Eliminando uno, el fuego se apaga.</p>\n<table>\n<thead><tr><th>Método de extinción</th><th>Elemento que se elimina</th><th>Ejemplo</th></tr></thead>\n<tbody>\n<tr><td><b>Enfriamiento</b></td><td>Calor: se baja la temperatura del combustible <b>por debajo</b> de su punto de inflamación/ignición</td><td>Agua</td></tr>\n<tr><td><b>Sofocación</b> (ahogamiento)</td><td><b>Comburente</b> (oxígeno)</td><td>CO₂, espuma, manta, tapar, polvo</td></tr>\n<tr><td><b>Desalimentación</b> (dispersión o aislamiento)</td><td><b>Combustible</b></td><td>Cerrar el gas o el combustible, retirar materiales</td></tr>\n<tr><td><b>Inhibición</b></td><td><b>Reacción en cadena</b></td><td>Polvo químico seco</td></tr>\n</tbody></table>\n<h4>Clases de fuego (norma UNE-EN 2) – según el tipo de combustible</h4>\n<table>\n<thead><tr><th>Clase</th><th>Combustible</th><th>Agentes adecuados</th></tr></thead>\n<tbody>\n<tr><td><b>A</b></td><td>Sólidos, generalmente orgánicos, que arden con <b>brasas</b> (madera, papel, tela, cabos)</td><td>Agua, espuma, polvo ABC</td></tr>\n<tr><td><b>B</b></td><td><b>Líquidos</b> o sólidos licuables (gasolina, gasoil, aceite, pinturas)</td><td>Polvo seco, espuma, CO₂ (no chorro de agua)</td></tr>\n<tr><td><b>C</b></td><td><b>Gases</b> (butano, propano)</td><td>Polvo seco; cortar el suministro</td></tr>\n<tr><td><b>D</b></td><td><b>Metales</b> (magnesio, aluminio, sodio)</td><td>Polvos especiales (nunca agua)</td></tr>\n<tr><td><b>F</b></td><td>Aceites y grasas de <b>cocina</b></td><td>Agentes especiales, tapar (nunca agua)</td></tr>\n</tbody></table>\n<p>Los fuegos de origen eléctrico no son una clase UNE: se corta la corriente y se usan CO₂ o polvo (agentes no conductores). Extintores para clase B: CO₂, polvo seco, espuma, espuma formadora de película acuosa. Eficacia mínima reglamentaria: <b>34B</b> (RD 339/2021).</p>\n<h4>El agua como agente extintor</h4>\n<p>Gran capacidad de enfriamiento (y el vapor desplaza el oxígeno). Ideal para clase A. No usar: sobre metales (clase D), en fuegos eléctricos con tensión (conduce), ni a chorro sobre líquidos inflamables (los esparce; flotan sobre el agua); en clase B solo pulverizada y con técnica.</p>\n<h4>Uso del extintor de polvo seco</h4>\n<ul>\n<li>Actúa separando/quitando el <b>oxígeno</b> del fuego (sofocación) e interrumpiendo la reacción (inhibición); es mal conductor de la electricidad.</li>\n<li>Comprobar presión y fecha de revisión; agitarlo; quitar el precinto.</li>\n<li>Aproximarse <b>con el viento (corriente de aire) a la espalda</b>, <b>mirando siempre al fuego</b> y con una vía de escape detrás.</li>\n<li>Dirigir el chorro a la <b>base de las llamas</b>, en barrido, sin que la presión salpique el líquido ardiendo; avanzar hasta ≈1 m.</li>\n<li>No usarlo sobre una persona. En sólidos, rematar con agua (el polvo no penetra en las brasas).</li>\n<li>Mantenimiento: agitarlo periódicamente, comprobar manómetro y revisión anual (RD 513/2017).</li>\n</ul>\n<h4>Al declararse un incendio</h4>\n<ol>\n<li>Dar la alarma; <b>parar el motor</b> si el fuego está en el motor (y en general reducir velocidad: el viento aviva el fuego); <b>cortar el combustible, el gas y la electricidad</b>; chalecos puestos.</li>\n<li><b>Cerrar escotillas, puertas y tomas de aire</b> para no alimentar el fuego (nunca abrirlas para ventilar).</li>\n<li>Atacar con el extintor adecuado a la <b>base del fuego</b>; alejar materiales inflamables.</li>\n<li><b>Gobernar para que el fuego quede a sotavento</b>: si el fuego está a <b>popa</b>, poner la <b>proa al viento</b>; si está a proa, popa al viento. Nunca dejar el foco a barlovento (el viento llevaría llamas y humo sobre el resto del barco y la tripulación).</li>\n<li><b>Socairear el fuego</b>: navegar <b>a favor del viento y a su misma velocidad</b> para que el <b>viento aparente sea cero</b> y el humo suba vertical (viento N de 10 nudos → rumbo S a 10 nudos).</li>\n<li>Si no se puede controlar: <b>llamada de socorro</b> y preparar el abandono, <b>por barlovento</b> (lejos de llamas y humo).</li>\n</ol>\n",
+   "keyFacts": [
+    "Tetraedro: combustible, comburente, calor y reacción en cadena",
+    "Sofocación elimina el comburente; enfriamiento el calor; desalimentación el combustible; inhibición la reacción en cadena",
+    "Clases UNE (por tipo de combustible): A sólidos con brasas; B líquidos; C gases; D metales; F aceites de cocina",
+    "Tanque de combustible en llamas: polvo seco",
+    "Atacar la base del fuego, viento a la espalda, mirando al fuego",
+    "Cerrar escotillas, puertas y tomas de aire; cortar gas, combustible y electricidad",
+    "Foco del fuego a sotavento (fuego a popa → proa al viento)",
+    "Socairear: rumbo a favor del viento y a su velocidad → viento aparente cero",
+    "Abandonar por barlovento",
+    "Lugares de riesgo: cocina, motores, combustible, baterías, electricidad, pañol de pinturas"
+   ],
+   "traps": [
+    "«Posicionar el foco del incendio a barlovento» → NO se debe hacer.",
+    "«Abrir escotillas y tomas de aire para ventilar» → incorrecto.",
+    "«Sofocación = eliminar el combustible» → falso: elimina el comburente.",
+    "Enfriamiento «por encima del punto de ignición» → falso: por debajo.",
+    "«Líquidos inflamables = clase C» → falso: clase B.",
+    "«Clase B = de origen eléctrico / sólidos / gases» → falso.",
+    "«Siempre agua» o «agua a presión en combustibles líquidos» → falso.",
+    "Tetraedro con «punto de autoignición» o «chispa» → falso.",
+    "La clasificación UNE se basa en el tipo de combustible, no en el agente extintor.",
+    "Fuego grande a popa: proa al viento y abandonar por barlovento."
+   ],
+   "upd2026": "Extintores reglamentarios de eficacia 34B (RD 339/2021); clasificación de fuegos UNE-EN 2 incluye la clase F (aceites de cocina).",
+   "sources": [
+    "Apuntes PER pp.94–97",
+    "UNE-EN 2",
+    "RD 339/2021 art. 15"
+   ],
+   "kw": [
+    "incendio",
+    "fuego",
+    "tetraedro",
+    "combustible",
+    "comburente",
+    "reaccion en cadena",
+    "calor",
+    "sofocacion",
+    "enfriamiento",
+    "inhibicion",
+    "desalimentacion",
+    "socairear",
+    "viento aparente",
+    "barlovento",
+    "sotavento",
+    "clase a",
+    "clase b",
+    "clase c",
+    "clase d",
+    "clase f",
+    "une",
+    "extintor",
+    "polvo seco",
+    "tanque de combustible",
+    "escotillas",
+    "tomas de aire",
+    "cocina",
+    "baterias",
+    "pañol de pinturas",
+    "bañera",
+    "explosiones",
+    "agente extintor"
+   ],
+   "flash": [
+    {
+     "q": "Factores del tetraedro del fuego",
+     "a": "Combustible, comburente, calor y reacción en cadena."
+    },
+    {
+     "q": "¿Qué se elimina por sofocación?",
+     "a": "El comburente (oxígeno)."
+    },
+    {
+     "q": "¿Cómo se llama eliminar la reacción en cadena?",
+     "a": "Inhibición."
+    },
+    {
+     "q": "¿Qué es la reacción en cadena?",
+     "a": "La sucesión de reacciones químicas autoalimentadas que producen calor y gases inflamables."
+    },
+    {
+     "q": "Fuegos de clase B",
+     "a": "De combustibles líquidos o sólidos licuables (gasolina, aceite)."
+    },
+    {
+     "q": "Fuegos de clase D",
+     "a": "De metales."
+    },
+    {
+     "q": "Fuegos de clase F",
+     "a": "De aceites y grasas de cocina."
+    },
+    {
+     "q": "¿En qué se basa la clasificación UNE de fuegos?",
+     "a": "En el tipo de material combustible."
+    },
+    {
+     "q": "Agente para un incendio en el tanque de combustible",
+     "a": "Polvo seco."
+    },
+    {
+     "q": "¿Qué es socairear el fuego?",
+     "a": "Navegar a favor del viento y a su misma velocidad para que el viento aparente sea cero."
+    },
+    {
+     "q": "Incendio grande a popa: ¿cómo colocas el barco y por dónde abandonas?",
+     "a": "Proa al viento; abandonar por barlovento."
+    },
+    {
+     "q": "¿Se abren las escotillas en un incendio?",
+     "a": "No; se cierran para no alimentar el fuego."
+    },
+    {
+     "q": "¿A dónde se dirige el extintor?",
+     "a": "A la base de las llamas, con el viento a la espalda."
+    },
+    {
+     "q": "¿Cómo actúa el polvo seco?",
+     "a": "Separa el oxígeno del fuego (y corta la reacción en cadena)."
+    },
+    {
+     "q": "¿Es la bañera un lugar de riesgo de incendio?",
+     "a": "No."
+    },
+    {
+     "q": "Enfriamiento: ¿hasta dónde se baja la temperatura?",
+     "a": "Por debajo del punto de ignición del combustible."
+    }
+   ]
+  },
+  {
+   "id": "8.6",
+   "title": "Abandono de la embarcación",
+   "html": "\n<p>Solo se abandona el barco cuando es seguro que se va a hundir (o arde sin control), y <b>en el último momento</b>: un barco a flote, aunque esté medio hundido, es más seguro y visible que una balsa. La orden de abandono la da el patrón.</p>\n<h4>Antes de abandonar</h4>\n<ul>\n<li><b>Llamada de socorro</b>: alerta <b>LSD en el canal 70</b> (botón Distress) y MAYDAY por voz en el <b>canal 16</b>; <b>activar la radiobaliza</b> manualmente y <b>llevarla consigo</b> (no dejarla a bordo).</li>\n<li>Ponerse <b>ropa de abrigo</b> (incluida la cabeza, sin zapatos pesados) y el <b>chaleco salvavidas</b>.</li>\n<li>Coger lo útil: VHF portátil estanco, pirotecnia, agua, botiquín, mantas, cuchillo, linterna, móvil en bolsa estanca.</li>\n<li>Informar de la dirección y distancia de tierra; lanzar al agua objetos flotantes.</li>\n</ul>\n<h4>Con balsa salvavidas</h4>\n<ol>\n<li>Releer las instrucciones; zafar la trinca.</li>\n<li><b>Amarrar a bordo la driza (tira de disparo) de la balsa antes de lanzarla</b>.</li>\n<li>Lanzar el contenedor por sotavento y <b>tirar con fuerza de la driza</b> para que se infle.</li>\n<li>Embarcar a ser posible sin mojarse (directamente desde la cubierta).</li>\n<li><b>Cortar la driza en el último momento</b>, cuando estén todos a bordo; alejarse del barco.</li>\n<li>Si la balsa se infla al revés: adrizarla desde el lado de la botella de gas, subiéndose sobre ella y tirando de las cinchas de adrizamiento, situándose de forma que el viento ayude a volcarla (a sotavento de la balsa); nunca desde barlovento.</li>\n</ol>\n<h4>Sin balsa salvavidas</h4>\n<ul>\n<li>Saltar al agua <b>de pie</b>, con las <b>piernas y rodillas juntas y estiradas</b> (no encogidas), sujetando el chaleco con una mano y <b>tapándose la nariz</b> con la otra; mirando al frente. Nunca de cabeza. Saltar desde la menor altura posible, por barlovento (o por la amura/aleta de sotavento con mucha mar, para que la ola no lance el barco encima).</li>\n<li>Alejarse del barco para no ser arrastrado al hundirse; <b>no amarrarse</b> al barco con el arnés.</li>\n</ul>\n<h4>Permanencia en el agua</h4>\n<ul>\n<li><b>No nadar</b> (se pierde calor 35 % más rápido); si hay que hacerlo, <b>de espaldas</b> y despacio.</li>\n<li>Con chaleco: <b>posición fetal</b> (HELP) o <b>flotar abrazados</b> a otros supervivientes en grupo (HUDDLE). Nunca quitarse el chaleco.</li>\n<li>Conservar la ropa y cubrir la cabeza; mantener la calma y la moral.</li>\n<li><b>No beber agua de mar</b> (agrava la deshidratación).</li>\n<li>Supervivencia orientativa: agua &lt;5 °C &lt;2 h; 5–15 °C ≈ 6 h; 15–20 °C ≈ 1 día.</li>\n</ul>\n<h4>Señales pirotécnicas</h4>\n<ul>\n<li>Usarlas solo <b>cuando haya certeza de que pueden ser vistas</b> desde otra embarcación, una aeronave o la costa (racionarlas).</li>\n<li>Bengala de mano: brazo extendido por fuera de la borda <b>a sotavento</b>, girando la cara, con guante o trapo húmedo.</li>\n<li>Cohete con paracaídas: vertical (a 45° con nubes bajas), no por debajo de 45°.</li>\n<li>Fumígena flotante: solo de día, a sotavento.</li>\n<li>Con un <b>helicóptero</b> cerca <b>no usar cohetes con paracaídas</b> (peligro para la aeronave): usar bengala de mano o fumígena (que además indica el viento).</li>\n</ul>\n",
+   "keyFacts": [
+    "Abandonar solo en el último momento",
+    "Alerta LSD por canal 70 y MAYDAY en canal 16; activar la radiobaliza y llevarla",
+    "Ropa de abrigo y chaleco puesto",
+    "Balsa: amarrar a bordo la driza antes de lanzarla; cortarla en el último momento con todos a bordo",
+    "Saltar de pie, piernas juntas, sujetando el chaleco y tapándose la nariz",
+    "En el agua: no nadar (si acaso, de espaldas), posición fetal o abrazados",
+    "Pirotecnia solo cuando haya certeza de ser visto; con helicóptero, no cohetes",
+    "No beber agua de mar ni quitarse el chaleco"
+   ],
+   "traps": [
+    "«Alerta LSD en el canal 16» → FALSO: canal 70.",
+    "«Dejar la radiobaliza en el barco» → falso: llevarla consigo.",
+    "«Tirar de la driza sin amarrarla antes» → falso.",
+    "«Saltar de cabeza» o «con piernas encogidas» → falso.",
+    "«Manténgase en continuo movimiento/nade para generar calor» → INCORRECTO.",
+    "«Amarrar el arnés al barco al saltar» → incorrecto.",
+    "«Encender la bengala a barlovento» → falso: a sotavento.",
+    "«Voltear la balsa colocándose a barlovento» → marcado incorrecto.",
+    "Pirotecnia «inmediatamente tras el MAYDAY», «solo de noche» o «nada más subir a la balsa» → falso."
+   ],
+   "upd2026": "Alerta de socorro por LSD en canal 70 (Anexo IV del RIPA actualizado); radiobaliza 406 MHz.",
+   "sources": [
+    "Apuntes PER pp.97–98",
+    "RIPA Anexo IV",
+    "RD 339/2021 arts. 6 y 9"
+   ],
+   "kw": [
+    "abandonar",
+    "abandono",
+    "balsa",
+    "balsa salvavidas",
+    "driza",
+    "radiobaliza",
+    "lsd",
+    "canal 70",
+    "canal 16",
+    "saltar al agua",
+    "piernas juntas",
+    "tapandose la nariz",
+    "postura fetal",
+    "nadar",
+    "hipotermia",
+    "señales pirotecnicas",
+    "bengala",
+    "cohete",
+    "helicoptero",
+    "fumigena",
+    "voltear",
+    "ropa de abrigo",
+    "chaleco"
+   ],
+   "flash": [
+    {
+     "q": "¿Por qué canal se emite la alerta LSD al abandonar?",
+     "a": "Canal 70."
+    },
+    {
+     "q": "¿Qué se hace con la radiobaliza?",
+     "a": "Activarla y llevarla consigo."
+    },
+    {
+     "q": "¿Qué se hace con la driza de la balsa antes de lanzarla?",
+     "a": "Amarrarla a bordo."
+    },
+    {
+     "q": "¿Cuándo se corta la driza?",
+     "a": "En el último momento, con todos a bordo de la balsa."
+    },
+    {
+     "q": "¿Cómo se salta al agua?",
+     "a": "De pie, piernas y rodillas juntas, sujetando el chaleco y tapándose la nariz."
+    },
+    {
+     "q": "En el agua, ¿se nada para entrar en calor?",
+     "a": "No; no nadar (si es necesario, de espaldas)."
+    },
+    {
+     "q": "Postura recomendada en el agua",
+     "a": "Fetal, o flotar abrazados a otros supervivientes."
+    },
+    {
+     "q": "¿Cuándo usar las señales pirotécnicas?",
+     "a": "Cuando haya certeza de que pueden ser vistas."
+    },
+    {
+     "q": "Señal NO recomendable con un helicóptero cerca",
+     "a": "El cohete con paracaídas."
+    },
+    {
+     "q": "¿Hacia qué banda se enciende la bengala de mano?",
+     "a": "A sotavento, con el brazo extendido."
+    },
+    {
+     "q": "¿Cuándo se abandona el barco?",
+     "a": "En el último momento, cuando es seguro que se hunde."
+    },
+    {
+     "q": "¿Se bebe agua de mar?",
+     "a": "Nunca."
+    }
+   ]
+  }
+ ]
+}

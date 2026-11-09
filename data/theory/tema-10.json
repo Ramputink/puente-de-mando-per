@@ -1,0 +1,975 @@
+{
+ "id": 10,
+ "title": "Teoría y carta de navegación",
+ "blocks": [
+  "teo",
+  "car"
+ ],
+ "summary": "Coordenadas, cartas y publicaciones, unidades, magnetismo (declinación, desvío, corrección total), rumbos, demoras y marcaciones, estima, líneas de posición y mareas, más los ejercicios prácticos sobre la carta L105 del Estrecho y el Anuario de Mareas. En el examen PER son Teoría de la navegación P37–41 (5 preguntas) y Carta de navegación P42–45 (4 preguntas, eliminatorio: máximo 2 fallos), así que hay que dominar el procedimiento.",
+ "subtemas": [
+  {
+   "id": "10.1",
+   "title": "Coordenadas",
+   "html": "<h4>La esfera terrestre</h4>\n<ul>\n<li><b>Eje</b>: diámetro alrededor del cual gira la Tierra; sus extremos son el <b>polo norte</b> y el <b>polo sur</b>.</li>\n<li><b>Ecuador</b>: <b>círculo máximo perpendicular al eje</b>; divide la Tierra en hemisferios N y S.</li>\n<li><b>Paralelos</b>: <b>círculos menores paralelos al ecuador</b>.</li>\n<li><b>Meridianos</b>: <b>círculos máximos que pasan por los polos</b> (intersección de la esfera con un plano que contiene al eje); perpendiculares al ecuador. El que pasa por el observador es el <b>meridiano del lugar</b>.</li>\n<li><b>Meridiano cero (Greenwich)</b>: el que se toma como <b>referencia para medir las longitudes</b>. Su opuesto es el de 180°.</li>\n</ul>\n<h4>Latitud y longitud</h4>\n<table><thead><tr><th></th><th>LATITUD (l)</th><th>LONGITUD (L)</th></tr></thead><tbody>\n<tr><td>Definición</td><td><b>Arco de meridiano</b> contado desde el <b>ecuador</b> hasta el observador (hasta su paralelo)</td><td><b>Arco de ecuador</b> contado desde el <b>meridiano de Greenwich</b> hasta el pie del meridiano del lugar</td></tr>\n<tr><td>Rango</td><td>0° a 90° N (+) o S (−)</td><td>0° a 180° E o W</td></tr>\n<tr><td>En la carta</td><td>Escala vertical (márgenes izquierdo y derecho)</td><td>Escala horizontal (márgenes superior e inferior)</td></tr></tbody></table>\n<p>Se expresan en grados y minutos (y décimas de minuto): p. ej. Isla de Tarifa <b>36°00,1′N 005°36,5′W</b>. Al dar una situación, <b>primero la latitud</b> y después la longitud; en el Estrecho la latitud es N (≈35°40′–36°20′) y la longitud W (≈005°–006°20′). Muchas opciones del examen se descartan solo por tener 36° en lugar de 35°, 006° en lugar de 005°, o la latitud y longitud intercambiadas.</p>\n<h4>Situar un punto en la carta y leer sus coordenadas</h4>\n<ol>\n<li>Para leer la latitud: llevar el punto horizontalmente (paralela a los paralelos) hasta la escala lateral.</li>\n<li>Para la longitud: llevarlo verticalmente (paralela a los meridianos) hasta la escala superior/inferior.</li>\n<li>Para situar unas coordenadas: trazar el paralelo de la latitud y el meridiano de la longitud; el punto es el cruce.</li>\n</ol>\n<p>Ejemplo oficial [71fcca2f7c]: el punto 36°07,3′N 005°45,8′W es el <b>pico más alto de la Sierra de la Plata</b> (cerca de la ensenada de Bolonia), no un faro.</p>\n<h4>Carta mercatoriana</h4>\n<p>Proyección cilíndrica: meridianos rectos, paralelos y equidistantes; paralelos rectos cada vez más separados al alejarse del ecuador (latitudes aumentadas). Conserva los ángulos: la <b>loxodrómica</b> (línea de rumbo constante) es una recta. Por eso los rumbos se trazan con transportador directamente. Las cartas <b>gnomónicas</b> representan la ortodrómica (círculo máximo) como recta.</p>",
+   "keyFacts": [
+    "Meridiano: círculo máximo que pasa por los polos",
+    "Ecuador: círculo máximo perpendicular al eje",
+    "Paralelo: círculo menor paralelo al ecuador",
+    "Latitud: arco de meridiano desde el ecuador hasta el observador (0–90° N/S)",
+    "Longitud: arco de ecuador desde Greenwich hasta el meridiano del lugar (0–180° E/W)",
+    "Meridiano cero (Greenwich): referencia para medir longitudes",
+    "Latitud en la escala vertical, longitud en la horizontal",
+    "Estrecho de Gibraltar ≈ 35°40′–36°20′N / 005°–006°20′W",
+    "Mercator: la loxodrómica es una recta"
+   ],
+   "traps": [
+    "Definir latitud como «arco de paralelo» o «arco de ecuador»: FALSO",
+    "Definir paralelo como «círculo máximo»: FALSO (menor)",
+    "«El ecuador es el meridiano que pasa por el centro de la Tierra»: FALSO",
+    "Opciones con latitud y longitud intercambiadas, 006° por 005° o 36° por 35°: descartar"
+   ],
+   "upd2026": null,
+   "sources": [
+    "Apuntes PER p.107 (UT10 10.1)",
+    "Apuntes PER p.126 (UT11 11.1)"
+   ],
+   "kw": [
+    "meridiano",
+    "meridianos",
+    "paralelo",
+    "ecuador",
+    "latitud",
+    "longitud",
+    "greenwich",
+    "meridiano cero",
+    "circulo maximo",
+    "circulo menor",
+    "eje",
+    "polos",
+    "coordenadas",
+    "mercatoriana",
+    "sitüelo",
+    "situelo",
+    "sierra de la plata",
+    "arco de meridiano",
+    "arco de ecuador"
+   ],
+   "flash": [
+    {
+     "q": "Definición de meridiano",
+     "a": "Círculo máximo que pasa por los polos."
+    },
+    {
+     "q": "Definición de ecuador",
+     "a": "Círculo máximo perpendicular al eje de la Tierra."
+    },
+    {
+     "q": "Definición de paralelo",
+     "a": "Círculo menor paralelo al ecuador."
+    },
+    {
+     "q": "Definición de latitud",
+     "a": "Arco de meridiano contado desde el ecuador hasta el observador."
+    },
+    {
+     "q": "Definición de longitud",
+     "a": "Arco de ecuador desde el meridiano de Greenwich hasta el meridiano del lugar."
+    },
+    {
+     "q": "¿Qué es el meridiano cero?",
+     "a": "El de Greenwich, referencia para medir longitudes."
+    },
+    {
+     "q": "Rango de la latitud",
+     "a": "0° a 90° N o S."
+    },
+    {
+     "q": "Rango de la longitud",
+     "a": "0° a 180° E o W."
+    },
+    {
+     "q": "¿En qué márgenes de la carta está la escala de latitudes?",
+     "a": "En los laterales (izquierdo y derecho)."
+    },
+    {
+     "q": "36°07,3′N 005°45,8′W en la carta L105",
+     "a": "Pico más alto de la Sierra de la Plata (Bolonia)."
+    }
+   ]
+  },
+  {
+   "id": "10.2",
+   "title": "Publicaciones náuticas",
+   "html": "<h4>Tipos de cartas (por escala)</h4>\n<table><thead><tr><th>Carta</th><th>Escala</th><th>Uso</th></tr></thead><tbody>\n<tr><td>Generales / oceánicas</td><td>1/3.000.000 a 1/30.000.000</td><td>Navegación oceánica</td></tr>\n<tr><td>De arrumbamiento (navegación)</td><td>1/200.000 a 1/3.000.000</td><td>Navegar a rumbo directo distancias medias</td></tr>\n<tr><td><b>De navegación costera</b></td><td><b>1/50.000 a 1/200.000</b></td><td>Navegar <b>reconociendo la costa</b> (la L105 del Estrecho es de este tipo)</td></tr>\n<tr><td>De aproches o recalada</td><td>≈1/25.000 – 1/50.000</td><td>Aproximarse a puertos</td></tr>\n<tr><td><b>Portulanos</b></td><td>Superiores a 1/25.000</td><td>Máximo detalle de una pequeña extensión: puertos, fondeaderos</td></tr>\n<tr><td><b>Cartucho</b></td><td>—</td><td>Zona insertada <b>a mayor escala dentro de otra carta</b>, en marco propio</td></tr></tbody></table>\n<p>«Escala menor» = denominador mayor: de las cartas costera, recalada, portulano y cartucho, la de <b>menor escala es la de navegación costera</b>.</p>\n<h4>Información y símbolos de la carta (Publicación especial nº 14 del IHM / carta INT 1)</h4>\n<ul>\n<li><b>Sondas</b>: profundidades en metros referidas al <b>cero hidrográfico</b> (ver 10.8).</li>\n<li><b>Veril o línea isobática</b>: línea que une puntos del fondo de <b>igual profundidad</b>.</li>\n<li><b>Naturaleza del fondo</b>: A o S arena, F o Lo/M fango, Arc arcilla, Co cascajo, Ca conchuela, Go guijarro, P piedra, R roca, Alg algas…</li>\n<li><b>Declinación magnética</b> en la rosa: valor, año y variación anual (L105: <b>2°56′W 2005 (7′E)</b>).</li>\n<li><b>Faros</b>: símbolo en forma de lágrima/estrella magenta con su característica.</li>\n</ul>\n<h4>Leer la característica de una luz</h4>\n<table><thead><tr><th>Ejemplo</th><th>Significado</th></tr></thead><tbody>\n<tr><td><b>Fl(3)WRG.15s21m15-11M</b></td><td>Grupos de <b>3 destellos</b>; sectores <b>blanco, rojo y verde</b>; periodo (secuencia completa) <b>15 s</b>; elevación <b>21 m</b> sobre el datum de alturas; alcance nominal <b>15 M</b> (blanco) a <b>11 M</b> (color)</td></tr>\n<tr><td>Fl(2)R.6s8M (Bahía de Algeciras)</td><td>2 destellos <b>rojos</b> cada 6 s, alcance 8 M (una sola luz roja)</td></tr>\n<tr><td>Fl(2+1)15s22M (C. Trafalgar)</td><td>Grupo de 2+1 destellos cada 15 s, 22 millas</td></tr></tbody></table>\n<p>Orden: ritmo – color – periodo (s) – elevación (m) – alcance (M). La «m» minúscula son metros de altura; la «M» mayúscula, millas. Sin letra de color = blanca. Fl = destellos (no ocultaciones: Oc; ni centelleos: Q).</p>\n<h4>Publicaciones náuticas</h4>\n<table><thead><tr><th>Publicación</th><th>Editor</th><th>Contenido</th></tr></thead><tbody>\n<tr><td><b>Derroteros</b></td><td><b>Instituto Hidrográfico de la Marina</b> (IHM, Cádiz)</td><td>Descripción detallada de la costa, <b>perfiles y fotografías</b> para su reconocimiento, peligros, puertos, radas y fondeaderos de abrigo, enfilaciones, <b>régimen de vientos y climas, corrientes</b></td></tr>\n<tr><td><b>Libro de Faros y Señales de Niebla</b></td><td>IHM</td><td>Faros, balizas, boyas y señales de niebla con sus características</td></tr>\n<tr><td><b>Anuario de Mareas</b></td><td>IHM</td><td>Horas (UTC) y alturas de pleamares y bajamares de los puertos patrón, diferencias de puertos secundarios, corrección por presión</td></tr>\n<tr><td><b>Avisos a los Navegantes</b></td><td>IHM (semanal)</td><td>Correcciones de cartas y publicaciones</td></tr>\n<tr><td>Almanaque Náutico</td><td>Real Instituto y Observatorio de la Armada</td><td>Efemérides astronómicas</td></tr>\n<tr><td>Guías náuticas de recreo</td><td>Varios</td><td>Puertos, servicios, RIPA, balizamiento, primeros auxilios…</td></tr></tbody></table>\n<p>El derrotero NO trae las horas de las mareas (eso es el Anuario), ni el catálogo de símbolos, ni un listado diario de naufragios.</p>",
+   "keyFacts": [
+    "Carta de navegación costera: 1/50.000–1/200.000, para navegar reconociendo la costa",
+    "Portulano: escala >1/25.000, máximo detalle de puertos",
+    "Cartucho: zona insertada a mayor escala dentro de una carta",
+    "Veril o isobática: une puntos de igual profundidad",
+    "Fl(3)WRG.15s21m15-11M: 3 destellos, 3 colores, periodo 15 s, 21 m de altura, 15–11 millas",
+    "Periodo = tiempo de una secuencia completa",
+    "m = metros de elevación; M = millas de alcance",
+    "IHM edita Derroteros, Libro de Faros y Anuario de Mareas",
+    "Derroteros: descripción de la costa, perfiles, peligros, abrigos, vientos y corrientes",
+    "Lo (M en inglés) = fango"
+   ],
+   "traps": [
+    "«Fl(2)R… tiene dos luces, roja y blanca»: FALSO, es una luz roja",
+    "Confundir 21m (altura) con alcance, o 15s con 15 M",
+    "Derrotero ≠ libro de faros: los perfiles de la costa están en los Derroteros",
+    "Isobara (presión) ≠ isobata/veril (profundidad)",
+    "Los libros de faros NO los edita el Ministerio ni el CSIC: el IHM",
+    "Cartucho ≠ portulano ≠ arrumbamiento"
+   ],
+   "upd2026": null,
+   "sources": [
+    "Apuntes PER p.108–110 (UT10 10.2–10.3)",
+    "IHM – Catálogo de cartas y publicaciones",
+    "IHM Publicación especial nº 14 / INT 1"
+   ],
+   "kw": [
+    "carta",
+    "cartas nauticas",
+    "cartucho",
+    "portulano",
+    "navegacion costera",
+    "recalada",
+    "escala",
+    "escala menor",
+    "derrotero",
+    "derroteros",
+    "libro de faros",
+    "instituto hidrografico",
+    "anuario de mareas",
+    "avisos a los navegantes",
+    "veril",
+    "isobatica",
+    "naturaleza del fondo",
+    "lo",
+    "fango",
+    "fl(3)",
+    "fl(2)",
+    "alcance",
+    "periodo",
+    "destellos",
+    "perfiles de la costa",
+    "almanaque"
+   ],
+   "flash": [
+    {
+     "q": "¿Qué es un cartucho?",
+     "a": "Zona representada a mayor escala dentro de una carta, en un marco propio."
+    },
+    {
+     "q": "Escala de la carta de navegación costera",
+     "a": "Entre 1/50.000 y 1/200.000."
+    },
+    {
+     "q": "¿Qué es un portulano?",
+     "a": "Carta de escala mayor de 1/25.000 con el detalle de una pequeña zona (puertos)."
+    },
+    {
+     "q": "¿Qué es un veril?",
+     "a": "Línea que une puntos del fondo de igual profundidad (isobática)."
+    },
+    {
+     "q": "¿Quién edita los derroteros en España?",
+     "a": "El Instituto Hidrográfico de la Marina."
+    },
+    {
+     "q": "¿Dónde están los perfiles de la costa?",
+     "a": "En los Derroteros."
+    },
+    {
+     "q": "En Fl(3)B15s12m15M, ¿qué es 15s?",
+     "a": "El periodo: tiempo de una secuencia completa."
+    },
+    {
+     "q": "En Fl(3)B15s12m15M, ¿qué es 12m?",
+     "a": "La elevación de la luz: 12 metros."
+    },
+    {
+     "q": "En Fl(3)WRG.15s21m15-11M, ¿cuántos colores?",
+     "a": "Tres: blanco, rojo y verde."
+    },
+    {
+     "q": "«Lo» en la naturaleza del fondo",
+     "a": "Fango."
+    },
+    {
+     "q": "¿Qué carta tiene menor escala: costera, recalada, portulano o cartucho?",
+     "a": "La de navegación costera."
+    },
+    {
+     "q": "¿Qué información extra traen los derroteros?",
+     "a": "Régimen de vientos y climas, corrientes, peligros, puertos y fondeaderos."
+    }
+   ]
+  },
+  {
+   "id": "10.3",
+   "title": "Distancia y rumbo directo",
+   "html": "<h4>Unidades</h4>\n<table><thead><tr><th>Unidad</th><th>Valor</th></tr></thead><tbody>\n<tr><td><b>Milla náutica</b></td><td>Longitud de <b>1 minuto de arco de círculo máximo</b> (meridiano/ecuador) = <b>1852 m</b></td></tr>\n<tr><td><b>Cable</b></td><td>Décima parte de la milla ≈ 185 m</td></tr>\n<tr><td><b>Nudo</b></td><td>Velocidad de <b>1 milla por hora</b> = 1852 m/h</td></tr>\n<tr><td>Braza / pie</td><td>1,83 m / 0,30 m</td></tr></tbody></table>\n<p><b>1′ de latitud = 1 milla</b>; 1° de latitud = <b>60 millas</b>. Un minuto de longitud solo vale una milla en el ecuador (en el Estrecho ≈ 0,81 millas).</p>\n<h4>Medir distancias en la carta</h4>\n<p>Con el compás de puntas se toma la distancia y se lleva a la <b>escala de LATITUDES</b> (escala vertical, márgenes laterales), a la <b>misma altura</b> (latitud) que la zona medida. <b>Nunca en la escala de longitudes.</b> Cada minuto = 1 milla; las divisiones pequeñas son décimas (0,2′ en la L105).</p>\n<h4>Distancia, velocidad y tiempo</h4>\n<p><b>D = V × t</b>; <b>t = D / V</b>; <b>V = D / t</b>. Trabaja en minutos: <b>t(min) = D × 60 / V</b>.</p>\n<table><thead><tr><th>Ejemplo</th><th>Cálculo</th></tr></thead><tbody>\n<tr><td>10 nudos durante 1 h 24 min</td><td>D = 10 × 84/60 = 14 millas</td></tr>\n<tr><td>13,7 millas a 10 nudos</td><td>t = 13,7 × 6 = 82 min = 1 h 22 min</td></tr>\n<tr><td>7,6 millas a 10 nudos</td><td>t = 46 min</td></tr>\n<tr><td>24 millas en 2 h</td><td>V = 12 nudos</td></tr></tbody></table>\n<h4>Rumbos: circulares y cuadrantales</h4>\n<ul>\n<li><b>Circulares</b>: de 000° a 360° desde el N en sentido horario; siempre positivos. Se dicen cifra a cifra (273: «dos, siete, tres»).</li>\n<li><b>Cuadrantales</b>: de 0° a 90° contados desde el <b>N o el S hacia el E o el W</b> (N30E, S70W…). Convenio de signo: positivos en 1.er y 3.er cuadrante (NE, SW), negativos en 2.º y 4.º (SE, NW).</li>\n</ul>\n<table><thead><tr><th>Cuadrante</th><th>Cuadrantal → circular</th><th>Circular → cuadrantal</th><th>Ejemplos</th></tr></thead><tbody>\n<tr><td>1.º NE</td><td>R = N</td><td>N R E</td><td>N30E = 030°; N45E = 045°</td></tr>\n<tr><td>2.º SE</td><td>R = 180 − S</td><td>S (180 − R) E</td><td>S35E = 145°; S83E = 097°</td></tr>\n<tr><td>3.º SW</td><td>R = 180 + S</td><td>S (R − 180) W</td><td>S32W = 212°; S50W = 230°; S53W = 233°; S70W = 250°</td></tr>\n<tr><td>4.º NW</td><td>R = 360 − N</td><td>N (360 − R) W</td><td>N50W = 310°; N89E = 089°</td></tr></tbody></table>\n<p>Puntos de la rosa: N 000, NNE 022,5, NE 045, ENE 067,5, E 090, ESE 112,5, SE 135, SSE 157,5, S 180, SSW 202,5, SW 225, WSW 247,5, W 270, WNW 292,5, NW 315, NNW 337,5.</p>\n<h4>Trazar y medir rumbos en la carta</h4>\n<p>Con el transportador (cuadrado de 360°) orientado al norte verdadero de la carta: se une salida y llegada y se lee el <b>rumbo verdadero</b>. En la carta solo se trazan rumbos y demoras <b>verdaderos</b>. Para gobernar hay que pasar a rumbo de aguja (10.5).</p>",
+   "keyFacts": [
+    "Milla = 1 minuto de arco de círculo máximo = 1852 m",
+    "Nudo = 1 milla por hora = 1852 m/h",
+    "Cable = 0,1 millas ≈ 185 m",
+    "1′ de latitud = 1 milla; 1° de latitud = 60 millas",
+    "Las distancias se miden en la escala de LATITUDES (vertical)",
+    "D = V × t; t(min) = D × 60 / V",
+    "N30E = 030°; S35E = 145°; S32W = 212°; S70W = 250°; N50W = 310°",
+    "Cuadrantales: de 0 a 90° desde N o S hacia E o W",
+    "En la carta solo se trazan rumbos y demoras verdaderos"
+   ],
+   "traps": [
+    "«La milla son 1825 m»: FALSO, 1852 m",
+    "«Un nudo es la décima parte de un cable» o «una milla»: FALSO (es una velocidad)",
+    "Medir en la escala de longitudes, o «en cm × 1,852»: FALSO",
+    "«1° de latitud = 1 milla»: FALSO, 1° = 60 millas",
+    "En la conversión, S70W no es 110° ni 070°: es 250°"
+   ],
+   "upd2026": null,
+   "sources": [
+    "Apuntes PER p.111–112, 116 (UT10 10.4, 10.8)",
+    "Apuntes PER p.127–128 (UT11 11.2)"
+   ],
+   "kw": [
+    "milla",
+    "milla nautica",
+    "1852",
+    "cable",
+    "nudo",
+    "minuto de arco",
+    "escala de latitudes",
+    "escala de longitudes",
+    "medir una distancia",
+    "compas",
+    "distancia",
+    "velocidad",
+    "rumbo circular",
+    "rumbo cuadrantal",
+    "cuadrantal",
+    "circulares",
+    "n30e",
+    "n50w",
+    "s70w",
+    "s32w",
+    "s35e",
+    "un grado",
+    "60 millas",
+    "transportador"
+   ],
+   "flash": [
+    {
+     "q": "¿Cuántos metros tiene una milla náutica?",
+     "a": "1852 m."
+    },
+    {
+     "q": "Definición de milla",
+     "a": "Longitud de un minuto de arco de círculo máximo."
+    },
+    {
+     "q": "¿Qué es un nudo?",
+     "a": "Una milla por hora (1852 m/h)."
+    },
+    {
+     "q": "¿Cuánto mide un cable?",
+     "a": "Una décima de milla (≈185 m)."
+    },
+    {
+     "q": "¿Dónde se mide la distancia en la carta?",
+     "a": "En la escala de latitudes, a la altura de la zona medida."
+    },
+    {
+     "q": "Un grado en la escala de latitudes equivale a…",
+     "a": "60 millas."
+    },
+    {
+     "q": "N50W en circular",
+     "a": "310°."
+    },
+    {
+     "q": "S70W en circular",
+     "a": "250°."
+    },
+    {
+     "q": "S32W en circular",
+     "a": "212°."
+    },
+    {
+     "q": "S35E en circular",
+     "a": "145°."
+    },
+    {
+     "q": "N30E en circular",
+     "a": "030°."
+    },
+    {
+     "q": "233° en cuadrantal",
+     "a": "S53W."
+    },
+    {
+     "q": "13,7 millas a 10 nudos, ¿cuánto tiempo?",
+     "a": "82 minutos (1 h 22 min)."
+    },
+    {
+     "q": "6 nudos durante 47 min, ¿distancia?",
+     "a": "4,7 millas."
+    }
+   ]
+  },
+  {
+   "id": "10.4",
+   "title": "Magnetismo terrestre (declinación, desvío, Ct)",
+   "html": "<h4>Los tres nortes</h4>\n<ul>\n<li><b>Norte verdadero (Nv)</b>: el geográfico (meridiano del lugar).</li>\n<li><b>Norte magnético (Nm)</b>: al que apuntaría una aguja sin perturbaciones (meridiano magnético).</li>\n<li><b>Norte de aguja (Na)</b>: al que apunta realmente la aguja de a bordo.</li>\n</ul>\n<table><thead><tr><th>Ángulo</th><th>Entre</th><th>Depende de</th><th>Signo</th></tr></thead><tbody>\n<tr><td><b>Declinación magnética (dm)</b></td><td>Nm y Nv (meridiano magnético y geográfico)</td><td>Del <b>lugar</b> y del <b>paso del tiempo</b></td><td><b>E/NE (+)</b>: Nm a la derecha del Nv; <b>W/NW (−)</b></td></tr>\n<tr><td><b>Desvío (Δ)</b></td><td>Na y Nm</td><td>De los hierros, aparatos y circuitos de a bordo y del <b>rumbo</b></td><td>E (+), W (−)</td></tr>\n<tr><td><b>Corrección total (Ct)</b></td><td>Na y Nv</td><td>De ambos</td><td><b>Ct = dm + Δ</b> (suma algebraica)</td></tr></tbody></table>\n<h4>Ejemplos de Ct (oficiales)</h4>\n<table><thead><tr><th>dm</th><th>Δ</th><th>Ct</th></tr></thead><tbody>\n<tr><td>5°30′W (−5°30′)</td><td>7°E (+7°)</td><td><b>+1°30′</b></td></tr>\n<tr><td>3° (−)</td><td>1° (+)</td><td><b>2° (−)</b></td></tr>\n<tr><td>5° NW (−)</td><td>1° NE (+)</td><td><b>4° (−) NW</b></td></tr>\n<tr><td>11° NW (−)</td><td>4° (+)</td><td><b>7° (−)</b></td></tr>\n<tr><td>10° NE (+)</td><td>? (Ct = +10°)</td><td>Δ = Ct − dm = <b>0°</b></td></tr></tbody></table>\n<h4>Actualizar la declinación</h4>\n<p>La carta da en la rosa la dm de un año y su variación anual. En la carta del examen (L105): <b>2°56′W 2005 (7′E)</b>: cada año la declinación disminuye 7′ hacia el W.</p>\n<ol>\n<li>Años transcurridos: 2026 − 2005 = 21.</li>\n<li>Variación: 21 × 7′ = 147′ = 2°27′ E.</li>\n<li>Aplicar con signo: −2°56′ + 2°27′ = <b>−0°29′ ≈ 0,5°W en 2026</b> (2022 ≈ 1°W; 2025 ≈ 0,6°W). Se redondea al medio grado.</li>\n</ol>\n<p>Para actualizarla se usan: la dm de la carta, el año y la variación anual. <b>El desvío NO interviene.</b> No hace falta comprar una carta nueva ni mirar el derrotero. En la práctica el enunciado <b>casi siempre da la dm</b>; si dice «la del año en curso», aplica la leyenda. (El modelo geomagnético WMM2025 da ≈0°09′E real en el Estrecho en 2026, pero en el examen manda la leyenda de la carta.)</p>\n<h4>El desvío y la tablilla</h4>\n<ul>\n<li>Lo producen los hierros, motores y equipos eléctricos de a bordo; <b>varía con el rumbo</b> (no con la época del año ni con la distancia a la costa).</li>\n<li>La <b>tablilla de desvíos</b> recoge los desvíos residuales de la aguja instalada en <b>una embarcación concreta</b>, a distintos rumbos de aguja, tras compensarla un <b>compensador</b> (no cualquiera «poniendo imanes»). Puede variar con la zona de navegación y los materiales del casco/cambios a bordo.</li>\n<li>El desvío <b>nunca puede despreciarse</b> por navegar cerca de la costa.</li>\n</ul>\n<h4>La aguja náutica</h4>\n<ul>\n<li><b>Rosa</b>: disco graduado con imanes debajo.</li>\n<li><b>Chapitel</b>: hendidura (pieza troncocónica) en el centro de la rosa; su punto de apoyo está por encima del centro de gravedad del conjunto para dar estabilidad; permite el giro horizontal.</li>\n<li><b>Estilo</b>: pieza afilada y dura sobre la que descansa y oscila la rosa.</li>\n<li><b>Mortero</b>: recipiente que contiene el conjunto (seco o con líquido: agua destilada + alcohol), cerrado por un cristal.</li>\n<li><b>Línea de fe</b>: marca alineada con la proa; sobre ella se lee el rumbo.</li>\n<li><b>Suspensión Cardán</b>: mantiene la aguja horizontal.</li>\n<li>Cualidades esenciales: <b>sensibilidad</b> (acusar el menor cambio de rumbo) y <b>estabilidad</b> (no afectarse por balances y cabezadas).</li>\n<li>Perturbaciones: aparatos electrónicos, instalaciones eléctricas, <b>burbujas de aire en el mortero</b>, móviles, herramientas metálicas, <b>tormentas eléctricas</b> (pueden invertir la polaridad).</li>\n<li>Instalación en la línea de crujía, con la línea de fe proa-popa, lejos de electrónica.</li>\n<li>«Capitel» (con c) NO es una pieza de la aguja: es «chapitel». La <b>alidada</b> es el aparato que se coloca sobre el compás para tomar demoras.</li>\n</ul>",
+   "keyFacts": [
+    "Declinación magnética: ángulo entre Nm y Nv",
+    "Desvío: ángulo entre Na y Nm",
+    "Corrección total: ángulo entre Na y Nv; Ct = dm + Δ",
+    "E/NE positivo, W/NW negativo (para dm y Δ)",
+    "La dm varía con el lugar y con el tiempo; viene en la carta con el año y la variación anual",
+    "L105: 2°56′W 2005 (7′E) → ≈0,5°W en 2026",
+    "El desvío depende del rumbo; no interviene al actualizar la dm",
+    "Tablilla de desvíos: de la aguja de una embarcación concreta",
+    "Chapitel: hendidura central de la rosa; estilo: punta sobre la que oscila",
+    "Cualidades de la aguja: sensibilidad y estabilidad",
+    "Alidada: aparato sobre el compás para tomar demoras"
+   ],
+   "traps": [
+    "La declinación NO se llama «inclinación» ni es «Na–Nm»",
+    "«La dm es cero en Greenwich» o «independiente del año»: FALSO",
+    "«El desvío puede despreciarse a menos de 12 millas»: FALSO",
+    "«Cualquiera puede corregir el desvío poniendo imanes»: FALSO",
+    "«Las burbujas en el mortero no son perturbaciones»: FALSO",
+    "«Capitel» no es parte de la aguja (sí lo es el chapitel)",
+    "«Ct = Rm − Δ» o «Ct se aplica al rumbo magnético»: FALSO; se aplica al rumbo de aguja"
+   ],
+   "upd2026": "Los apuntes usan la dm de 2005 (2°56′W). Actualizada con la leyenda: ≈0,5°W en 2026 (≈0,6°W en 2025, ≈1°W en 2022). El examen siempre da la dm o pide «la del año en curso» (aplicar leyenda).",
+   "sources": [
+    "Apuntes PER p.113–115 (UT10 10.5–10.7)",
+    "Carta IHM L105 – leyenda de la rosa",
+    "NOAA WMM2025"
+   ],
+   "kw": [
+    "declinacion magnetica",
+    "declinacion",
+    "desvio",
+    "desvio de aguja",
+    "correccion total",
+    "ct",
+    "norte magnetico",
+    "norte verdadero",
+    "norte de aguja",
+    "meridiano magnetico",
+    "tablilla de desvios",
+    "variacion anual",
+    "actualizar",
+    "ano en curso",
+    "aguja nautica",
+    "chapitel",
+    "estilo",
+    "mortero",
+    "linea de fe",
+    "rosa",
+    "sensibilidad",
+    "estabilidad",
+    "alidada",
+    "inclinacion",
+    "capitel",
+    "compensador",
+    "suma algebraica"
+   ],
+   "flash": [
+    {
+     "q": "Ángulo entre Nm y Nv",
+     "a": "Declinación magnética."
+    },
+    {
+     "q": "Ángulo entre Na y Nm",
+     "a": "Desvío."
+    },
+    {
+     "q": "Fórmula de la corrección total",
+     "a": "Ct = dm + Δ."
+    },
+    {
+     "q": "dm 5°30′W y Δ 7°E: Ct",
+     "a": "+1°30′."
+    },
+    {
+     "q": "dm 11°NW y Δ +4°: Ct",
+     "a": "−7°."
+    },
+    {
+     "q": "Ct +10° y dm 10°NE: desvío",
+     "a": "0°."
+    },
+    {
+     "q": "¿De qué depende la declinación?",
+     "a": "Del lugar y del paso del tiempo."
+    },
+    {
+     "q": "¿Con qué varía el desvío?",
+     "a": "Con el rumbo."
+    },
+    {
+     "q": "¿Qué dato NO se usa para actualizar la dm?",
+     "a": "El desvío."
+    },
+    {
+     "q": "Leyenda de la L105",
+     "a": "2°56′W 2005 (7′E)."
+    },
+    {
+     "q": "dm de la L105 actualizada a 2026",
+     "a": "≈0°29′W ≈ 0,5°W."
+    },
+    {
+     "q": "¿Sobre qué pieza afilada oscila la rosa?",
+     "a": "Sobre el estilo."
+    },
+    {
+     "q": "Hendidura central de la rosa",
+     "a": "El chapitel."
+    },
+    {
+     "q": "Dos cualidades esenciales de la aguja",
+     "a": "Sensibilidad y estabilidad."
+    },
+    {
+     "q": "¿Qué es la tablilla de desvíos?",
+     "a": "La relación de desvíos de la aguja de una embarcación concreta a distintos rumbos."
+    },
+    {
+     "q": "¿Declinación positiva?",
+     "a": "Cuando el Nm queda al E (a la derecha) del Nv."
+    }
+   ]
+  },
+  {
+   "id": "10.5",
+   "title": "Rumbo verdadero y de aguja",
+   "html": "<p><b>Rumbo</b>: ángulo entre un meridiano (norte de referencia) y la línea proa-popa (crujía), de 000° a 360° en sentido horario.</p>\n<table><thead><tr><th>Rumbo</th><th>Referido a</th></tr></thead><tbody>\n<tr><td><b>Verdadero (Rv)</b></td><td>Meridiano del lugar (Nv). Es el que se traza en la carta.</td></tr>\n<tr><td><b>Magnético (Rm)</b></td><td>Meridiano magnético (Nm)</td></tr>\n<tr><td><b>De aguja (Ra)</b></td><td>Norte de aguja: el que marca el compás y por el que se gobierna</td></tr></tbody></table>\n<h4>Fórmulas (todas iguales para demoras)</h4>\n<table><thead><tr><th>De aguja a verdadero</th><th>De verdadero a aguja</th></tr></thead><tbody>\n<tr><td><b>Rv = Ra + Ct</b></td><td><b>Ra = Rv − Ct</b></td></tr>\n<tr><td>Rm = Ra + Δ</td><td>Ra = Rm − Δ</td></tr>\n<tr><td>Rv = Rm + dm</td><td>Rm = Rv − dm</td></tr>\n<tr><td><b>Dv = Da + Ct</b></td><td><b>Da = Dv − Ct</b></td></tr></tbody></table>\n<ul>\n<li>El rumbo de aguja se diferencia del magnético en el <b>desvío</b>; el magnético del verdadero en la <b>declinación</b>; el de aguja del verdadero en la <b>corrección total</b>.</li>\n<li>Ra y Rv no coinciden porque la aguja está afectada por el desvío y por la declinación de la zona.</li>\n<li>Rm se obtiene corrigiendo el Ra por el desvío; Rv corrigiendo el Rm por la declinación.</li>\n</ul>\n<h4>Ejemplos</h4>\n<table><thead><tr><th>Datos</th><th>Resultado</th></tr></thead><tbody>\n<tr><td>Ra 030°, dm 2°W, Δ +2°</td><td>Ct = 0 → Rv = <b>030°</b></td></tr>\n<tr><td>Rv 261°, Ct −5°</td><td>Ra = 261 − (−5) = <b>266°</b></td></tr>\n<tr><td>Ra 050°, Ct −3°24′</td><td>Rv = <b>046°36′</b></td></tr>\n<tr><td>Ra 355°, Ct +5°</td><td>Rv = 360° = <b>000°</b></td></tr></tbody></table>\n<p>Truco anti-error: «de aguja a verdadera, Ct con su signo se SUMA; de verdadera a aguja, se RESTA». Si el resultado pasa de 360°, resta 360; si es negativo, suma 360.</p>\n<p><b>Desvío para el nuevo rumbo</b>: en los ejercicios el desvío suele cambiar al cambiar de rumbo; usa cada vez el desvío del rumbo que se gobierna (y para convertir demoras, el desvío del rumbo al que se navega cuando se toman).</p>\n<p><b>Hora Reloj de Bitácora (HRB)</b>: la hora oficial que se usa <b>a bordo</b> para registrar los acontecimientos; en los ejercicios todas las horas se dan en HRB.</p>",
+   "keyFacts": [
+    "Rv = Ra + Ct; Ra = Rv − Ct",
+    "Dv = Da + Ct; Da = Dv − Ct",
+    "Rm = Ra + Δ; Rv = Rm + dm",
+    "Ra y Rm se diferencian en el desvío",
+    "Rv y Rm se diferencian en la declinación",
+    "Rumbo verdadero: ángulo entre el meridiano del lugar y la línea de crujía",
+    "En la carta se trazan rumbos verdaderos",
+    "HRB = hora a bordo"
+   ],
+   "traps": [
+    "«El rumbo verdadero es el que marca el compás»: FALSO (eso es Ra)",
+    "«Rumbo verdadero: ángulo de la crujía con el paralelo»: FALSO, con el meridiano",
+    "«Rm = Ra corregido por la declinación»: FALSO, por el desvío",
+    "Restar la Ct al pasar de aguja a verdadero: error de signo típico",
+    "«HRB = hora legal + 2»: FALSO; es la hora a bordo"
+   ],
+   "upd2026": null,
+   "sources": [
+    "Apuntes PER p.116 (UT10 10.8)",
+    "Apuntes PER p.131 (UT11 11.4)"
+   ],
+   "kw": [
+    "rumbo verdadero",
+    "rumbo de aguja",
+    "rumbo magnetico",
+    "rv",
+    "ra",
+    "rm",
+    "corregir",
+    "corregido",
+    "crujia",
+    "meridiano del lugar",
+    "hora de reloj de bitacora",
+    "hrb",
+    "bitacora",
+    "se diferencia",
+    "no coincide"
+   ],
+   "flash": [
+    {
+     "q": "Rv a partir de Ra",
+     "a": "Rv = Ra + Ct."
+    },
+    {
+     "q": "Ra a partir de Rv",
+     "a": "Ra = Rv − Ct."
+    },
+    {
+     "q": "¿En qué se diferencian Ra y Rm?",
+     "a": "En el desvío."
+    },
+    {
+     "q": "¿En qué se diferencian Rv y Rm?",
+     "a": "En la declinación magnética."
+    },
+    {
+     "q": "Ra 030°, dm 2°W, Δ +2°: Rv",
+     "a": "030° (Ct = 0)."
+    },
+    {
+     "q": "Rv 261°, Ct −5°: Ra",
+     "a": "266°."
+    },
+    {
+     "q": "Definición de rumbo verdadero",
+     "a": "Ángulo entre el meridiano del lugar (Nv) y la línea de crujía."
+    },
+    {
+     "q": "¿Qué es la HRB?",
+     "a": "La hora reloj de bitácora: hora oficial a bordo."
+    },
+    {
+     "q": "¿Por qué no coinciden Ra y Rv?",
+     "a": "Por el desvío de la aguja y la declinación magnética."
+    },
+    {
+     "q": "¿Cómo se obtiene el Rm desde el Ra?",
+     "a": "Corrigiendo por el desvío: Rm = Ra + Δ."
+    }
+   ]
+  },
+  {
+   "id": "10.6",
+   "title": "Situación de estima",
+   "html": "<p><b>Navegar por estima</b>: conocida una situación de salida, la hora, los rumbos y la velocidad, se calcula dónde estaremos. La situación de estima puede no coincidir con la real (errores, viento, corriente). En los ejercicios del PER <b>no entran viento ni corriente</b>.</p>\n<h4>Procedimiento gráfico (carta)</h4>\n<ol>\n<li>Situar el punto de salida a la HRB inicial.</li>\n<li>Pasar cada Ra a Rv: <b>Rv = Ra + Ct</b> (Ct = dm + Δ del rumbo gobernado).</li>\n<li>Calcular la distancia de cada tramo: <b>D = V × t</b>.</li>\n<li>Trazar el Rv desde la salida y medir la distancia en la escala de latitudes. Repetir con cada cambio de rumbo.</li>\n<li>Leer las coordenadas del punto final.</li>\n</ol>\n<p>Ejemplo [71f099a655]: salida 35°45′N 005°14′W a las 15:00, Ra 355°, Ct +5° → Rv 000°; 5 nudos × 1,5 h = 7,5 millas al N → <b>35°52,5′N 005°14′W</b>.</p>\n<h4>Estima analítica (sin carta)</h4>\n<p>Δl = D · cos Rv (minutos de latitud); apartamiento A = D · sen Rv; ΔL = A / cos(latitud media). Ejemplo [80636093f2]: salida 39°20′N 016°45′W, Ra 050°, Ct −3°24′ → Rv 046°36′; 15 kn × 10 h = 150 millas. Δl = 150 · cos 46,6° = 103,1′ N → l = <b>41°03,1′N</b>. A = 150 · sen 46,6° = 109,0′; lat. media 40°11,5′ → ΔL = 109,0/0,764 = 142,7′ = 2°22,7′ E → L = <b>014°22,3′W</b>.</p>\n<h4>Corredera y coeficiente</h4>\n<ul>\n<li><b>Corredera</b>: instrumento que mide la velocidad y la distancia navegada <b>sobre el agua</b>.</li>\n<li><b>Coeficiente de corredera k</b> = distancia real / distancia de corredera. <b>Velocidad real = k × velocidad de corredera</b>.</li>\n<li><b>Sonda</b>: mide la distancia entre la parte inferior del casco (transductor) y el fondo.</li>\n</ul>\n<h4>Viento y corriente (teoría)</h4>\n<table><thead><tr><th></th><th>ABATIMIENTO (Ab)</th><th>DERIVA</th></tr></thead><tbody>\n<tr><td>Causa</td><td><b>Viento</b> sobre la <b>obra muerta</b></td><td><b>Corriente</b> sobre la <b>obra viva</b></td></tr>\n<tr><td>Definición</td><td>Ángulo entre la proa (crujía) y la derrota sobre la <b>superficie del agua</b> (rumbo de superficie)</td><td>Desviación de la derrota: la embarcación se mueve con la masa de agua; ángulo entre el rumbo y la derrota sobre el <b>fondo</b> (rumbo efectivo)</td></tr>\n<tr><td>Fórmula</td><td><b>Rs = Rv + Ab</b> (Ab + si abate a estribor, − a babor)</td><td>Derrota = composición del Rv y velocidad del barco con el rumbo e intensidad de la corriente</td></tr>\n<tr><td>Corrección</td><td>Modificar el Rv en sentido <b>contrario</b> al abatimiento</td><td>Apuntar «aguas arriba» de la corriente</td></tr></tbody></table>\n<ul>\n<li>La fuerza del viento es proporcional a la <b>superficie de obra muerta</b>; nos desplaza a <b>sotavento</b>.</li>\n<li>Abatimiento positivo = el viento nos abate a estribor (el viento entra por babor).</li>\n<li>Una corriente hacia el NW con proa al SW (corriente por el costado de estribor empujando hacia la derecha del rumbo) hace <b>derivar a estribor</b>.</li>\n<li>Con corriente, la embarcación se desplaza «encima» de la masa de agua: la derrota final es la composición de ambos movimientos, aunque sea pequeña.</li>\n</ul>",
+   "keyFacts": [
+    "Estima: salida + rumbos verdaderos + distancias (V × t)",
+    "En la carta del PER no entran viento ni corriente",
+    "Coeficiente de corredera = distancia real / distancia de corredera",
+    "Velocidad real = coeficiente × velocidad de corredera",
+    "Abatimiento: viento sobre la obra muerta; Rs = Rv + Ab",
+    "Abatimiento a estribor (+), a babor (−)",
+    "Deriva: corriente sobre la obra viva",
+    "Para corregir el abatimiento, modificar el Rv en sentido contrario",
+    "La sonda mide del fondo del casco al fondo del mar"
+   ],
+   "traps": [
+    "Atribuir el abatimiento a la corriente o la deriva al viento",
+    "«El viento actúa sobre la obra viva»: FALSO (obra muerta)",
+    "«El viento nos desplaza a barlovento»: FALSO (a sotavento)",
+    "«Dividir el coeficiente entre la velocidad de corredera»: FALSO, se multiplica",
+    "«Una embarcación pequeña no se ve afectada por la corriente»: FALSO"
+   ],
+   "upd2026": null,
+   "sources": [
+    "Apuntes PER p.111–112, 120–121 (UT10 10.4, 10.13)",
+    "Apuntes PER p.133 (UT11 11.5)"
+   ],
+   "kw": [
+    "estima",
+    "situacion estimada",
+    "situacion de estima",
+    "corredera",
+    "coeficiente de corredera",
+    "velocidad real",
+    "sonda",
+    "abatimiento",
+    "deriva",
+    "corriente",
+    "obra viva",
+    "obra muerta",
+    "rumbo de superficie",
+    "derrota",
+    "abate",
+    "derivara",
+    "viento por la amura",
+    "velocidad de maquinas"
+   ],
+   "flash": [
+    {
+     "q": "¿Qué es el coeficiente de corredera?",
+     "a": "Relación entre la distancia real y la marcada por la corredera."
+    },
+    {
+     "q": "¿Cómo se obtiene la velocidad real con el coeficiente?",
+     "a": "Multiplicando el coeficiente por la velocidad de corredera."
+    },
+    {
+     "q": "¿Qué produce el abatimiento?",
+     "a": "El viento sobre la obra muerta."
+    },
+    {
+     "q": "¿Qué produce la deriva?",
+     "a": "La corriente sobre la obra viva."
+    },
+    {
+     "q": "Abatimiento positivo significa…",
+     "a": "Que el viento nos abate a estribor."
+    },
+    {
+     "q": "¿Cómo se corrige el abatimiento?",
+     "a": "Modificando el Rv en sentido contrario al abatimiento."
+    },
+    {
+     "q": "Fórmula del rumbo de superficie",
+     "a": "Rs = Rv + Ab."
+    },
+    {
+     "q": "¿Qué mide la sonda?",
+     "a": "La distancia entre la parte inferior del casco y el fondo."
+    },
+    {
+     "q": "Ra 355°, Ct +5°, 5 kn, 1 h 30 min desde 35°45′N 005°14′W",
+     "a": "35°52,5′N 005°14′W."
+    },
+    {
+     "q": "Proa al SW con corriente hacia el NW: ¿qué ocurre?",
+     "a": "Derivamos a estribor."
+    },
+    {
+     "q": "¿Para calcular la deriva qué se compara con la proa?",
+     "a": "La derrota sobre el fondo."
+    }
+   ]
+  },
+  {
+   "id": "10.7",
+   "title": "Situación verdadera (demoras, enfilaciones, marcaciones)",
+   "html": "<p>La <b>situación verdadera</b> se obtiene cortando <b>dos líneas de posición simultáneas</b>.</p>\n<h4>Demora y marcación</h4>\n<ul>\n<li><b>Demora</b>: ángulo entre el <b>norte</b> (verdadero, magnético o de aguja) y la visual a un objeto, de 000° a 360°. Se mide con el compás de marcaciones o con una <b>alidada</b> sobre la aguja: lo que se lee es una <b>demora de aguja (Da)</b>. <b>Dv = Da + Ct</b>.</li>\n<li><b>Marcación (M)</b>: ángulo entre la <b>línea proa-popa</b> y la visual al objeto. Se mide <b>desde la proa</b>: en circulares de 0° a 360° en sentido horario (siempre positiva), o en semicirculares de 0° a 180° por cada banda: <b>estribor (+), babor (−)</b>. Depende del rumbo y nunca se traza directamente en la carta.</li>\n<li><b>Relación: Dv = Rv + M</b> (M por estribor +, por babor −); equivalentemente <b>M = D − R</b>. Por la proa M = 0°; por el través M = 90°; por la popa M = 180°.</li>\n</ul>\n<p>Ejemplo [4095d25928]: Rv S53W = 233°, marcación 30° por babor → Dv = 233 − 30 = <b>203°</b>.</p>\n<h4>Trazar una demora</h4>\n<p>Desde el faro se traza la <b>demora opuesta</b> (Dv ± 180°): si vemos el faro al 330°, nosotros estamos en la línea que sale del faro hacia el 150°.</p>\n<h4>Otras líneas de posición</h4>\n<table><thead><tr><th>Línea</th><th>Definición</th><th>Uso</th></tr></thead><tbody>\n<tr><td><b>Enfilación</b></td><td>Dos objetos de la costa <b>vistos en línea</b> (ambos del mismo lado del barco); p. ej. dos chimeneas alineadas</td><td>Línea de posición exacta sin aguja; sirve para hallar la Ct</td></tr>\n<tr><td><b>Oposición</b></td><td>El barco está <b>entre</b> los dos puntos, en la recta que los une (uno a cada banda, p. ej. un faro por el través de estribor y otro por el de babor)</td><td>Igual que la enfilación</td></tr>\n<tr><td><b>Distancia</b></td><td>Radar a un faro: circunferencia de ese radio</td><td>Dos distancias → dos cortes; elegir el que está en el mar</td></tr>\n<tr><td><b>Veril / isobática</b></td><td>Línea de igual sonda</td><td>Con una demora o distancia; navegación segura con niebla</td></tr></tbody></table>\n<p>La diferencia entre enfilación y oposición está en la posición de los puntos de la costa respecto al barco. Enfilaciones y oposiciones se trazan directamente: son <b>demoras verdaderas</b>.</p>\n<h4>Ct por enfilación u oposición</h4>\n<p>Estando en una enfilación u oposición, se mide en la carta la Dv de esa línea hacia uno de los puntos y se toma Da al mismo punto: <b>Ct = Dv − Da</b>. Si además se conoce la dm: <b>Δ = Ct − dm</b>.</p>\n<table><thead><tr><th>Línea (carta L105)</th><th>Dv medida</th></tr></thead><tbody>\n<tr><td>Oposición C. Trafalgar – C. Espartel</td><td>Trafalgar al 347°; Espartel al 167°</td></tr>\n<tr><td>Oposición C. Trafalgar – Pta. Gracia</td><td>Trafalgar al 297°; Gracia al 117°</td></tr>\n<tr><td>Oposición Pta. Gracia – Pta. Malabata</td><td>Gracia al 350°; Malabata al 170°</td></tr>\n<tr><td>Oposición Pta. Europa – Pta. Almina</td><td>Europa al 346°; Almina al 166°</td></tr>\n<tr><td>Oposición Isla Tarifa – Pta. Alcázar</td><td>Tarifa al 344°</td></tr>\n<tr><td>Enfilación Pta. Carnero – Pta. Europa (al E de Europa)</td><td>Ambas al 244°</td></tr></tbody></table>\n<h4>Fiabilidad</h4>\n<ul>\n<li>Dos demoras deben cortarse lo más cerca posible de <b>90°</b>; evitar diferencias &lt;30° o &gt;150°. Nunca próximas a 180° o 0°.</li>\n<li>Puntos bien definidos, reconocibles y señalados en la carta.</li>\n<li>Tomarlas simultáneamente, con la embarcación estable (sin grandes balances).</li>\n<li>Una enfilación <b>no es fiable si los dos puntos están muy cerca entre sí</b> (respecto a la distancia al observador).</li>\n<li>Radar: asegurarse de que el eco es del faro y no del interior.</li>\n</ul>",
+   "keyFacts": [
+    "Demora: ángulo entre el norte y la visual al objeto",
+    "Marcación: ángulo entre la proa (crujía) y la visual al objeto",
+    "Dv = Rv + M; estribor +, babor −; M = D − R",
+    "Marcación circular: 0–360° desde la proa en sentido horario, positiva",
+    "El compás de marcaciones da una demora de aguja",
+    "Enfilación: dos puntos en línea del mismo lado; oposición: el barco entre ambos",
+    "Ct = Dv − Da en una enfilación u oposición",
+    "Demoras: cortes cercanos a 90°, nunca <30° ni >150°",
+    "Enfilación poco fiable si los puntos están cerca entre sí",
+    "Trazar la demora opuesta desde el faro (Dv ± 180°)"
+   ],
+   "traps": [
+    "Marcación ≠ demora: la marcación se mide desde la PROA, no desde el norte",
+    "Signo de la marcación: estribor POSITIVA, babor NEGATIVA",
+    "«D = R − M», «R = D + M» o «M = R + D»: FALSAS; D = R + M y M = D − R",
+    "«Corte de demoras próximo a 180°»: es la INCORRECTA",
+    "Dos chimeneas en línea = enfilación, no marcación ni demora",
+    "Faros por el través de estribor y de babor = oposición"
+   ],
+   "upd2026": null,
+   "sources": [
+    "Apuntes PER p.117–119 (UT10 10.9–10.10)",
+    "Apuntes PER p.129–131, 134–140 (UT11 11.3, 11.6)"
+   ],
+   "kw": [
+    "demora",
+    "demora de aguja",
+    "demora verdadera",
+    "marcacion",
+    "marcaciones",
+    "estribor",
+    "babor",
+    "enfilacion",
+    "oposicion",
+    "linea de posicion",
+    "situacion verdadera",
+    "dos demoras",
+    "traves",
+    "proa",
+    "alidada",
+    "compas de marcaciones",
+    "d = r + m",
+    "fiables",
+    "90",
+    "chimeneas",
+    "isobatica",
+    "veril",
+    "distancia radar",
+    "correccion total"
+   ],
+   "flash": [
+    {
+     "q": "Definición de marcación",
+     "a": "Ángulo entre la línea proa-popa y la visual a un objeto."
+    },
+    {
+     "q": "Fórmula rumbo-demora-marcación",
+     "a": "D = R + M (estribor +, babor −)."
+    },
+    {
+     "q": "Rv S53W, marcación 30° babor: Dv",
+     "a": "203°."
+    },
+    {
+     "q": "Signo de una marcación por estribor",
+     "a": "Positivo."
+    },
+    {
+     "q": "¿Cómo se mide la marcación en circulares?",
+     "a": "De 0° a 360° desde la proa, en sentido horario."
+    },
+    {
+     "q": "¿Qué lectura da el compás de marcaciones?",
+     "a": "Una demora de aguja."
+    },
+    {
+     "q": "Dos chimeneas en línea",
+     "a": "Enfilación."
+    },
+    {
+     "q": "Faro por el través de estribor y otro por el de babor en línea",
+     "a": "Oposición."
+    },
+    {
+     "q": "Ct en una enfilación",
+     "a": "Ct = Dv (medida en la carta) − Da."
+    },
+    {
+     "q": "Ángulo ideal entre dos demoras",
+     "a": "90° (evitar <30° y >150°)."
+    },
+    {
+     "q": "¿Cuándo no es fiable una enfilación?",
+     "a": "Cuando los dos puntos están muy cerca entre sí."
+    },
+    {
+     "q": "Marcación por el través",
+     "a": "90°."
+    },
+    {
+     "q": "Dv de Trafalgar en su oposición con Espartel",
+     "a": "347°."
+    },
+    {
+     "q": "Dv de Europa en la oposición Europa–Almina",
+     "a": "346°."
+    }
+   ]
+  },
+  {
+   "id": "10.8",
+   "title": "Mareas",
+   "html": "<p><b>Marea</b>: ascenso y descenso periódico del nivel del mar por la atracción de la <b>Luna</b> (≈2,3 veces más influyente) y el <b>Sol</b>. En el Atlántico hay dos pleamares y dos bajamares por día lunar (≈24 h 50 min).</p>\n<h4>Definiciones</h4>\n<table><thead><tr><th>Término</th><th>Definición</th></tr></thead><tbody>\n<tr><td>Pleamar / bajamar</td><td>Máximo / mínimo nivel de una oscilación</td></tr>\n<tr><td><b>Cero hidrográfico (datum)</b></td><td><b>Plano horizontal de referencia</b> sobre el que se miden, verticalmente, las <b>sondas</b> de la carta y las alturas de lo que vela en bajamar. En las cartas actuales es la <b>bajamar astronómica más baja (LAT)</b>; los apuntes antiguos hablan de «bajamar escorada»</td></tr>\n<tr><td><b>Altura de la marea</b></td><td>Distancia vertical del nivel del agua sobre el cero hidrográfico. Altura de la pleamar = sobre el datum en el instante de la pleamar</td></tr>\n<tr><td><b>Amplitud</b> (carrera)</td><td>Diferencia de altura entre una pleamar y una bajamar consecutivas</td></tr>\n<tr><td><b>Duración</b></td><td>Tiempo desde una bajamar a la pleamar siguiente (creciente) o viceversa (vaciante), ≈ 6 h 12 min</td></tr>\n<tr><td>Mareas vivas</td><td>Sicigias (luna nueva y llena): máxima amplitud</td></tr>\n<tr><td>Mareas muertas</td><td>Cuadraturas (cuartos creciente y menguante): mínima amplitud</td></tr>\n<tr><td>Repunte</td><td>Momento en que la marea está parada y cambia de sentido</td></tr></tbody></table>\n<h4>Sonda en el momento</h4>\n<p><b>Sonda en el momento = sonda en la carta + altura de la marea + corrección por presión</b></p>\n<ul>\n<li>La <b>sonda</b> es la profundidad total de agua. El <b>calado</b> NO se resta en estos ejercicios (agua bajo la quilla = sonda − calado): si el enunciado da el calado, es un distractor.</li>\n<li><b>Horas del Anuario: UTC.</b> Hora oficial peninsular = UTC + 2 en horario de verano; UTC + 1 en invierno (Canarias: +1 / 0).</li>\n<li>Puertos secundarios: se aplican al puerto patrón las diferencias de hora y altura del Anuario.</li>\n</ul>\n<h4>Corrección por presión atmosférica</h4>\n<p>Presión baja → el mar sube; presión alta → el mar baja. ≈ <b>1 cm por cada mb de diferencia con 1013 mb</b> (13,5 mm por mm de Hg). Corrección = (1013 − P) cm. Se toma de la tabla del Anuario.</p>\n<table><thead><tr><th>Presión</th><th>Corrección</th></tr></thead><tbody>\n<tr><td>996 mb</td><td>+0,17 m</td></tr>\n<tr><td>1003 mb</td><td>+0,10 m</td></tr>\n<tr><td>1013 mb</td><td>0</td></tr>\n<tr><td>1020 mb</td><td>−0,07 m</td></tr>\n<tr><td>1028 mb</td><td>−0,15 m</td></tr>\n<tr><td>1038 mb</td><td>−0,25 m</td></tr></tbody></table>\n<p><b>Viento</b>: de la mar hacia tierra eleva el nivel; de tierra hacia el mar lo baja. Máximo por encima de lo predicho: viento de mar a tierra + presión baja (p. ej. 993 mb). Máximo por debajo: viento de tierra a mar + presión alta (1028 mb).</p>\n<h4>Ejemplo oficial 2026 [6e78a23e77]</h4>\n<p>Algeciras, 20 de junio de 2026, 1.ª pleamar a las <b>06:06 UTC</b> (08:06 hora oficial) con <b>0,89 m</b>; presión 1003 mb → <b>+0,10 m</b>; sonda en carta 9 m. Sonda = 9 + 0,89 + 0,10 = <b>9,99 m</b> (respuesta a).</p>\n<h4>Regla de los duodécimos (altura en un instante intermedio)</h4>\n<p>En una creciente o vaciante de ≈6 h, la marea sube/baja por horas: <b>1/12, 2/12, 3/12, 3/12, 2/12, 1/12</b> de la amplitud (acumulado: 1, 3, 6, 9, 11, 12). Ejemplo: bajamar 0,20 m, pleamar 1,00 m (amplitud 0,80 m); 2 horas después de la bajamar la altura es 0,20 + 3/12 × 0,80 = <b>0,40 m</b>. En el examen se suele preguntar solo por la sonda en la pleamar o bajamar.</p>",
+   "keyFacts": [
+    "Sonda en el momento = sonda carta + altura de marea + corrección por presión",
+    "Las sondas de la carta están referidas al cero hidrográfico (LAT)",
+    "Cero hidrográfico: plano horizontal de referencia, medidas verticales",
+    "Amplitud: diferencia de altura entre pleamar y bajamar consecutivas",
+    "Duración: de la bajamar a la pleamar siguiente",
+    "Horas del Anuario en UTC; verano +2, invierno +1",
+    "Corrección por presión ≈ (1013 − P) cm; 1003 mb → +0,10 m",
+    "Viento de mar a tierra y presión baja: marea por encima de lo predicho",
+    "El calado no se resta: es un distractor",
+    "Duodécimos: 1-2-3-3-2-1",
+    "Algeciras 20-jun-2026 1.ª PM 06:06 UTC 0,89 m → 9 + 0,89 + 0,10 = 9,99 m"
+   ],
+   "traps": [
+    "Restar el calado a la sonda: NO",
+    "Signo de la presión: alta presión RESTA, baja presión SUMA",
+    "Olvidar que las horas del Anuario son UTC",
+    "«Cero hidrográfico: plano vertical»: FALSO; es horizontal",
+    "Amplitud ≠ coeficiente ≠ altura de marea",
+    "«Las sondas son la media de las bajamares de 50 años» o «el nivel medio»: FALSO"
+   ],
+   "upd2026": "Las cartas actuales refieren el cero hidrográfico a la LAT (bajamar astronómica más baja); los apuntes hablan de «bajamar escorada». Se añaden la corrección por presión con tabla, la conversión UTC → hora oficial y la regla de los duodécimos.",
+   "sources": [
+    "Apuntes PER p.120, 141–145 (UT10 10.12; UT11 11.7)",
+    "IHM – Anuario de Mareas 2026",
+    "Examen PER junio 2026 (P43/44)"
+   ],
+   "kw": [
+    "marea",
+    "mareas",
+    "pleamar",
+    "bajamar",
+    "sonda en el momento",
+    "sonda en la carta",
+    "anuario",
+    "presion atmosferica",
+    "mb",
+    "milibares",
+    "cero hidrografico",
+    "datum",
+    "amplitud",
+    "duracion de la marea",
+    "altura de la marea",
+    "lat",
+    "bajamar escorada",
+    "algeciras",
+    "primera pleamar",
+    "segunda bajamar",
+    "calado",
+    "utc",
+    "duodecimos",
+    "marea alta",
+    "valor predicho",
+    "sondas"
+   ],
+   "flash": [
+    {
+     "q": "Fórmula de la sonda en un momento",
+     "a": "Sonda carta + altura de marea + corrección por presión."
+    },
+    {
+     "q": "¿A qué están referidas las sondas de la carta?",
+     "a": "Al cero hidrográfico (LAT, bajamar astronómica más baja)."
+    },
+    {
+     "q": "¿Qué es la amplitud de la marea?",
+     "a": "La diferencia de altura entre una pleamar y una bajamar consecutivas."
+    },
+    {
+     "q": "¿Qué es la duración de la marea?",
+     "a": "El tiempo entre una bajamar y la pleamar siguiente."
+    },
+    {
+     "q": "¿En qué hora vienen las mareas del Anuario?",
+     "a": "En UTC (verano +2 h para hora oficial)."
+    },
+    {
+     "q": "Corrección por 1003 mb",
+     "a": "+0,10 m."
+    },
+    {
+     "q": "Corrección por 1028 mb",
+     "a": "−0,15 m."
+    },
+    {
+     "q": "¿Qué efecto tiene una presión alta en la marea?",
+     "a": "La baja (corrección negativa)."
+    },
+    {
+     "q": "Algeciras 20-6-2026, 1.ª pleamar, 1003 mb, sonda 9 m",
+     "a": "9,99 m (0,89 + 0,10)."
+    },
+    {
+     "q": "¿Se resta el calado al calcular la sonda en el momento?",
+     "a": "No."
+    },
+    {
+     "q": "Regla de los duodécimos",
+     "a": "1, 2, 3, 3, 2, 1 doceavos de la amplitud en cada hora."
+    },
+    {
+     "q": "¿Qué combinación sube más la marea sobre lo predicho?",
+     "a": "Viento de mar a tierra y presión baja."
+    },
+    {
+     "q": "Mareas vivas",
+     "a": "En sicigias (luna nueva y llena), máxima amplitud."
+    },
+    {
+     "q": "Cero hidrográfico",
+     "a": "Plano horizontal de referencia de sondas y alturas que velan en bajamar."
+    }
+   ]
+  },
+  {
+   "id": "10.9",
+   "title": "Ejercicios resueltos de carta",
+   "html": "<p>Método general (carta L105 y Anuario): <b>1)</b> leer y apuntar datos; <b>2)</b> calcular Ct = dm + Δ (o por enfilación/oposición); <b>3)</b> pasar todo a verdadero (Dv = Da + Ct, Rv = Ra + Ct, Dv = Rv ± M); <b>4)</b> trazar y medir (distancias en la escala de latitudes); <b>5)</b> tiempo = distancia × 60 / velocidad; <b>6)</b> descartar opciones absurdas (35°/36°, 005°/006°, sur/norte). Las cifras de trazado de abajo se han comprobado numéricamente con las coordenadas de los faros de la L105 (ver landmarks.json).</p>\n\n<h4>Ejercicio 1 – Marea, junio 2026 [6e78a23e77]</h4>\n<p>Sonda en la 1.ª pleamar del 20-jun-2026 en Algeciras, 1003 mb, sonda en carta 9 m.</p>\n<table><tbody>\n<tr><td>Anuario, Algeciras 20-6-2026, 1.ª PM</td><td>06:06 UTC (08:06 hora oficial), <b>0,89 m</b></td></tr>\n<tr><td>Corrección por presión 1003 mb</td><td>1013 − 1003 = 10 mb → <b>+0,10 m</b></td></tr>\n<tr><td>Sonda en el momento</td><td>9 + 0,89 + 0,10 = <b>9,99 m</b> → <b>a)</b></td></tr></tbody></table>\n\n<h4>Ejercicio 2 – Marea con presión alta y calado distractor [d523c70e2a] y [2b8efebc73]</h4>\n<p>Algeciras, 8-abr-2026. Alturas del extracto del Anuario (reconstruidas a partir de las claves oficiales): 1.ª BM ≈ 0,35 m; 2.ª BM ≈ 0,42 m.</p>\n<table><thead><tr><th>Pregunta</th><th>Cálculo</th><th>Clave</th></tr></thead><tbody>\n<tr><td>1.ª BM, 996 mb, sonda 8,6 m</td><td>8,6 + 0,35 + 0,17 = 9,12 m</td><td>c)</td></tr>\n<tr><td>2.ª BM, 1038 mb, sonda 2 m, calado 1,8 m</td><td>2 + 0,42 − 0,25 = 2,17 m (el calado no se usa)</td><td>d)</td></tr></tbody></table>\n\n<h4>Ejercicio 3 – Situación por dos demoras de aguja [9a4fabdb68]</h4>\n<p>Da C. Trafalgar 315°, Da Isla Tarifa 070°, Δ +1°, dm 1°W.</p>\n<table><tbody>\n<tr><td>Ct = dm + Δ</td><td>−1 + 1 = <b>0°</b></td></tr>\n<tr><td>Dv Trafalgar / Dv Tarifa</td><td>315° / 070°</td></tr>\n<tr><td>Trazado</td><td>Desde Trafalgar la opuesta 135°; desde Tarifa la opuesta 250°</td></tr>\n<tr><td>Corte</td><td><b>35°57,4′N 005°45,3′W</b> → b) (las demás tienen 006° o longitud equivocada)</td></tr></tbody></table>\n\n<h4>Ejercicio 4 – Dos demoras con declinación del año [af772a6162]</h4>\n<p>7-dic-2022, Ra 275°, Da Trafalgar 334°, Da Espartel 204°, Δ −3°. La dm no se da: se actualiza la leyenda.</p>\n<table><tbody>\n<tr><td>dm 2022</td><td>2°56′W − 17 × 7′ = 2°56′ − 1°59′ = 0°57′W ≈ <b>−1°</b></td></tr>\n<tr><td>Ct</td><td>−1 + (−3) = <b>−4°</b></td></tr>\n<tr><td>Dv</td><td>Trafalgar 330°; Espartel 200°</td></tr>\n<tr><td>Corte</td><td><b>35°56,1′N 005°51,5′W</b> → a)</td></tr></tbody></table>\n\n<h4>Ejercicio 5 – Dos demoras con Ct dada [e0242bb841]</h4>\n<p>Da Espartel 230°, Da Malabata 140°, Ct −5° → Dv 225° y 135° (corte a 90°, ideal). Situación <b>35°52,6′N 005°49,2′W</b> → a).</p>\n\n<h4>Ejercicio 6 – Ct por oposición [23e1e874a7]</h4>\n<p>En la oposición C. Trafalgar – C. Espartel, Da a Trafalgar 342°.</p>\n<table><tbody>\n<tr><td>Dv de la oposición hacia Trafalgar (medida)</td><td>347°</td></tr>\n<tr><td>Ct = Dv − Da</td><td>347 − 342 = <b>+5°</b> → d)</td></tr></tbody></table>\n<p>Variantes oficiales: oposición Europa–Almina con Da Europa 349° → Dv 346° → Ct −3° [57e4fa728f]; Gracia–Malabata con Da Gracia 350° → Ct 0° [3f7915ee91]; Trafalgar–Espartel con Da Espartel 169° → Dv 167° → Ct −2° [053fe12972].</p>\n\n<h4>Ejercicio 7 – Enfilación + Ct + demora [8dcf737730]</h4>\n<p>En la enfilación Pta. Carnero – Pta. Europa: Da Europa 240°, Da Pta. Carbonera 322°.</p>\n<table><tbody>\n<tr><td>Dv de la enfilación (vemos Europa y detrás Carnero)</td><td>244°</td></tr>\n<tr><td>Ct = 244 − 240</td><td><b>+4°</b></td></tr>\n<tr><td>Dv Carbonera</td><td>322 + 4 = 326° → opuesta 146° desde Carbonera</td></tr>\n<tr><td>Corte con la enfilación</td><td><b>36°09,2′N 005°13,7′W</b> → a)</td></tr></tbody></table>\n\n<h4>Ejercicio 8 – Oposición + demora [f3754d3144]</h4>\n<p>En la oposición Trafalgar – Pta. Gracia: Da Trafalgar 290°, Da Barbate 353°.</p>\n<table><tbody>\n<tr><td>Dv oposición hacia Trafalgar</td><td>297° → Ct = 297 − 290 = <b>+7°</b></td></tr>\n<tr><td>Dv Barbate</td><td>353 + 7 = 360° (Barbate al N verdadero)</td></tr>\n<tr><td>Corte: meridiano de Barbate con la oposición</td><td><b>36°08,2′N 005°55,4′W</b> → a)</td></tr></tbody></table>\n\n<h4>Ejercicio 9 – Situación por marcaciones [ef49be0281]</h4>\n<p>Ra 281°, dm 4°W, Δ +1°; marcación Pta. Paloma 65° Er, Isla Tarifa 157° Er.</p>\n<table><tbody>\n<tr><td>Ct / Rv</td><td>−4 + 1 = −3° → Rv = 281 − 3 = <b>278°</b></td></tr>\n<tr><td>Dv Paloma = Rv + M</td><td>278 + 65 = <b>343°</b></td></tr>\n<tr><td>Dv Tarifa = Rv + M</td><td>278 + 157 = 435 − 360 = <b>075°</b></td></tr>\n<tr><td>Corte</td><td><b>35°59,0′N 005°41,3′W</b> → a)</td></tr></tbody></table>\n\n<h4>Ejercicio 10 – Situación por dos distancias radar [4e81e5ec9f]</h4>\n<p>5 millas a Isla Tarifa y 3 millas a Pta. Paloma: dos arcos con el compás (radios tomados en la escala de latitudes). Se cortan en dos puntos: uno en tierra (≈36°04,5′N 005°39,4′W) y otro en el mar: <b>36°01,0′N 005°42,5′W</b> → a).</p>\n\n<h4>Ejercicio 11 – Rumbo de aguja para pasar a 2 millas al S/v de Isla Tarifa y hora [be1abbbb93]</h4>\n<p>HRB 10:00, Da Europa 359°, Da Cires 237°, dm 4°W, Δ −1°, 10 nudos.</p>\n<table><tbody>\n<tr><td>Ct</td><td>−4 + (−1) = <b>−5°</b></td></tr>\n<tr><td>Dv Europa / Cires</td><td>354° / 232° → situación ≈ 36°00,4′N 005°19,9′W</td></tr>\n<tr><td>Punto destino</td><td>2 millas al sur verdadero del faro de Tarifa (35°58,1′N 005°36,5′W)</td></tr>\n<tr><td>Rv medido / Ra</td><td>261° → Ra = 261 − (−5) = <b>266°</b></td></tr>\n<tr><td>Distancia / tiempo</td><td>≈13,7 millas → 13,7 × 6 = 82 min → HRB <b>11:23</b> → b)</td></tr></tbody></table>\n\n<h4>Ejercicio 12 – Rumbo para pasar a 3 millas de un faro (tangente) y través [001404fc99]</h4>\n<p>HRB 10:00, Da Trafalgar 327°, Da Barbate 033°, Δ −1°, dm 4°W; pasar a 3 millas de Pta. Paloma a 10 nudos; hora al través de Pta. Gracia.</p>\n<table><tbody>\n<tr><td>Ct</td><td><b>−5°</b> → Dv Trafalgar 322°, Barbate 028°</td></tr>\n<tr><td>Situación</td><td>≈36°07,0′N 005°58,2′W</td></tr>\n<tr><td>Rumbo</td><td>Círculo de 3 millas con centro en Paloma; desde la situación, tangente por la parte de fuera (dejando Paloma por babor): Rv ≈ 118° (Ra ≈ 123°)</td></tr>\n<tr><td>Través de Gracia</td><td>Perpendicular desde Gracia al rumbo: 7,6 millas → 46 min → HRB <b>10:46</b> → d)</td></tr></tbody></table>\n<p>No confundir «pasar a 3 millas de» (tangente al círculo) con «pasar a 3 millas al sur verdadero de» (punto concreto).</p>\n\n<h4>Ejercicio 13 – Estima con cambio de rumbo al través [d0861e36e1]</h4>\n<p>HRB 10:00 a 3 millas al N de C. Espartel; Ra 071°, Ct −3°; al tener Pta. Malabata por el través de estribor, Ra 082°, Ct −2°; 6 nudos; situación a las 12:00.</p>\n<table><tbody>\n<tr><td>Salida</td><td>35°50,5′N 005°55,4′W</td></tr>\n<tr><td>1.er tramo</td><td>Rv = 071 − 3 = 068°; través de Er → Dv Malabata = 068 + 90 = 158°. Ocurre a 7,3 millas: 73 min → HRB 11:13</td></tr>\n<tr><td>2.º tramo</td><td>Rv = 082 − 2 = 080°; de 11:13 a 12:00 = 47 min → 6 × 47/60 = 4,7 millas</td></tr>\n<tr><td>Situación estimada</td><td><b>35°54,1′N 005°41,3′W</b> → b)</td></tr></tbody></table>\n\n<h4>Ejercicio 14 – Estima simple [71f099a655]</h4>\n<p>Salida 35°45′N 005°14′W a las 15:00, Ra 355°, Ct +5° → Rv 000°; 5 kn × 1,5 h = 7,5 millas al N → <b>35°52,5′N 005°14′W</b> → d).</p>\n\n<h4>Preguntas anuladas</h4>\n<p>En el banco aparecen con todas las opciones marcadas (anuladas): [4aa0428f10], [ed69fd026d] (una Da de 003,5° a Malabata es incompatible con la oposición Paloma–Malabata, cuya Dv es ≈186°), [6e24a308ba], [88d4cffa5d], [4a7513304b]. No hay que estudiarlas.</p>",
+   "keyFacts": [
+    "Primero Ct, luego todo a verdadero, luego trazar",
+    "Demoras: trazar la opuesta desde el faro",
+    "Marcación: Dv = Rv + M (Er +, Br −); través = 90°",
+    "Ct por oposición/enfilación = Dv medida − Da",
+    "«Pasar a X millas de» = tangente al círculo; «a X millas al S/v de» = punto concreto",
+    "Tiempo (min) = distancia × 60 / velocidad",
+    "Marea: sonda carta + altura del Anuario + (1013 − P) cm",
+    "dm de la L105: 2°56′W 2005 (7′E); ≈1°W en 2022, ≈0,5°W en 2026",
+    "Con dos distancias hay dos cortes: elegir el que está en el mar",
+    "Descartar opciones con 36°/35°, 005°/006° o lat/long intercambiadas"
+   ],
+   "traps": [
+    "Usar el desvío del rumbo antiguo tras cambiar de rumbo",
+    "Medir la distancia en la escala de longitudes",
+    "Trazar la marcación como si fuera demora",
+    "En marea: restar el calado o equivocar el signo de la presión",
+    "Confundir «al través» (90°) con «por la proa» (0°)"
+   ],
+   "upd2026": "Incluye el ejercicio de marea del examen de junio de 2026 (Algeciras, 20-6-2026). La declinación «del año en curso» se calcula con la leyenda de la L105.",
+   "sources": [
+    "Banco oficial de preguntas PER 2022–2026 (bloque car)",
+    "Carta IHM L105 Estrecho de Gibraltar",
+    "Anuario de Mareas IHM",
+    "Apuntes PER UT11"
+   ],
+   "kw": [
+    "hrb",
+    "demora de aguja",
+    "marcacion",
+    "situacion",
+    "rumbo de aguja",
+    "pasar a",
+    "millas al sur",
+    "millas al norte",
+    "oposicion",
+    "enfilacion",
+    "traves",
+    "velocidad de maquinas",
+    "sonda en el momento",
+    "pleamar",
+    "bajamar",
+    "algeciras",
+    "cabo trafalgar",
+    "punta de gracia",
+    "isla tarifa",
+    "punta paloma",
+    "punta europa",
+    "punta carnero",
+    "punta almina",
+    "punta cires",
+    "cabo espartel",
+    "punta malabata",
+    "punta alcazar",
+    "barbate",
+    "situacion estimada",
+    "distancia radar"
+   ],
+   "flash": [
+    {
+     "q": "Algeciras 20-6-2026, 1.ª PM 0,89 m, 1003 mb, sonda 9 m",
+     "a": "9,99 m."
+    },
+    {
+     "q": "Da Trafalgar 315°, Da Tarifa 070°, Ct 0: situación",
+     "a": "35°57,4′N 005°45,3′W."
+    },
+    {
+     "q": "Oposición Trafalgar–Espartel, Da Trafalgar 342°: Ct",
+     "a": "+5° (Dv 347°)."
+    },
+    {
+     "q": "Oposición Europa–Almina, Da Europa 349°: Ct",
+     "a": "−3° (Dv 346°)."
+    },
+    {
+     "q": "Enfilación Carnero–Europa, Da Europa 240°: Ct",
+     "a": "+4° (Dv 244°)."
+    },
+    {
+     "q": "Ra 281°, Ct −3°, marcación 65° Er: Dv",
+     "a": "343°."
+    },
+    {
+     "q": "Rv 068°, faro por el través de estribor: Dv",
+     "a": "158°."
+    },
+    {
+     "q": "5 millas a Tarifa y 3 a Paloma",
+     "a": "36°01,0′N 005°42,5′W."
+    },
+    {
+     "q": "Rv 261°, Ct −5°: Ra",
+     "a": "266°."
+    },
+    {
+     "q": "13,7 millas a 10 nudos desde las 10:00",
+     "a": "Llegada a las 11:22–11:23."
+    },
+    {
+     "q": "Ct en la oposición Trafalgar–Gracia con Da Trafalgar 290°",
+     "a": "+7° (Dv 297°)."
+    },
+    {
+     "q": "dm de la L105 en 2022",
+     "a": "≈1°W (0°57′W)."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "image": "img/carta.webp",
+ "pdf": "img/carta-estrecho-A3.pdf",
+ "width": 4961,
+ "height": 3508,
+ "source": "IHM carta L105 Enseñanza (Estrecho de Gibraltar, 1:200.000 en 36°), PDF A3 300 ppp distribuido gratuitamente por icarcamo.com para uso educativo. NO VÁLIDA PARA LA NAVEGACIÓN.",
+ "bounds": {
+  "latN": 36.333333333333336,
+  "latS": 35.666666666666664,
+  "lonW": -6.333333333333333,
+  "lonE": -5.166666666666667
+ },
+ "transform": {
+  "model": "Mercator afín: x = cx0 + cx1*lonMin + cx2*MP(lat); y = cy0 + cy1*lonMin + cy2*MP(lat); lonMin = longitud en minutos (W negativa); MP(lat) = partes meridionales en minutos = ln(tan(45°+lat/2))*10800/π (esfera)",
+  "cx": [
+   23816.531592362568,
+   62.09650299121162,
+   0.047893521499220035
+  ],
+  "cy": [
+   145109.4294292137,
+   -0.06159457228012144,
+   -61.85348872793836
+  ]
+ },
+ "controlPoints": [
+  {
+   "lat": 36.166667,
+   "lon": -6.166667,
+   "x": 950.52,
+   "y": 991.46,
+   "residualMin": 0.025
+  },
+  {
+   "lat": 36.0,
+   "lon": -6.166667,
+   "x": 950.42,
+   "y": 1756.99,
+   "residualMin": 0.019
+  },
+  {
+   "lat": 35.833333,
+   "lon": -6.166667,
+   "x": 950.32,
+   "y": 2519.59,
+   "residualMin": 0.015
+  },
+  {
+   "lat": 36.166667,
+   "lon": -6.0,
+   "x": 1574.24,
+   "y": 990.63,
+   "residualMin": 0.011
+  },
+  {
+   "lat": 36.0,
+   "lon": -6.0,
+   "x": 1574.1,
+   "y": 1756.41,
+   "residualMin": 0.018
+  },
+  {
+   "lat": 35.833333,
+   "lon": -6.0,
+   "x": 1573.96,
+   "y": 2519.15,
+   "residualMin": 0.024
+  },
+  {
+   "lat": 36.166667,
+   "lon": -5.833333,
+   "x": 2197.5,
+   "y": 989.8,
+   "residualMin": 0.041
+  },
+  {
+   "lat": 36.0,
+   "lon": -5.833333,
+   "x": 2197.94,
+   "y": 1755.83,
+   "residualMin": 0.055
+  },
+  {
+   "lat": 35.833333,
+   "lon": -5.833333,
+   "x": 2198.37,
+   "y": 2518.71,
+   "residualMin": 0.068
+  },
+  {
+   "lat": 36.166667,
+   "lon": -5.666667,
+   "x": 2811.14,
+   "y": 988.98,
+   "residualMin": 0.055
+  },
+  {
+   "lat": 36.0,
+   "lon": -5.666667,
+   "x": 2810.03,
+   "y": 1755.25,
+   "residualMin": 0.062
+  },
+  {
+   "lat": 35.833333,
+   "lon": -5.666667,
+   "x": 2808.91,
+   "y": 2518.28,
+   "residualMin": 0.068
+  },
+  {
+   "lat": 36.166667,
+   "lon": -5.5,
+   "x": 3435.51,
+   "y": 988.15,
+   "residualMin": 0.013
+  },
+  {
+   "lat": 36.0,
+   "lon": -5.5,
+   "x": 3434.54,
+   "y": 1754.67,
+   "residualMin": 0.017
+  },
+  {
+   "lat": 35.833333,
+   "lon": -5.5,
+   "x": 3433.58,
+   "y": 2517.84,
+   "residualMin": 0.02
+  },
+  {
+   "lat": 36.166667,
+   "lon": -5.333333,
+   "x": 4060.17,
+   "y": 987.31,
+   "residualMin": 0.039
+  },
+  {
+   "lat": 36.0,
+   "lon": -5.333333,
+   "x": 4058.49,
+   "y": 1754.09,
+   "residualMin": 0.025
+  },
+  {
+   "lat": 35.833333,
+   "lon": -5.333333,
+   "x": 4056.83,
+   "y": 2517.4,
+   "residualMin": 0.01
+  }
+ ],
+ "error": {
+  "rmsMin": 0.038,
+  "maxMin": 0.068,
+  "method": "18 cruces de la retícula de 10′ (meridianos 6°10′…5°20′ W × paralelos 36°10′, 36°00′, 35°50′ N), líneas ajustadas por mínimos cuadrados con precisión subpíxel"
+ },
+ "pxPerMinLon": 62.097,
+ "pxPerMinLatAt36": 76.46,
+ "variants": [
+  {
+   "file": "img/carta-lo.webp",
+   "width": 1600
+  },
+  {
+   "file": "img/carta-md.webp",
+   "width": 3307
+  },
+  {
+   "file": "img/carta.webp",
+   "width": 4961
+  }
+ ],
+ "note": "Las variantes se dibujan escaladas a width×height; la transformación está en píxeles de la imagen completa (4961×3508)."
+}

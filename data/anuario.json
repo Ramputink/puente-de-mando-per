@@ -1,0 +1,1302 @@
+{
+ "note": "Páginas escaneadas del Anuario de Mareas (IHM) incluidas en los exámenes oficiales del PER/PY/CY (sin texto en el PDF). Imágenes deduplicadas: tablas de presión e instante cualquiera son idénticas en todas las convocatorias y se sirve una sola copia. Las páginas del Almanaque Náutico (Capitán de Yate) se excluyen. Convocatoria 2022-06 y 2022-10 no incluyen páginas escaneadas.",
+ "pressureTable": [
+  [
+   963,
+   0.5
+  ],
+  [
+   968,
+   0.45
+  ],
+  [
+   973,
+   0.4
+  ],
+  [
+   978,
+   0.35
+  ],
+  [
+   983,
+   0.3
+  ],
+  [
+   988,
+   0.25
+  ],
+  [
+   993,
+   0.2
+  ],
+  [
+   998,
+   0.15
+  ],
+  [
+   1003,
+   0.1
+  ],
+  [
+   1008,
+   0.05
+  ],
+  [
+   1013,
+   0
+  ],
+  [
+   1018,
+   -0.05
+  ],
+  [
+   1023,
+   -0.1
+  ],
+  [
+   1028,
+   -0.15
+  ],
+  [
+   1033,
+   -0.2
+  ],
+  [
+   1038,
+   -0.25
+  ]
+ ],
+ "pressureMm": [
+  722,
+  726,
+  730,
+  734,
+  738,
+  741,
+  745,
+  749,
+  752,
+  756,
+  760,
+  764,
+  768,
+  771,
+  775,
+  779
+ ],
+ "images": [
+  {
+   "file": "img/anuario/2022-04-p28.webp",
+   "tipo": "tabla anual de pleamares y bajamares",
+   "kind": "tabla",
+   "convocatorias": {
+    "2022-04": [
+     28,
+     39,
+     45,
+     51
+    ]
+   },
+   "puerto": "Bilbao",
+   "anio": 2022,
+   "meses": "enero–abril",
+   "horas": "UTC",
+   "unidades": "m sobre el cero hidrográfico"
+  },
+  {
+   "file": "img/anuario/2022-12-p22.webp",
+   "tipo": "tabla anual de pleamares y bajamares",
+   "kind": "tabla",
+   "convocatorias": {
+    "2022-12": [
+     22,
+     46,
+     81,
+     92
+    ]
+   },
+   "puerto": "San Cibrao – San Ciprián",
+   "anio": 2022,
+   "meses": "septiembre–diciembre",
+   "horas": "UTC",
+   "unidades": "m sobre el cero hidrográfico"
+  },
+  {
+   "file": "img/anuario/2022-12-p34.webp",
+   "tipo": "tabla anual de pleamares y bajamares",
+   "kind": "tabla",
+   "convocatorias": {
+    "2022-12": [
+     34,
+     58,
+     64,
+     70
+    ]
+   },
+   "puerto": "Algeciras",
+   "anio": 2022,
+   "meses": "septiembre–diciembre",
+   "horas": "UTC",
+   "unidades": "m sobre el cero hidrográfico"
+  },
+  {
+   "file": "img/anuario/2023-04-p101.webp",
+   "tipo": "tabla anual de pleamares y bajamares",
+   "kind": "tabla",
+   "convocatorias": {
+    "2023-04": [
+     70,
+     101,
+     109
+    ]
+   },
+   "puerto": "Algeciras",
+   "anio": 2023,
+   "meses": "enero–abril",
+   "horas": "UTC",
+   "unidades": "m sobre el cero hidrográfico"
+  },
+  {
+   "file": "img/anuario/2023-04-p56.webp",
+   "tipo": "tabla anual de pleamares y bajamares",
+   "kind": "tabla",
+   "convocatorias": {
+    "2023-04": [
+     56,
+     84
+    ]
+   },
+   "puerto": "San Juan de Nieva (Castrillón)",
+   "anio": 2023,
+   "meses": "enero–abril",
+   "horas": "UTC",
+   "unidades": "m sobre el cero hidrográfico"
+  },
+  {
+   "file": "img/anuario/2023-06-p10.webp",
+   "tipo": "tabla anual de pleamares y bajamares",
+   "kind": "tabla",
+   "convocatorias": {
+    "2023-06": [
+     10,
+     23
+    ]
+   },
+   "puerto": "Algeciras",
+   "anio": 2023,
+   "meses": "mayo–agosto",
+   "horas": "UTC",
+   "unidades": "m sobre el cero hidrográfico"
+  },
+  {
+   "file": "img/anuario/2024-04-p70.webp",
+   "tipo": "tabla anual de pleamares y bajamares",
+   "kind": "tabla",
+   "convocatorias": {
+    "2024-04": [
+     70,
+     92
+    ]
+   },
+   "puerto": "Algeciras",
+   "anio": 2024,
+   "meses": "enero–abril",
+   "horas": "UTC",
+   "unidades": "m sobre el cero hidrográfico"
+  },
+  {
+   "file": "img/anuario/2024-06-p10.webp",
+   "tipo": "tabla anual de pleamares y bajamares",
+   "kind": "tabla",
+   "convocatorias": {
+    "2024-06": [
+     10,
+     34
+    ],
+    "2024-11": [
+     10,
+     34
+    ]
+   },
+   "puerto": "Algeciras",
+   "anio": 2024,
+   "meses": "mayo–agosto",
+   "horas": "UTC",
+   "unidades": "m sobre el cero hidrográfico"
+  },
+  {
+   "file": "img/anuario/2024-06-p22.webp",
+   "tipo": "tabla anual de pleamares y bajamares",
+   "kind": "tabla",
+   "convocatorias": {
+    "2024-06": [
+     22,
+     44
+    ]
+   },
+   "puerto": "Tapia de Casariego",
+   "anio": 2024,
+   "meses": "mayo–agosto",
+   "horas": "UTC",
+   "unidades": "m sobre el cero hidrográfico"
+  },
+  {
+   "file": "img/anuario/2024-11-p22.webp",
+   "tipo": "tabla anual de pleamares y bajamares",
+   "kind": "tabla",
+   "convocatorias": {
+    "2024-11": [
+     22,
+     46,
+     53,
+     60,
+     83,
+     93
+    ]
+   },
+   "puerto": "Vigo",
+   "anio": 2024,
+   "meses": "septiembre–diciembre",
+   "horas": "UTC",
+   "unidades": "m sobre el cero hidrográfico"
+  },
+  {
+   "file": "img/anuario/2025-04-p107.webp",
+   "tipo": "tabla anual de pleamares y bajamares",
+   "kind": "tabla",
+   "convocatorias": {
+    "2025-04": [
+     43,
+     55,
+     81,
+     107
+    ]
+   },
+   "puerto": "Bilbao",
+   "anio": 2025,
+   "meses": "enero–abril",
+   "horas": "UTC",
+   "unidades": "m sobre el cero hidrográfico"
+  },
+  {
+   "file": "img/anuario/2025-04-p68.webp",
+   "tipo": "tabla anual de pleamares y bajamares",
+   "kind": "tabla",
+   "convocatorias": {
+    "2025-04": [
+     68,
+     94
+    ],
+    "2025-06": [
+     10,
+     23
+    ]
+   },
+   "puerto": "Algeciras",
+   "anio": 2025,
+   "meses": "enero–abril",
+   "horas": "UTC",
+   "unidades": "m sobre el cero hidrográfico"
+  },
+  {
+   "file": "img/anuario/2025-11-p106.webp",
+   "tipo": "tabla anual de pleamares y bajamares",
+   "kind": "tabla",
+   "convocatorias": {
+    "2025-11": [
+     42,
+     54,
+     80,
+     106,
+     114,
+     122
+    ]
+   },
+   "puerto": "Gijón",
+   "anio": 2025,
+   "meses": "septiembre–diciembre",
+   "horas": "UTC",
+   "unidades": "m sobre el cero hidrográfico"
+  },
+  {
+   "file": "img/anuario/2025-11-p67.webp",
+   "tipo": "tabla anual de pleamares y bajamares",
+   "kind": "tabla",
+   "convocatorias": {
+    "2025-11": [
+     67,
+     93
+    ]
+   },
+   "puerto": "Gijón",
+   "anio": 2025,
+   "meses": "mayo–agosto",
+   "horas": "UTC",
+   "unidades": "m sobre el cero hidrográfico"
+  },
+  {
+   "file": "img/anuario/2026-04-p105.webp",
+   "tipo": "tabla anual de pleamares y bajamares",
+   "kind": "tabla",
+   "convocatorias": {
+    "2026-04": [
+     54,
+     66,
+     79,
+     92,
+     105,
+     118,
+     126,
+     134
+    ]
+   },
+   "puerto": "Algeciras",
+   "anio": 2026,
+   "meses": "enero–abril",
+   "horas": "UTC",
+   "unidades": "m sobre el cero hidrográfico"
+  },
+  {
+   "file": "img/anuario/2026-06-p10.webp",
+   "tipo": "tabla anual de pleamares y bajamares",
+   "kind": "tabla",
+   "convocatorias": {
+    "2026-06": [
+     10,
+     23,
+     31,
+     39
+    ]
+   },
+   "puerto": "Algeciras",
+   "anio": 2026,
+   "meses": "mayo–agosto",
+   "horas": "UTC",
+   "unidades": "m sobre el cero hidrográfico"
+  },
+  {
+   "file": "img/anuario/2026-04-p107.webp",
+   "tipo": "tabla para calcular la altura de la marea en un instante cualquiera",
+   "kind": "instante",
+   "convocatorias": {
+    "2022-12": [
+     23,
+     35,
+     47,
+     59,
+     66,
+     72,
+     82,
+     93
+    ],
+    "2023-04": [
+     58,
+     72,
+     86,
+     103,
+     111
+    ],
+    "2023-06": [
+     12,
+     25
+    ],
+    "2024-04": [
+     72,
+     94
+    ],
+    "2024-06": [
+     11,
+     23,
+     45
+    ],
+    "2024-11": [
+     11,
+     23,
+     35,
+     47,
+     54,
+     61,
+     84,
+     94
+    ],
+    "2025-04": [
+     45,
+     57,
+     70,
+     83,
+     96,
+     109
+    ],
+    "2025-06": [
+     12,
+     25
+    ],
+    "2025-11": [
+     44,
+     56,
+     69,
+     82,
+     95,
+     108,
+     116,
+     124
+    ],
+    "2026-04": [
+     56,
+     68,
+     81,
+     94,
+     107,
+     120,
+     128,
+     136
+    ],
+    "2026-06": [
+     12,
+     25,
+     33,
+     41
+    ]
+   }
+  },
+  {
+   "file": "img/anuario/2026-04-p108.webp",
+   "tipo": "corrección por presión atmosférica + tabla de conversión de unidades de longitud",
+   "kind": "presion",
+   "convocatorias": {
+    "2022-04": [
+     29,
+     40,
+     46,
+     52
+    ],
+    "2022-12": [
+     24,
+     36,
+     48,
+     60,
+     65,
+     71,
+     83,
+     94
+    ],
+    "2023-04": [
+     59,
+     73,
+     87,
+     104,
+     112
+    ],
+    "2023-06": [
+     13,
+     26
+    ],
+    "2024-04": [
+     73,
+     95
+    ],
+    "2024-06": [
+     12,
+     24,
+     46
+    ],
+    "2024-11": [
+     12,
+     24,
+     36,
+     48,
+     55,
+     62,
+     85,
+     95
+    ],
+    "2025-04": [
+     46,
+     58,
+     71,
+     84,
+     97,
+     110
+    ],
+    "2025-06": [
+     13,
+     26
+    ],
+    "2025-11": [
+     45,
+     57,
+     70,
+     83,
+     96,
+     109,
+     117,
+     125
+    ],
+    "2026-04": [
+     57,
+     69,
+     82,
+     95,
+     108,
+     121,
+     129,
+     137
+    ],
+    "2026-06": [
+     13,
+     26,
+     34,
+     42
+    ]
+   }
+  },
+  {
+   "file": "img/anuario/2023-04-p102.webp",
+   "tipo": "coeficientes de marea",
+   "kind": "coeficientes",
+   "convocatorias": {
+    "2023-04": [
+     57,
+     71,
+     85,
+     102,
+     110
+    ],
+    "2023-06": [
+     11,
+     24
+    ]
+   },
+   "anio": 2023
+  },
+  {
+   "file": "img/anuario/2024-04-p71.webp",
+   "tipo": "coeficientes de marea",
+   "kind": "coeficientes",
+   "convocatorias": {
+    "2024-04": [
+     71,
+     93
+    ]
+   },
+   "anio": 2024
+  },
+  {
+   "file": "img/anuario/2025-04-p108.webp",
+   "tipo": "coeficientes de marea",
+   "kind": "coeficientes",
+   "convocatorias": {
+    "2025-04": [
+     44,
+     56,
+     69,
+     82,
+     95,
+     108
+    ],
+    "2025-06": [
+     11,
+     24
+    ],
+    "2025-11": [
+     43,
+     55,
+     68,
+     81,
+     94,
+     107,
+     115,
+     123
+    ]
+   },
+   "anio": 2025
+  },
+  {
+   "file": "img/anuario/2026-04-p106.webp",
+   "tipo": "coeficientes de marea",
+   "kind": "coeficientes",
+   "convocatorias": {
+    "2026-04": [
+     55,
+     67,
+     80,
+     93,
+     106,
+     119,
+     127,
+     135
+    ],
+    "2026-06": [
+     11,
+     24,
+     32,
+     40
+    ]
+   },
+   "anio": 2026
+  }
+ ],
+ "byConvocatoria": {
+  "2022-04": [
+   "img/anuario/2022-04-p28.webp",
+   "img/anuario/2026-04-p108.webp"
+  ],
+  "2022-12": [
+   "img/anuario/2022-12-p22.webp",
+   "img/anuario/2022-12-p34.webp",
+   "img/anuario/2026-04-p107.webp",
+   "img/anuario/2026-04-p108.webp"
+  ],
+  "2023-04": [
+   "img/anuario/2023-04-p101.webp",
+   "img/anuario/2023-04-p56.webp",
+   "img/anuario/2026-04-p107.webp",
+   "img/anuario/2026-04-p108.webp",
+   "img/anuario/2023-04-p102.webp"
+  ],
+  "2023-06": [
+   "img/anuario/2023-06-p10.webp",
+   "img/anuario/2026-04-p107.webp",
+   "img/anuario/2026-04-p108.webp",
+   "img/anuario/2023-04-p102.webp"
+  ],
+  "2024-04": [
+   "img/anuario/2024-04-p70.webp",
+   "img/anuario/2026-04-p107.webp",
+   "img/anuario/2026-04-p108.webp",
+   "img/anuario/2024-04-p71.webp"
+  ],
+  "2024-06": [
+   "img/anuario/2024-06-p10.webp",
+   "img/anuario/2024-06-p22.webp",
+   "img/anuario/2026-04-p107.webp",
+   "img/anuario/2026-04-p108.webp"
+  ],
+  "2024-11": [
+   "img/anuario/2024-06-p10.webp",
+   "img/anuario/2024-11-p22.webp",
+   "img/anuario/2026-04-p107.webp",
+   "img/anuario/2026-04-p108.webp"
+  ],
+  "2025-04": [
+   "img/anuario/2025-04-p107.webp",
+   "img/anuario/2025-04-p68.webp",
+   "img/anuario/2026-04-p107.webp",
+   "img/anuario/2026-04-p108.webp",
+   "img/anuario/2025-04-p108.webp"
+  ],
+  "2025-06": [
+   "img/anuario/2025-04-p68.webp",
+   "img/anuario/2026-04-p107.webp",
+   "img/anuario/2026-04-p108.webp",
+   "img/anuario/2025-04-p108.webp"
+  ],
+  "2025-11": [
+   "img/anuario/2025-11-p106.webp",
+   "img/anuario/2025-11-p67.webp",
+   "img/anuario/2026-04-p107.webp",
+   "img/anuario/2026-04-p108.webp",
+   "img/anuario/2025-04-p108.webp"
+  ],
+  "2026-04": [
+   "img/anuario/2026-04-p105.webp",
+   "img/anuario/2026-04-p107.webp",
+   "img/anuario/2026-04-p108.webp",
+   "img/anuario/2026-04-p106.webp"
+  ],
+  "2026-06": [
+   "img/anuario/2026-06-p10.webp",
+   "img/anuario/2026-04-p107.webp",
+   "img/anuario/2026-04-p108.webp",
+   "img/anuario/2026-04-p106.webp"
+  ]
+ },
+ "records": [
+  {
+   "convocatoria": "2022-04",
+   "image": "img/anuario/2022-04-p28.webp",
+   "puerto": "Bilbao",
+   "fecha": "2022-04-02",
+   "mareas": [
+    {
+     "t": "04:04",
+     "h": 4.4,
+     "tipo": "P"
+    },
+    {
+     "t": "10:09",
+     "h": 0.49,
+     "tipo": "B"
+    },
+    {
+     "t": "16:20",
+     "h": 4.21,
+     "tipo": "P"
+    },
+    {
+     "t": "22:25",
+     "h": 0.53,
+     "tipo": "B"
+    }
+   ],
+   "preguntas": [
+    "de12edc7f8"
+   ]
+  },
+  {
+   "convocatoria": "2022-12",
+   "image": "img/anuario/2022-12-p34.webp",
+   "puerto": "Algeciras",
+   "fecha": "2022-10-16",
+   "mareas": [
+    {
+     "t": "05:48",
+     "h": 0.88,
+     "tipo": "P"
+    },
+    {
+     "t": "11:10",
+     "h": 0.48,
+     "tipo": "B"
+    },
+    {
+     "t": "17:53",
+     "h": 0.86,
+     "tipo": "P"
+    },
+    {
+     "t": "23:29",
+     "h": 0.49,
+     "tipo": "B"
+    }
+   ],
+   "preguntas": [
+    "8ffe05c109"
+   ]
+  },
+  {
+   "convocatoria": "2022-12",
+   "image": "img/anuario/2022-12-p34.webp",
+   "puerto": "Algeciras",
+   "fecha": "2022-12-09",
+   "mareas": [
+    {
+     "t": "02:37",
+     "h": 1.0,
+     "tipo": "P"
+    },
+    {
+     "t": "08:07",
+     "h": 0.26,
+     "tipo": "B"
+    },
+    {
+     "t": "14:37",
+     "h": 1.0,
+     "tipo": "P"
+    },
+    {
+     "t": "20:29",
+     "h": 0.22,
+     "tipo": "B"
+    }
+   ],
+   "preguntas": [
+    "735aed1fe5"
+   ]
+  },
+  {
+   "convocatoria": "2022-12",
+   "image": "img/anuario/2022-12-p22.webp",
+   "puerto": "San Cibrao – San Ciprián",
+   "fecha": "2022-12-05",
+   "mareas": [
+    {
+     "t": "01:19",
+     "h": 3.65,
+     "tipo": "P"
+    },
+    {
+     "t": "07:21",
+     "h": 1.06,
+     "tipo": "B"
+    },
+    {
+     "t": "13:36",
+     "h": 3.72,
+     "tipo": "P"
+    },
+    {
+     "t": "19:43",
+     "h": 0.93,
+     "tipo": "B"
+    }
+   ],
+   "preguntas": [
+    "321aa47cd3"
+   ]
+  },
+  {
+   "convocatoria": "2023-04",
+   "image": "img/anuario/2023-04-p56.webp",
+   "puerto": "San Juan de Nieva (Castrillón)",
+   "fecha": "2023-03-26",
+   "mareas": [
+    {
+     "t": "00:12",
+     "h": 0.76,
+     "tipo": "B"
+    },
+    {
+     "t": "06:25",
+     "h": 4.03,
+     "tipo": "P"
+    },
+    {
+     "t": "12:30",
+     "h": 1.0,
+     "tipo": "B"
+    },
+    {
+     "t": "18:40",
+     "h": 3.85,
+     "tipo": "P"
+    }
+   ],
+   "preguntas": [
+    "af51f7b745"
+   ]
+  },
+  {
+   "convocatoria": "2023-04",
+   "image": "img/anuario/2023-04-p101.webp",
+   "puerto": "Algeciras",
+   "fecha": "2023-04-05",
+   "mareas": [
+    {
+     "t": "01:44",
+     "h": 1.0,
+     "tipo": "P"
+    },
+    {
+     "t": "07:27",
+     "h": 0.18,
+     "tipo": "B"
+    },
+    {
+     "t": "14:00",
+     "h": 0.99,
+     "tipo": "P"
+    },
+    {
+     "t": "19:41",
+     "h": 0.19,
+     "tipo": "B"
+    }
+   ],
+   "preguntas": [
+    "b5d4ff8fe3"
+   ]
+  },
+  {
+   "convocatoria": "2023-06",
+   "image": "img/anuario/2023-06-p10.webp",
+   "puerto": "Algeciras",
+   "fecha": "2023-06-06",
+   "mareas": [
+    {
+     "t": "03:19",
+     "h": 1.02,
+     "tipo": "P"
+    },
+    {
+     "t": "09:08",
+     "h": 0.15,
+     "tipo": "B"
+    },
+    {
+     "t": "15:54",
+     "h": 1.01,
+     "tipo": "P"
+    },
+    {
+     "t": "21:22",
+     "h": 0.22,
+     "tipo": "B"
+    }
+   ],
+   "preguntas": [
+    "b39cb39f7d"
+   ]
+  },
+  {
+   "convocatoria": "2024-04",
+   "image": "img/anuario/2024-04-p70.webp",
+   "puerto": "Algeciras",
+   "fecha": "2024-04-04",
+   "mareas": [
+    {
+     "t": "04:17",
+     "h": 0.37,
+     "tipo": "B"
+    },
+    {
+     "t": "10:40",
+     "h": 0.81,
+     "tipo": "P"
+    },
+    {
+     "t": "16:59",
+     "h": 0.3,
+     "tipo": "B"
+    },
+    {
+     "t": "23:15",
+     "h": 0.87,
+     "tipo": "P"
+    }
+   ],
+   "preguntas": [
+    "4b9d82c17a"
+   ]
+  },
+  {
+   "convocatoria": "2024-06",
+   "image": "img/anuario/2024-06-p10.webp",
+   "puerto": "Algeciras",
+   "fecha": "2024-06-06",
+   "mareas": [
+    {
+     "t": "01:31",
+     "h": 1.01,
+     "tipo": "P"
+    },
+    {
+     "t": "07:24",
+     "h": 0.12,
+     "tipo": "B"
+    },
+    {
+     "t": "14:09",
+     "h": 0.97,
+     "tipo": "P"
+    },
+    {
+     "t": "19:34",
+     "h": 0.18,
+     "tipo": "B"
+    }
+   ],
+   "preguntas": [
+    "7fb256d716"
+   ]
+  },
+  {
+   "convocatoria": "2024-11",
+   "image": "img/anuario/2024-06-p10.webp",
+   "puerto": "Algeciras",
+   "fecha": "2024-08-02",
+   "mareas": [
+    {
+     "t": "00:20",
+     "h": 0.94,
+     "tipo": "P"
+    },
+    {
+     "t": "06:30",
+     "h": 0.27,
+     "tipo": "B"
+    },
+    {
+     "t": "13:02",
+     "h": 0.97,
+     "tipo": "P"
+    },
+    {
+     "t": "18:39",
+     "h": 0.29,
+     "tipo": "B"
+    }
+   ],
+   "preguntas": [
+    "30709bddda"
+   ]
+  },
+  {
+   "convocatoria": "2024-06",
+   "image": "img/anuario/2024-06-p22.webp",
+   "puerto": "Tapia de Casariego",
+   "fecha": "2024-06-29",
+   "mareas": [
+    {
+     "t": "02:54",
+     "h": 0.93,
+     "tipo": "B"
+    },
+    {
+     "t": "09:21",
+     "h": 3.29,
+     "tipo": "P"
+    },
+    {
+     "t": "15:20",
+     "h": 1.15,
+     "tipo": "B"
+    },
+    {
+     "t": "21:43",
+     "h": 3.52,
+     "tipo": "P"
+    }
+   ],
+   "preguntas": [
+    "d24819f3d9"
+   ]
+  },
+  {
+   "convocatoria": "2024-11",
+   "image": "img/anuario/2024-11-p22.webp",
+   "puerto": "Vigo",
+   "fecha": "2024-11-23",
+   "mareas": [
+    {
+     "t": "02:14",
+     "h": 1.58,
+     "tipo": "B"
+    },
+    {
+     "t": "08:43",
+     "h": 2.93,
+     "tipo": "P"
+    },
+    {
+     "t": "15:21",
+     "h": 1.45,
+     "tipo": "B"
+    },
+    {
+     "t": "21:37",
+     "h": 2.68,
+     "tipo": "P"
+    }
+   ],
+   "preguntas": [
+    "789eaeade9"
+   ]
+  },
+  {
+   "convocatoria": "2025-04",
+   "image": "img/anuario/2025-04-p68.webp",
+   "puerto": "Algeciras",
+   "fecha": "2025-04-10",
+   "mareas": [
+    {
+     "t": "00:47",
+     "h": 0.94,
+     "tipo": "P"
+    },
+    {
+     "t": "06:32",
+     "h": 0.21,
+     "tipo": "B"
+    },
+    {
+     "t": "13:06",
+     "h": 0.92,
+     "tipo": "P"
+    },
+    {
+     "t": "18:50",
+     "h": 0.21,
+     "tipo": "B"
+    }
+   ],
+   "preguntas": [
+    "0f1d4550ff"
+   ]
+  },
+  {
+   "convocatoria": "2025-04",
+   "image": "img/anuario/2025-04-p107.webp",
+   "puerto": "Bilbao",
+   "fecha": "2025-04-26",
+   "mareas": [
+    {
+     "t": "01:55",
+     "h": 4.31,
+     "tipo": "P"
+    },
+    {
+     "t": "08:03",
+     "h": 0.49,
+     "tipo": "B"
+    },
+    {
+     "t": "14:20",
+     "h": 4.25,
+     "tipo": "P"
+    },
+    {
+     "t": "20:23",
+     "h": 0.49,
+     "tipo": "B"
+    }
+   ],
+   "preguntas": [
+    "e010b0ab10"
+   ]
+  },
+  {
+   "convocatoria": "2025-06",
+   "image": "img/anuario/2025-04-p68.webp",
+   "puerto": "Algeciras",
+   "fecha": "2025-01-23",
+   "mareas": [
+    {
+     "t": "01:50",
+     "h": 0.41,
+     "tipo": "B"
+    },
+    {
+     "t": "08:39",
+     "h": 0.75,
+     "tipo": "P"
+    },
+    {
+     "t": "15:09",
+     "h": 0.39,
+     "tipo": "B"
+    },
+    {
+     "t": "21:23",
+     "h": 0.69,
+     "tipo": "P"
+    }
+   ],
+   "preguntas": [
+    "ce95c919e9"
+   ]
+  },
+  {
+   "convocatoria": "2025-11",
+   "image": "img/anuario/2025-11-p67.webp",
+   "puerto": "Gijón",
+   "fecha": "2025-06-28",
+   "mareas": [
+    {
+     "t": "05:23",
+     "h": 3.85,
+     "tipo": "P"
+    },
+    {
+     "t": "11:16",
+     "h": 0.84,
+     "tipo": "B"
+    },
+    {
+     "t": "17:39",
+     "h": 4.1,
+     "tipo": "P"
+    },
+    {
+     "t": "23:55",
+     "h": 0.73,
+     "tipo": "B"
+    }
+   ],
+   "preguntas": [
+    "8330c5874b"
+   ]
+  },
+  {
+   "convocatoria": "2025-11",
+   "image": "img/anuario/2025-11-p106.webp",
+   "puerto": "Gijón",
+   "fecha": "2025-11-22",
+   "mareas": [
+    {
+     "t": "04:08",
+     "h": 3.97,
+     "tipo": "P"
+    },
+    {
+     "t": "10:20",
+     "h": 1.09,
+     "tipo": "B"
+    },
+    {
+     "t": "16:28",
+     "h": 3.75,
+     "tipo": "P"
+    },
+    {
+     "t": "22:28",
+     "h": 1.2,
+     "tipo": "B"
+    }
+   ],
+   "preguntas": [
+    "18bc3826f8"
+   ]
+  },
+  {
+   "convocatoria": "2026-04",
+   "image": "img/anuario/2026-04-p105.webp",
+   "puerto": "Algeciras",
+   "fecha": "2026-04-08",
+   "mareas": [
+    {
+     "t": "05:28",
+     "h": 0.8,
+     "tipo": "P"
+    },
+    {
+     "t": "11:11",
+     "h": 0.35,
+     "tipo": "B"
+    },
+    {
+     "t": "18:08",
+     "h": 0.78,
+     "tipo": "P"
+    },
+    {
+     "t": "23:27",
+     "h": 0.42,
+     "tipo": "B"
+    }
+   ],
+   "preguntas": [
+    "d523c70e2a",
+    "2b8efebc73"
+   ]
+  },
+  {
+   "convocatoria": "2026-06",
+   "image": "img/anuario/2026-06-p10.webp",
+   "puerto": "Algeciras",
+   "fecha": "2026-06-20",
+   "mareas": [
+    {
+     "t": "06:06",
+     "h": 0.89,
+     "tipo": "P"
+    },
+    {
+     "t": "11:44",
+     "h": 0.24,
+     "tipo": "B"
+    },
+    {
+     "t": "18:40",
+     "h": 0.93,
+     "tipo": "P"
+    }
+   ],
+   "preguntas": [
+    "6e78a23e77"
+   ]
+  }
+ ],
+ "recordsNote": "Mareas transcritas de las imágenes (horas UTC, alturas en m). Verificadas contra las claves oficiales: corrección por presión = interpolación lineal de la tabla (≈ +1 cm por cada mb por debajo de 1013; −1 cm por cada mb por encima)."
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Puente de Mando PER",
+  "short_name": "PER",
+  "description": "Estudio del examen PER: temario, tests y simulacros",
+  "lang": "es",
+  "start_url": "./#inicio",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#09141c",
+  "theme_color": "#0f1e29",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,571 @@
+{
+ "id": 5,
+ "title": "Balizamiento",
+ "blocks": [
+  "bal"
+ ],
+ "summary": "Sistema de balizamiento IALA/AISM Región A (MBS 2022): laterales, canal preferido, cardinales, peligro aislado, aguas navegables, especiales, nuevos peligros y naufragios. Entran 5 preguntas en el examen y solo se admiten 2 fallos, así que hay que dominar la tabla de formas, colores, topes y ritmos.",
+ "subtemas": [
+  {
+   "id": "5.1",
+   "title": "Ritmos y características de las luces",
+   "html": "<p>El balizamiento español sigue el <b>Sistema de Balizamiento Marítimo de la IALA/AISM (MBS, Recomendación R1001, ed. 2022)</b>, <b>Región A</b> (Europa, África, Asia salvo Japón, Corea y Filipinas, Oceanía). De día una marca se identifica por <b>forma, color y marca de tope</b>; de noche por el <b>color y el ritmo</b> de su luz. La <b>característica</b> de una luz en la carta se escribe así: <i>ritmo (nº destellos) color periodo</i>, p. ej. <b>Fl(2) R 6s</b> = grupos de 2 destellos rojos que se repiten cada 6 segundos (el <b>periodo</b> es lo que tarda en repetirse el ciclo completo).</p> <h4>Tabla de ritmos</h4> <table><thead><tr><th>Abrev. internacional</th><th>Abrev. española</th><th>Nombre</th><th>Cómo se ve</th></tr></thead><tbody> <tr><td>F</td><td>F</td><td>Fija</td><td>Luz continua y uniforme, sin oscuridades.</td></tr> <tr><td>Fl</td><td>D</td><td>Destellos aislados</td><td>Luz más corta que la oscuridad; destellos regulares a menos de 50 por minuto.</td></tr> <tr><td>LFl</td><td>DL</td><td>Destello largo</td><td>Destello de <b>al menos 2 s</b>. P. ej. LFl 10s (aguas navegables).</td></tr> <tr><td>Fl(n)</td><td>GpD(n)</td><td>Grupos de destellos</td><td>Grupos de n destellos separados por una oscuridad más larga. P. ej. Fl(2) = peligro aislado.</td></tr> <tr><td>Fl(2+1)</td><td>GpD(2+1)</td><td>Grupos complejos de destellos</td><td>Un grupo de 2 seguido de uno de 1. <b>Reservado a las marcas de canal preferido (bifurcación)</b>.</td></tr> <tr><td>Q</td><td>Ct</td><td>Centelleante (rápida)</td><td><b>50–79 centelleos/min</b> (normalmente 60).</td></tr> <tr><td>VQ</td><td>CtR</td><td>Centelleante muy rápida</td><td><b>80–159/min</b> (normalmente 100 o 120).</td></tr> <tr><td>UQ</td><td>CtUR</td><td>Ultrarrápida</td><td>160 o más/min.</td></tr> <tr><td>Q(n), VQ(n)</td><td>GpCt(n)</td><td>Grupos de centelleos</td><td>Usados en las cardinales E (3), S (6+LFl), W (9).</td></tr> <tr><td>IQ</td><td>CtI</td><td>Centelleante interrumpida</td><td>Centelleos interrumpidos por oscuridades largas regulares.</td></tr> <tr><td>Iso</td><td>Iso</td><td>Isofase</td><td>Luz y oscuridad de <b>igual duración</b>.</td></tr> <tr><td>Oc</td><td>Oc</td><td>Ocultaciones</td><td>Luz <b>más larga</b> que la oscuridad (lo contrario del destello).</td></tr> <tr><td>Oc(n)</td><td>GpOc(n)</td><td>Grupos de ocultaciones</td><td>Grupos de n ocultaciones.</td></tr> <tr><td>Mo(A)</td><td>Mo(A)</td><td>Morse</td><td>Destellos corto-largo de la letra A (· –). Aguas navegables.</td></tr> <tr><td>Al.WR, Al.Bu Y</td><td>Alt.</td><td>Alternativa</td><td>La luz cambia de color en cada aparición. Al.Bu Y = marca de naufragio de emergencia.</td></tr> </tbody></table> <p>Colores: W blanca, R roja, G verde, Y amarilla, Bu azul. Si no se indica color, la luz es blanca.</p> <h4>Ritmo y color según tipo de marca (resumen)</h4> <table><thead><tr><th>Marca</th><th>Color luz</th><th>Ritmo</th></tr></thead><tbody> <tr><td>Lateral babor / estribor</td><td>Roja / verde</td><td>Cualquiera <b>excepto Fl(2+1)</b> (p. ej. Fl, Fl(2), Fl(3), Fl(4), Q, Oc…)</td></tr> <tr><td>Canal preferido</td><td>Roja (principal a Er) / verde (principal a Br)</td><td><b>Fl(2+1)</b></td></tr> <tr><td>Cardinales</td><td>Blanca</td><td>N: Q/VQ continuo; E: Q(3) 10 s / VQ(3) 5 s; S: Q(6)+LFl 15 s / VQ(6)+LFl 10 s; W: Q(9) 15 s / VQ(9) 10 s</td></tr> <tr><td>Peligro aislado</td><td>Blanca</td><td><b>Fl(2)</b></td></tr> <tr><td>Aguas navegables</td><td>Blanca</td><td><b>Iso, Oc, LFl 10 s o Mo(A)</b></td></tr> <tr><td>Especial</td><td>Amarilla</td><td>Cualquiera que <b>no</b> sea de las luces blancas (p. ej. Fl Y, Fl(4) Y, Fl(5) Y 20s, Oc(n) Y, Fl(2+1) Y)</td></tr> <tr><td>Naufragio de emergencia</td><td>Azul y amarilla alternadas</td><td>Al.Bu Y (1 s cada una, con 0,5 s de oscuridad)</td></tr> <tr><td>Ayuda móvil (MAtoN)</td><td>Amarilla</td><td>Ritmo propio: 3 centelleos + 2 destellos</td></tr> </tbody></table> <p>Fíjate en la lógica: las luces <b>blancas</b> se reparten sin solaparse. Las cardinales usan <b>centelleos</b> (Q/VQ), el peligro aislado usa <b>2 destellos</b> y las aguas navegables usan <b>ritmos largos</b> (Iso/Oc/LFl/Mo A). Así se distinguen de noche. Las luces <b>amarillas</b> de las especiales nunca usan ritmos de luz blanca: con mala visibilidad el amarillo puede parecer blanco.</p> <p>Laterales: las luces de un canal pueden estar <b>sincronizadas</b> (destellan a la vez), <b>secuenciadas</b> (una tras otra, marcan el sentido del canal) <b>o combinar ambos modos</b>.</p> <p><b>Ojo con el RIPA:</b> la «luz centelleante» de la Regla 21 del RIPA es de <b>120 o más centelleos/min</b>. Esa definición es de luces de buques y no coincide con la Q de la IALA (50–79/min).</p>",
+   "keyFacts": [
+    "LFl = destello largo de al menos 2 s",
+    "Q (centelleante) 50–79/min; VQ (muy rápida) 80–159/min; UQ ≥160/min",
+    "Iso: luz = oscuridad; Oc: luz > oscuridad; Fl: luz < oscuridad",
+    "Fl(2+1) reservado al canal preferido (bifurcación)",
+    "Fl(2) blanca = peligro aislado",
+    "Iso / Oc / LFl 10s / Mo(A) blanca = aguas navegables",
+    "Mo(A) = · – ; característico de aguas navegables",
+    "Luz amarilla = marca especial (ritmo distinto de las blancas)",
+    "Laterales: luces sincronizadas, secuenciadas o combinación de ambas",
+    "Al.Bu Y = marca de naufragio de emergencia"
+   ],
+   "traps": [
+    "«Ritmo isofase de ocultaciones, un destello largo cada 10 s»: el examen agrupa así Iso / Oc / LFl 10s de aguas navegables; la respuesta con «cada 5 s» o con GpD(2) es falsa.",
+    "Las laterales NO pueden usar Fl(2+1), porque está reservado a las marcas de bifurcación. Cualquier otro ritmo rojo o verde sí vale.",
+    "No confundas la Q IALA (50–79/min) con la luz centelleante del RIPA (≥120/min).",
+    "Sincronización de laterales: no hay que elegir entre sincronizadas o secuenciales; se admite la combinación de ambas.",
+    "Una luz amarilla con grupos de 5 destellos cada 20 s es una marca especial, no una cardinal ni un peligro aislado."
+   ],
+   "upd2026": "IALA MBS ed. 2022 (R1001): se añaden la marca de naufragio de emergencia (Al.Bu Y) y el ritmo propio de las ayudas móviles MAtoN (3 centelleos + 2 destellos amarillos). Aguas navegables: Iso, Oc, LFl 10s o Mo(A).",
+   "sources": [
+    "Apuntes PER pp.43–46",
+    "PER 2007 p.251 (definiciones de luces)",
+    "IALA R1001 MBS ed. 2022",
+    "IALA E-110 Ritmos de las luces"
+   ],
+   "kw": [
+    "ritmo",
+    "destello",
+    "destellos",
+    "gpd",
+    "grupo de dos destellos",
+    "2+1",
+    "centelleante",
+    "centelleos",
+    "isofase",
+    "ocultaciones",
+    "destello largo",
+    "morse",
+    "sincronizadas",
+    "secuenciadas",
+    "luz amarilla",
+    "luz blanca",
+    "cada 10 segundos",
+    "cada 5 segundos",
+    "cada 15 segundos",
+    "periodo",
+    "q(3)",
+    "vq(3)",
+    "fl(2)"
+   ],
+   "flash": [
+    {
+     "q": "¿Qué significa Fl(3) G 9s?",
+     "a": "Grupos de 3 destellos verdes que se repiten cada 9 s"
+    },
+    {
+     "q": "¿Qué duración mínima tiene un destello largo (LFl)?",
+     "a": "2 segundos"
+    },
+    {
+     "q": "¿Qué frecuencia tiene una luz centelleante (Q) IALA?",
+     "a": "50–79 centelleos/min (normalmente 60)"
+    },
+    {
+     "q": "¿Y una centelleante muy rápida (VQ)?",
+     "a": "80–159/min (normalmente 100–120)"
+    },
+    {
+     "q": "En una luz isofase, ¿cómo son luz y oscuridad?",
+     "a": "De igual duración"
+    },
+    {
+     "q": "¿Cómo es una luz de ocultaciones?",
+     "a": "La luz dura más que la oscuridad"
+    },
+    {
+     "q": "¿Qué ritmo está reservado a la bifurcación de canales?",
+     "a": "Fl(2+1), grupos complejos de 2+1 destellos"
+    },
+    {
+     "q": "¿A qué marca corresponde una luz blanca Fl(2)?",
+     "a": "Peligro aislado"
+    },
+    {
+     "q": "¿Qué ritmos admite la marca de aguas navegables?",
+     "a": "Iso, Oc, LFl 10 s o Mo(A), siempre en blanco"
+    },
+    {
+     "q": "¿A qué marca corresponde una luz amarilla Fl(5) 20s?",
+     "a": "Marca especial"
+    },
+    {
+     "q": "¿Qué modos de sincronización tienen las luces laterales?",
+     "a": "Sincronizadas, secuenciadas o una combinación de ambas"
+    },
+    {
+     "q": "¿Qué señal Morse se usa en aguas navegables?",
+     "a": "La letra A (· –)"
+    },
+    {
+     "q": "¿Qué luz lleva la marca de naufragio de emergencia?",
+     "a": "Alternada azul y amarilla (Al.Bu Y)"
+    },
+    {
+     "q": "¿Qué frecuencia define el RIPA para la «luz centelleante»?",
+     "a": "120 o más centelleos por minuto"
+    }
+   ]
+  },
+  {
+   "id": "5.2",
+   "title": "Marcas laterales (Región A) y canal preferido",
+   "html": "<p>Las marcas laterales señalan los <b>límites de babor y estribor de un canal</b>, siempre según el <b>sentido convencional del balizamiento</b>.</p> <p><b>Sentido convencional del balizamiento</b>: el que sigue el navegante que <b>se aproxima a un puerto, río, estuario u otra vía navegable viniendo desde el mar</b>. También puede fijarlo la autoridad competente, en principio siguiendo <b>el sentido de las agujas del reloj alrededor de las masas de tierra</b>. Se indica en las cartas y documentos náuticos.</p> <h4>Región A: «ROJO a BABOR al ENTRAR»</h4> <table><thead><tr><th></th><th>Babor</th><th>Estribor</th></tr></thead><tbody> <tr><td>Color</td><td><b>Rojo</b></td><td><b>Verde</b></td></tr> <tr><td>Forma de la boya</td><td><b>Cilíndrica</b>, castillete o espeque</td><td><b>Cónica</b>, castillete o espeque</td></tr> <tr><td>Marca de tope (si tiene)</td><td>Un <b>cilindro rojo</b></td><td>Un <b>cono verde con el vértice hacia arriba</b></td></tr> <tr><td>Luz (si tiene)</td><td>Roja, cualquier ritmo salvo Fl(2+1)</td><td>Verde, cualquier ritmo salvo Fl(2+1)</td></tr> <tr><td>Numeración</td><td><b>Pares</b></td><td><b>Impares</b></td></tr> </tbody></table> <ul> <li><b>Entrando</b> en puerto (sentido convencional) se dejan las <b>rojas a babor</b> y las <b>verdes a estribor</b>. Las marcas coinciden con tus costados.</li> <li><b>Saliendo</b> ocurre lo contrario: las rojas quedan por estribor y las verdes por babor. Si ves una boya roja por tu estribor, estás <b>saliendo de puerto por dentro del canal</b>. Si ves un cono verde por estribor, estás <b>entrando por dentro del canal</b>.</li> <li>La numeración o las letras siguen el sentido convencional, es decir, se cuenta <b>desde el mar</b>: pares las rojas, impares las verdes.</li> <li>Mnemotecnia: «<b>vuelve el viejo verde a la estrella</b>»: entrando, el verde está a estribor. Otra: «el <b>cono</b> apunta al cielo: es la de <b>estribor</b>».</li> <li>En <b>Región B</b> (América, Japón, Corea, Filipinas) los colores van al revés: roja a estribor al entrar. No entra en el PER salvo como distractor.</li> </ul> <h4>Marcas laterales modificadas: canal preferido (bifurcación)</h4> <p>En el punto en que un canal se divide en dos, una <b>marca lateral modificada</b> indica cuál es el <b>canal principal o preferido</b> (navegando en el sentido convencional). Llevan una <b>banda ancha horizontal</b> del otro color y su luz tiene ritmo <b>Fl(2+1)</b>.</p> <table><thead><tr><th></th><th>Canal principal a ESTRIBOR</th><th>Canal principal a BABOR</th></tr></thead><tbody> <tr><td>Es una marca de…</td><td>babor modificada</td><td>estribor modificada</td></tr> <tr><td>Color</td><td><b>Roja con una banda ancha horizontal verde</b></td><td><b>Verde con una banda ancha horizontal roja</b></td></tr> <tr><td>Forma</td><td>Cilíndrica, castillete o espeque</td><td>Cónica, castillete o espeque</td></tr> <tr><td>Tope</td><td>Cilindro rojo</td><td>Cono verde vértice arriba</td></tr> <tr><td>Luz</td><td><b>Roja Fl(2+1)</b></td><td><b>Verde Fl(2+1)</b></td></tr> </tbody></table> <p><b>Cómo leerlas</b>: manda el color de fondo de la boya, no la banda.</p> <ul> <li>Si sigues el <b>canal principal</b>, trátala como una lateral normal de su color de fondo. Una roja Fl(2+1) se deja <b>por babor</b> (el canal principal queda a estribor).</li> <li>Si vas al <b>canal secundario</b>, déjala por el costado contrario. Una roja Fl(2+1) se deja <b>por estribor</b>, dando rumbo a babor.</li> <li>Con una verde-banda-roja Fl(2+1) (principal a babor): para el principal la dejas por estribor; para el secundario caes a estribor y la dejas por babor.</li> <li>Las luces <b>rojas</b> las llevan las laterales de babor y las modificadas de <b>canal principal a estribor</b>. Las <b>verdes</b> las llevan las de estribor y las de <b>canal principal a babor</b>.</li> </ul> <h4>Ejemplos de examen con lugares reales (se aplican las reglas generales)</h4> <ul> <li>Entrando en Puerto Sherry ves por proa una boya cilíndrica roja. Vas en el sentido convencional y es lateral de babor: déjala por babor.</li> <li>Santander, hacia Pedreña: la marca que dice «canal principal a estribor» es <b>roja con banda ancha horizontal verde</b>.</li> <li>Cangas: luz roja Fl(2+1) por proa y destino en el canal secundario. Das rumbo a babor y dejas la marca por tu estribor. Si el destino estuviera en el canal principal, la dejarías por babor.</li> <li>Santurtzi: espeque verde con banda roja y destino en el canal secundario. Das rumbo a estribor y dejas la marca por babor.</li> <li>De noche ves por el través de babor una roja Fl(2+1) y por el de estribor una verde Q. Vas por el canal principal. Si a babor ves una verde Fl(2+1), vas por el canal secundario.</li> <li>Recalando en Vigo: roja Fl(4) es marca de babor. En Ceuta, verde Fl es marca de estribor. Cerca de Sálvora o Toralla, verde Fl(2) o Fl(3) es marca de estribor.</li> </ul>",
+   "keyFacts": [
+    "Región A: babor roja cilíndrica; estribor verde cónica",
+    "Tope babor: cilindro rojo; tope estribor: cono verde vértice arriba",
+    "Sentido convencional: viniendo del mar hacia puerto, río o estuario; en principio en el sentido de las agujas del reloj alrededor de las masas de tierra",
+    "Numeración desde el mar: pares rojas, impares verdes",
+    "Canal principal a estribor: roja con banda verde, luz roja Fl(2+1)",
+    "Canal principal a babor: verde con banda roja, luz verde Fl(2+1)",
+    "Laterales: cualquier ritmo salvo Fl(2+1)",
+    "Boya roja por estribor: saliendo de puerto por dentro del canal",
+    "Formas: cilíndrica o cónica, castillete o espeque"
+   ],
+   "traps": [
+    "La banda horizontal NO indica el lado del canal principal: manda el color de fondo. Roja con banda verde significa canal principal a ESTRIBOR.",
+    "El sentido convencional es en el sentido de las agujas del reloj, no el contrario, y se toma viniendo desde el mar, no alejándose.",
+    "La numeración es pares las ROJAS, impares las VERDES, y no «numeradas desde tierra».",
+    "El cono de estribor tiene el vértice hacia ARRIBA. «Cono rojo vértice abajo» es un distractor.",
+    "Para ir al canal secundario se deja la marca modificada por el costado contrario al habitual de su color."
+   ],
+   "upd2026": null,
+   "sources": [
+    "Apuntes PER pp.43–44",
+    "IALA R1001 MBS ed. 2022, cap. marcas laterales"
+   ],
+   "kw": [
+    "lateral",
+    "laterales",
+    "babor",
+    "estribor",
+    "cilindrica",
+    "conica",
+    "cilindro",
+    "cono verde",
+    "roja",
+    "verde",
+    "banda ancha horizontal",
+    "canal principal",
+    "canal secundario",
+    "bifurcacion",
+    "modificada",
+    "2+1",
+    "sentido convencional",
+    "agujas del reloj",
+    "numeracion",
+    "pares",
+    "impares",
+    "entrando",
+    "saliendo",
+    "region a",
+    "boya roja",
+    "espeque",
+    "castillete"
+   ],
+   "flash": [
+    {
+     "q": "Región A, entrando en puerto: ¿por qué banda se dejan las marcas rojas?",
+     "a": "Por babor"
+    },
+    {
+     "q": "¿Qué forma tiene la boya lateral de estribor?",
+     "a": "Cónica (o castillete o espeque)"
+    },
+    {
+     "q": "¿Cuál es la marca de tope de la lateral de babor?",
+     "a": "Un cilindro rojo"
+    },
+    {
+     "q": "¿Cuál es la marca de tope de la lateral de estribor?",
+     "a": "Un cono verde con el vértice hacia arriba"
+    },
+    {
+     "q": "¿Cómo se numeran las laterales?",
+     "a": "Desde el mar: pares las rojas, impares las verdes"
+    },
+    {
+     "q": "¿Qué es el sentido convencional del balizamiento?",
+     "a": "El de quien llega del mar a un puerto, río o estuario; si lo fija la autoridad, en principio en el sentido de las agujas del reloj alrededor de las masas de tierra"
+    },
+    {
+     "q": "¿Qué indica una boya verde con banda ancha horizontal roja?",
+     "a": "Bifurcación con canal principal a babor"
+    },
+    {
+     "q": "¿Qué luz lleva la marca de canal principal a estribor?",
+     "a": "Roja Fl(2+1)"
+    },
+    {
+     "q": "Ves una roja Fl(2+1) y quieres ir al canal secundario. ¿Por qué costado la dejas?",
+     "a": "Por estribor (das rumbo a babor)"
+    },
+    {
+     "q": "Ves una roja Fl(2+1) y vas por el canal principal. ¿Por qué costado la dejas?",
+     "a": "Por babor"
+    },
+    {
+     "q": "¿Qué marcas emiten luz roja?",
+     "a": "Las laterales de babor y las modificadas de canal principal a estribor"
+    },
+    {
+     "q": "Ves una boya roja por estribor. ¿Qué estás haciendo?",
+     "a": "Saliendo de puerto por dentro del canal"
+    },
+    {
+     "q": "¿Qué ritmo no pueden usar las laterales normales?",
+     "a": "Fl(2+1)"
+    },
+    {
+     "q": "¿Qué es una luz verde Fl(3) en una recalada?",
+     "a": "Una marca lateral de estribor"
+    }
+   ]
+  },
+  {
+   "id": "5.3",
+   "title": "Marcas cardinales",
+   "html": "<p>Una marca cardinal indica que <b>las aguas más profundas (las navegables y seguras) están en el cuadrante que da nombre a la marca</b>. Se usan junto con el <b>compás</b> (aguja): la cardinal Norte se deja al norte, es decir, se pasa por su lado norte.</p> <p>Los cuadrantes N, E, S y W están limitados por las <b>demoras verdaderas</b> NW-NE, NE-SE, SE-SW y SW-NW, tomadas desde el punto que interesa balizar. <i>El examen da como incorrecta la versión que dice «marcaciones»: son demoras.</i></p> <h4>Usos de las cardinales</h4> <ul> <li>Indicar dónde están las <b>aguas más profundas</b> de esa zona.</li> <li>Indicar el <b>lado seguro</b> por el que hay que pasar un peligro.</li> <li>Llamar la atención sobre una <b>configuración especial de un canal</b>: recodo o curva, confluencia o unión, bifurcación, o el extremo de un bajo fondo.</li> <li><b>NO</b> sirven para indicar la entrada de un canal o una recalada (eso es de aguas navegables). Tampoco para un peligro rodeado de aguas navegables (peligro aislado) ni para señalar líneas isobáticas irregulares.</li> </ul> <h4>Características comunes</h4> <ul> <li>Forma: sin forma especial. Normalmente <b>castillete o espeque</b>.</li> <li>Color: <b>siempre bandas horizontales negras y amarillas</b>.</li> <li>Marca de tope: <b>dos conos negros superpuestos</b>. Es su <b>característica diurna más importante</b>.</li> <li>Luz: <b>blanca</b>, centelleante Q o muy rápida VQ.</li> </ul> <table><thead><tr><th>Cardinal</th><th>Tope (2 conos negros)</th><th>Colores</th><th>Luz VQ</th><th>Luz Q</th></tr></thead><tbody> <tr><td><b>Norte</b></td><td>Vértices <b>hacia arriba</b> ▲▲</td><td>Negra arriba, amarilla abajo</td><td>VQ continua</td><td>Q continua</td></tr> <tr><td><b>Este</b></td><td><b>Opuestos por las bases</b> ◆ («huevo» o rombo)</td><td><b>Negra con una banda ancha horizontal amarilla</b></td><td>VQ(3) 5 s</td><td>Q(3) 10 s</td></tr> <tr><td><b>Sur</b></td><td>Vértices <b>hacia abajo</b> ▼▼</td><td>Amarilla arriba, negra abajo</td><td>VQ(6)+LFl 10 s</td><td>Q(6)+LFl 15 s</td></tr> <tr><td><b>Oeste</b></td><td><b>Opuestos por los vértices</b> ⧗ («cintura», «copa» o reloj de arena)</td><td><b>Amarilla con una banda ancha horizontal negra</b> (negra entre dos amarillas)</td><td>VQ(9) 10 s</td><td>Q(9) 15 s</td></tr> </tbody></table> <h4>Mnemotecnias</h4> <ul> <li><b>Reloj 3-6-9</b>: los destellos coinciden con la esfera de un reloj. Este = 3 (las 3 en punto), Sur = 6, Oeste = 9 y Norte = 12, que se ve como centelleo continuo. A la Sur se le añade un <b>destello largo</b> (LFl) para no confundir 6 con 9.</li> <li><b>Los conos «apuntan» a las bandas negras</b>. N ▲▲: negro arriba. S ▼▼: negro abajo. E ◆ (puntas fuera): negro arriba y abajo. W ⧗ (puntas al centro): negro en el centro.</li> <li><b>Los conos apuntan a la cardinal</b>: hacia arriba (Norte del mapa) es N; hacia abajo es S.</li> <li><b>Este = «huevo»</b> (bases unidas, forma ovalada). <b>Oeste = «cintura» o «copa»</b> (vértices unidos, forma de W tumbada, «Wine glass»).</li> <li>Periodos: con VQ, 5 s (E) y 10 s (S, W); con Q, 10 s (E) y 15 s (S, W). El Este siempre lleva el periodo más corto.</li> </ul> <h4>Cómo maniobrar</h4> <p>Se pasa por el cuadrante del nombre. Si navegas al 090° y aparece una <b>Norte</b> por la proa, el peligro está al sur de la boya: cae a babor para dejarla por estribor y pasar por su norte. Con una <b>Oeste</b> (⧗, amarilla-negra-amarilla), para salvar el peligro navega por el cuadrante Oeste de la marca. Con una <b>Este</b> (◆, negra-amarilla-negra), las aguas más profundas están al Este.</p> <p>Ejemplos reales: en Barbate, VQ(3) 5 s = Este, aguas profundas al Este. En Panxón, Q(6)+LFl 15 s = Sur. En Ons, conos opuestos por los vértices = Oeste.</p>",
+   "keyFacts": [
+    "Cardinal: aguas más profundas en el cuadrante de su nombre; se pasa por ese lado",
+    "Se usan asociadas al compás (aguja)",
+    "Siempre bandas horizontales negras y amarillas; tope de dos conos negros",
+    "Característica diurna más importante: la marca de tope",
+    "N ▲▲ Q/VQ continua; E ◆ Q(3)10s / VQ(3)5s; S ▼▼ Q(6)+LFl 15s / VQ(6)+LFl 10s; W ⧗ Q(9)15s / VQ(9)10s",
+    "Este: negra con banda amarilla (bases opuestas, «huevo»)",
+    "Oeste: amarilla con banda negra (vértices opuestos, «cintura»)",
+    "Cuadrantes limitados por demoras verdaderas NW-NE, NE-SE, SE-SW y SW-NW desde el punto balizado",
+    "No sirven para señalar la entrada de un canal ni un punto de recalada"
+   ],
+   "traps": [
+    "Este = conos opuestos por sus BASES; Oeste = opuestos por sus VÉRTICES. Es fácil confundirlos.",
+    "«Negra con banda amarilla» es Este; «amarilla con banda negra» o «negra entre dos amarillas» es Oeste.",
+    "Los cuadrantes se limitan con DEMORAS verdaderas; si la opción dice «marcaciones», es la incorrecta.",
+    "La característica diurna más importante es la marca de tope, no el color ni la forma.",
+    "Las cardinales no indican peligros rodeados de aguas navegables (eso es peligro aislado) ni entradas o recaladas (eso es aguas navegables).",
+    "La Sur lleva 6 centelleos MÁS un destello largo; «seis centelleos cada 10 s» sin el destello largo es un distractor."
+   ],
+   "upd2026": "IALA MBS 2022: periodos oficiales N continuo; E Q(3)10s / VQ(3)5s; S Q(6)+LFl 15s / VQ(6)+LFl 10s; W Q(9)15s / VQ(9)10s.",
+   "sources": [
+    "Apuntes PER pp.44–45",
+    "IALA R1001 MBS ed. 2022, marcas cardinales"
+   ],
+   "kw": [
+    "cardinal",
+    "cardinales",
+    "norte",
+    "este",
+    "sur",
+    "oeste",
+    "cuadrante",
+    "conos",
+    "dos conos negros",
+    "opuestos por sus bases",
+    "opuestos por sus vertices",
+    "vertices hacia arriba",
+    "vertices hacia abajo",
+    "negra",
+    "amarilla",
+    "banda horizontal",
+    "aguas mas profundas",
+    "compas",
+    "q(6)",
+    "vq(3)",
+    "tres centelleos",
+    "seis centelleos",
+    "nueve centelleos",
+    "destello largo",
+    "marca de tope",
+    "demoras",
+    "aguas mas seguras"
+   ],
+   "flash": [
+    {
+     "q": "¿Qué indica una marca cardinal Norte?",
+     "a": "Que las aguas más profundas están al norte: hay que pasar por su norte"
+    },
+    {
+     "q": "¿Cuál es la marca de tope de la cardinal Este?",
+     "a": "Dos conos negros opuestos por las bases (◆)"
+    },
+    {
+     "q": "¿Cuál es la marca de tope de la cardinal Oeste?",
+     "a": "Dos conos negros opuestos por los vértices (⧗)"
+    },
+    {
+     "q": "¿Cuál es la marca de tope de la cardinal Norte?",
+     "a": "Dos conos negros con los vértices hacia arriba"
+    },
+    {
+     "q": "¿Qué colores tiene la cardinal Este?",
+     "a": "Negra con una banda ancha horizontal amarilla"
+    },
+    {
+     "q": "¿Qué colores tiene la cardinal Oeste?",
+     "a": "Amarilla con una banda ancha horizontal negra"
+    },
+    {
+     "q": "¿Qué luz tiene la cardinal Este?",
+     "a": "Blanca, Q(3) cada 10 s o VQ(3) cada 5 s"
+    },
+    {
+     "q": "¿Qué luz tiene la cardinal Sur?",
+     "a": "Blanca, Q(6)+LFl cada 15 s o VQ(6)+LFl cada 10 s"
+    },
+    {
+     "q": "¿Qué luz tiene la cardinal Oeste?",
+     "a": "Blanca, Q(9) cada 15 s o VQ(9) cada 10 s"
+    },
+    {
+     "q": "¿Qué luz tiene la cardinal Norte?",
+     "a": "Blanca, Q o VQ continua"
+    },
+    {
+     "q": "¿Cuál es la característica diurna más importante de una cardinal?",
+     "a": "La marca de tope"
+    },
+    {
+     "q": "¿Con qué equipo del buque se usan las cardinales?",
+     "a": "Con el compás"
+    },
+    {
+     "q": "¿Qué limita los cuadrantes de una cardinal?",
+     "a": "Las demoras verdaderas NW-NE, NE-SE, SE-SW y SW-NW desde el punto balizado"
+    },
+    {
+     "q": "Nombra un uso que NO tiene una cardinal",
+     "a": "Señalar la entrada de un canal o un punto de recalada"
+    },
+    {
+     "q": "¿Por qué la Sur lleva un destello largo?",
+     "a": "Para no confundir sus 6 centelleos con los 9 de la Oeste"
+    }
+   ]
+  },
+  {
+   "id": "5.4",
+   "title": "Peligro aislado, aguas navegables y marcas especiales",
+   "html": "<h4>Marca de peligro aislado</h4> <p>Se coloca <b>encima, amarrada o próxima a un peligro de dimensiones limitadas que está rodeado por todas partes de aguas navegables</b>. La marca no puede indicar el tamaño del peligro ni la distancia a la que se puede pasar con seguridad. Por eso el navegante <b>debe consultar la carta y las publicaciones náuticas</b> y trazar un rumbo seguro. No hay un lado obligatorio ni una distancia mínima fija como 25 m o 50 m.</p> <table><tbody> <tr><th>Color</th><td><b>Negra con una o más bandas anchas horizontales rojas</b></td></tr> <tr><th>Forma</th><td>Opcional, sin confundirse con las laterales. <b>Normalmente castillete o espeque</b>.</td></tr> <tr><th>Marca de tope</th><td><b>Dos esferas negras superpuestas</b>. Es su característica diurna más importante.</td></tr> <tr><th>Luz</th><td><b>Blanca, Fl(2)</b> (GpD(2), grupos de dos destellos)</td></tr> </tbody></table> <p>Mnemotecnia: <b>2 esferas = 2 destellos</b>. El peligro es «una piedra en medio del agua» y se ve como «negro con sangre (rojo)».</p> <h4>Marca de aguas navegables (aguas seguras)</h4> <p>Indica que <b>las aguas alrededor de la marca son navegables</b>. <b>No señala ningún peligro</b>. Sirve para definir los <b>ejes de los canales</b> y las <b>marcas de centro de canal</b>, y también para indicar <b>la entrada de un canal, la aproximación a un puerto o estuario o un punto de recalada</b>. Su ritmo puede indicar además el <b>mejor lugar de paso bajo un puente</b>.</p> <table><tbody> <tr><th>Color</th><td><b>Franjas VERTICALES rojas y blancas</b> (es la única marca con franjas verticales, aparte de la de naufragio de emergencia, que las tiene azules y amarillas)</td></tr> <tr><th>Forma</th><td><b>Esférica</b>, castillete o espeque</td></tr> <tr><th>Marca de tope</th><td>Si la tiene, <b>una única esfera roja</b></td></tr> <tr><th>Luz</th><td><b>Blanca</b>: <b>Iso, Oc, LFl 10 s o Mo(A)</b>. La Morse A es característica y exclusiva de esta marca.</td></tr> </tbody></table> <p>Las luces blancas de peligro aislado (Fl(2)) y de aguas navegables (ritmos largos) tienen ritmos que <b>no se confunden con los centelleos de las cardinales</b>.</p> <h4>Marcas especiales</h4> <p>Su objetivo principal <b>no</b> es señalar canales ni obstrucciones. Indican <b>una zona o configuración particular cuya naturaleza exacta figura en la carta u otro documento náutico</b>. Su presencia obliga a consultar la carta.</p> <p>Ejemplos de uso:</p> <ul> <li>Sistemas de adquisición de datos oceanográficos (SADO u ODAS).</li> <li>Separación de tráfico donde el balizamiento convencional del canal pueda causar confusión.</li> <li>Vertederos.</li> <li>Zonas de ejercicios militares.</li> <li><b>Cables o conductos submarinos</b>.</li> <li>Zonas reservadas al recreo y zonas de baño.</li> <li><b>Límites de áreas de fondeo</b>.</li> <li>Estructuras artificiales, piscifactorías y granjas marinas.</li> <li>Canales o áreas de interés para un tipo concreto de buque.</li> </ul> <p>Nunca se usan para la aproximación a un puerto o estuario, ni para el canal principal, un peligro aislado o el eje de un canal.</p> <table><tbody> <tr><th>Color</th><td><b>Amarillo</b></td></tr> <tr><th>Forma</th><td><b>Libre</b>, siempre que no se confunda con otras marcas. Una especial a babor de un canal puede ser cilíndrica, pero no cónica.</td></tr> <tr><th>Marca de tope</th><td>Si la tiene, <b>un aspa amarilla en forma de X</b>, preferiblemente tridimensional</td></tr> <tr><th>Luz</th><td><b>Amarilla</b>, con un ritmo distinto de los de las luces blancas (p. ej. Fl(4) Y, Fl(5) Y 20s, Oc Y, Fl(2+1) Y)</td></tr> <tr><th>Extras</th><td>Pueden llevar <b>letras o números</b> y un <b>pictograma</b> con la simbología de la OHI</td></tr> </tbody></table> <h4>Comparativa rápida</h4> <table><thead><tr><th>Marca</th><th>Color</th><th>Tope</th><th>Luz</th></tr></thead><tbody> <tr><td>Peligro aislado</td><td>Negra con bandas horizontales rojas</td><td>2 esferas negras</td><td>Blanca Fl(2)</td></tr> <tr><td>Aguas navegables</td><td>Franjas verticales rojas y blancas</td><td>1 esfera roja</td><td>Blanca Iso/Oc/LFl 10s/Mo(A)</td></tr> <tr><td>Especial</td><td>Amarilla</td><td>Aspa (X) amarilla</td><td>Amarilla</td></tr> </tbody></table>",
+   "keyFacts": [
+    "Peligro aislado: negra con bandas rojas horizontales, 2 esferas negras, luz blanca Fl(2)",
+    "Peligro aislado: peligro de dimensiones limitadas rodeado de aguas navegables; hay que consultar la carta",
+    "Peligro aislado: normalmente castillete o espeque",
+    "Aguas navegables: franjas verticales rojas y blancas, esférica, castillete o espeque, 1 esfera roja",
+    "Aguas navegables: luz blanca Iso, Oc, LFl 10 s o Mo(A); no señala ningún peligro",
+    "Aguas navegables: ejes y centro de canal, entrada de canal, recalada, paso bajo un puente",
+    "Especial: amarilla, tope en X amarilla, luz amarilla; forma libre sin causar confusión",
+    "Especial: zona o configuración cuya naturaleza figura en la carta (fondeo, cables, ejercicios militares, SADO, vertederos)",
+    "Especiales: pueden llevar letras, números y pictograma de la OHI"
+   ],
+   "traps": [
+    "Peligro aislado: el tope son DOS esferas negras. Una esfera roja es de aguas navegables; tres esferas no existen.",
+    "Ante un peligro aislado no hay distancia fija (25 m, 50 m) ni banda obligatoria: se consulta la carta.",
+    "Las franjas de aguas navegables son VERTICALES. Las horizontales rojas y blancas son un distractor.",
+    "La luz de la especial es AMARILLA, nunca blanca ni roja.",
+    "Las especiales NO indican la aproximación a un puerto ni el canal principal. Configuraciones como recodo o bifurcación son propias de las cardinales.",
+    "La forma de las especiales es libre (no siempre rectangular o esférica), con tal de que no se confunda con otras."
+   ],
+   "upd2026": "IALA MBS 2022: se permiten pictogramas de la OHI en las marcas especiales, y una especial puede servir de ayuda móvil (MAtoN, ver 5.5).",
+   "sources": [
+    "Apuntes PER pp.45–46",
+    "IALA R1001 MBS ed. 2022"
+   ],
+   "kw": [
+    "peligro aislado",
+    "dos esferas",
+    "esferas negras",
+    "bandas rojas",
+    "negra",
+    "aguas navegables",
+    "franjas verticales",
+    "rojas y blancas",
+    "esfera roja",
+    "recalada",
+    "eje",
+    "centro del canal",
+    "puente",
+    "isofase",
+    "morse",
+    "especial",
+    "especiales",
+    "amarilla",
+    "aspa",
+    "x amarilla",
+    "pictograma",
+    "fondeo",
+    "cables",
+    "conductos",
+    "ejercicios militares",
+    "vertederos",
+    "consultar la carta",
+    "castillete",
+    "espeque",
+    "esferica"
+   ],
+   "flash": [
+    {
+     "q": "¿Qué colores tiene la marca de peligro aislado?",
+     "a": "Negra con una o más bandas anchas horizontales rojas"
+    },
+    {
+     "q": "¿Cuál es el tope de la marca de peligro aislado?",
+     "a": "Dos esferas negras superpuestas"
+    },
+    {
+     "q": "¿Qué luz tiene el peligro aislado?",
+     "a": "Blanca, grupos de 2 destellos Fl(2)"
+    },
+    {
+     "q": "¿Qué debe hacer el navegante ante una marca de peligro aislado?",
+     "a": "Consultar la carta y las publicaciones náuticas y trazar un rumbo seguro"
+    },
+    {
+     "q": "¿Qué forma suele tener la marca de peligro aislado?",
+     "a": "Castillete o espeque"
+    },
+    {
+     "q": "¿Qué colores tiene la marca de aguas navegables?",
+     "a": "Franjas verticales rojas y blancas"
+    },
+    {
+     "q": "¿Cuál es el tope de la marca de aguas navegables?",
+     "a": "Una única esfera roja"
+    },
+    {
+     "q": "¿Qué luz tiene la marca de aguas navegables?",
+     "a": "Blanca: Iso, Oc, LFl 10 s o Mo(A)"
+    },
+    {
+     "q": "Nombra usos de la marca de aguas navegables",
+     "a": "Eje o centro de canal, entrada de canal, recalada, mejor paso bajo un puente"
+    },
+    {
+     "q": "¿Qué colores tiene una marca especial?",
+     "a": "Amarillo"
+    },
+    {
+     "q": "¿Cuál es el tope de una marca especial?",
+     "a": "Un aspa amarilla en forma de X"
+    },
+    {
+     "q": "¿De qué color es la luz de una especial?",
+     "a": "Amarilla"
+    },
+    {
+     "q": "¿Puede una especial indicar el límite de un fondeadero o un cable submarino?",
+     "a": "Sí"
+    },
+    {
+     "q": "¿Puede una especial indicar la aproximación a un puerto?",
+     "a": "No; eso es de aguas navegables"
+    },
+    {
+     "q": "¿Qué forma tiene una especial?",
+     "a": "Libre, sin que se confunda con otras marcas"
+    },
+    {
+     "q": "¿Pueden las especiales llevar pictogramas?",
+     "a": "Sí, con la simbología de la OHI, además de letras o números"
+    }
+   ]
+  },
+  {
+   "id": "5.5",
+   "title": "Nuevos peligros, naufragios de emergencia y marcas móviles",
+   "html": "<h4>Nuevos peligros</h4> <p>Un <b>nuevo peligro</b> es un obstáculo descubierto recientemente que aún no figura en los documentos náuticos: bancos de arena, rocas, naufragios, etc.</p> <ul> <li>Se balizan con las <b>marcas normales</b> del sistema: laterales, cardinales, de peligro aislado o especiales.</li> <li>Si la autoridad considera que el <b>riesgo para la navegación es especialmente elevado</b>, al menos una de las marcas se <b>duplica</b>. La marca duplicada es <b>idéntica en todo</b> a su pareja.</li> <li>Puede añadirse un <b>racon con la letra Morse «D»</b> (– · ·), que en la pantalla del radar da una señal de <b>1 milla</b> de longitud.</li> <li>La marca duplicada se retira cuando la información sobre el peligro está suficientemente difundida (avisos a los navegantes).</li> </ul> <p>El examen recoge esta idea así: si ves una <b>marca duplicada</b>, por ejemplo un peligro aislado por duplicado, significa que <b>la autoridad competente considera el riesgo especialmente elevado</b>. No indica radios de 25 m ni de 50 m.</p> <h4>Marca de naufragio de emergencia (Emergency Wreck Marking Buoy)</h4> <p>Se usa provisionalmente sobre un naufragio reciente hasta que se balice de forma definitiva.</p> <table><tbody> <tr><th>Color</th><td><b>Franjas verticales azules y amarillas</b>, en igual número (mínimo 4, máximo 8)</td></tr> <tr><th>Forma</th><td>Castillete o espeque</td></tr> <tr><th>Marca de tope</th><td><b>Cruz amarilla vertical (+)</b>, si la tiene</td></tr> <tr><th>Luz</th><td><b>Alternada azul y amarilla</b>: Bu 1 s + Y 1 s, con 0,5 s de oscuridad entre ellas</td></tr> <tr><th>Otros</th><td><b>Racon Mo(D)</b>. Puede llevar AIS AtoN.</td></tr> </tbody></table> <p>No la confundas con la de aguas navegables, que también tiene franjas verticales pero <b>rojas y blancas</b>, ni con la especial, que es amarilla entera con tope en <b>X</b>.</p> <h4>Ayudas móviles a la navegación (MAtoN)</h4> <ul> <li>Son marcas especiales <b>amarillas</b>, con tope en <b>X amarilla</b>, sujetas a objetos o estructuras que se desplazan y que pueden suponer un peligro de colisión: boyas oceanográficas a la deriva, artes o equipos remolcados, obras en movimiento.</li> <li>Tienen una luz amarilla con un <b>ritmo propio y reservado: 3 centelleos seguidos de 2 destellos</b>.</li> <li>Una marca de <b>aguas navegables no puede</b> usarse como MAtoN. Las especiales sí.</li> </ul> <h4>Otras ayudas (cultura general)</h4> <ul> <li><b>Racon</b>: respondedor radar que dibuja una letra Morse en la pantalla.</li> <li><b>AIS AtoN</b>: ayuda a la navegación transmitida por AIS. Puede ser <b>real</b> (está en la marca física), <b>sintética</b> (se transmite desde otro lugar para una marca que sí existe) o <b>virtual</b> (no existe marca física).</li> <li><b>Faros y luces de sector</b>: muestran colores distintos según la demora desde la que se observan. Se describen en el Libro de Faros.</li> </ul>",
+   "keyFacts": [
+    "Nuevo peligro: se balizan con las marcas normales; si el riesgo es especialmente elevado, se duplica una marca idéntica",
+    "Racon Mo(D) = nuevo peligro o naufragio; da 1 milla de señal en el radar",
+    "Naufragio de emergencia: franjas verticales azules y amarillas, cruz amarilla vertical, luz alternada Bu/Y",
+    "MAtoN: especial amarilla con ritmo propio de 3 centelleos + 2 destellos",
+    "Las aguas navegables no pueden usarse como MAtoN; las especiales sí",
+    "AIS AtoN: real, sintética o virtual"
+   ],
+   "traps": [
+    "Una marca duplicada no indica un radio de peligro de 25 m ni de 50 m: indica riesgo especialmente elevado.",
+    "Franjas verticales azules y amarillas son el naufragio de emergencia, no una especial ni las aguas navegables.",
+    "El tope del naufragio de emergencia es una cruz (+) vertical amarilla, no la X de las especiales.",
+    "Si preguntan qué marca puede emplearse como MAtoN, la respuesta es la especial, nunca la de aguas navegables."
+   ],
+   "upd2026": "IALA MBS 2022 incorpora la marca de naufragio de emergencia (azul y amarilla, Al.Bu Y, racon D) y las ayudas móviles MAtoN (ritmo reservado de 3 centelleos + 2 destellos). Los apuntes de 2015 no las recogen.",
+   "sources": [
+    "PER 2007 p.250 (nuevos peligros)",
+    "IALA R1001 MBS ed. 2022",
+    "IALA G1154 Mobile AtoN"
+   ],
+   "kw": [
+    "nuevo peligro",
+    "peligro nuevo",
+    "duplicado",
+    "duplicada",
+    "racon",
+    "morse d",
+    "naufragio",
+    "emergencia",
+    "azul",
+    "azules y amarillas",
+    "cruz amarilla",
+    "maton",
+    "movil",
+    "riesgo especialmente elevado",
+    "ais",
+    "virtual"
+   ],
+   "flash": [
+    {
+     "q": "¿Cómo se baliza un nuevo peligro?",
+     "a": "Con las marcas normales del sistema; si el riesgo es especialmente elevado, se duplica una de ellas"
+    },
+    {
+     "q": "¿Cómo es una marca duplicada?",
+     "a": "Idéntica en todo a su pareja"
+    },
+    {
+     "q": "¿Qué letra Morse da el racon de un nuevo peligro?",
+     "a": "La D (– · ·)"
+    },
+    {
+     "q": "¿Qué indica una marca de peligro aislado por duplicado?",
+     "a": "Que la autoridad considera el riesgo especialmente elevado"
+    },
+    {
+     "q": "¿Qué colores tiene la marca de naufragio de emergencia?",
+     "a": "Franjas verticales azules y amarillas"
+    },
+    {
+     "q": "¿Cuál es el tope de la marca de naufragio de emergencia?",
+     "a": "Una cruz amarilla vertical (+)"
+    },
+    {
+     "q": "¿Qué luz lleva la marca de naufragio de emergencia?",
+     "a": "Alternada azul y amarilla, 1 s cada una"
+    },
+    {
+     "q": "¿Qué es una MAtoN?",
+     "a": "Una ayuda móvil: marca especial amarilla en un objeto que se desplaza"
+    },
+    {
+     "q": "¿Qué ritmo tiene la luz de una MAtoN?",
+     "a": "3 centelleos + 2 destellos, en amarillo"
+    },
+    {
+     "q": "¿Puede una marca de aguas navegables ser una MAtoN?",
+     "a": "No"
+    }
+   ]
+  }
+ ]
+}

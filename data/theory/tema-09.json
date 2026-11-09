@@ -1,0 +1,722 @@
+{
+ "id": 9,
+ "title": "Meteorología",
+ "blocks": [
+  "met"
+ ],
+ "summary": "Presión, temperatura, borrascas y anticiclones, viento (Beaufort), brisas costeras y estado de la mar (Douglas, fetch), más las fuentes oficiales de información meteorológica marítima. En el examen del PER es el bloque de Meteorología, preguntas P33–36 (4 preguntas, sin límite propio de fallos), casi todas de definición: dominar el vocabulario (rolar, refrescar, caer, fetch, terral, virazón) asegura los puntos.",
+ "subtemas": [
+  {
+   "id": "9.1",
+   "title": "Importancia del tiempo en la seguridad e información meteorológica",
+   "html": "<p>Antes de salir a la mar el patrón <b>debe consultar la previsión</b> y aplazar o suspender la salida si es desfavorable. Las previsiones son muy fiables a 24 h; en travesías largas se organizan turnos de escucha de los boletines.</p>\n<h4>Fuentes OFICIALES y válidas (2026)</h4>\n<ul>\n<li><b>Salvamento Marítimo (SASEMAR)</b>: los Centros de Coordinación de Salvamento (CCS) emiten boletines por <b>VHF</b> en horarios fijos, <b>previo anuncio en el canal 16</b> (después se pasa al canal de trabajo indicado).</li>\n<li><b>Estaciones Radiocosteras</b>: boletines por <b>onda media (MF) y VHF</b>.</li>\n<li><b>NAVTEX</b>: impresora/pantalla automática que recibe avisos y boletines; en España se emite a través de los <b>cuatro centros emisores de Salvamento Marítimo</b>. En el Estrecho, Tarifa emite en <b>518 kHz (en inglés)</b> y en <b>490 kHz (en español)</b>.</li>\n<li>Los tres medios anteriores forman parte del <b>SMSSM (GMDSS)</b>, Sistema Mundial de Socorro y Seguridad Marítima.</li>\n<li><b>AEMET</b> (Agencia Estatal de Meteorología, www.aemet.es): predicción costera, de alta mar, mapas y <b>avisos</b>. Servicio <b>METEONAV</b> de AEMET (predicción marítima para navegantes).</li>\n<li><b>Medios de comunicación</b>: boletines de <b>RTVE</b> (Radio 5/RNE emite el boletín de alta mar), y anuncios del organismo competente en redes sociales.</li>\n</ul>\n<h4>Avisos costeros AEMET (fenómenos adversos, viento)</h4>\n<table><thead><tr><th>Nivel</th><th>Viento costero</th></tr></thead><tbody>\n<tr><td>Amarillo</td><td>Fuerza 7 Beaufort</td></tr>\n<tr><td>Naranja</td><td>Fuerza 8–9</td></tr>\n<tr><td>Rojo</td><td>Fuerza 10 o más</td></tr></tbody></table>\n<h4>NO son fuentes oficiales (distractores del examen)</h4>\n<ul>\n<li>La <b>Capitanía Marítima</b> o el <b>Distrito Marítimo</b> (no emiten boletines meteorológicos).</li>\n<li>La <b>Autoridad Portuaria</b> (ni por teléfono, ni por VHF canal 69).</li>\n<li>Una inventada «Agencia Mundial de Meteorología (AMMET)» o una app «METEOYACHT» del «Servicio Hidrográfico Naval».</li>\n<li>Emisiones en canal 70 (es exclusivo de llamadas LSD/DSC) o canal 72 «MF/HF».</li>\n<li>Que «debe entregarla el puerto base» antes de salir.</li>\n</ul>\n<p>La previsión por VHF es válida si la emite un <b>Centro de Salvamento Marítimo o una Estación Radiocostera</b>; no hace falta recibirla «expresamente por NAVTEX».</p>",
+   "keyFacts": [
+    "Salvamento Marítimo emite el boletín por VHF previo anuncio en el canal 16",
+    "Radiocosteras: onda media y VHF",
+    "NAVTEX: 4 centros emisores de Salvamento Marítimo; Tarifa 518 kHz inglés / 490 kHz español",
+    "VHF de SASEMAR, Radiocosteras y NAVTEX forman parte del SMSSM",
+    "AEMET (web, avisos) y su servicio METEONAV son oficiales",
+    "Boletines de RTVE: fuente válida",
+    "Capitanía Marítima, Distrito Marítimo y Autoridad Portuaria NO dan la previsión",
+    "Avisos costeros AEMET: amarillo F7, naranja F8–9, rojo ≥F10",
+    "El canal 70 es solo LSD/DSC: nunca se usa para boletines de voz"
+   ],
+   "traps": [
+    "«Capitanía Marítima» o «Distrito Marítimo» como fuente de boletines: FALSO",
+    "«Servicio telefónico de la Autoridad Portuaria» como parte del SMSSM: FALSO",
+    "«Canal 69 de la Autoridad Portuaria» o «canal 70 a las 12:00 y 00:00»: FALSO",
+    "«AMMET» (Agencia Mundial) y «METEOYACHT»: inventados",
+    "Es CORRECTO que Salvamento Marítimo emite por VHF en franjas horarias previo anuncio en canal 16"
+   ],
+   "upd2026": "Los apuntes citan el servicio telefónico Teletiempo (807…), hoy sin relevancia. Añadidos: servicio METEONAV de AEMET, niveles de aviso costero (amarillo F7, naranja F8–9, rojo ≥F10) y NAVTEX Tarifa 518/490 kHz.",
+   "sources": [
+    "Apuntes PER p.99 (UT9 9.1)",
+    "AEMET – Predicción marítima y METEONAV",
+    "Salvamento Marítimo – Información meteorológica",
+    "Plan Meteoalerta AEMET"
+   ],
+   "kw": [
+    "informacion meteorologica",
+    "prevision meteorologica",
+    "fuentes validas",
+    "aemet",
+    "meteonav",
+    "salvamento maritimo",
+    "radiocosteras",
+    "estaciones radiocosteras",
+    "navtex",
+    "smssm",
+    "rtve",
+    "capitania maritima",
+    "distrito maritimo",
+    "autoridad portuaria",
+    "canal 16",
+    "canal 69",
+    "canal 70",
+    "boletines",
+    "onda media",
+    "vhf",
+    "ammet",
+    "meteoyacht",
+    "sasemar",
+    "travesia"
+   ],
+   "flash": [
+    {
+     "q": "¿Por qué canal se anuncia el boletín meteorológico de Salvamento Marítimo?",
+     "a": "Por el canal 16 de VHF; luego se emite en un canal de trabajo."
+    },
+    {
+     "q": "¿Qué medios meteorológicos forman parte del SMSSM?",
+     "a": "VHF de los CCS de Salvamento, MF/VHF de las Radiocosteras y NAVTEX."
+    },
+    {
+     "q": "¿Cuántos centros emisores NAVTEX tiene Salvamento Marítimo?",
+     "a": "Cuatro."
+    },
+    {
+     "q": "Frecuencias NAVTEX de Tarifa",
+     "a": "518 kHz (inglés) y 490 kHz (español)."
+    },
+    {
+     "q": "¿Es la Capitanía Marítima fuente de boletines meteorológicos?",
+     "a": "No."
+    },
+    {
+     "q": "¿Qué servicio de AEMET da información meteorológica a navegantes?",
+     "a": "METEONAV (y la predicción costera y de alta mar en aemet.es)."
+    },
+    {
+     "q": "Aviso costero naranja de AEMET",
+     "a": "Viento fuerza 8–9."
+    },
+    {
+     "q": "Aviso costero rojo de AEMET",
+     "a": "Fuerza 10 o superior."
+    },
+    {
+     "q": "¿Son válidos los boletines de RTVE?",
+     "a": "Sí."
+    },
+    {
+     "q": "¿Se puede obtener la previsión por VHF?",
+     "a": "Sí, emitida por un Centro de Salvamento Marítimo o una Estación Radiocostera."
+    }
+   ]
+  },
+  {
+   "id": "9.2",
+   "title": "Presión atmosférica",
+   "html": "<p>La <b>presión atmosférica</b> es el <b>peso de la columna de aire</b> sobre una superficie, consecuencia de la <b>atracción gravitatoria</b> de la Tierra sobre la masa de aire. Es <b>máxima a nivel del mar</b> y <b>disminuye con la altitud</b> (hay menos aire encima). No es constante: varía de un lugar a otro y con el tiempo.</p>\n<h4>Valor normal y unidades</h4>\n<table><thead><tr><th>Unidad</th><th>Presión normal a nivel del mar</th></tr></thead><tbody>\n<tr><td>Milibares (mb) = hectopascales (hPa)</td><td><b>1013</b> (1013,2)</td></tr>\n<tr><td>Milímetros de mercurio</td><td>760 mm</td></tr>\n<tr><td>Pulgadas</td><td>29,92″</td></tr>\n<tr><td>Atmósferas</td><td>1 atm</td></tr></tbody></table>\n<p><b>1 mb = 1 hPa</b> (= 100 Pa). 1 mm Hg ≈ 1,33 mb. Ojo: NO son 1013 bares, ni 1013 atmósferas, ni 1013 Pa.</p>\n<h4>Barómetro</h4>\n<ul>\n<li><b>Barómetro aneroide</b>: el de a bordo; cápsulas metálicas con vacío parcial (cápsulas de Vidi) que se deforman con la presión; una aguja indica el valor. Mide la <b>presión atmosférica</b>.</li>\n<li><b>Barómetro de mercurio</b> (Torricelli): solo en observatorios.</li>\n<li><b>Barógrafo</b>: aneroide que registra en un papel la presión a lo largo del tiempo.</li>\n</ul>\n<h4>Interpretación: lo que importa es la TENDENCIA</h4>\n<table><thead><tr><th>Barómetro</th><th>Pronóstico</th></tr></thead><tbody>\n<tr><td>Sube lenta y suavemente</td><td>Mejora del tiempo, estable</td></tr>\n<tr><td>Baja lenta y suavemente</td><td>Empeoramiento (se acerca una borrasca)</td></tr>\n<tr><td>Baja rápida/bruscamente</td><td>Temporal próximo, viento fuerte</td></tr>\n<tr><td>Sube rápidamente</td><td>Mejora pasajera, viento fuerte tras un frente</td></tr>\n<tr><td>Estable</td><td>Se mantiene el tiempo actual</td></tr></tbody></table>\n<p>El factor fundamental para predecir con el aneroide es la <b>tendencia (subida, bajada o estabilidad) en las últimas horas</b>, no el valor absoluto aislado.</p>\n<h4>Isobaras y gradiente</h4>\n<p>Una <b>isobara</b> es la línea que une puntos de <b>igual presión</b> en una superficie dada (en los mapas, reducida a nivel del mar) en un momento determinado. Se dibujan normalmente cada 4 mb. El <b>gradiente de presión</b> es la variación de presión por unidad de distancia: <b>isobaras juntas = gradiente grande = viento fuerte</b>; isobaras separadas = viento flojo. No confundir con <i>isobata/isobática</i> (igual profundidad, carta náutica) ni isoterma (igual temperatura).</p>",
+   "keyFacts": [
+    "Presión normal a nivel del mar: 1013 mb = 1013 hPa = 760 mm = 1 atm",
+    "1 milibar = 1 hectopascal",
+    "La presión es el peso de la columna de aire (atracción gravitatoria)",
+    "Máxima a nivel del mar; disminuye con la altitud",
+    "El barómetro aneroide mide la presión atmosférica",
+    "Bajada lenta → empeora; subida lenta → mejora",
+    "Lo esencial es la tendencia de las últimas horas",
+    "Isobara: línea de igual presión en una superficie dada",
+    "Isobaras juntas → viento fuerte"
+   ],
+   "traps": [
+    "«1013 bares», «1013 atmósferas», «1013 Pa» o «1,013 mb»: FALSOS; son 1013 mb/hPa",
+    "«Aumenta con la altitud» o «es mínima a nivel del mar»: FALSO",
+    "«Aumenta al sumergirnos en el agua»: la presión ATMOSFÉRICA no; lo que aumenta es la hidrostática",
+    "«Su valor es constante en la superficie del mar»: FALSO",
+    "Isobara ≠ isobata (veril, profundidad) ≠ isoterma (temperatura)"
+   ],
+   "upd2026": null,
+   "sources": [
+    "Apuntes PER p.100–101 (UT9 9.2)",
+    "OMM – unidades de presión"
+   ],
+   "kw": [
+    "presion atmosferica",
+    "1013",
+    "milibar",
+    "milibares",
+    "hpa",
+    "hectopascal",
+    "barometro",
+    "aneroide",
+    "barografo",
+    "isobara",
+    "isobaras",
+    "gradiente",
+    "atraccion gravitatoria",
+    "peso de la columna",
+    "nivel del mar",
+    "altitud",
+    "tendencia",
+    "subida lenta",
+    "bajada lenta",
+    "760",
+    "atmosferas",
+    "bares"
+   ],
+   "flash": [
+    {
+     "q": "Presión media a nivel del mar",
+     "a": "1013 hPa (= 1013 mb = 760 mm Hg)."
+    },
+    {
+     "q": "1 milibar equivale a…",
+     "a": "1 hectopascal."
+    },
+    {
+     "q": "¿Qué es la presión atmosférica?",
+     "a": "El peso de la columna de aire, debido a la atracción gravitatoria."
+    },
+    {
+     "q": "¿Dónde es máxima la presión atmosférica?",
+     "a": "A nivel del mar; disminuye con la altura."
+    },
+    {
+     "q": "¿Qué mide el barómetro aneroide?",
+     "a": "La presión atmosférica."
+    },
+    {
+     "q": "El barómetro baja lenta y suavemente…",
+     "a": "Empeorarán las condiciones."
+    },
+    {
+     "q": "El barómetro sube lenta y suavemente…",
+     "a": "Mejorarán las condiciones."
+    },
+    {
+     "q": "¿Qué factor es clave al usar el aneroide?",
+     "a": "La tendencia de la presión en las últimas horas."
+    },
+    {
+     "q": "Definición de isobara",
+     "a": "Línea que une puntos de igual presión en una superficie dada y en un momento determinado."
+    },
+    {
+     "q": "Isobaras muy juntas indican…",
+     "a": "Gradiente fuerte: viento intenso."
+    },
+    {
+     "q": "¿Qué registra el barógrafo?",
+     "a": "La presión a lo largo del tiempo, sobre un papel."
+    }
+   ]
+  },
+  {
+   "id": "9.3",
+   "title": "Temperatura y humedad",
+   "html": "<p><b>Temperatura</b>: magnitud física que expresa el <b>grado de frío o calor</b> de los cuerpos o del ambiente; caracteriza el movimiento aleatorio medio de las moléculas e <b>informa del calor o energía térmica</b> de una sustancia. Se mide con el <b>termómetro</b> (el termógrafo la registra). Principio cero de la termodinámica: <i>dos cuerpos en equilibrio térmico con un tercero están en equilibrio térmico entre sí</i>.</p>\n<p>No confundir con <b>calor</b> (energía que pasa de un cuerpo a otro y causa dilatación y cambios de estado), <b>calor latente</b> (energía para un cambio de estado por unidad de masa), <b>gradiente</b> (variación entre dos puntos por unidad de distancia), <b>radiación</b> o <b>viscosidad</b>: son los distractores típicos.</p>\n<h4>Escala centígrada (Celsius)</h4>\n<table><thead><tr><th>Referencia</th><th>Valor</th></tr></thead><tbody>\n<tr><td>Inferior: <b>fusión del hielo</b> (congelación del agua dulce) a nivel del mar</td><td>0 °C</td></tr>\n<tr><td>Superior: <b>ebullición del agua</b> a nivel del mar</td><td>100 °C</td></tr>\n<tr><td>Divisiones entre ambas</td><td><b>100</b> (por eso «centígrada»)</td></tr></tbody></table>\n<p>Su unidad es el <b>grado centígrado o Celsius</b>. 32° y 212° son los mismos puntos en la escala <i>Fahrenheit</i> (distractor). No es cierto que 0 y 100 sean la temperatura mínima o máxima medible, ni que «cada grado se divida en 100 unidades», ni que las referencias sean del mercurio. El agua de mar se congela por debajo de 0 °C (≈ −1,9 °C).</p>\n<h4>Temperatura y presión (criterio de las claves oficiales)</h4>\n<p>Para el examen, en las preguntas «de definición de temperatura» la clave oficial considera que, en un gas, <b>un aumento de la temperatura lleva asociado un aumento de la presión</b> (ley de los gases: a volumen constante, P y T son directamente proporcionales). Por tanto son <b>INCORRECTAS</b> las frases «la temperatura disminuye cuando aumenta la presión» y «un aumento de temperatura lleva asociada una disminución de la presión».</p>\n<p><i>Matiz meteorológico:</i> en la atmósfera libre, el aire caliente se dilata, pesa menos y asciende, formando <b>bajas térmicas</b> (es el origen de las brisas). No mezcles ambas ideas: si la pregunta habla de la definición de temperatura y su relación con la presión, aplica la proporcionalidad directa.</p>\n<h4>Humedad</h4>\n<ul>\n<li><b>Humedad absoluta</b>: gramos de vapor de agua por m³ de aire. <b>Humedad relativa</b>: % de vapor respecto al máximo que admitiría el aire a esa temperatura (100 % = saturación).</li>\n<li>Se mide con el <b>higrómetro</b> o el <b>psicrómetro</b> (termómetros seco y húmedo).</li>\n<li><b>Punto de rocío</b>: temperatura a la que, enfriando el aire, se satura y condensa. Si la temperatura del aire se acerca al punto de rocío → riesgo de <b>niebla</b>.</li>\n<li><b>Niebla de advección</b> (típica en la mar): aire cálido y húmedo sobre agua fría. <b>Niebla de radiación</b>: enfriamiento nocturno del suelo en calma (costa, rías).</li>\n</ul>",
+   "keyFacts": [
+    "Temperatura: grado de frío o calor; informa de la energía térmica",
+    "Escala centígrada: 0 °C fusión del hielo, 100 °C ebullición del agua, 100 divisiones",
+    "Unidad: grado centígrado o Celsius",
+    "32° y 212° son Fahrenheit",
+    "Clave oficial: aumento de temperatura ↔ aumento de presión",
+    "Dos cuerpos en equilibrio térmico con un tercero lo están entre sí",
+    "Humedad relativa 100 % = aire saturado",
+    "Punto de rocío: temperatura de saturación; si T se acerca a él, niebla",
+    "Niebla de advección: aire cálido y húmedo sobre mar frío"
+   ],
+   "traps": [
+    "«La temperatura disminuye cuando aumenta la presión»: es la INCORRECTA",
+    "«Un aumento de temperatura lleva asociada una disminución de la presión»: INCORRECTA según la clave",
+    "Confundir temperatura con calor («energía que pasa de un cuerpo a otro»)",
+    "«Cada grado se divide en 100 unidades»: FALSO; hay 100 divisiones entre 0 y 100",
+    "«Referencias basadas en el mercurio» o «1000 divisiones»: FALSO",
+    "«0 °C = congelación del agua de mar»: FALSO; es la fusión del hielo"
+   ],
+   "upd2026": null,
+   "sources": [
+    "Apuntes PER p.101 (UT9 9.3)",
+    "Claves oficiales 2022–2026 bloque met"
+   ],
+   "kw": [
+    "temperatura",
+    "escala centigrada",
+    "celsius",
+    "grado centigrado",
+    "fusion del hielo",
+    "ebullicion",
+    "100 divisiones",
+    "equilibrio termico",
+    "magnitud fisica",
+    "energia termica",
+    "termometro",
+    "frio o calor",
+    "32",
+    "212",
+    "humedad",
+    "punto de rocio",
+    "higrometro",
+    "niebla",
+    "condensacion"
+   ],
+   "flash": [
+    {
+     "q": "Definición de temperatura",
+     "a": "Magnitud física que expresa el grado de frío o calor de los cuerpos o del ambiente."
+    },
+    {
+     "q": "¿Qué ocurre a 0 °C en la escala centígrada?",
+     "a": "La fusión del hielo."
+    },
+    {
+     "q": "¿Qué ocurre a 100 °C?",
+     "a": "La ebullición del agua (a nivel del mar)."
+    },
+    {
+     "q": "¿Cuántas divisiones tiene la escala centígrada entre sus referencias?",
+     "a": "100."
+    },
+    {
+     "q": "Unidad de la escala centígrada",
+     "a": "El grado centígrado (o Celsius)."
+    },
+    {
+     "q": "¿32 °F y 212 °F a qué equivalen?",
+     "a": "0 °C y 100 °C (escala Fahrenheit)."
+    },
+    {
+     "q": "Según la clave oficial, si aumenta la temperatura del aire, la presión…",
+     "a": "Aumenta."
+    },
+    {
+     "q": "¿Qué es el punto de rocío?",
+     "a": "La temperatura a la que el aire se satura y el vapor condensa."
+    },
+    {
+     "q": "Humedad relativa del 100 %",
+     "a": "Aire saturado: posible niebla o condensación."
+    },
+    {
+     "q": "Niebla típica en la mar",
+     "a": "De advección: aire cálido y húmedo sobre agua fría."
+    }
+   ]
+  },
+  {
+   "id": "9.4",
+   "title": "Borrascas y anticiclones",
+   "html": "<table><thead><tr><th></th><th>BORRASCA (B, L, D, T)</th><th>ANTICICLÓN (A, H)</th></tr></thead><tbody>\n<tr><td>Otros nombres</td><td>Depresión, ciclón, baja presión, «baja»</td><td>Alta presión, «alta»</td></tr>\n<tr><td>Presión en el centro</td><td><b>Menor</b> que en la periferia (&lt;1013 mb aprox.)</td><td><b>Mayor</b> que en la periferia (&gt;1013 mb aprox.)</td></tr>\n<tr><td>Valor de las isobaras</td><td>Disminuye de la periferia al centro</td><td>Aumenta de la periferia al centro</td></tr>\n<tr><td>Giro del viento en el hemisferio NORTE</td><td><b>Antihorario</b> (ciclónico)</td><td><b>Horario</b> (anticiclónico)</td></tr>\n<tr><td>Hemisferio SUR</td><td>Horario</td><td>Antihorario</td></tr>\n<tr><td>Movimiento del aire</td><td>En superficie <b>converge</b> hacia el centro y <b>asciende</b></td><td><b>Desciende</b> (subsidencia) y <b>diverge</b> hacia fuera</td></tr>\n<tr><td>Tiempo asociado</td><td>Nubes, precipitaciones, viento fuerte</td><td>Buen tiempo estable, vientos flojos</td></tr>\n<tr><td>Isobaras / gradiente</td><td>Juntas, gradiente grande</td><td>Separadas, gradiente pequeño</td></tr>\n<tr><td>Extensión</td><td>Menor, móviles (en el Atlántico se trasladan de W a E)</td><td>Grandes, más estacionarios</td></tr>\n<tr><td>Formación</td><td><b>Ciclogénesis</b></td><td>—</td></tr></tbody></table>\n<p>Regla de memoria: <b>B</b>orrasca → aire que <b>sube</b> (al subir se enfría y condensa: nubes y lluvia); <b>A</b>nticiclón → aire que <b>baja</b> (subsidencia: se calienta y seca, cielos despejados).</p>\n<h4>Ley de Buys-Ballot (hemisferio norte)</h4>\n<p>Situado <b>de espaldas al viento</b>, las <b>bajas presiones quedan a la izquierda</b> (y algo hacia delante) y las altas a la derecha. Dicho al revés: <b>de cara al viento</b>, el centro de la borrasca queda a la <b>derecha</b>, entre 90° y 135° (hacia la aleta de estribor). En el hemisferio sur, al contrario.</p>\n<h4>Frentes</h4>\n<p>Un <b>frente</b> es la superficie de separación entre dos masas de aire de distinta temperatura y humedad. Se asocian a las borrascas de latitudes medias (frente polar).</p>\n<table><thead><tr><th>Frente</th><th>Qué ocurre</th><th>Tiempo y señales</th></tr></thead><tbody>\n<tr><td><b>Cálido</b> (semicírculos rojos)</td><td>El aire cálido avanza y sube suavemente sobre el frío</td><td>Nubes altas (cirros) que van bajando y espesando, lluvia continua y débil, baja lenta del barómetro, mala visibilidad</td></tr>\n<tr><td><b>Frío</b> (triángulos azules)</td><td>El aire frío avanza y levanta bruscamente al cálido</td><td>Cumulonimbos, chubascos fuertes, tormentas, rachas, <b>rolada brusca del viento</b> (en HN, de SW a NW), baja de temperatura, el barómetro sube tras el paso; luego claros</td></tr>\n<tr><td><b>Ocluido</b></td><td>El frente frío alcanza al cálido</td><td>Mezcla de ambos; borrasca madura</td></tr></tbody></table>\n<p>En el Mediterráneo español, en otoño, son peligrosas las <b>DANA («gota fría»)</b>: bolsas de aire frío en altura que producen lluvias torrenciales y temporales.</p>",
+   "keyFacts": [
+    "Borrasca = baja presión, presión menor en el centro",
+    "Borrasca HN: viento antihorario, convergente y ascendente",
+    "Anticiclón HN: viento horario, divergente; aire descendente (subsidencia)",
+    "Borrasca: nubosidad y precipitaciones; anticiclón: buen tiempo",
+    "Formación de una borrasca: ciclogénesis",
+    "Borrasca también se llama ciclón, depresión o baja",
+    "Anticiclón también se llama alta presión o alta",
+    "Buys-Ballot HN: de espaldas al viento, bajas presiones a la izquierda",
+    "Frente frío: chubascos, tormenta, rolada brusca, sube el barómetro tras pasar",
+    "Frente cálido: nubes altas que bajan, lluvia continua, barómetro baja lentamente"
+   ],
+   "traps": [
+    "«En la borrasca el aire desciende»: FALSO (asciende)",
+    "«En el anticiclón el aire asciende (subsidencia)»: FALSO; subsidencia = descenso",
+    "«Borrasca gira en sentido horario en el HN»: FALSO (antihorario)",
+    "«Ciclogénesis» es la formación de BORRASCAS, no de anticiclones",
+    "«Cuanto mayor la separación entre isobaras, mayor el viento»: FALSO (al revés)",
+    "«En el anticiclón no hay circulación de viento»: FALSO, circula en sentido horario (HN)"
+   ],
+   "upd2026": "Los apuntes enuncian Buys-Ballot «de cara al viento» (centro a la derecha); se añade la forma clásica «de espaldas al viento, bajas a la izquierda» y la descripción de frentes.",
+   "sources": [
+    "Apuntes PER p.102–103 (UT9 9.4)",
+    "Ley de Buys-Ballot (1857)",
+    "AEMET – glosario"
+   ],
+   "kw": [
+    "borrasca",
+    "borrascas",
+    "anticiclon",
+    "anticiclones",
+    "baja presion",
+    "alta presion",
+    "depresion",
+    "ciclon",
+    "ciclogenesis",
+    "subsidencia",
+    "sentido horario",
+    "sentido antihorario",
+    "hemisferio norte",
+    "hemisferio sur",
+    "asciende",
+    "desciende",
+    "converge",
+    "isobaras",
+    "periferia",
+    "centro",
+    "nubosidad",
+    "precipitaciones",
+    "buys ballot",
+    "frente frio",
+    "frente calido",
+    "frente",
+    "gota fria"
+   ],
+   "flash": [
+    {
+     "q": "Giro del viento en una borrasca del hemisferio norte",
+     "a": "Antihorario, convergiendo hacia el centro y ascendiendo."
+    },
+    {
+     "q": "Giro del viento en un anticiclón del hemisferio norte",
+     "a": "Horario, divergiendo hacia fuera."
+    },
+    {
+     "q": "¿El aire asciende o desciende en un anticiclón?",
+     "a": "Desciende (subsidencia)."
+    },
+    {
+     "q": "¿Cómo se llama el proceso de formación de una borrasca?",
+     "a": "Ciclogénesis."
+    },
+    {
+     "q": "Otros nombres de la borrasca",
+     "a": "Ciclón, depresión, baja presión o baja."
+    },
+    {
+     "q": "¿Cómo varían las isobaras en un anticiclón?",
+     "a": "Su valor aumenta de la periferia hacia el centro."
+    },
+    {
+     "q": "¿Qué tiempo trae una borrasca?",
+     "a": "Nubosidad, precipitaciones y viento fuerte."
+    },
+    {
+     "q": "Ley de Buys-Ballot (HN)",
+     "a": "De espaldas al viento, las bajas presiones quedan a la izquierda."
+    },
+    {
+     "q": "De cara al viento (HN), ¿dónde está la borrasca?",
+     "a": "A la derecha, entre 90° y 135°."
+    },
+    {
+     "q": "Señales del paso de un frente frío",
+     "a": "Chubascos y tormentas, rachas, rolada brusca del viento, baja la temperatura y sube el barómetro."
+    },
+    {
+     "q": "Señales de un frente cálido que se acerca",
+     "a": "Nubes altas que van bajando, lluvia continua, barómetro bajando lentamente."
+    },
+    {
+     "q": "Presión en una borrasca del HN respecto a 1013 mb",
+     "a": "Inferior a 1013 mb."
+    }
+   ]
+  },
+  {
+   "id": "9.5",
+   "title": "Viento (Beaufort)",
+   "html": "<p>El <b>viento</b> es aire en movimiento de las altas a las bajas presiones (desviado por la rotación terrestre, circula casi paralelo a las isobaras). Su <b>dirección se nombra por donde VIENE</b>: viento del NW = procede del NW.</p>\n<h4>Vocabulario (pregunta segura)</h4>\n<table><thead><tr><th>Término</th><th>Significado</th></tr></thead><tbody>\n<tr><td><b>Rolar</b></td><td>Cambiar de <b>dirección</b> (no implica cambio de intensidad)</td></tr>\n<tr><td><b>Refrescar</b></td><td><b>Aumentar</b> de intensidad (nada que ver con la temperatura)</td></tr>\n<tr><td><b>Caer</b></td><td><b>Disminuir</b> de intensidad</td></tr>\n<tr><td><b>Calmar</b></td><td>Disminuir total o parcialmente (viento o mar)</td></tr>\n<tr><td><b>Racha / rachear</b></td><td>Aumento <b>brusco y repentino</b> y momentáneo de intensidad</td></tr>\n<tr><td><b>Intensidad</b></td><td>Velocidad con la que sopla el viento (nudos, m/s, grados Beaufort)</td></tr></tbody></table>\n<h4>Instrumentos</h4>\n<ul>\n<li><b>Anemómetro</b> (cazoletas): mide la <b>velocidad</b> del viento. Navegando mide el viento aparente; parado, el real.</li>\n<li><b>Veleta</b>: indica la <b>dirección</b>.</li>\n<li><b>Catavientos</b>: cintas o lanillas en las velas (o manga troncocónica) que indican la dirección del flujo.</li>\n<li><b>Grímpola</b>: banderita en el tope del palo que indica la dirección.</li>\n<li>La <b>corredera</b> NO mide el viento: mide velocidad/distancia de la embarcación.</li>\n</ul>\n<h4>Viento real, relativo y aparente</h4>\n<ul>\n<li><b>Real</b>: el que existe y se percibe con la embarcación <b>parada</b>.</li>\n<li><b>Relativo</b> (de marcha): el que provoca la propia embarcación al avanzar; igual a su velocidad y de sentido contrario al rumbo.</li>\n<li><b>Aparente</b>: el que percibimos navegando; <b>suma vectorial</b> del real y el relativo. Ejemplo: navegando a 5 nudos con 5 nudos de viento real de proa → aparente 10 nudos. Con viento real de popa a la misma velocidad que el barco → aparente 0.</li>\n</ul>\n<h4>Escala Beaufort (0–12)</h4>\n<p>Escala empírica de la intensidad del viento en el medio marino creada por el almirante Francis Beaufort (1806). Va de <b>0 a 12</b>, creciente. Se lleva a bordo porque los partes dan el viento en grados Beaufort.</p>\n<table><thead><tr><th>Fuerza</th><th>Denominación</th><th>Nudos</th><th>Aspecto de la mar (altura probable)</th></tr></thead><tbody>\n<tr><td>0</td><td>Calma</td><td>&lt;1</td><td>Mar como un espejo (0 m)</td></tr>\n<tr><td>1</td><td>Ventolina</td><td>1–3</td><td>Rizos sin espuma (0,1 m)</td></tr>\n<tr><td>2</td><td>Flojito</td><td>4–6</td><td>Olas pequeñas que no rompen (0,2 m)</td></tr>\n<tr><td>3</td><td>Flojo</td><td>7–10</td><td>Crestas que empiezan a romper, algún borreguillo (0,6 m)</td></tr>\n<tr><td>4</td><td>Bonancible</td><td>11–16</td><td>Olas alargadas, borreguillos numerosos (1 m)</td></tr>\n<tr><td>5</td><td>Fresquito</td><td>17–21</td><td>Olas moderadas, muchos borreguillos, algún roción (2 m)</td></tr>\n<tr><td>6</td><td>Fresco</td><td>22–27</td><td>Olas grandes, crestas de espuma blanca, rociones (3 m)</td></tr>\n<tr><td>7</td><td>Frescachón</td><td>28–33</td><td>Mar gruesa, la espuma empieza a formar estrías (4 m)</td></tr>\n<tr><td>8</td><td>Temporal</td><td>34–40</td><td>Olas altas, rompientes, estrías de espuma (5,5 m)</td></tr>\n<tr><td>9</td><td>Temporal fuerte</td><td>41–47</td><td>Olas muy gruesas, densas estrías, visibilidad afectada (7 m)</td></tr>\n<tr><td>10</td><td>Temporal duro</td><td>48–55</td><td>Olas muy altas, mar blanca (9 m)</td></tr>\n<tr><td>11</td><td>Temporal muy duro</td><td>56–63</td><td>Olas excepcionalmente altas (11,5 m)</td></tr>\n<tr><td>12</td><td>Temporal huracanado</td><td>≥64</td><td>Aire lleno de espuma y rociones, mar totalmente blanca (&gt;14 m)</td></tr></tbody></table>\n<p>Truco: a partir de fuerza 4, nudos ≈ 5 × (F − 1) como cota inferior aproximada. Fuerza 8 = «temporal» (34 nudos).</p>",
+   "keyFacts": [
+    "Rolar = cambiar de dirección",
+    "Refrescar = aumentar de intensidad",
+    "Caer = disminuir de intensidad",
+    "Racha = aumento brusco y repentino de intensidad",
+    "Viento del NW: procede del NW",
+    "Anemómetro: velocidad; veleta, catavientos y grímpola: dirección",
+    "Viento real: el que se percibe con la embarcación parada",
+    "Viento aparente = suma vectorial de real + relativo",
+    "Beaufort: escala empírica de 0 a 12 de la intensidad del viento",
+    "F4 bonancible 11–16 kn; F6 fresco 22–27; F7 frescachón 28–33; F8 temporal 34–40",
+    "F12 temporal huracanado ≥64 nudos"
+   ],
+   "traps": [
+    "«Refrescar» NO tiene que ver con la temperatura",
+    "«Rolar» es el único término que NO implica variación de intensidad",
+    "Beaufort NO mide el oleaje (eso es Douglas) y no llega solo a 10",
+    "«El viento real es el que provocamos al avanzar»: FALSO (eso es el relativo)",
+    "La corredera no sirve para conocer el viento",
+    "«El catavientos va en el tope del palo mayor»: FALSO (va en las velas; en el tope va la grímpola o veleta)"
+   ],
+   "upd2026": "Los apuntes no incluyen la tabla Beaufort; se añade completa con denominaciones españolas y nudos (OMM).",
+   "sources": [
+    "Apuntes PER p.103–104 (UT9 9.5)",
+    "Libro PER 2007 p.155 (tabla Beaufort)",
+    "OMM – escala Beaufort"
+   ],
+   "kw": [
+    "viento",
+    "rolar",
+    "refrescar",
+    "caer",
+    "calmar",
+    "racha",
+    "intensidad",
+    "anemometro",
+    "veleta",
+    "catavientos",
+    "grimpola",
+    "corredera",
+    "viento real",
+    "viento aparente",
+    "viento relativo",
+    "beaufort",
+    "escala beaufort",
+    "del nw",
+    "procede",
+    "fuerza",
+    "nudos",
+    "temporal",
+    "suma vectorial",
+    "parada"
+   ],
+   "flash": [
+    {
+     "q": "¿Qué significa que el viento «rola»?",
+     "a": "Que cambia de dirección."
+    },
+    {
+     "q": "¿Qué significa «refrescar»?",
+     "a": "Que aumenta la intensidad del viento."
+    },
+    {
+     "q": "¿Qué significa «caer» el viento?",
+     "a": "Que disminuye su intensidad."
+    },
+    {
+     "q": "Aumento muy brusco y repentino del viento",
+     "a": "Racha."
+    },
+    {
+     "q": "¿Qué mide el anemómetro?",
+     "a": "La velocidad del viento."
+    },
+    {
+     "q": "¿Qué es un catavientos?",
+     "a": "Cintas o lanillas en las velas que indican la dirección del viento."
+    },
+    {
+     "q": "Viento real",
+     "a": "El que existe en un momento dado con la embarcación parada."
+    },
+    {
+     "q": "Viento aparente",
+     "a": "Resultante (suma vectorial) del viento real y el relativo; el que sentimos navegando."
+    },
+    {
+     "q": "5 kn de velocidad y 5 kn de viento real por la proa: ¿viento aparente?",
+     "a": "10 nudos."
+    },
+    {
+     "q": "Rango de la escala Beaufort",
+     "a": "0 a 12."
+    },
+    {
+     "q": "Fuerza 4 Beaufort",
+     "a": "Bonancible, 11–16 nudos."
+    },
+    {
+     "q": "Fuerza 7 Beaufort",
+     "a": "Frescachón, 28–33 nudos."
+    },
+    {
+     "q": "Fuerza 8 Beaufort",
+     "a": "Temporal, 34–40 nudos."
+    },
+    {
+     "q": "Fuerza 12 Beaufort",
+     "a": "Temporal huracanado, 64 nudos o más."
+    },
+    {
+     "q": "Fuerza 1 y 2 Beaufort",
+     "a": "Ventolina (1–3 kn) y flojito (4–6 kn)."
+    },
+    {
+     "q": "Fuerza 6 Beaufort",
+     "a": "Fresco, 22–27 nudos."
+    }
+   ]
+  },
+  {
+   "id": "9.6",
+   "title": "Brisas costeras",
+   "html": "<p>Las <b>brisas</b> son vientos locales flojos y periódicos (ciclo diario) que aparecen en la costa cuando no hay un gradiente de presión general fuerte (tiempo anticiclónico, verano). Su origen: la <b>tierra se calienta y se enfría más deprisa que el mar</b>.</p>\n<table><thead><tr><th></th><th>VIRAZÓN (brisa de mar)</th><th>TERRAL (brisa de tierra)</th></tr></thead><tbody>\n<tr><td>Cuándo</td><td><b>De día</b>, horas centrales, épocas de calor</td><td><b>De noche</b> y madrugada</td></tr>\n<tr><td>Dirección</td><td><b>Del mar hacia tierra</b></td><td><b>De tierra hacia el mar</b></td></tr>\n<tr><td>Causa</td><td>La tierra se calienta más: baja relativa en tierra, el aire asciende y lo sustituye aire del mar</td><td>La tierra se enfría más rápido: aire frío y denso sobre tierra, baja relativa en el mar</td></tr>\n<tr><td>Alcance</td><td>Hasta unos 50 km tierra adentro</td><td>Se nota hasta unas 20 millas mar adentro</td></tr></tbody></table>\n<p>Entre uno y otro régimen hay un periodo de calma (al amanecer y al anochecer).</p>\n<h4>Por qué banda entra la brisa</h4>\n<p>Navegando paralelos a la costa: el <b>terral</b> viene de tierra, así que entra por la banda donde tenemos la costa; la <b>virazón</b> viene del mar, así que entra por la banda contraria a la costa.</p>\n<ul>\n<li>De noche, costa por babor, terral → entra por <b>babor</b>.</li>\n<li>De día, costa por estribor, virazón → entra por <b>babor</b>.</li>\n</ul>\n<p><b>Otros vientos que NO son brisas costeras</b> (distractores): los <b>alisios</b> (soplan de E a W desde las altas subtropicales a las bajas ecuatoriales), los vientos de <b>valle y montaña</b> (catabáticos: el aire frío baja por las laderas de noche; anabáticos: sube de día).</p>\n<p>Vientos locales del Estrecho: <b>Levante</b> (del E, encajonado y muy fuerte en el Estrecho, frecuente en verano) y <b>Poniente</b> (del W).</p>",
+   "keyFacts": [
+    "Virazón: de día, del mar hacia tierra",
+    "Terral: de noche, de tierra hacia el mar",
+    "Causa: la tierra se calienta y enfría más rápido que el mar",
+    "Las brisas aparecen con poco gradiente general (buen tiempo)",
+    "Terral entra por la banda de la costa; virazón por la banda contraria",
+    "Alisios y vientos de valle no son brisas costeras",
+    "En el Estrecho dominan Levante (E) y Poniente (W)"
+   ],
+   "traps": [
+    "Invertir día/noche: terral = NOCHE, virazón = DÍA",
+    "Invertir el sentido: virazón va del mar a tierra",
+    "Definir terral como viento que «desciende al fondo de los valles» (eso es catabático)",
+    "Definir virazón como «viento de E a W de las zonas subtropicales» (eso son los alisios)",
+    "«El terral se produce por cambios súbitos, no periódicos»: FALSO, es periódico diario"
+   ],
+   "upd2026": null,
+   "sources": [
+    "Apuntes PER p.104 (UT9 9.6)"
+   ],
+   "kw": [
+    "terral",
+    "virazon",
+    "brisa",
+    "brisas costeras",
+    "brisa de tierra",
+    "brisa de mar",
+    "diurna",
+    "nocturna",
+    "de tierra hacia el mar",
+    "del mar hacia tierra",
+    "noche",
+    "dia",
+    "costa por babor",
+    "costa por estribor",
+    "entrara",
+    "alisios"
+   ],
+   "flash": [
+    {
+     "q": "¿Qué es el terral?",
+     "a": "Brisa nocturna que sopla de tierra hacia el mar."
+    },
+    {
+     "q": "¿Qué es la virazón?",
+     "a": "Brisa diurna que sopla del mar hacia tierra."
+    },
+    {
+     "q": "¿Por qué se produce el terral?",
+     "a": "De noche la tierra se enfría más rápido que el mar."
+    },
+    {
+     "q": "¿Por qué se produce la virazón?",
+     "a": "De día la tierra se calienta más que el mar: baja relativa en tierra."
+    },
+    {
+     "q": "De noche, costa por babor, terral: ¿por dónde entra?",
+     "a": "Por babor."
+    },
+    {
+     "q": "De día, costa por estribor, virazón: ¿por dónde entra?",
+     "a": "Por babor."
+    },
+    {
+     "q": "¿Hasta dónde se nota el terral mar adentro?",
+     "a": "Hasta unas 20 millas."
+    },
+    {
+     "q": "¿Qué son los alisios?",
+     "a": "Vientos regulares de E a W de las altas subtropicales a las bajas ecuatoriales (no son brisas)."
+    },
+    {
+     "q": "¿Cuándo hay calma entre terral y virazón?",
+     "a": "Al amanecer y al anochecer, en el cambio de régimen."
+    }
+   ]
+  },
+  {
+   "id": "9.7",
+   "title": "Mar (Douglas, mar de viento y de fondo)",
+   "html": "<p>El tamaño de las olas que levanta el viento depende de <b>tres parámetros</b>: <b>intensidad, persistencia y fetch</b>.</p>\n<table><thead><tr><th>Parámetro</th><th>Definición</th><th>Unidad</th></tr></thead><tbody>\n<tr><td><b>Intensidad</b></td><td>Velocidad con la que sopla el viento</td><td>Nudos, m/s, Beaufort</td></tr>\n<tr><td><b>Persistencia</b></td><td>Número de <b>horas</b> que el viento sopla o ha soplado en la misma dirección (y fuerza)</td><td>Horas</td></tr>\n<tr><td><b>Fetch</b></td><td><b>Extensión o alcance</b> de mar sobre la que el viento sopla con <b>dirección y fuerza constantes</b></td><td><b>Millas</b> (o km)</td></tr></tbody></table>\n<p>A mayor fetch, mayor oleaje. El fetch NO se expresa en horas, no es un cese ni un aumento momentáneo del viento, ni se obtiene de la escala Beaufort.</p>\n<h4>Tipos de mar</h4>\n<ul>\n<li><b>Mar de viento</b>: olas generadas por el viento que sopla en ese momento y lugar; crestas cortas, irregulares, rompen (borreguillos).</li>\n<li><b>Mar de fondo (mar tendida)</b>: olas que llegan de una zona lejana donde hubo viento (borrasca distante) o que persisten tras cesar este; olas largas, regulares, de periodo largo, que no rompen en alta mar. Puede venir de dirección distinta a la del viento local (mar cruzada).</li>\n</ul>\n<h4>Escala Douglas (0–9)</h4>\n<p>Creada por Sir Percy Douglas (principios del siglo XX). Representa los grados del <b>estado de la mar</b> con su aspecto y la <b>altura de ola</b> equivalente; a mayor grado, mayor altura. Tiene <b>equivalencia con Beaufort</b> pero NO da la velocidad del viento ni clasifica tornados o borrascas.</p>\n<table><thead><tr><th>Grado</th><th>Denominación</th><th>Altura de ola</th><th>≈ Beaufort</th></tr></thead><tbody>\n<tr><td>0</td><td>Mar llana (calma)</td><td>0 m</td><td>0</td></tr>\n<tr><td>1</td><td>Mar rizada</td><td>0 – 0,1 m</td><td>1</td></tr>\n<tr><td>2</td><td>Marejadilla</td><td>0,1 – 0,5 m</td><td>2–3</td></tr>\n<tr><td>3</td><td>Marejada</td><td>0,5 – 1,25 m</td><td>4</td></tr>\n<tr><td>4</td><td>Fuerte marejada</td><td>1,25 – 2,5 m</td><td>5</td></tr>\n<tr><td>5</td><td>Mar gruesa</td><td>2,5 – 4 m</td><td>6–7</td></tr>\n<tr><td>6</td><td>Mar muy gruesa</td><td>4 – 6 m</td><td>8–9</td></tr>\n<tr><td>7</td><td>Mar arbolada</td><td>6 – 9 m</td><td>10</td></tr>\n<tr><td>8</td><td>Mar montañosa</td><td>9 – 14 m</td><td>11</td></tr>\n<tr><td>9</td><td>Mar enorme</td><td>&gt; 14 m</td><td>12</td></tr></tbody></table>\n<p>La equivalencia Beaufort–Douglas supone fetch y persistencia medios: con poco fetch (viento de tierra) la mar será menor que la de la tabla.</p>",
+   "keyFacts": [
+    "Las olas dependen de intensidad, persistencia y fetch",
+    "Fetch: extensión de mar con viento de dirección y fuerza constantes; se mide en millas",
+    "Persistencia: horas que el viento sopla en la misma dirección",
+    "Intensidad: velocidad del viento",
+    "A mayor fetch, mayor oleaje",
+    "Douglas: estado de la mar y altura de ola, grados 0 a 9",
+    "Douglas: a mayor grado, mayor altura de ola",
+    "Douglas tiene equivalencia con Beaufort, pero no da nudos",
+    "Marejadilla 0,1–0,5 m; marejada 0,5–1,25 m; fuerte marejada 1,25–2,5 m; gruesa 2,5–4 m",
+    "Mar de fondo: olas largas y regulares procedentes de un viento lejano"
+   ],
+   "traps": [
+    "Confundir fetch (millas) con persistencia (horas)",
+    "«Douglas va de 0 a 12» o «mide el viento»: FALSO (0 a 9, oleaje)",
+    "«A menor grado Douglas, mayor altura de ola»: FALSO",
+    "«Douglas no tiene relación con Beaufort»: FALSO, hay equivalencia",
+    "«Douglas categoriza tornados y borrascas»: FALSO",
+    "Parámetros del viento generador: NO son «velocidad y dirección» ni incluyen la presión"
+   ],
+   "upd2026": "Los apuntes no incluyen la tabla Douglas; se añade completa con rangos de altura (OMM, código 3700).",
+   "sources": [
+    "Apuntes PER p.104–105 (UT9 9.7)",
+    "Libro PER 2007 p.156 (tabla Douglas)",
+    "OMM código 3700 (estado de la mar)"
+   ],
+   "kw": [
+    "fetch",
+    "fecht",
+    "persistencia",
+    "intensidad",
+    "douglas",
+    "escala de douglas",
+    "altura de ola",
+    "estado de la mar",
+    "oleaje",
+    "mar de fondo",
+    "mar de viento",
+    "marejada",
+    "marejadilla",
+    "mar gruesa",
+    "millas",
+    "olas",
+    "viento generador",
+    "tamano de las olas"
+   ],
+   "flash": [
+    {
+     "q": "¿Qué es el fetch?",
+     "a": "La extensión o alcance de mar sobre la que el viento sopla con dirección y fuerza constantes."
+    },
+    {
+     "q": "¿En qué se expresa el fetch?",
+     "a": "En millas náuticas (o km), no en horas."
+    },
+    {
+     "q": "¿Qué es la persistencia del viento?",
+     "a": "El número de horas que el viento sopla o ha soplado en la misma dirección."
+    },
+    {
+     "q": "Parámetros que determinan el tamaño de las olas",
+     "a": "Intensidad, persistencia y fetch."
+    },
+    {
+     "q": "¿Qué mide la escala Douglas?",
+     "a": "El estado de la mar y la altura de ola."
+    },
+    {
+     "q": "Rango de la escala Douglas",
+     "a": "0 (mar llana) a 9 (mar enorme)."
+    },
+    {
+     "q": "Douglas 2",
+     "a": "Marejadilla: 0,1–0,5 m."
+    },
+    {
+     "q": "Douglas 3",
+     "a": "Marejada: 0,5–1,25 m."
+    },
+    {
+     "q": "Douglas 4",
+     "a": "Fuerte marejada: 1,25–2,5 m."
+    },
+    {
+     "q": "Douglas 5",
+     "a": "Mar gruesa: 2,5–4 m."
+    },
+    {
+     "q": "Douglas 7",
+     "a": "Mar arbolada: 6–9 m."
+    },
+    {
+     "q": "Douglas 9",
+     "a": "Mar enorme: más de 14 m."
+    },
+    {
+     "q": "¿Qué es la mar de fondo?",
+     "a": "Olas largas y regulares que llegan de un viento lejano o pasado."
+    },
+    {
+     "q": "¿Hay equivalencia entre Douglas y Beaufort?",
+     "a": "Sí (para fetch y persistencia medios)."
+    }
+   ]
+  }
+ ]
+}

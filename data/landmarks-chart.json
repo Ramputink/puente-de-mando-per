@@ -1,0 +1,392 @@
+{
+ "source": "Medido sobre img/carta.webp (carta IHM L105 Enseñanza, georreferenciada en data/chart.json). Precisión ±0,1′.",
+ "aliases": {
+  "isla tarifa": "tarifa",
+  "punta tarifa": "tarifa",
+  "torre de gracia": "gracia",
+  "punta camarinal": "gracia",
+  "punta de gracia": "gracia",
+  "ras el aswad": "cabonegro"
+ },
+ "points": [
+  {
+   "id": "trafalgar",
+   "name": "Faro de Cabo Trafalgar",
+   "type": "faro",
+   "light": "Fl(2+1)15s22M",
+   "lat": 36.18376,
+   "lon": -6.03386,
+   "l": "36° 11,0′ N",
+   "L": "006° 02,0′ W",
+   "px": [
+    1447,
+    912
+   ]
+  },
+  {
+   "id": "roche",
+   "name": "Faro de Cabo Roche",
+   "type": "faro",
+   "light": "Fl(4)24s20M",
+   "lat": 36.29692,
+   "lon": -6.13883,
+   "l": "36° 17,8′ N",
+   "L": "006° 08,3′ W",
+   "px": [
+    1057,
+    392
+   ]
+  },
+  {
+   "id": "barbate",
+   "name": "Faro de Barbate",
+   "type": "faro",
+   "light": "Fl(2)WR.7s10/7M",
+   "lat": 36.1882,
+   "lon": -5.92103,
+   "l": "36° 11,3′ N",
+   "L": "005° 55,3′ W",
+   "px": [
+    1868,
+    891
+   ]
+  },
+  {
+   "id": "ecm_barbate",
+   "name": "Marca cardinal E (granja acuícola de Barbate)",
+   "type": "marca",
+   "light": "Q(3)10s3M",
+   "lat": 36.15259,
+   "lon": -5.91796,
+   "l": "36° 09,2′ N",
+   "L": "005° 55,1′ W",
+   "px": [
+    1879,
+    1055
+   ]
+  },
+  {
+   "id": "gracia",
+   "name": "Faro de Punta de Gracia (Camarinal / Torre de Gracia)",
+   "type": "faro",
+   "light": "Oc(2)5s13M",
+   "lat": 36.09155,
+   "lon": -5.80759,
+   "l": "36° 05,5′ N",
+   "L": "005° 48,5′ W",
+   "px": [
+    2290,
+    1335
+   ]
+  },
+  {
+   "id": "paloma",
+   "name": "Faro de Punta Paloma",
+   "type": "faro",
+   "light": "Oc.WR.5s10/7M",
+   "lat": 36.066,
+   "lon": -5.71846,
+   "l": "36° 04,0′ N",
+   "L": "005° 43,1′ W",
+   "px": [
+    2622,
+    1452
+   ]
+  },
+  {
+   "id": "tarifa",
+   "name": "Faro de Isla de Tarifa",
+   "type": "faro",
+   "light": "Fl(3)WR.10s26/18M",
+   "lat": 36.00192,
+   "lon": -5.60884,
+   "l": "36° 00,1′ N",
+   "L": "005° 36,5′ W",
+   "px": [
+    3030,
+    1746
+   ]
+  },
+  {
+   "id": "carnero",
+   "name": "Faro de Punta Carnero",
+   "type": "faro",
+   "light": "Fl(4)WR.20s16/13M",
+   "lat": 36.07807,
+   "lon": -5.42455,
+   "l": "36° 04,7′ N",
+   "L": "005° 25,5′ W",
+   "px": [
+    3717,
+    1396
+   ]
+  },
+  {
+   "id": "algeciras",
+   "name": "Algeciras (dique, Fl(2)R.6s)",
+   "type": "puerto",
+   "light": "Fl(2)R.6s8M",
+   "lat": 36.14784,
+   "lon": -5.42606,
+   "l": "36° 08,9′ N",
+   "L": "005° 25,6′ W",
+   "px": [
+    3712,
+    1075
+   ]
+  },
+  {
+   "id": "ecm_algeciras",
+   "name": "Marca cardinal E (Bahía de Algeciras, P. San García)",
+   "type": "marca",
+   "light": "Q(3)10s4M",
+   "lat": 36.1117,
+   "lon": -5.41073,
+   "l": "36° 06,7′ N",
+   "L": "005° 24,6′ W",
+   "px": [
+    3769,
+    1241
+   ]
+  },
+  {
+   "id": "cepsa",
+   "name": "Pantalán refinería CEPSA",
+   "type": "puerto",
+   "light": "Q(4)14s10M",
+   "lat": 36.17957,
+   "lon": -5.39375,
+   "l": "36° 10,8′ N",
+   "L": "005° 23,6′ W",
+   "px": [
+    3832,
+    929
+   ]
+  },
+  {
+   "id": "europa",
+   "name": "Faro de Punta Europa",
+   "type": "faro",
+   "light": "Iso.W.10s / Oc.R.10s",
+   "lat": 36.11043,
+   "lon": -5.345,
+   "l": "36° 06,6′ N",
+   "L": "005° 20,7′ W",
+   "px": [
+    4014,
+    1247
+   ]
+  },
+  {
+   "id": "carbonera",
+   "name": "Faro de Punta Carbonera",
+   "type": "faro",
+   "light": "Oc.4s14M",
+   "lat": 36.24826,
+   "lon": -5.29894,
+   "l": "36° 14,9′ N",
+   "L": "005° 17,9′ W",
+   "px": [
+    4186,
+    613
+   ]
+  },
+  {
+   "id": "sotogrande",
+   "name": "Puerto de Sotogrande",
+   "type": "puerto",
+   "light": "Q(3)10s4M / Fl(3)G.11s4M",
+   "lat": 36.28843,
+   "lon": -5.26731,
+   "l": "36° 17,3′ N",
+   "L": "005° 16,0′ W",
+   "px": [
+    4304,
+    428
+   ]
+  },
+  {
+   "id": "espartel",
+   "name": "Faro de Cabo Espartel",
+   "type": "faro",
+   "light": "Fl(4)20s30M",
+   "lat": 35.79236,
+   "lon": -5.92385,
+   "l": "35° 47,5′ N",
+   "L": "005° 55,4′ W",
+   "px": [
+    1856,
+    2707
+   ]
+  },
+  {
+   "id": "frailecillo",
+   "name": "Punta Frailecillo",
+   "type": "punta",
+   "light": "",
+   "lat": 35.79542,
+   "lon": -5.92586,
+   "l": "35° 47,7′ N",
+   "L": "005° 55,6′ W",
+   "px": [
+    1848,
+    2693
+   ]
+  },
+  {
+   "id": "pecio_espartel",
+   "name": "Pecio al NE de Punta Frailecillo",
+   "type": "peligro",
+   "light": "",
+   "lat": 35.80437,
+   "lon": -5.90279,
+   "l": "35° 48,3′ N",
+   "L": "005° 54,2′ W",
+   "px": [
+    1934,
+    2652
+   ]
+  },
+  {
+   "id": "tanger",
+   "name": "Puerto de Tánger",
+   "type": "puerto",
+   "light": "Fl(3)12s14M",
+   "lat": 35.79261,
+   "lon": -5.79024,
+   "l": "35° 47,6′ N",
+   "L": "005° 47,4′ W",
+   "px": [
+    2354,
+    2705
+   ]
+  },
+  {
+   "id": "ncm_malabata",
+   "name": "Marca cardinal N (Bahía de Tánger, cerca de P. Malabata)",
+   "type": "marca",
+   "light": "Q.0,6s5M",
+   "lat": 35.82754,
+   "lon": -5.76209,
+   "l": "35° 49,7′ N",
+   "L": "005° 45,7′ W",
+   "px": [
+    2459,
+    2545
+   ]
+  },
+  {
+   "id": "malabata",
+   "name": "Faro de Punta Malabata",
+   "type": "faro",
+   "light": "Fl.5s22M",
+   "lat": 35.81713,
+   "lon": -5.74912,
+   "l": "35° 49,0′ N",
+   "L": "005° 44,9′ W",
+   "px": [
+    2507,
+    2593
+   ]
+  },
+  {
+   "id": "alcazar",
+   "name": "Faro de Punta Alcázar",
+   "type": "faro",
+   "light": "Fl(4)12s8M",
+   "lat": 35.85038,
+   "lon": -5.5607,
+   "l": "35° 51,0′ N",
+   "L": "005° 33,6′ W",
+   "px": [
+    3209,
+    2440
+   ]
+  },
+  {
+   "id": "cires",
+   "name": "Faro de Punta Cires",
+   "type": "faro",
+   "light": "Fl(3)10s18M",
+   "lat": 35.91235,
+   "lon": -5.48223,
+   "l": "35° 54,7′ N",
+   "L": "005° 28,9′ W",
+   "px": [
+    3502,
+    2156
+   ]
+  },
+  {
+   "id": "leona",
+   "name": "Punta Leona",
+   "type": "punta",
+   "light": "",
+   "lat": 35.92699,
+   "lon": -5.4006,
+   "l": "35° 55,6′ N",
+   "L": "005° 24,0′ W",
+   "px": [
+    3806,
+    2088
+   ]
+  },
+  {
+   "id": "ceuta",
+   "name": "Puerto de Ceuta (bocana)",
+   "type": "puerto",
+   "light": "Fl.G.5s10M / Fl.R.5s5M",
+   "lat": 35.89304,
+   "lon": -5.3107,
+   "l": "35° 53,6′ N",
+   "L": "005° 18,6′ W",
+   "px": [
+    4141,
+    2244
+   ]
+  },
+  {
+   "id": "almina",
+   "name": "Faro de Punta Almina",
+   "type": "faro",
+   "light": "Fl(2)10s22M",
+   "lat": 35.89983,
+   "lon": -5.27713,
+   "l": "35° 54,0′ N",
+   "L": "005° 16,6′ W",
+   "px": [
+    4266,
+    2212
+   ]
+  },
+  {
+   "id": "cabonegro",
+   "name": "Faro de Cabo Negro (Ras El Aswad)",
+   "type": "faro",
+   "light": "Oc.4s20M",
+   "lat": 35.68613,
+   "lon": -5.27239,
+   "l": "35° 41,2′ N",
+   "L": "005° 16,3′ W",
+   "px": [
+    4283,
+    3190
+   ]
+  },
+  {
+   "id": "sierra_plata",
+   "name": "Pico de la Sierra de la Plata",
+   "type": "cerro",
+   "light": "",
+   "lat": 36.12167,
+   "lon": -5.76333,
+   "l": "36° 07,3′ N",
+   "L": "005° 45,8′ W",
+   "px": [
+    2455,
+    1197
+   ],
+   "note": "coordenadas del enunciado oficial 71fcca2f7c"
+  }
+ ]
+}

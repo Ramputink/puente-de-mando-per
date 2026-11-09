@@ -1,0 +1,284 @@
+[
+ {
+  "name": "Faro de Cabo Trafalgar",
+  "aliases": [
+   "Cabo Trafalgar",
+   "C. Trafalgar",
+   "Trafalgar"
+  ],
+  "lat": 36.18333,
+  "lon": -6.03333,
+  "latDM": "36°11,0′N",
+  "lonDM": "006°02,0′W",
+  "light": "Fl(2+1)W 15s 49m 22M",
+  "rangeNM": 22,
+  "source": "Libro de Faros IHM / carta L105; Verificado numéricamente con respuestas oficiales del banco PER 2022–2026 (carta L105)"
+ },
+ {
+  "name": "Faro de Cabo Roche",
+  "aliases": [
+   "Cabo Roche",
+   "C. Roche"
+  ],
+  "lat": 36.29667,
+  "lon": -6.14,
+  "latDM": "36°17,8′N",
+  "lonDM": "006°08,4′W",
+  "light": "Fl(4)W 24s 44m 20M",
+  "rangeNM": 20,
+  "source": "Libro de Faros IHM (característica de memoria, verificar); posición Verificado numéricamente con respuestas oficiales del banco PER 2022–2026 (carta L105)"
+ },
+ {
+  "name": "Faro de Barbate",
+  "aliases": [
+   "Barbate",
+   "Faro de Barbate"
+  ],
+  "lat": 36.18667,
+  "lon": -5.92333,
+  "latDM": "36°11,2′N",
+  "lonDM": "005°55,4′W",
+  "light": "Fl(2)WR 7s 22m W10M R7M",
+  "rangeNM": 10,
+  "source": "Enunciado oficial [001404fc99]: Fl(2)WR 7s 10/7M; posición Verificado numéricamente con respuestas oficiales del banco PER 2022–2026 (carta L105)"
+ },
+ {
+  "name": "Faro de Punta de Gracia (Camarinal)",
+  "aliases": [
+   "Punta de Gracia",
+   "Pta. Gracia",
+   "Torre de Gracia",
+   "Punta Camarinal",
+   "Camarinal",
+   "Cabo de Gracia"
+  ],
+  "lat": 36.09,
+  "lon": -5.81,
+  "latDM": "36°05,4′N",
+  "lonDM": "005°48,6′W",
+  "light": "Oc(2)W 5s 75m 13M",
+  "rangeNM": 13,
+  "source": "es.wikipedia Faro de Camarinal (36°05′25″N 5°48′38″W, 2 ocultaciones, 13M); Verificado numéricamente con respuestas oficiales del banco PER 2022–2026 (carta L105)"
+ },
+ {
+  "name": "Faro de Punta Paloma",
+  "aliases": [
+   "Punta Paloma",
+   "Pta. Paloma"
+  ],
+  "lat": 36.065,
+  "lon": -5.71667,
+  "latDM": "36°03,9′N",
+  "lonDM": "005°43,0′W",
+  "light": null,
+  "rangeNM": null,
+  "source": "Posición Verificado numéricamente con respuestas oficiales del banco PER 2022–2026 (carta L105); característica no verificada"
+ },
+ {
+  "name": "Faro de Isla de Tarifa",
+  "aliases": [
+   "Isla Tarifa",
+   "Isla de Tarifa",
+   "Tarifa",
+   "Punta Tarifa"
+  ],
+  "lat": 36.00167,
+  "lon": -5.60833,
+  "latDM": "36°00,1′N",
+  "lonDM": "005°36,5′W",
+  "light": "Fl(3)WR 10s 40m W26M R18M",
+  "rangeNM": 26,
+  "source": "Libro de Faros IHM (característica de memoria, verificar); posición Verificado numéricamente con respuestas oficiales del banco PER 2022–2026 (carta L105)"
+ },
+ {
+  "name": "Faro de Punta Carnero",
+  "aliases": [
+   "Punta Carnero",
+   "Pta. Carnero"
+  ],
+  "lat": 36.07667,
+  "lon": -5.42667,
+  "latDM": "36°04,6′N",
+  "lonDM": "005°25,6′W",
+  "light": "Fl(4)WR 20s 42m 16M",
+  "rangeNM": 16,
+  "source": "es.wikipedia Faro de Punta Carnero (36°04′38″N 5°25′35″W); Verificado numéricamente con respuestas oficiales del banco PER 2022–2026 (carta L105)"
+ },
+ {
+  "name": "Faro de Punta Europa (Gibraltar)",
+  "aliases": [
+   "Punta Europa",
+   "Pta. Europa",
+   "Europa Point"
+  ],
+  "lat": 36.11,
+  "lon": -5.345,
+  "latDM": "36°06,6′N",
+  "lonDM": "005°20,7′W",
+  "light": "Iso W 10s 49m 19M (+ Oc R 10s sector)",
+  "rangeNM": 19,
+  "source": "Admiralty List of Lights (de memoria, verificar); posición Verificado numéricamente con respuestas oficiales del banco PER 2022–2026 (carta L105)"
+ },
+ {
+  "name": "Faro de Punta Carbonera",
+  "aliases": [
+   "Punta Carbonera",
+   "Pta. Carbonera",
+   "Carbonera"
+  ],
+  "lat": 36.245,
+  "lon": -5.30167,
+  "latDM": "36°14,7′N",
+  "lonDM": "005°18,1′W",
+  "light": "Oc W 4s (L3 oc1) 39m 14M",
+  "rangeNM": 14,
+  "source": "es.wikipedia Faro de Carbonera (36°14′40″N 5°18′05″W); concuerda con [8dcf737730]"
+ },
+ {
+  "name": "Faro de Cabo Espartel",
+  "aliases": [
+   "Cabo Espartel",
+   "C. Espartel",
+   "Espartel"
+  ],
+  "lat": 35.79167,
+  "lon": -5.92333,
+  "latDM": "35°47,5′N",
+  "lonDM": "005°55,4′W",
+  "light": "Fl(4)W 20s 95m 30M",
+  "rangeNM": 30,
+  "source": "Libro de Faros (de memoria, verificar); posición Verificado numéricamente con respuestas oficiales del banco PER 2022–2026 (carta L105)"
+ },
+ {
+  "name": "Faro de Punta Malabata",
+  "aliases": [
+   "Punta Malabata",
+   "Pta. Malabata",
+   "Malabata"
+  ],
+  "lat": 35.81667,
+  "lon": -5.74833,
+  "latDM": "35°49,0′N",
+  "lonDM": "005°44,9′W",
+  "light": "Fl W 5s 77m 22M",
+  "rangeNM": 22,
+  "source": "Libro de Faros (de memoria, verificar); posición Verificado numéricamente con respuestas oficiales del banco PER 2022–2026 (carta L105)"
+ },
+ {
+  "name": "Faro de Punta Alcázar",
+  "aliases": [
+   "Punta Alcázar",
+   "Punta Alcazar",
+   "Pta. Alcázar",
+   "Ksar es-Seghir"
+  ],
+  "lat": 35.85038,
+  "lon": -5.5607,
+  "latDM": "35°53,2′N",
+  "lonDM": "005°34,1′W",
+  "light": "Fl(4) 12s 8M",
+  "rangeNM": 8,
+  "source": "Enunciado oficial [095b367fd2]: Fl(4)12s8M; posición Verificado numéricamente con respuestas oficiales del banco PER 2022–2026 (carta L105); posición medida en la carta L105 georreferenciada"
+ },
+ {
+  "name": "Faro de Punta Cires",
+  "aliases": [
+   "Punta Cires",
+   "Pta. Cires",
+   "Ras Cires"
+  ],
+  "lat": 35.90833,
+  "lon": -5.48167,
+  "latDM": "35°54,5′N",
+  "lonDM": "005°28,9′W",
+  "light": "Fl(3)W 12s 46m 18M",
+  "rangeNM": 18,
+  "source": "es.wikipedia Faro de Punta Cires (35°54′25″N 5°28′54″W); Verificado numéricamente con respuestas oficiales del banco PER 2022–2026 (carta L105)"
+ },
+ {
+  "name": "Faro de Punta Almina (Ceuta)",
+  "aliases": [
+   "Punta Almina",
+   "Pta. Almina",
+   "Almina"
+  ],
+  "lat": 35.89833,
+  "lon": -5.28167,
+  "latDM": "35°53,9′N",
+  "lonDM": "005°16,9′W",
+  "light": "Fl(2)W 10s 148m 22M",
+  "rangeNM": 22,
+  "source": "es.wikipedia Faro de Punta Almina (35°53′54″N 5°16′50″W); Verificado numéricamente con respuestas oficiales del banco PER 2022–2026 (carta L105)"
+ },
+ {
+  "name": "Faro de Cabo Negro (Ras Aswad)",
+  "aliases": [
+   "Ras Aswad",
+   "Ras El Aswad",
+   "Cabo Negro"
+  ],
+  "lat": 35.685,
+  "lon": -5.275,
+  "latDM": "35°41,1′N",
+  "lonDM": "005°16,5′W",
+  "light": "Fl W 4s 135m 15M",
+  "rangeNM": 15,
+  "source": "es.wikipedia Faro del Cabo Negro (35°41′05″N 5°16′28″W); concuerda con [0c1c585c60]"
+ },
+ {
+  "name": "Punta Leona",
+  "aliases": [
+   "Punta Leona",
+   "Pta. Leona"
+  ],
+  "lat": 35.92699,
+  "lon": -5.4006,
+  "latDM": "35°55,0′N",
+  "lonDM": "005°25,0′W",
+  "light": null,
+  "rangeNM": null,
+  "source": "Aproximada (cartografía general); no verificada con ejercicio; posición medida en la carta L105 georreferenciada"
+ },
+ {
+  "name": "Luz del espigón del puerto de Tánger",
+  "aliases": [
+   "Espigón de Tánger",
+   "Puerto de Tánger",
+   "Tánger"
+  ],
+  "lat": 35.79167,
+  "lon": -5.79667,
+  "latDM": "35°47,5′N",
+  "lonDM": "005°47,8′W",
+  "light": null,
+  "rangeNM": null,
+  "source": "Aproximada; no verificada"
+ },
+ {
+  "name": "Luz del dique del puerto de Ceuta",
+  "aliases": [
+   "Puerto de Ceuta",
+   "Ceuta"
+  ],
+  "lat": 35.89667,
+  "lon": -5.31,
+  "latDM": "35°53,8′N",
+  "lonDM": "005°18,6′W",
+  "light": null,
+  "rangeNM": null,
+  "source": "Aproximada; no verificada"
+ },
+ {
+  "name": "Sierra de la Plata (pico más alto)",
+  "aliases": [
+   "Sierra de la Plata"
+  ],
+  "lat": 36.12167,
+  "lon": -5.76333,
+  "latDM": "36°07,3′N",
+  "lonDM": "005°45,8′W",
+  "light": null,
+  "rangeNM": null,
+  "source": "Enunciado oficial [71fcca2f7c]"
+ }
+]

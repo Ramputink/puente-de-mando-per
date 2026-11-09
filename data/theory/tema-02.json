@@ -1,0 +1,348 @@
+{
+ "id": 2,
+ "title": "Amarre y fondeo",
+ "blocks": [
+  "ama"
+ ],
+ "summary": "Elementos de amarre (noray, bita, cornamusa, muerto, boya, bichero, partes de un cabo…), los nudos básicos y la maniobra de fondeo (tenedero, longitud de cadena, círculo de borneo, garreo, orinque, levar). En el examen PER son las preguntas 5 y 6 (2 de 45); el fondeo es lo más preguntado, a menudo con enunciados «señale la INCORRECTA».",
+ "subtemas": [
+  {
+   "id": "2.1",
+   "title": "Elementos de amarre",
+   "html": "<h4>En el muelle</h4><table><thead><tr><th>Elemento</th><th>Definición examen</th></tr></thead><tbody><tr><td><b>Noray</b></td><td>Pieza de hierro (o piedra) de forma <b>cilíndrica ensanchada en su parte superior</b>, fijada <b>en los muelles</b> para hacer firmes las amarras. Si es asimétrico se llama <i>bolardo</i>.</td></tr><tr><td><b>Muerto</b></td><td>Bloque de cemento, hierro o ancla de gran peso <b>depositado en el fondo</b> que, unido a la superficie (por cadena/cabo y normalmente una boya), permite amarrar una embarcación.</td></tr><tr><td><b>Boya</b></td><td><b>Cuerpo flotante</b> sujeto al fondo mediante un lastre/muerto, que sirve para amarrar una embarcación o como elemento de señalización (balizamiento, límites de playas…).</td></tr></tbody></table><h4>A bordo</h4><table><thead><tr><th>Elemento</th><th>Definición examen</th></tr></thead><tbody><tr><td><b>Bita</b></td><td>Pieza sólida de metal o madera <b>fuertemente unida a la cubierta</b>, normalmente <b>dos columnas sobre una misma base</b>, para tomar vueltas a cadenas y amarras o hacer firme un cabo.</td></tr><tr><td><b>Cornamusa</b></td><td>Pieza de metal o madera <b>encorvada en sus extremos y fija por su punto medio</b> (forma de T o doble T), para amarrar cabos tomando vueltas en ocho.</td></tr><tr><td><b>Guía-cabos</b></td><td>Pieza (a menudo con ranura o rodillo) para <b>pasar y guiar los cabos de amarre</b> desde la embarcación hasta los elementos del muelle, evitando roces.</td></tr><tr><td><b>Roldana</b></td><td><b>Rueda acanalada por donde corre el cabo en un motón</b> (polea).</td></tr><tr><td><b>Defensas</b></td><td>Elementos que se cuelgan en los costados para amortiguar golpes y roces con muelles u otros barcos.</td></tr><tr><td><b>Bichero</b></td><td><b>Palo largo con un gancho y punta</b> en un extremo; para coger cabos, guías o la boya, y para atracar/desatracar (abrirse o acercarse).</td></tr></tbody></table><h4>Partes de un cabo</h4><ul><li><b>Chicote</b>: cualquiera de los <b>dos extremos</b> de un cabo (el extremo libre con el que se trabaja).</li><li><b>Seno</b>: el <b>arco o curvatura</b> que forma el cabo entre los extremos cuando no trabaja o al hacer un nudo.</li><li><b>Firme</b>: la <b>parte larga y principal del cabo</b>, la que queda bajo tensión.</li><li><b>Gaza</b>: <b>lazo u ojo</b> que se forma en el extremo de un cabo doblándolo y uniéndolo con costura o ligada; sirve para encapillar, enganchar o suspender.</li><li><b>Mena</b>: grosor del cabo (no es una «parte»).</li></ul><p>Las tres partes de un cabo: <span class=\"hl\">chicote, seno y firme</span>.</p><p>El <b>orinque</b> NO es un elemento de amarre: es el cabo que une el ancla con un boyarín para balizarla (ver 2.3).</p>",
+   "keyFacts": [
+    "Noray: en el muelle, cilíndrico ensanchado arriba.",
+    "Bita: a bordo, dos columnas sobre una misma base.",
+    "Cornamusa: encorvada en sus extremos, fija por su punto medio.",
+    "Muerto: peso en el fondo; boya: cuerpo flotante sujeto al fondo.",
+    "Roldana: rueda acanalada de un motón.",
+    "Guía-cabos: guía los cabos de amarre hasta el muelle.",
+    "Bichero: palo con gancho y punta.",
+    "Partes de un cabo: chicote, seno y firme.",
+    "Gaza: ojo/lazo en el extremo de un cabo.",
+    "Firme: parte larga que trabaja; chicote: extremo; seno: curvatura."
+   ],
+   "traps": [
+    "Noray está en el MUELLE; la bita está en CUBIERTA. «Noray asegurado a la cubierta» → falso.",
+    "Cornamusa ≠ noray: la definición «encorvada en sus extremos y fija por su punto medio» es la cornamusa.",
+    "Muerto ≠ boya: el muerto está en el fondo; la boya flota.",
+    "Las boyas no son defensas.",
+    "Gaza ≠ seno: la curvatura entre extremos es el seno; el ojo es la gaza.",
+    "Chicote no es un bucle ni un palo con gancho (eso es el bichero).",
+    "El orinque no se usa para amarrar."
+   ],
+   "upd2026": null,
+   "sources": [
+    "Apuntes PER pp.15–16 (2.1)",
+    "Banco oficial q_ama 2022–2026"
+   ],
+   "kw": [
+    "noray",
+    "bolardo",
+    "muerto",
+    "boya",
+    "bita",
+    "cornamusa",
+    "defensas",
+    "bichero",
+    "guia-cabos",
+    "guia cabos",
+    "roldana",
+    "moton",
+    "chicote",
+    "seno",
+    "firme",
+    "gaza",
+    "mena",
+    "partes de un cabo",
+    "elementos de amarre",
+    "encorvada en sus extremos",
+    "dos columnas",
+    "amarre"
+   ],
+   "flash": [
+    {
+     "q": "Noray",
+     "a": "Pieza de hierro cilíndrica, ensanchada arriba, fija en el muelle para hacer firmes las amarras."
+    },
+    {
+     "q": "Pieza en cubierta con dos columnas sobre una misma base",
+     "a": "Bita."
+    },
+    {
+     "q": "Pieza encorvada en sus extremos y fija por su punto medio",
+     "a": "Cornamusa."
+    },
+    {
+     "q": "Muerto",
+     "a": "Bloque pesado depositado en el fondo, unido a la superficie para amarrar embarcaciones."
+    },
+    {
+     "q": "Boya",
+     "a": "Cuerpo flotante sujeto al fondo con un lastre, para amarrar o señalizar."
+    },
+    {
+     "q": "Roldana",
+     "a": "Rueda acanalada por donde corre el cabo en un motón."
+    },
+    {
+     "q": "Guía-cabos",
+     "a": "Pieza para pasar y guiar los cabos de amarre desde el barco al muelle."
+    },
+    {
+     "q": "Bichero",
+     "a": "Palo largo con gancho y punta para coger cabos y atracar/desatracar."
+    },
+    {
+     "q": "Partes de un cabo",
+     "a": "Chicote, seno y firme."
+    },
+    {
+     "q": "Chicote",
+     "a": "Cualquiera de los dos extremos de un cabo."
+    },
+    {
+     "q": "Firme",
+     "a": "Parte larga y principal del cabo que queda bajo tensión."
+    },
+    {
+     "q": "Gaza",
+     "a": "Lazo u ojo en el extremo de un cabo, hecho con costura o ligada."
+    },
+    {
+     "q": "¿Qué elemento NO se usa para amarrar: cornamusa, muerto, bita u orinque?",
+     "a": "El orinque."
+    }
+   ]
+  },
+  {
+   "id": "2.2",
+   "title": "Nudos",
+   "html": "<p>El examen pregunta sobre todo por cuatro nudos: <b>llano, vuelta de rezón, ballestrinque y as de guía</b>. Conviene conocer también los de uso habitual a bordo.</p><h4>Los cuatro del examen (frase clave)</h4><ul><li><b>As de guía</b> → <span class=\"hl\">gaza no corrediza para encapillar un cabo</span>.</li><li><b>Llano</b> → <span class=\"hl\">unir por sus chicotes dos cabos de la misma mena</span>.</li><li><b>Vuelta de rezón</b> → <span class=\"hl\">afirmar rápidamente un cabo a un palo, cáncamo o argolla</span> (y al arganeo de un anclote/rezón).</li><li><b>Ballestrinque</b> → <span class=\"hl\">vuelta mordida, fácil de deshacer, para fijar las defensas</span>.</li></ul><h4>Tabla de nudos</h4><table><thead><tr><th>Nudo</th><th>Para qué sirve</th><th>Cuándo usarlo</th><th>Cuándo NO usarlo</th><th>Ventajas</th><th>Inconvenientes</th></tr></thead><tbody><tr><td><b>Nudo simple</b> (medio nudo)</td><td>Tope elemental en un chicote; base de otros nudos.</td><td>Evitar que un chicote se escape o se deshilache, de forma provisional.</td><td>Bajo carga fuerte o cuando deba deshacerse luego; como unión.</td><td>Rapidísimo, cualquiera lo hace.</td><td>Se azoca mucho (difícil de deshacer) y debilita el cabo; poco volumen como tope.</td></tr><tr><td><b>Llano</b> (de rizo o de envergue)</td><td>Unir por sus chicotes dos cabos de la <b>misma mena</b> (o los dos chicotes de un mismo cabo).</td><td>Tomar rizos en una vela, atar tomadores, paquetes, unir cabos iguales sin cargas críticas.</td><td>Cabos de distinta mena o material resbaladizo; uniones críticas bajo carga variable; para hacer gazas o afirmar a argollas.</td><td>Sencillo; se azoca al trabajar y se deshace fácil al dejar de trabajar; plano, no abulta.</td><td>Mal hecho se convierte en «nudo de vaca», que se escurre; con distinta mena se suelta (usar vuelta de escota).</td></tr><tr><td><b>Ocho</b> (nudo de lasca / en ocho)</td><td>Nudo de <b>tope</b> en el chicote.</td><td>En escotas y drizas para que no se escapen por motones, poleas o guías.</td><td>Como unión de cabos o para amarrar.</td><td>Abulta más que el simple, no se azoca y se deshace fácil incluso tras recibir tensión; no daña el cabo.</td><td>Puede aflojarse si no trabaja; ocupa sitio.</td></tr><tr><td><b>Ballestrinque</b></td><td>Hacer firme un cabo a un palo, candelero, guardamancebo, barra o cabo tenso; es una <b>vuelta mordida</b>.</td><td><b>Colgar/fijar las defensas</b>; amarres rápidos y ajustables; inicio de otros amarres.</td><td>Cuando la tracción cambia de dirección, hay tirones intermitentes o el objeto gira (se escurre); amarras permanentes sin rematar.</td><td>Muy rápido, se puede hacer por seno, regulable, se aprieta solo al trabajar y es fácil de deshacer.</td><td>Puede zafarse sin tensión constante o en cabos sintéticos resbaladizos (rematar con medio cote).</td></tr><tr><td><b>As de guía</b></td><td>Formar una <b>gaza no corrediza</b> (sustituye a una gaza cosida).</td><td><b>Encapillar</b> en noray, bita o pilote; rodear a una persona en un rescate (hombre al agua); unir dos cabos gaza con gaza; amarrar a una argolla.</td><td>Cuando haya que soltarlo con el cabo en tensión; para unir dos cabos por los chicotes; en cabos muy rígidos o resbaladizos sin asegurarlo.</td><td>«Rey de los nudos»: no se zafa, no corre y apenas se azoca; se deshace fácil cuando no trabaja.</td><td>No se puede deshacer bajo carga; sin tensión y con sacudidas puede aflojarse.</td></tr><tr><td><b>Vuelta de escota</b> (simple o doble)</td><td>Unir dos cabos de <b>distinta mena</b>, o un cabo a una gaza/puño de vela.</td><td>Escota al puño de la vela; empalmar cabos de distinto grosor (doble si la diferencia es grande).</td><td>Cuando la unión vaya a quedar sin tensión y sacudiéndose (flameo).</td><td>Fácil de hacer y deshacer; admite grosores distintos.</td><td>Puede soltarse si deja de trabajar.</td></tr><tr><td><b>Vuelta de rezón</b> (de ancla)</td><td>Unir un cabo al <b>arganeo</b> de un anclote o rezón; <b>afirmar rápidamente un cabo a un palo, cáncamo o argolla</b>.</td><td>Fondeo con estacha, amarre a argolla o cáncamo.</td><td>Para unir cabos o colgar defensas.</td><td>Muy segura; doble vuelta reparte el roce; fácil de deshacer aun mojada.</td><td>Consume algo más de cabo; requiere argolla o elemento cerrado.</td></tr><tr><td><b>Cote / dos medios cotes</b></td><td>Cote: vuelta del chicote alrededor del firme. Dos medios cotes (a menudo tras una vuelta redonda): hacer firme un cabo a argolla, noray o poste; rematar otros nudos.</td><td>Amarras a argollas o postes; asegurar un ballestrinque.</td><td>Sobre un palo liso con tracción longitudinal (se desliza).</td><td>Sencillo, fiable; la vuelta redonda + dos medios cotes se puede largar con carga.</td><td>Un solo cote no es seguro; se azoca algo.</td></tr><tr><td><b>Vuelta mordida</b></td><td>Vuelta en la que el chicote queda pisado (mordido) por el firme al tensar.</td><td>Sujeciones provisionales y rápidas (gancho, cornamusa, defensas).</td><td>Cargas sin tensión constante o importantes.</td><td>Instantánea, se suelta tirando del chicote.</td><td>Solo aguanta mientras hay tensión.</td></tr><tr><td><b>Margarita</b></td><td>Acortar un cabo sin cortarlo, o dejar sin trabajar una zona dañada.</td><td>Cabo demasiado largo o parcialmente deteriorado, de forma provisional.</td><td>Si el cabo va a quedar flojo (se deshace).</td><td>No hay que cortar el cabo; aísla la parte dañada.</td><td>Solo se sostiene con tensión.</td></tr><tr><td><b>Vuelta de cornamusa</b> (tomar vueltas)</td><td>Hacer firme un cabo a una cornamusa: vuelta redonda + vueltas en ocho + vuelta mordida final.</td><td>Amarras, drizas, escotas.</td><td>Con demasiadas vueltas/cotes (luego no se puede largar rápido).</td><td>Firme y fácil de largar.</td><td>Mal hecha se «encapilla» y bloquea.</td></tr><tr><td><b>Nudos de tope gruesos</b> (trébol, piña)</td><td>Topes de mayor volumen o decorativos.</td><td>Si el ocho no basta para no pasar por un orificio.</td><td>Como unión.</td><td>Mucho volumen.</td><td>Laboriosos; no se preguntan en el examen.</td></tr></tbody></table><h4>Cómo hacer el as de guía: la serpiente y el árbol</h4><ol><li>Haz un pequeño ojo (el «<b>lago</b>») en el firme, con el firme por debajo. El firme es el «<b>árbol</b>»; el chicote es la «<b>serpiente</b>».</li><li><b>La serpiente sale del lago</b>: pasa el chicote de abajo arriba por el ojo.</li><li><b>Rodea el árbol</b>: pasa el chicote por detrás del firme.</li><li><b>Y vuelve a meterse en el lago</b>: baja el chicote por el mismo ojo por donde salió.</li><li>Sujetando chicote y gaza, tira del firme para apretar. El chicote debe quedar <b>dentro</b> de la gaza.</li></ol><p><b>Mnemotecnia de examen</b>: «As de GUÍA = GAZA» (las dos con G); «LLano = cabos iguaLes»; «REZÓN = aRgolla»; «BALLESTRINQUE = defensas».</p>",
+   "keyFacts": [
+    "As de guía: gaza no corrediza para encapillar; no se zafa ni se azoca.",
+    "Llano: unir por sus chicotes dos cabos de la misma mena.",
+    "Vuelta de rezón: afirmar rápidamente un cabo a palo, cáncamo o argolla (arganeo del rezón).",
+    "Ballestrinque: vuelta mordida, fácil de deshacer, para fijar las defensas.",
+    "Vuelta de escota: unir cabos de distinta mena o un cabo a una gaza.",
+    "Ocho: nudo de tope en escotas y drizas.",
+    "Margarita: acortar un cabo o aislar una parte dañada.",
+    "Dos medios cotes: amarrar a argolla/poste y rematar nudos.",
+    "As de guía: la serpiente sale del lago, rodea el árbol y vuelve al lago."
+   ],
+   "traps": [
+    "El as de guía NO une dos cabos de la misma mena (eso es el llano).",
+    "El ballestrinque NO hace gazas no corredizas ni une cabos.",
+    "El llano NO forma gazas ni afirma a argollas o pasamanos.",
+    "La vuelta de rezón NO es para colgar defensas ni para escotas y brazas.",
+    "Orinque no es un nudo: es un cabo del ancla al boyarín."
+   ],
+   "upd2026": null,
+   "sources": [
+    "Apuntes PER p.16 (2.2)",
+    "Banco oficial q_ama 2022–2026"
+   ],
+   "kw": [
+    "nudo",
+    "nudos",
+    "as de guia",
+    "llano",
+    "ballestrinque",
+    "vuelta de rezon",
+    "rezon",
+    "gaza no corrediza",
+    "encapillar",
+    "misma mena",
+    "chicotes",
+    "defensas",
+    "vuelta mordida",
+    "canamo",
+    "argolla",
+    "palo",
+    "escota",
+    "ocho",
+    "cote",
+    "margarita",
+    "unir dos cabos"
+   ],
+   "flash": [
+    {
+     "q": "Nudo para hacer una gaza no corrediza para encapillar",
+     "a": "As de guía."
+    },
+    {
+     "q": "Nudo para unir por sus chicotes dos cabos de la misma mena",
+     "a": "Nudo llano."
+    },
+    {
+     "q": "Vuelta de rezón: uso",
+     "a": "Afirmar rápidamente un cabo a un palo, cáncamo o argolla."
+    },
+    {
+     "q": "Nudo de vuelta mordida, fácil de deshacer, para fijar las defensas",
+     "a": "Ballestrinque."
+    },
+    {
+     "q": "Unir dos cabos de distinta mena",
+     "a": "Vuelta de escota."
+    },
+    {
+     "q": "Nudo de tope en el chicote de una escota",
+     "a": "Nudo en ocho."
+    },
+    {
+     "q": "Acortar un cabo sin cortarlo",
+     "a": "Margarita."
+    },
+    {
+     "q": "Mnemotecnia del as de guía",
+     "a": "La serpiente sale del lago, rodea el árbol y vuelve a entrar en el lago."
+    },
+    {
+     "q": "Ventaja del as de guía",
+     "a": "No se zafa ni corre y apenas se azoca; se deshace fácil sin carga."
+    },
+    {
+     "q": "Inconveniente del as de guía",
+     "a": "No se puede deshacer con el cabo en tensión."
+    },
+    {
+     "q": "Inconveniente del ballestrinque",
+     "a": "Puede escurrirse con tirones o sin tensión constante."
+    },
+    {
+     "q": "Llano mal hecho",
+     "a": "Nudo de vaca, que se escurre."
+    }
+   ]
+  },
+  {
+   "id": "2.3",
+   "title": "Fondeo",
+   "html": "<h4>1. Elección del fondeadero</h4><ul><li>Lugar <b>abrigado</b> de vientos y corrientes dominantes (consultar carta y derrotero), amplio para maniobrar y salir, sin pendiente pronunciada y con <b>sonda</b> adecuada.</li><li>Elegir fondeadero y tenedero en función de la <b>sonda y la naturaleza del fondo</b>, entre otros aspectos.</li><li><b>Tenedero</b> = calidad del fondo respecto a la <b>adherencia del ancla</b>.</li></ul><table><thead><tr><th>Fondo</th><th>Calidad</th></tr></thead><tbody><tr><td>Fango compacto/duro, arena fangosa, arena fina y compacta (dura), arcilla</td><td><b>Buenos tenederos</b> (fondos blandos-compactos). El banco oficial incluye la arcilla entre los buenos.</td></tr><tr><td>Cascajo (grava/conchuela)</td><td>Aceptable.</td></tr><tr><td>Algas</td><td><b>Malo</b>: resbaladizo. Además, sobre <i>Posidonia oceanica</i> está prohibido/limitado fondear (usar boyas autorizadas).</td></tr><tr><td>Piedra / roca</td><td><b>Malo</b>: no agarra o el ancla se enroca y se pierde.</td></tr></tbody></table><p>El tipo de fondo se reconoce en la carta o con el escandallo (sebo) y la sondaleza; hoy, con la sonda.</p><h4>2. Longitudes</h4><ul><li><b>Línea de fondeo a bordo</b> (RD 339/2021): <b>≥ 5 veces la eslora</b> (6 m → 30 m; 10 m → 50 m); tramo de cadena ≥ 1 eslora, salvo ≤6 m (puede ser solo estacha).</li><li><b>Cadena a filar</b>: con buen tiempo, <b>no menos de 3 veces la sonda</b> (3 a 5 veces); con mal tiempo, 5–6 veces o más. Con línea solo de estacha conviene filar más que con cadena.</li><li>Ejemplo oficial: sonda 8 m, tiempo normal → largar <b>de 24 a 40 m</b> (3–5 × 8).</li></ul><h4>3. Fondeo a la gira y círculo de borneo</h4><ul><li><b>Fondeo a la gira</b>: con <b>una sola ancla por proa</b>; el barco gira libremente alrededor de ella (bornea). Ventaja: se leva rápido y es sencillo salir si empeora el tiempo.</li><li><b>Borneo</b>: giro del barco alrededor del ancla por viento o corriente (marea).</li><li><b>Círculo de borneo</b>: centro en el <b>ancla</b>; radio = <b>cadena filada + eslora</b>. Debe quedar libre de obstáculos y de otros barcos. El radio depende de la cadena filada.</li></ul><p><b>Ejemplo oficial</b>: eslora 10 m, sonda 4 m → cadena 12–20 m → radio 22–30 m. Escenario correcto: <i>fango compacto, protegido de vientos cambiantes y libre en 30 m</i>. Eslora 5 m, sonda 2 m, solo estacha → elegir fango compacto, protegido y <b>radio amplio (25 m)</b>; descartar piedra, radios cortos o zonas sin abrigo.</p><h4>4. Maniobra de fondear</h4><ol><li>Preparar el ancla (a la pendura) y estudiar el fondeadero.</li><li>Aproximarse a la <b>mínima velocidad de gobierno</b> y <b>proa al viento</b> (o a la corriente, el elemento más fuerte).</li><li>En el punto elegido, parar; primera orden: <b>«¡Larga el ancla!»</b> (fondo).</li><li>Con <b>ligera arrancada atrás</b> ir filando para que la cadena se extienda por el fondo sin caer sobre el ancla.</li><li>Filar la longitud necesaria, frenar y comprobar que el ancla agarra (dar atrás suave).</li></ol><h4>5. Vigilancia del fondeo y garreo</h4><ul><li>Tomar <b>referencias a tierra</b> (enfilaciones, demoras, radar, GPS con alarma) y <b>vigilar la sonda</b> con alarma de fondo mínimo. No basta con la sonda.</li><li><b>Garreo</b>: el ancla no queda firme y se arrastra; el barco se desplaza a sotavento. Causas: fondo duro o demasiado blando, algas, ancla sucia, cadena sobre el ancla, poca cadena.</li><li><b>Remedios</b>: <b>filar más cadena</b>, <b>cambiar de tenedero</b>, fondear una <b>segunda ancla</b> o <b>aguantar con máquina avante</b>; si persiste, virar el ancla y volver a fondear. Nunca reducir la cadena.</li></ul><h4>6. Orinque</h4><p>Cabo que se amarra por un chicote a la <b>cruz (o arganeo) del ancla</b> y por el otro a un <b>boyarín</b>. Sirve para <b>balizar</b> el lugar donde está el ancla y para recuperarla si se enroca o se pierde. Longitud algo mayor que la sonda en pleamar. <b>No</b> va a la proa del barco ni sirve para medir la sonda.</p><h4>7. Levar el ancla</h4><p>Se da <b>poca máquina avante</b> mientras se vira (cobra) la cadena, para no forzar el molinete, hasta que esté <b>a pique</b>; se sigue virando hasta que el ancla se desprende (<b>zarpa</b>) y se iza <b>clara y libre</b>. Si a pique tira mucho hacia proa, puede estar enrocada (ayudarse del orinque).</p>",
+   "keyFacts": [
+    "Tenedero: calidad del fondo según la adherencia del ancla.",
+    "Buenos: fango compacto, arena fangosa, arena dura, arcilla. Malos: piedra y algas.",
+    "Línea de fondeo ≥ 5 esloras (6 m → 30 m).",
+    "Cadena a filar: buen tiempo ≥ 3 veces la sonda (3–5); mal tiempo 5–6 veces.",
+    "Fondeo a la gira: una sola ancla por proa, el barco gira libre.",
+    "Círculo de borneo: centro el ancla, radio = cadena filada + eslora.",
+    "Aproximación: mínima velocidad de gobierno, proa al viento.",
+    "Al fondear: ligera arrancada atrás. Primera orden: «larga el ancla».",
+    "Vigilar con referencias a tierra y alarma de sonda.",
+    "Garreo: filar más cadena, cambiar de tenedero, segunda ancla o máquina avante.",
+    "Orinque: del ancla (cruz) a un boyarín, para balizarla.",
+    "Levar: dando poca avante mientras se vira hasta a pique."
+   ],
+   "traps": [
+    "Para LEVAR se da avante, no atrás. Para FONDEAR se lleva ligera arrancada atrás.",
+    "Fondeo a la gira NO es con dos anclas (ni a 60–120° ni a 90–120°, ni proa y popa).",
+    "Radio del borneo = cadena + eslora (NO solo la cadena, ni cadena + media eslora, ni solo la eslora); centro: el ancla, no el centro de gravedad.",
+    "El orinque va a un boyarín, NO a la proa del barco; no mide la sonda.",
+    "Aproximación a velocidad MÁXIMA o de través al viento → falso.",
+    "Con mal tiempo la cadena no puede ser «no superior a 1–2 veces la sonda»: hay que filar MÁS.",
+    "Si garrea no se acorta la cadena ni se busca fondo de grava o roca.",
+    "Línea de fondeo de 3 o 4 esloras → falso (son 5).",
+    "Garreo ≠ borneo: el giro alrededor del ancla es el borneo."
+   ],
+   "upd2026": "El banco oficial 2022–2026 toma como radio del círculo de borneo «cadena filada + eslora» (los apuntes de 2015 decían solo la cadena) y considera la arcilla buen tenedero. Línea de fondeo según RD 339/2021 art. 11. Fondear sobre posidonia está prohibido o limitado (usar boyas de amarre autorizadas).",
+   "sources": [
+    "Apuntes PER pp.16–18 (2.3)",
+    "RD 339/2021 art. 11",
+    "Banco oficial q_ama 2022–2026"
+   ],
+   "kw": [
+    "fondeo",
+    "fondear",
+    "tenedero",
+    "fondeadero",
+    "a la gira",
+    "circulo de borneo",
+    "borneo",
+    "garreo",
+    "garrea",
+    "orinque",
+    "boyarin",
+    "sonda",
+    "alarma",
+    "referencias a tierra",
+    "levar",
+    "cadena filada",
+    "linea de fondeo",
+    "cinco veces",
+    "eslora",
+    "fango",
+    "arena",
+    "arcilla",
+    "algas",
+    "rocoso",
+    "arrancada atras",
+    "velocidad de gobierno",
+    "larga el ancla",
+    "segunda ancla"
+   ],
+   "flash": [
+    {
+     "q": "Tenedero",
+     "a": "Calidad del fondo respecto a la adherencia del ancla."
+    },
+    {
+     "q": "Mejores tenederos",
+     "a": "Fango compacto, arena fangosa, arena fina compacta, arcilla."
+    },
+    {
+     "q": "Peores tenederos",
+     "a": "Piedra/roca y algas."
+    },
+    {
+     "q": "Fondeo a la gira",
+     "a": "Con una sola ancla por proa; el barco gira libre alrededor de ella."
+    },
+    {
+     "q": "Círculo de borneo: centro y radio",
+     "a": "Centro el ancla; radio = cadena filada + eslora."
+    },
+    {
+     "q": "Sonda 8 m, buen tiempo: cadena mínima a largar",
+     "a": "De 24 a 40 m (3 a 5 veces la sonda)."
+    },
+    {
+     "q": "Eslora 6 m: línea de fondeo mínima",
+     "a": "30 m (5 esloras)."
+    },
+    {
+     "q": "Aproximación al fondeadero",
+     "a": "A la mínima velocidad de gobierno y proa al viento."
+    },
+    {
+     "q": "Arrancada al dejar caer el ancla",
+     "a": "Ligera arrancada atrás para que la cadena se extienda."
+    },
+    {
+     "q": "Primera orden al llegar al punto de fondeo",
+     "a": "«Larga el ancla»."
+    },
+    {
+     "q": "¿Cómo se vigila el fondeo?",
+     "a": "Referencias a tierra y alarma de sonda (fondo mínimo)."
+    },
+    {
+     "q": "Remedios contra el garreo",
+     "a": "Filar más cadena, cambiar de tenedero, segunda ancla o máquina avante."
+    },
+    {
+     "q": "Orinque",
+     "a": "Cabo de la cruz del ancla a un boyarín para balizarla y recuperarla."
+    },
+    {
+     "q": "¿Cómo se leva?",
+     "a": "Dando poca avante mientras se vira hasta a pique; luego zarpa."
+    },
+    {
+     "q": "Garreo",
+     "a": "El ancla no queda firme y el barco se desplaza a sotavento."
+    }
+   ]
+  }
+ ]
+}

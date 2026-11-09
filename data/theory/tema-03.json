@@ -1,0 +1,981 @@
+{
+ "id": 3,
+ "title": "Seguridad en la mar",
+ "blocks": [
+  "seg"
+ ],
+ "summary": "Estabilidad, comprobaciones, mal tiempo, tormentas, niebla, aguas someras, material de seguridad (RD 339/2021), hombre al agua, remolque y contacto con Salvamento Marítimo. Aporta 4 preguntas por examen (P7–P10), sin límite específico de fallos, pero son puntos muy asequibles si se memorizan las tablas del RD 339/2021.",
+ "subtemas": [
+  {
+   "id": "3.1",
+   "title": "Estabilidad",
+   "html": "\n<h4>Concepto</h4>\n<p><b>Estabilidad</b> es la propiedad del barco de <b>recuperar su posición inicial de equilibrio</b> (adrizado) cuando una fuerza externa (mar, viento) o interna (traslado de pesos) lo ha apartado de ella.</p>\n<ul>\n<li><b>Estabilidad estática transversal</b>: capacidad de <span class=\"hl\">mantenerse o recuperar la posición de adrizado</span> (se opone a la escora). Es la que más preocupa.</li>\n<li><b>Estabilidad longitudinal</b>: capacidad de mantener el <b>asiento</b> o trimado (diferencia de calados proa-popa). Al ser el barco mucho más largo que ancho, el par longitudinal es muy grande y rara vez es un problema; depende sobre todo de la eslora y la forma del casco (y también de la posición del centro de carena).</li>\n</ul>\n<h4>Puntos y fuerzas que intervienen</h4>\n<table>\n<thead><tr><th>Punto</th><th>Qué es</th><th>Fuerza</th></tr></thead>\n<tbody>\n<tr><td><b>K</b> (quilla)</td><td>Punto de referencia en la quilla; desde él se miden las alturas (KG, KM).</td><td>—</td></tr>\n<tr><td><b>G</b> (centro de gravedad)</td><td>Punto donde se considera concentrado todo el peso del barco. Solo se mueve si se mueven, cargan o descargan pesos.</td><td>Peso (P), vertical hacia abajo</td></tr>\n<tr><td><b>C</b> (centro de carena, a veces B)</td><td>Centro geométrico del volumen sumergido. Se desplaza hacia la banda que se sumerge al escorar.</td><td>Empuje (E), vertical hacia arriba; en equilibrio P = E</td></tr>\n<tr><td><b>M</b> (metacentro transversal)</td><td>Punto donde la vertical que pasa por el nuevo centro de carena (C′) corta al plano de crujía en pequeñas escoras.</td><td>—</td></tr>\n</tbody></table>\n<p>Adrizado: G y C están en la misma vertical. Al escorar, C se desplaza a C′ y peso y empuje forman un <b>par</b>. El brazo de ese par se llama <b>GZ</b> (brazo adrizante) y la distancia <b>GM</b> es la <b>altura metacéntrica</b>.</p>\n<table>\n<thead><tr><th>Situación</th><th>Par</th><th>Resultado</th></tr></thead>\n<tbody>\n<tr><td><b>M por encima de G</b> (GM &gt; 0)</td><td>Adrizante</td><td>Equilibrio <b>estable</b>: el barco vuelve a adrizarse</td></tr>\n<tr><td><b>M coincide con G</b> (GM = 0)</td><td>Nulo</td><td>Equilibrio <b>indiferente</b>: queda con escora permanente</td></tr>\n<tr><td><b>M por debajo de G</b> (GM &lt; 0)</td><td>Escorante</td><td>Equilibrio <b>inestable</b>: el barco tiende a volcar</td></tr>\n</tbody></table>\n<p>Conclusión clave: la estabilidad transversal depende de la <span class=\"hl\">posición relativa del centro de gravedad (G) y del centro de carena (C)</span> (y por tanto del metacentro).</p>\n<h4>Efecto de los pesos</h4>\n<ul>\n<li><b>Bajar pesos</b> (bajo cubierta, en la sentina) baja G → aumenta GM → <b>más estabilidad</b>.</li>\n<li><b>Subir pesos</b> (cargar la cubierta de intemperie, la cabina, la arboladura, gente en el flybridge) sube G → disminuye GM → <span class=\"hl\">afecta negativamente a la estabilidad transversal</span>; puede llegar a escora permanente o vuelco.</li>\n<li>Trasladar pesos de proa a popa (o al revés) cambia el <b>asiento</b> (estabilidad longitudinal), no la transversal.</li>\n<li>Agua libre en sentinas y tanques a medio llenar (superficies libres) también restan estabilidad.</li>\n</ul>\n<h4>Balance y cabezada</h4>\n<ul>\n<li><b>Balance</b>: movimiento oscilatorio <b>transversal</b>, en el sentido de la manga, inclinándose alternativamente a babor y estribor (alrededor del eje longitudinal).</li>\n<li><b>Cabezada</b> o cabeceo: movimiento oscilatorio <b>longitudinal</b>, alrededor del eje transversal, subiendo y bajando alternativamente la proa.</li>\n<li><b>Periodo</b>: tiempo de una oscilación completa. <b>Periodo de la ola</b>: tiempo entre dos crestas consecutivas.</li>\n</ul>\n<p><b>Relación periodo–estabilidad</b>: un barco con mucha estabilidad (GM grande, barco \"duro\") se adriza con fuerza y rapidez: balance de <b>periodo corto</b> = <span class=\"hl\">frecuencia alta</span>. Un barco con poca estabilidad (GM pequeño, \"blando\") tiene balances lentos (periodo largo, frecuencia baja). Por eso, en aguas tranquilas, una frecuencia de balance alta indica mayor estabilidad transversal. Subir G alarga el periodo de balance (no lo disminuye).</p>\n<h4>Sincronismo (resonancia)</h4>\n<p>Si el periodo de balance o de cabezada <b>coincide con el periodo de la ola</b>, cada ola refuerza la oscilación anterior: la amplitud crece progresivamente y el barco puede llegar a <b>volcar</b> (balance) o a hundir la proa (cabezada). Es una situación <b>peligrosa</b>, nunca favorable.</p>\n<ul>\n<li>Se evita <b>cambiando el rumbo o la velocidad</b> (o ambos), para variar el periodo aparente de encuentro con la ola.</li>\n<li>Para el <b>balance</b>: sobre todo cambiar el rumbo y evitar atravesarse a la mar.</li>\n<li>Para la <b>cabezada</b> con mar de proa: sobre todo <b>variar (reducir) la velocidad</b>, hasta la mínima de gobierno si hace falta, y cambiar ligeramente el rumbo. Nunca atravesarse a la mar ni aumentar la velocidad \"para cortar las olas\".</li>\n</ul>\n<h4>No atravesarse a la mar</h4>\n<p>Recibir la mar de través es la situación más peligrosa: el balance alcanza su máxima amplitud y el barco puede volcar. Con mar de proa se reduce velocidad para evitar pantocazos, embarques de agua y que la hélice salga del agua (embalamiento del motor). Con mar de popa/aleta el barco gobierna peor y puede atravesarse; no se debe acompasar la velocidad con la de las olas.</p>\n",
+   "keyFacts": [
+    "Estabilidad transversal = mantener o recuperar la posición de adrizado; longitudinal = mantener el asiento",
+    "Depende de la posición relativa de G (gravedad) y C (carena) → metacentro M",
+    "M por encima de G: par adrizante (estable); M = G: escora permanente; M por debajo de G: vuelco",
+    "GM = altura metacéntrica; GZ = brazo del par adrizante",
+    "Subir pesos (cubierta) sube G y disminuye la estabilidad transversal",
+    "Bajar pesos aumenta la estabilidad",
+    "Balance = transversal (babor-estribor); cabezada = longitudinal (proa arriba/abajo)",
+    "Frecuencia de balance alta (periodo corto) = barco más estable",
+    "Sincronismo periodo barco = periodo ola → aumento de la amplitud, posible vuelco",
+    "El sincronismo se rompe cambiando rumbo o velocidad",
+    "Cabezada excesiva con mar de proa: reducir velocidad (mínima de gobierno) y cambiar ligeramente el rumbo",
+    "Nunca atravesarse a la mar"
+   ],
+   "traps": [
+    "«El sincronismo es la situación más favorable» → FALSO: es peligrosa.",
+    "«Solo se evita variando la velocidad» o «atravesándose a la mar» → FALSO: rumbo o velocidad, y nunca atravesarse.",
+    "Elevar pesos «aumenta la frecuencia del balance» o «disminuye el periodo» → FALSO: baja la estabilidad y alarga el periodo.",
+    "Trasladar pesos proa↔popa afecta al asiento (longitudinal), no a la estabilidad transversal.",
+    "Una cabezada fuerte NO es consecuencia de mala estabilidad transversal.",
+    "Contra la cabezada no se aumenta la velocidad ni se para la arrancada: se reduce a la mínima de gobierno."
+   ],
+   "upd2026": null,
+   "sources": [
+    "Apuntes PER pp.20–21",
+    "PER 2007 pp.57–59"
+   ],
+   "kw": [
+    "estabilidad",
+    "estabilidad transversal",
+    "estabilidad longitudinal",
+    "adrizado",
+    "adrizar",
+    "asiento",
+    "trimado",
+    "centro de gravedad",
+    "centro de carena",
+    "metacentro",
+    "balance",
+    "cabezada",
+    "cabeceo",
+    "periodo",
+    "sincronismo",
+    "acompasar",
+    "elevar un peso",
+    "pesos en cubierta",
+    "frecuencia",
+    "atravesarse a la mar",
+    "par adrizante",
+    "escora",
+    "vuelco",
+    "periodo de la ola",
+    "amplitud",
+    "manga",
+    "babor a estribor",
+    "movimiento del buque"
+   ],
+   "flash": [
+    {
+     "q": "¿Qué es la estabilidad estática transversal?",
+     "a": "La cualidad de mantener o recuperar la posición de adrizado."
+    },
+    {
+     "q": "¿De qué depende la estabilidad estática?",
+     "a": "De la posición relativa del centro de gravedad (G) y el centro de carena (C)."
+    },
+    {
+     "q": "¿Qué pasa si el metacentro queda por debajo de G?",
+     "a": "Se forma un par escorante y el barco vuelca."
+    },
+    {
+     "q": "¿Y si M coincide con G?",
+     "a": "El barco queda con escora permanente (equilibrio indiferente)."
+    },
+    {
+     "q": "Efecto de subir pesos a cubierta",
+     "a": "Sube G y disminuye la estabilidad transversal."
+    },
+    {
+     "q": "¿Cómo se llama el movimiento de babor a estribor y viceversa?",
+     "a": "Balance."
+    },
+    {
+     "q": "¿Y el de subir y bajar la proa?",
+     "a": "Cabezada (cabeceo)."
+    },
+    {
+     "q": "En aguas tranquilas, ¿qué indica una frecuencia de balance alta?",
+     "a": "Mayor estabilidad transversal (barco duro)."
+    },
+    {
+     "q": "¿Qué ocurre si el periodo de balance es igual al de la ola?",
+     "a": "Aumenta el movimiento transversal hasta poder volcar."
+    },
+    {
+     "q": "¿Cómo se rompe el sincronismo?",
+     "a": "Variando el rumbo o la velocidad."
+    },
+    {
+     "q": "Con mar de proa y cabezada creciente, ¿qué es lo más eficaz?",
+     "a": "Variar (reducir) la velocidad, a la mínima de gobierno, y cambiar ligeramente el rumbo."
+    },
+    {
+     "q": "¿Qué NO hay que hacer para evitar balances excesivos?",
+     "a": "Sincronizar el periodo de la ola con el de balance (ni atravesarse a la mar)."
+    },
+    {
+     "q": "¿Qué es GM?",
+     "a": "La altura metacéntrica: distancia entre G y M; positiva = estable."
+    },
+    {
+     "q": "¿Qué es GZ?",
+     "a": "El brazo del par adrizante."
+    }
+   ]
+  },
+  {
+   "id": "3.2",
+   "title": "Comprobaciones antes de hacerse a la mar",
+   "html": "\n<p>Antes de salir hay que comprobar el barco, el motor, los equipos de seguridad y la meteorología. Si algo no está bien, <b>no se sale</b>.</p>\n<h4>Motor y propulsión</h4>\n<table>\n<thead><tr><th>Antes de arrancar</th><th>Con el motor en marcha</th></tr></thead>\n<tbody>\n<tr><td>\n<ul>\n<li>Nivel de <b>aceite</b> (y fugas de aceite)</li>\n<li>Nivel de <b>combustible</b> y <b>filtro decantador</b> de agua e impurezas (purgar si hay agua)</li>\n<li><b>Líquido refrigerante</b> / circuito de refrigeración; <b>grifo de fondo de refrigeración ABIERTO</b></li>\n<li>Tensión de la <b>correa del alternador</b></li>\n<li><b>Baterías</b> (carga, electrolito, bornes)</li>\n<li><b>Ausencia de gases explosivos</b> en el compartimento del motor (ventilar 4 minutos antes de arrancar motores de gasolina — placa obligatoria en barcos sin CE, RD 339/2021 art. 18)</li>\n<li>Que nada entorpezca el movimiento (cabos, eje)</li>\n</ul></td>\n<td>\n<ul>\n<li>Sale agua de refrigeración por el escape</li>\n<li>Indicadores y alarmas: presión de aceite, temperatura, carga (amperímetro/voltímetro), combustible</li>\n<li>Sistema de <b>gobierno</b> y <b>propulsión</b> (avante/atrás)</li>\n</ul></td></tr>\n</tbody></table>\n<h4>Embarcación y equipos</h4>\n<ul>\n<li><b>Estanqueidad</b> de la embarcación (portillos, escotillas, grifos de fondo y pasacascos en buen estado). Es una comprobación <b>indispensable</b>.</li>\n<li><b>Luces de navegación</b> y <b>equipo de radio</b> (VHF, LSD con posición GNSS).</li>\n<li>Agua dulce, víveres suficientes.</li>\n<li><b>Existencia y estado del material de seguridad</b>: chalecos (tallas, luces), aros, pirotecnia (caducidad), extintores (revisión), balsa (revisión), bombas de achique, botiquín.</li>\n<li>Estiba de anclas y cabos.</li>\n<li><b>Parte meteorológico</b> para toda la duración y zona de la travesía (una de las comprobaciones más importantes).</li>\n<li><b>Comunicar el plan de navegación</b> a alguien en tierra (o registrarlo en la app <b>SafeTrx</b> de Salvamento Marítimo): ruta, horas previstas, personas a bordo.</li>\n</ul>\n<p><b>No forman parte</b> de las comprobaciones: cerrar todos los grifos de fondo (el de refrigeración debe ir abierto), cerrar herméticamente todas las lumbreras, la climatización, el tanque de agua salada, el estado de los alimentos o el nivel del tanque de aguas negras. El móvil puede ayudar, pero <b>no</b> sustituye a la radio como vía de socorro.</p>\n",
+   "keyFacts": [
+    "Lista oficial: aceite, filtro decantador de agua e impurezas, refrigerante, refrigeración, correa del alternador, combustible, agua dulce, baterías, luces, radio, estanqueidad, gobierno y propulsión, gases explosivos, fugas, parte meteorológico, material de seguridad",
+    "La estanqueidad de la embarcación es indispensable",
+    "El grifo de fondo de refrigeración NO se cierra",
+    "Comunicar el plan de navegación a alguien en tierra (SafeTrx)",
+    "Ventilar el compartimento del motor de gasolina antes de arrancar (4 min)",
+    "El parte meteorológico es una de las comprobaciones más importantes"
+   ],
+   "traps": [
+    "«Que los grifos de fondo de refrigeración estén cerrados» → NO: el motor se quedaría sin refrigeración.",
+    "Listas con «climatización a bordo» o «cerrar herméticamente todas las aperturas» son las incorrectas.",
+    "«Batería del móvil cargada para usarlo siempre como vía de emergencia» → no es lo que hay que asegurar; la vía principal es la radio.",
+    "Nivel del tanque de aguas negras / agua salada / alimentos → no son comprobaciones indispensables."
+   ],
+   "upd2026": "Referencia normativa del equipo: RD 339/2021 (la Orden FOM/1144/2003 está derogada). Recomendación de Salvamento Marítimo: registrar la salida en la app SafeTrx.",
+   "sources": [
+    "Apuntes PER pp.21–22",
+    "RD 339/2021 art. 18"
+   ],
+   "kw": [
+    "antes de salir",
+    "hacerse a la mar",
+    "comprobaciones",
+    "comprobar",
+    "nivel de aceite",
+    "filtro",
+    "decantacion",
+    "refrigeracion",
+    "correa del alternador",
+    "baterias",
+    "estanqueidad",
+    "gases explosivos",
+    "plan de navegacion",
+    "parte meteorologico",
+    "grifos de fondo",
+    "buen tiempo",
+    "indispensable",
+    "imprescindible"
+   ],
+   "flash": [
+    {
+     "q": "¿Hay que cerrar los grifos de fondo de refrigeración antes de salir?",
+     "a": "No; deben estar abiertos o el motor se calienta."
+    },
+    {
+     "q": "Cita una comprobación indispensable de la embarcación antes de salir",
+     "a": "Su estanqueidad."
+    },
+    {
+     "q": "¿A quién se comunica el plan de navegación?",
+     "a": "A alguien en tierra (o se registra en SafeTrx)."
+    },
+    {
+     "q": "¿Qué filtro se comprueba en el combustible?",
+     "a": "El filtro decantador de agua e impurezas."
+    },
+    {
+     "q": "¿Qué hay que comprobar en el compartimento del motor antes de arrancar?",
+     "a": "La ausencia de gases explosivos (ventilar)."
+    },
+    {
+     "q": "¿Cuánto se ventila el compartimento de motores de gasolina en barcos sin CE?",
+     "a": "4 minutos (placa obligatoria, RD 339/2021 art. 18)."
+    },
+    {
+     "q": "¿Es comprobación imprescindible el nivel del tanque de aguas negras?",
+     "a": "No."
+    },
+    {
+     "q": "¿Qué información meteorológica se comprueba?",
+     "a": "El parte para toda la zona y duración de la travesía."
+    }
+   ]
+  },
+  {
+   "id": "3.3",
+   "title": "Medidas a tomar a bordo con mal tiempo",
+   "html": "\n<h4>Estiba y trinca «a son de mar»</h4>\n<p><b>«A son de mar»</b> = colocación, estiba y trinca adecuadas de todos los objetos, carga, aparejos y equipos de a bordo para que <b>no se muevan</b> con los balances y golpes de mar. Se hace antes de que llegue el mal tiempo:</p>\n<ul>\n<li>Trincar el <b>ancla</b> para que no golpee el casco.</li>\n<li>Despejar la cubierta de cabos sueltos (pueden enrollarse en la hélice).</li>\n<li>Asegurar la balsa salvavidas en su soporte, los objetos de armarios y compartimentos, baterías y pesos.</li>\n<li>Tripulación con ropa adecuada, <b>chaleco puesto</b> y, quien trabaje en cubierta, <b>arnés</b> enganchado a la línea de vida.</li>\n</ul>\n<h4>Aberturas y grifos de fondo</h4>\n<ul>\n<li>Revisar <b>todas las aberturas</b>: portillos, escotillas y lumbreras cerradas; manguerotes orientados a sotavento; <b>imbornales libres</b> para que desagüe la cubierta.</li>\n<li>Cerrar los grifos de fondo que no se usen (aseos, cocina…) <b>excepto el de refrigeración del motor</b>.</li>\n<li><span class=\"hl\">Nunca abrir los grifos de fondo</span> para «desaguar» el agua embarcada: entraría más agua.</li>\n</ul>\n<h4>Derrota: capear o correr el temporal</h4>\n<table>\n<thead><tr><th></th><th>CAPEAR el temporal</th><th>CORRER el temporal</th></tr></thead>\n<tbody>\n<tr><td>Mar recibida por</td><td><b>Proa o amuras</b> (mejor por la amura)</td><td><b>Popa o aletas</b></td></tr>\n<tr><td>Velocidad</td><td><b>Poca arrancada, pero la suficiente para gobernar</b> (nunca inferior a la de gobierno, ni parar la arrancada)</td><td>Velocidad que <b>evite acompasarse</b> (sincronizarse) con las olas</td></tr>\n<tr><td>Cuándo</td><td>Opción habitual mientras el barco aguante</td><td>Cuando el temporal es tan fuerte que no se puede capear</td></tr>\n<tr><td>Riesgos</td><td>Pantocazos, embarques por proa</td><td>Golpes de mar por popa, atravesarse a la mar, embarcar agua por la bañera</td></tr>\n<tr><td>Ayudas</td><td><b>Ancla de capa o flotante</b> por proa; en vela, vela de capa / ceñir con poco trapo</td><td>Estachas o ancla flotante por popa para frenar; en vela, solo velas de proa pequeñas</td></tr>\n</tbody></table>\n<p>Elegir capear o correr depende de la embarcación y de la fuerza del temporal. El cambio de una a otra (pasar por el través) se hace rápido, en un momento de calma relativa y avisando a la tripulación. En ambos casos se evita acompasarse con las olas.</p>\n<h4>Costa a sotavento</h4>\n<p>Con mal tiempo, la costa a sotavento es un peligro: el viento y la mar abaten el barco hacia ella. Hay que ganar barlovento y alejarse de bajos y rompientes.</p>\n",
+   "keyFacts": [
+    "A son de mar = estiba y trinca adecuadas de todo a bordo para que no se mueva",
+    "Capear = mar por la proa o amuras con poca arrancada, la suficiente para gobernar",
+    "Correr = mar por la popa o aletas, a velocidad que no se acompase con las olas",
+    "Ancla flotante o de capa: ayuda a capear",
+    "Revisar aberturas, manguerotes a sotavento, imbornales libres",
+    "Cerrar grifos de fondo salvo el de refrigeración; nunca abrirlos para desaguar",
+    "La elección capear/correr depende del barco y de la fuerza del temporal",
+    "Peligro de costa a sotavento"
+   ],
+   "traps": [
+    "«Correr el temporal es recibir la mar por la proa» → FALSO: es por popa/aletas.",
+    "«Al capear hay que parar la arrancada» o «reducir por debajo de la velocidad de gobierno» → FALSO.",
+    "«Capear = poner proa al viento» o «popa al viento» → la respuesta buena es «poner la amura a la mar».",
+    "«Correr reduciendo velocidad para sincronizarse con las olas» → FALSO: se evita sincronizarse.",
+    "«Abrir los grifos de fondo para desaguar» → nunca.",
+    "«A son de mar» NO significa capear ni correr: es estiba y trinca."
+   ],
+   "upd2026": null,
+   "sources": [
+    "Apuntes PER pp.22–23",
+    "PER 2007 cap. 3"
+   ],
+   "kw": [
+    "mal tiempo",
+    "temporal",
+    "capear",
+    "correr el temporal",
+    "son de mar",
+    "estiba",
+    "trinca",
+    "amura",
+    "aleta",
+    "proa a la mar",
+    "popa a la mar",
+    "ancla flotante",
+    "ancla de capa",
+    "arrancada",
+    "velocidad de gobierno",
+    "grifos de fondo",
+    "aberturas",
+    "imbornales",
+    "acompasar",
+    "costa a sotavento"
+   ],
+   "flash": [
+    {
+     "q": "¿Qué es capear el temporal?",
+     "a": "Llevar la mar por la proa o amuras con poca arrancada, la justa para gobernar."
+    },
+    {
+     "q": "¿Qué es correr el temporal?",
+     "a": "Llevar la mar por la popa o aletas, a una velocidad que no se acompase con las olas."
+    },
+    {
+     "q": "¿Qué significa «a son de mar»?",
+     "a": "La estiba y trinca adecuadas de objetos y equipos para que no se muevan con mal tiempo."
+    },
+    {
+     "q": "¿Qué elemento ayuda a capear?",
+     "a": "El ancla flotante o de capa."
+    },
+    {
+     "q": "¿Se para la arrancada al capear?",
+     "a": "No; se mantiene la mínima para gobernar."
+    },
+    {
+     "q": "¿Qué grifo de fondo no se cierra con mal tiempo?",
+     "a": "El de refrigeración del motor."
+    },
+    {
+     "q": "¿Hacia dónde se orientan los manguerotes con mal tiempo?",
+     "a": "A sotavento."
+    },
+    {
+     "q": "¿De qué depende elegir capear o correr?",
+     "a": "De la embarcación y de la fuerza del temporal."
+    },
+    {
+     "q": "Riesgo principal al correr el temporal",
+     "a": "Golpes de mar por popa y atravesarse a la mar."
+    },
+    {
+     "q": "¿Por qué se trinca el ancla?",
+     "a": "Para que no golpee el casco con un golpe de mar."
+    }
+   ]
+  },
+  {
+   "id": "3.4",
+   "title": "Tormentas eléctricas",
+   "html": "\n<h4>Efectos sobre la aguja</h4>\n<p>La descarga de un rayo, aunque sea en las proximidades, crea un fuerte campo electromagnético que produce <b>inducción magnética</b> sobre la <b>aguja náutica</b> (compás):</p>\n<ul>\n<li>Puede producir <b>grandes desvíos</b> (se han visto de 35° a 90°).</li>\n<li>Puede <span class=\"hl\">invertir la polaridad de la aguja</span> (marcaría el Norte donde está el Sur: navegaríamos a rumbo opuesto sin saberlo).</li>\n<li>Puede hacerle perder fuerza directriz.</li>\n</ul>\n<p>Por eso, <b>tras una tormenta eléctrica lo prioritario es comprobar el desvío de la aguja</b> (contrastarla con GNSS, enfilaciones o la estrella polar) y, si es necesario, levantar una nueva tablilla de desvíos. Este es el principal riesgo aunque todos los equipos tengan toma de masa.</p>\n<h4>Otros efectos</h4>\n<ul>\n<li>Ruido en las comunicaciones radio y posibles daños en la electrónica: conviene <b>desconectar</b> los equipos y antenas no imprescindibles.</li>\n<li>No producen «rayo verde», ni bajan la temperatura de ignición del combustible, ni inducen en el reflector radar.</li>\n</ul>\n<h4>Protección: el pararrayos</h4>\n<ul>\n<li>Recomendable en todas las embarcaciones, especialmente las de <b>madera o fibra</b> (en las de casco metálico el propio casco conduce a tierra).</li>\n<li><b>Puntas afiladas</b> y de dureza suficiente para no fundirse con el rayo, en el punto más alto (tope del palo).</li>\n<li><b>Conductor</b> continuo, grueso, <b>sin ángulos pronunciados</b> y <b>sin interrupciones</b>, conectado a una placa en la <b>obra viva / al agua</b> (comunicación perfecta con el mar).</li>\n<li><b>No</b> debe estar en contacto con otras antenas ni con la jarcia.</li>\n<li>Solución sencilla: una cadena desde el punto más alto hasta el agua.</li>\n</ul>\n<h4>Conducta de la tripulación</h4>\n<ul>\n<li>Permanecer dentro de la cabina si es posible, lejos del palo, obenques y partes metálicas.</li>\n<li><b>No tocar dos objetos metálicos a la vez</b> (cerrarías el circuito con tu cuerpo).</li>\n<li>Evitar el contacto con el agua y no usar la radio salvo emergencia.</li>\n</ul>\n",
+   "keyFacts": [
+    "La tormenta eléctrica influye en la aguja náutica por inducción magnética",
+    "Tras la tormenta, lo prioritario es comprobar el desvío de la aguja",
+    "La polaridad de la aguja puede haberse invertido",
+    "Pararrayos: puntas afiladas y duras, conductor sin ángulos ni interrupciones, unido a la obra viva/agua",
+    "El pararrayos NO debe tocar otras antenas ni la jarcia",
+    "No tocar dos objetos metálicos a la vez",
+    "Desconectar equipos electrónicos no imprescindibles"
+   ],
+   "traps": [
+    "«Debe tocar más de un objeto metálico a la vez» → FALSO.",
+    "«El pararrayos no debe conectarse a la obra viva o al agua» → FALSO: debe estarlo.",
+    "«El pararrayos debe estar en contacto con otras antenas y jarcias» → FALSO.",
+    "«Sólo se recomiendan en embarcaciones de fibra» → FALSO (también madera; en general en no metálicas).",
+    "Distractores: temperatura del aceite/combustible, «rayo verde», inducción en el reflector radar."
+   ],
+   "upd2026": null,
+   "sources": [
+    "Apuntes PER p.23",
+    "PER 2007 pp.63–64"
+   ],
+   "kw": [
+    "tormenta",
+    "tormenta electrica",
+    "rayo",
+    "pararrayos",
+    "aguja",
+    "aguja nautica",
+    "desvio",
+    "polaridad",
+    "induccion magnetica",
+    "toma de masa",
+    "conductor",
+    "obra viva",
+    "objetos metalicos",
+    "antenas",
+    "jarcia"
+   ],
+   "flash": [
+    {
+     "q": "¿Qué es prioritario comprobar tras una tormenta eléctrica?",
+     "a": "El desvío de la aguja."
+    },
+    {
+     "q": "¿Qué le puede pasar a la aguja tras un rayo cercano?",
+     "a": "Desvíos grandes o inversión de su polaridad."
+    },
+    {
+     "q": "Riesgo principal tras una tormenta si todo tiene toma de masa",
+     "a": "La inducción magnética sobre la aguja náutica."
+    },
+    {
+     "q": "¿Cómo deben ser las puntas del pararrayos?",
+     "a": "Afiladas y lo bastante duras para no fundirse."
+    },
+    {
+     "q": "¿A dónde se conecta el conductor del pararrayos?",
+     "a": "A la obra viva / al agua, sin interrupciones."
+    },
+    {
+     "q": "¿Puede el pararrayos tocar antenas o jarcia?",
+     "a": "No."
+    },
+    {
+     "q": "¿Puede el conductor tener ángulos pronunciados?",
+     "a": "No, debe evitarlos."
+    },
+    {
+     "q": "Conducta personal durante la tormenta",
+     "a": "No tocar dos objetos metálicos a la vez; alejarse de palo y jarcia."
+    }
+   ]
+  },
+  {
+   "id": "3.5",
+   "title": "Baja visibilidad",
+   "html": "\n<p><b>Visibilidad reducida</b> (RIPA Regla 3): cualquier condición en que la visibilidad disminuye por niebla, bruma, nieve, chubascos fuertes, tormentas de arena, humo u otras causas análogas. La navegación nocturna no es, por sí misma, visibilidad reducida.</p>\n<h4>Precauciones con niebla</h4>\n<ul>\n<li><b>Reducir la velocidad</b> a una velocidad de seguridad (Regla 6 y 19). Reducir <b>no</b> significa parar siempre: hay que conservar capacidad de maniobra.</li>\n<li>Emitir las <b>señales fónicas reglamentarias</b> (Regla 35) con la bocina de niebla.</li>\n<li>Encender <b>todas las luces de navegación</b> reglamentarias (también de día).</li>\n<li><b>Reforzar la vigilancia</b> visual y auditiva (vigía en proa, apagar el motor a intervalos para escuchar si es posible).</li>\n<li>Usar el <b>radar</b> si se dispone (encenderlo antes de entrar en la niebla), sonda y GNSS; no confiar ciegamente en ninguno.</li>\n<li>Izar el <b>reflector de radar</b> lo más alto posible.</li>\n<li><b>Chalecos puestos</b> y <b>balsa lista</b>, por si hubiera un abordaje.</li>\n<li><b>Evitar el tráfico marítimo</b>: alejarse de recaladas, entradas de puertos, canales y dispositivos de separación de tráfico (p. ej. Estrecho de Gibraltar).</li>\n<li><b>No acercarse a la costa</b> para navegar «pegado» a ella: el riesgo de varada aumenta. Si la costa está bien balizada se puede ir de punto en punto con distancias cortas; si no, separarse.</li>\n<li>Llevar la estima rigurosa (situarse con frecuencia en la carta) y tener el ancla lista (a la pendura) navegando cerca de costa.</li>\n<li>La niebla puede alterar el aspecto de las luces (las blancas pueden parecer rojizas) y la percepción de los sonidos.</li>\n</ul>\n<h4>Reflector de radar</h4>\n<ul>\n<li>Elemento <b>pasivo</b> (no emite nada) formado por tres planos metálicos perpendiculares entre sí (8 triedros) o de forma cilíndrica.</li>\n<li>Sirve para que las embarcaciones de <b>casco no metálico</b> (fibra, madera) produzcan ecos más fuertes en el radar de otros barcos: <span class=\"hl\">las hace más detectables</span>.</li>\n<li><b>Obligatorio</b> (RD 339/2021 art. 12.2.g) en todas las zonas de navegación <b>para embarcaciones de casco no metálico</b>. Las de casco metálico no están obligadas.</li>\n<li>No mide la profundidad, no localiza otros barcos y no es la antena del radar.</li>\n</ul>\n<h4>Navegación nocturna</h4>\n<p>Comprobar las luces propias, extremar la vigilancia, identificar faros y boyas con el Libro de Faros y Derroteros, dar más resguardo a los peligros y, ante dudas, separarse de la costa.</p>\n",
+   "keyFacts": [
+    "Niebla: reducir velocidad (no necesariamente parar), señales fónicas, todas las luces encendidas",
+    "Reforzar la vigilancia visual y auditiva; usar el radar",
+    "Chalecos puestos y balsa preparada",
+    "Evitar el tráfico marítimo y no navegar pegado a la costa",
+    "Reflector de radar: elemento pasivo que hace más detectable al barco",
+    "Reflector de radar obligatorio en cascos no metálicos (fibra, madera), en todas las zonas",
+    "Los cascos metálicos NO están obligados a llevar reflector"
+   ],
+   "traps": [
+    "«Reducir la velocidad parando siempre la embarcación» → NO es una precaución correcta.",
+    "«Acercarse a la costa para navegar próximo a ella» → incorrecto.",
+    "«Evitar las radiobalizas» o «dos destellos cortos y uno largo» → distractores sin sentido.",
+    "Reflector «obligatorio en todas» o «solo en metálicas» → falso: solo en no metálicas.",
+    "El reflector no es una antena que emite ni permite situar a otros barcos."
+   ],
+   "upd2026": "Reflector de radar: RD 339/2021 art. 12 (tabla de material náutico, zonas 1 a 7) y 12.2.g: «se colocará en embarcaciones de recreo de casco no metálico».",
+   "sources": [
+    "Apuntes PER pp.23–24",
+    "PER 2007 pp.64–65",
+    "RD 339/2021 art. 12",
+    "RIPA Reglas 6, 19, 35"
+   ],
+   "kw": [
+    "niebla",
+    "baja visibilidad",
+    "visibilidad reducida",
+    "reflector radar",
+    "reflector de radar",
+    "radar",
+    "casco metalico",
+    "casco de fibra",
+    "madera",
+    "trafico maritimo",
+    "señales fonicas",
+    "vigilancia",
+    "luces de navegacion",
+    "navegacion nocturna",
+    "detectable",
+    "eco"
+   ],
+   "flash": [
+    {
+     "q": "¿Hay que parar el barco siempre con niebla?",
+     "a": "No; reducir a velocidad de seguridad manteniendo capacidad de maniobra."
+    },
+    {
+     "q": "Tres medidas con niebla",
+     "a": "Reducir velocidad, señales fónicas reglamentarias y reforzar la vigilancia (y luces encendidas)."
+    },
+    {
+     "q": "¿Conviene navegar cerca de la costa con niebla?",
+     "a": "No; y hay que evitar las zonas de tráfico."
+    },
+    {
+     "q": "¿Qué hace el reflector de radar?",
+     "a": "Hace que las embarcaciones de casco no metálico den eco en el radar de otros barcos."
+    },
+    {
+     "q": "¿Qué embarcaciones deben llevar reflector de radar?",
+     "a": "Las de casco no metálico (fibra o madera)."
+    },
+    {
+     "q": "¿Las de casco metálico?",
+     "a": "No están obligadas."
+    },
+    {
+     "q": "¿Dónde se iza el reflector?",
+     "a": "Lo más alto posible."
+    },
+    {
+     "q": "¿Cómo debe ir la tripulación con niebla?",
+     "a": "Con el chaleco puesto y la balsa lista."
+    },
+    {
+     "q": "¿El reflector radar emite radiación?",
+     "a": "No, es pasivo."
+    }
+   ]
+  },
+  {
+   "id": "3.6",
+   "title": "Aguas someras",
+   "html": "\n<p><b>Aguas someras</b>: aguas de poca profundidad respecto al calado del barco, peligrosas por el riesgo de varada y porque modifican el comportamiento del barco y de la mar.</p>\n<h4>Fenómenos en aguas someras</h4>\n<ul>\n<li><b>Squat o sobrecalado</b>: al avanzar, el barco se «sienta» y aumenta su calado (más cuanto mayor es la velocidad).</li>\n<li><b>Succión del fondo / pérdida de velocidad</b>: el barco frena, vibra y <b>obedece peor al timón</b> (menor maniobrabilidad). La maniobrabilidad mejora al <b>aumentar</b> la sonda, no al revés.</li>\n<li><b>Efecto de orilla</b>: cerca de una orilla la popa es atraída hacia ella y la proa rechazada.</li>\n<li>Sobre el oleaje: <b>disminuye la velocidad de las olas</b>, aumenta su altura y se forman <b>rompientes</b>; hay <b>reflexión</b> del oleaje por el fondo y por la costa próxima.</li>\n<li>(No existe ningún «aumento de la velocidad del viento por disminución de la presión hidrostática»: distractor).</li>\n</ul>\n<h4>Precauciones</h4>\n<ul>\n<li>Evitar navegar en aguas poco profundas, sobre todo si no se conocen y con mal tiempo.</li>\n<li><b>Velocidad reducida</b> (en canales, del orden de 5 nudos como máximo).</li>\n<li>Tener el <b>ancla lista para fondear</b> y, si se dispone, un <b>anclote a popa</b>.</li>\n<li>Respetar el balizamiento; sonda conectada y vigilada; situarse frecuentemente en la carta; atención a corrientes en canales y desembocaduras.</li>\n<li>Gobernar <b>con mucho timón, levantándolo en cuanto se note su efecto</b> (el barco responde tarde).</li>\n<li>Al cruzarse con un barco de <b>vuelta encontrada</b>: <b>no maniobrar con demasiada anticipación y meter poco timón</b>. Las metidas de timón precipitadas han causado abordajes y varadas.</li>\n<li>Al desviarse de un barco fondeado, no apartarse en exceso hacia la orilla (la popa sería atraída).</li>\n<li>Con oleaje en aguas someras, navegar con <b>la mar por la amura</b> es lo más seguro (evitar través y popa, donde las olas rompen y pueden atravesar o hacer tocar fondo).</li>\n</ul>\n",
+   "keyFacts": [
+    "Fenómenos: squat (sobrecalado), pérdida de maniobrabilidad, reflexión del oleaje, olas más lentas y rompientes",
+    "Velocidad reducida",
+    "Ancla lista para fondear y anclote a popa si se dispone",
+    "Gobernar con mucho timón y levantarlo en cuanto se note el efecto",
+    "Vuelta encontrada: sin demasiada anticipación y con poco timón",
+    "Con oleaje, la mar por la amura es lo más seguro"
+   ],
+   "traps": [
+    "«Maniobra de vuelta encontrada con la máxima anticipación metiendo todo el timón» → NO es precaución.",
+    "«Llevar la máxima velocidad» o «aumentar velocidad» → falso.",
+    "«Gobernar con poco timón sin levantarlo nunca» → falso.",
+    "«Aumento de la velocidad del viento al disminuir la presión hidrostática» → no existe.",
+    "«Mayor maniobrabilidad al aumentar la sonda» es cierto en general, pero no es lo que ocurre EN aguas someras; la respuesta buena suele ser «mar por la amura»."
+   ],
+   "upd2026": null,
+   "sources": [
+    "Apuntes PER p.24",
+    "PER 2007 p.66"
+   ],
+   "kw": [
+    "aguas someras",
+    "poco profundas",
+    "squat",
+    "sobrecalado",
+    "reflexion",
+    "rompientes",
+    "ancla lista",
+    "anclote",
+    "mucho timon",
+    "vuelta encontrada",
+    "sonda",
+    "maniobrabilidad",
+    "oleaje",
+    "amura"
+   ],
+   "flash": [
+    {
+     "q": "¿Qué es el squat?",
+     "a": "El sobrecalado o aumento de calado del barco al navegar en poca agua."
+    },
+    {
+     "q": "¿Qué precaución con el ancla en aguas someras?",
+     "a": "Llevarla lista para fondear (y un anclote a popa si lo hay)."
+    },
+    {
+     "q": "¿Cómo se gobierna en aguas someras?",
+     "a": "Con mucho timón, levantándolo en cuanto se nota su efecto."
+    },
+    {
+     "q": "¿Cómo se maniobra ante un barco de vuelta encontrada en aguas someras?",
+     "a": "Sin demasiada anticipación y con poco timón."
+    },
+    {
+     "q": "Con oleaje en aguas someras, ¿cómo se navega más seguro?",
+     "a": "Llevando la mar por la amura."
+    },
+    {
+     "q": "¿Qué le pasa a la velocidad de las olas al llegar a poco fondo?",
+     "a": "Disminuye, crecen y rompen."
+    },
+    {
+     "q": "¿Velocidad recomendada?",
+     "a": "Reducida."
+    },
+    {
+     "q": "¿Mejora la maniobrabilidad en aguas someras?",
+     "a": "No, empeora; el barco obedece peor al timón."
+    }
+   ]
+  },
+  {
+   "id": "3.7",
+   "title": "Material de seguridad",
+   "html": "\n<p>Norma vigente: <b>Real Decreto 339/2021</b>, de 18 de mayo (en vigor desde el 1-7-2021), que regula el equipo de seguridad y de prevención de la contaminación de las embarcaciones de recreo (2,5 a 24 m, hasta 12 pasajeros). <b>Derogó la Orden FOM/1144/2003</b>. No se aplica a motos náuticas, kayaks, tablas, embarcaciones de regatas, etc.</p>\n<h4>Zonas de navegación (art. 3)</h4>\n<table>\n<thead><tr><th>Zona</th><th>Límite</th><th>Categoría de diseño CE que la permite</th></tr></thead>\n<tbody>\n<tr><td>1</td><td>Ilimitada</td><td>A</td></tr>\n<tr><td>2</td><td>Hasta 60 millas de la costa</td><td>A, B</td></tr>\n<tr><td>3</td><td>Hasta 25 millas de la costa</td><td>A, B</td></tr>\n<tr><td>4</td><td>Hasta 12 millas de la costa</td><td>A, B, C</td></tr>\n<tr><td>5</td><td>No alejarse más de 5 millas de un abrigo o playa accesible</td><td>A, B, C</td></tr>\n<tr><td>6</td><td>No alejarse más de 2 millas de un abrigo o playa accesible</td><td>A, B, C</td></tr>\n<tr><td>7</td><td>Aguas costeras protegidas, puertos, radas, rías, bahías abrigadas</td><td>A, B, C, D</td></tr>\n</tbody></table>\n<p>Con marcado CE: zonas según su categoría de diseño (A: 1–7; B: 2–7; C: 4–7; D: 7). Sin marcado CE: la zona asignada en función del equipo de seguridad a bordo.</p>\n<h4>Tabla resumen del equipo obligatorio (RD 339/2021)</h4>\n<table>\n<thead><tr><th>Equipo</th><th>Z1</th><th>Z2</th><th>Z3</th><th>Z4</th><th>Z5</th><th>Z6</th><th>Z7</th></tr></thead>\n<tbody>\n<tr><td>Balsa salvavidas (para todos)</td><td>Sí</td><td>Sí</td><td>Sí</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>\n<tr><td>Chalecos: 1 por persona + niños a su medida</td><td>Sí + 1 extra</td><td>Sí</td><td>Sí</td><td>Sí</td><td>Sí</td><td>Sí</td><td>Sí</td></tr>\n<tr><td>Flotabilidad mínima chaleco</td><td>275 N</td><td>150 N</td><td>150 N</td><td>150 N</td><td>100 N</td><td>100 N</td><td>100 N</td></tr>\n<tr><td>Luz en chaleco</td><td>Sí</td><td>Sí</td><td>Sí</td><td colspan=\"4\">Sí; se puede prescindir si solo se navega de día</td></tr>\n<tr><td>Aro con luz y rabiza</td><td>1 + 1 sin luz ni rabiza</td><td>1</td><td>1</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>\n<tr><td>Bengalas de mano</td><td>6</td><td>6</td><td>6</td><td>3</td><td>3</td><td>3</td><td>—</td></tr>\n<tr><td>Cohetes luz roja y paracaídas</td><td>6</td><td>6</td><td>6</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>\n<tr><td>Señales fumígenas flotantes</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>\n<tr><td>Botiquín (tipo balsa de salvamento) + Guía sanitaria</td><td>Sí</td><td>Sí</td><td>Sí</td><td>Sí</td><td>—</td><td>—</td><td>—</td></tr>\n<tr><td>Achique</td><td colspan=\"3\">Bomba de motor u otra fuente + bomba manual + 2 baldes de 5 l</td><td colspan=\"3\">Bomba manual o eléctrica + 1 balde de 5 l</td><td>Bomba manual o eléctrica (≤6 m con cámaras de flotabilidad: achicador 2 l)</td></tr>\n<tr><td>Reflector de radar (casco no metálico)</td><td>Sí</td><td>Sí</td><td>Sí</td><td>Sí</td><td>Sí</td><td>Sí</td><td>Sí</td></tr>\n<tr><td>Bocina de niebla</td><td colspan=\"7\">Todas (a presión manual o de gas con membrana y recipiente de respeto); campana ≥200 mm si eslora total ≥20 m</td></tr>\n<tr><td>Línea de fondeo</td><td colspan=\"7\">Todas: longitud ≥ 5 esloras; tramo de cadena ≥ 1 eslora (≤6 m puede ser toda estacha)</td></tr>\n<tr><td>Compás, cartas, publicaciones, prismáticos</td><td>Sí</td><td>Sí</td><td>Sí</td><td>Sí</td><td>—</td><td>—</td><td>—</td></tr>\n<tr><td>Barómetro</td><td>Sí</td><td>Sí</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>\n<tr><td>Sextante, cronómetro, diario de navegación</td><td>Sí</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>\n<tr><td>Juego de banderas (mínimo C y N)</td><td>Sí</td><td>Sí</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>\n<tr><td>Pabellón nacional, linterna estanca</td><td colspan=\"7\">Todas</td></tr>\n</tbody></table>\n<p>Además, todas: medios de gobierno de emergencia (vela o un solo motor con gobierno a distancia, salvo fueraborda o cola en Z), 2 estachas de amarre, bichero, e inflador y kit de pinchazos en neumáticas y semirrígidas.</p>\n<h4>Radiocomunicaciones (RD 1185/2006, arts. 56–60)</h4>\n<table>\n<thead><tr><th>Zona</th><th>Equipo mínimo</th></tr></thead>\n<tbody>\n<tr><td>1</td><td>VHF con LSD + MF/HF con LSD (o estación satelital), radiobaliza 406 MHz (activación automática y manual), VHF portátil y respondedor de radar 9 GHz</td></tr>\n<tr><td>2</td><td>VHF con LSD + radiobaliza 406 MHz (automática y manual) + VHF portátil o respondedor de radar</td></tr>\n<tr><td>3</td><td>VHF con LSD + radiobaliza 406 MHz (automática y manual o solo manual)</td></tr>\n<tr><td>4</td><td>VHF de tipo fijo</td></tr>\n<tr><td>5</td><td>VHF fija (o fija con LSD) o, como alternativa, VHF portátil estanco IPX7</td></tr>\n<tr><td>6–7</td><td>No obligatorio (muy recomendable un VHF portátil)</td></tr>\n</tbody></table>\n<h4>Extintores portátiles (art. 15)</h4>\n<p>Embarcaciones <b>con marcado CE</b>: los que indique el fabricante en el manual (si no, la tabla). <b>Sin marcado CE</b> (y todas las comerciales):</p>\n<table>\n<thead><tr><th>Por eslora (L)</th><th>Extintores</th></tr></thead>\n<tbody>\n<tr><td>L &lt; 10 m con espacio habitable cerrado</td><td>1 tipo 34B</td></tr>\n<tr><td>10 ≤ L &lt; 15 m</td><td>1 tipo 34B</td></tr>\n<tr><td>15 ≤ L &lt; 20 m</td><td>2 tipo 34B</td></tr>\n<tr><td>20 ≤ L ≤ 24 m</td><td>3 tipo 34B</td></tr>\n</tbody></table>\n<table>\n<thead><tr><th>Por potencia (P)</th><th>Extintores</th></tr></thead>\n<tbody>\n<tr><td>P ≤ 25 kW</td><td>1 tipo 34B (no requerido si es fueraborda)</td></tr>\n<tr><td>25 &lt; P ≤ 220 kW</td><td>1 tipo 34B</td></tr>\n<tr><td>P &gt; 220 kW</td><td>Capacidad total B = P × 0,3 (ej.: 250 kW → 75B → 3 de 34B)</td></tr>\n</tbody></table>\n<ul>\n<li>Se suman los de eslora y los de potencia; con L &lt; 10 m los de potencia sirven también para cumplir los de eslora. Con instalación fija de extinción basta, por potencia, un 34B junto al compartimento del motor (y siempre debe haber al menos un extintor portátil).</li>\n<li>Uso <b>comercial/lucrativo</b> con L ≥ 10 m: <b>un extintor más</b>.</li>\n<li>Al menos 2 kg de agente; en lugares de fácil acceso y <b>uno alcanzable sin dificultad desde el puesto de gobierno</b>.</li>\n<li>Instalación eléctrica &gt; 50 V o propulsión eléctrica: al menos uno apto para fuegos con electricidad. Motores de GLP: uno apto para gases.</li>\n<li>Barcos sin CE con motores de gasolina (grupo 1.º) o GLP: sistema fijo de extinción en el compartimento del motor.</li>\n<li>Revisiones según el Reglamento de instalaciones de protección contra incendios (RD 513/2017).</li>\n</ul>\n<h4>Medios de achique (art. 20): capacidad de las bombas</h4>\n<p>≥10 l/min (L ≤ 6 m); ≥15 l/min (6 &lt; L &lt; 12 m); ≥30 l/min (L ≥ 12 m). Veleros en zonas 1–6: al menos una bomba manual fija operable desde la bañera con todo cerrado.</p>\n<h4>Descripción, uso y estiba de los elementos</h4>\n<ul>\n<li><b>Chalecos</b>: uno por persona <b>adaptado a su talla, peso y edad</b>; los <b>niños y bebés deben tener uno a su medida</b>. Llevan silbato, bandas reflectantes y luz. Mantener hebillas, pasadores y cierres limpios (y engrasados). Estiba accesible. Los <b>inflables</b> se revisan según las instrucciones del <b>fabricante</b>, en una <b>estación de servicio autorizada</b> (no por Salvamento Marítimo, ni por el patrón o propietario).</li>\n<li><b>Arnés y línea de vida</b>: equipo personal adaptado a cada talla; preferible el arnés completo (bajo los brazos y entre las piernas); se engancha a la línea de vida o a puntos fuertes. Su función es <b>evitar caer al agua</b> (y, si se cae, mantener unido al barco). No es obligatorio pero sí muy recomendable.</li>\n<li><b>Aros</b>: de material flotante, color naranja, con <b>nombre de la embarcación</b>, rabiza (~30 m) y luz de encendido automático. Estibados en las <b>bandas (aletas) o en popa</b>, listos para soltarlos rápidamente (no en proa ni en el interior ni con fijación permanente). Si pierde uno en la mar o antes de zarpar, <b>informe a Salvamento Marítimo</b> para evitar falsas alarmas; si encuentra uno identificado, <b>informe a Salvamento Marítimo</b> (alguien podría estar en peligro). No se repone con el de otra embarcación.</li>\n<li><b>Balsa salvavidas</b>: contenedor estibado en cubierta, cerca de la borda, con zafa hidrostática (se libera sola a unos 4 m de profundidad) o zafa manual. Revisión en <b>estaciones de servicio autorizadas</b> según el fabricante (comerciales: máx. 24 meses). Volver a leer las instrucciones antes de lanzarla. Cualquier tripulante instruido puede lanzarla. <b>Secuencia manual</b>: zafar la trinca → <b>asegurar al barco la tira (driza) de disparo</b> → lanzar el contenedor al agua → tirar fuerte de la tira para inflarla → embarcar → soltar/cortar la tira.</li>\n<li><b>Pirotecnia</b>: en estuche estanco, lugar seco y alejado del calor; respetar caducidades; leer y memorizar las instrucciones. Se usan cuando haya certeza de ser vistos. Se pueden complementar con espejo de señales, lámparas de destellos y luces químicas. Perder una bengala no exige avisar a Salvamento.</li>\n</ul>\n<table>\n<thead><tr><th>Señal</th><th>Color</th><th>Duración</th><th>Alcance aprox.</th></tr></thead>\n<tbody>\n<tr><td>Bengala de mano</td><td>Rojo brillante</td><td>≈1 min</td><td>Visible de noche y de día a pocas millas; arde incluso sumergida (10 cm)</td></tr>\n<tr><td>Cohete con luz roja y paracaídas</td><td>Rojo brillante</td><td>≈40 s a ≈300 m de altura</td><td>≈16 mn de noche, ≈8 de día</td></tr>\n<tr><td>Señal fumígena flotante</td><td>Humo naranja</td><td>≈3 min</td><td>≈3 mn, solo de día</td></tr>\n</tbody></table>\n<p>Uso: bengala con el brazo extendido <b>a sotavento</b>, girando la cara. Cohete vertical (o a 45° con nubes bajas); no usarlo con un helicóptero cerca.</p>\n",
+   "keyFacts": [
+    "RD 339/2021 sustituye a la Orden FOM/1144/2003 (derogada)",
+    "Zonas: 1 ilimitada; 2 ≤60 mn; 3 ≤25 mn; 4 ≤12 mn; 5 ≤5 mn de abrigo; 6 ≤2 mn de abrigo; 7 aguas protegidas",
+    "Chalecos: 275 N zona 1; 150 N zonas 2–4; 100 N zonas 5–7; zona 1 un chaleco extra",
+    "Chalecos a la medida de cada persona; niños con chaleco a su medida",
+    "Inflables revisados en estación de servicio autorizada según el fabricante",
+    "Balsa: zonas 1–3, para todos a bordo",
+    "Aro con luz y rabiza: zonas 1–4; zona 1 un segundo aro",
+    "Pirotecnia (bengalas/cohetes/fumígenas): Z1 6/6/2; Z2–3 6/6/1; Z4 3/3/0; Z5–6 3/0/0; Z7 nada",
+    "Extintores tipo 34B; sin CE: <10 m con cabina 1, 10–15 m 1, 15–20 m 2, 20–24 m 3",
+    "Uso comercial y L ≥10 m: un extintor adicional; uno alcanzable desde el puesto de gobierno",
+    "Instalación >50 V: un extintor apto para riesgo eléctrico",
+    "Reflector de radar en cascos no metálicos; bocina en todas; campana ≥20 m",
+    "Línea de fondeo ≥5 esloras"
+   ],
+   "traps": [
+    "Distancia a la COSTA vs. a un ABRIGO: el examen ha tratado «a 3 millas de la costa» y «a 4 millas de un puerto/refugio» como zona 5 → 3 bengalas de mano.",
+    "Navegar «a 8 millas» o «entre 5 y 12 millas de la costa» = zona 4 → chaleco de 150 N.",
+    "«La flotabilidad aumenta hacia la zona 7» → FALSO: máxima en zona 1 (275 N).",
+    "«Chaleco adicional en zona 7» → FALSO: el adicional es en zona 1.",
+    "Aros: «en todas las zonas» o «de noche en 5, 6 y 7» → FALSO: zonas 1 a 4.",
+    "«Chalecos inflables revisados anualmente por Salvamento Marítimo» → FALSO: estación de servicio autorizada.",
+    "Extintores «estibados alejados del puesto de gobierno» → FALSO: uno alcanzable desde él.",
+    "Aguas costeras protegidas (zona 7): ninguna bengala obligatoria."
+   ],
+   "upd2026": "Todo el material de seguridad se rige ahora por el RD 339/2021 (los apuntes de 2015 usan la Orden FOM/1144/2003, derogada): nuevas zonas con flotabilidad 275/150/100 N, extintores 34B (antes 21B), luz en chalecos, balsa en zonas 1–3 y pirotecnia por zonas.",
+   "sources": [
+    "Apuntes PER pp.24–26",
+    "RD 339/2021 arts. 3, 6–13, 15–20",
+    "RD 1185/2006 arts. 56–60"
+   ],
+   "kw": [
+    "material de seguridad",
+    "chaleco",
+    "chalecos salvavidas",
+    "flotabilidad",
+    "275 n",
+    "150 n",
+    "100 n",
+    "inflables",
+    "aro salvavidas",
+    "aros",
+    "balsa",
+    "balsa salvavidas",
+    "bengalas",
+    "bengalas de mano",
+    "cohetes",
+    "paracaidas",
+    "fumigenas",
+    "pirotecnico",
+    "extintor",
+    "extintores",
+    "34b",
+    "zona 4",
+    "zona 1",
+    "zona 7",
+    "aguas costeras protegidas",
+    "millas",
+    "abrigo",
+    "real decreto 339/2021",
+    "rd 339/2021",
+    "arnes",
+    "lineas de vida",
+    "tira de disparo",
+    "zafa hidrostatica",
+    "bocina de niebla",
+    "radiobaliza",
+    "eslora",
+    "marcado ce"
+   ],
+   "flash": [
+    {
+     "q": "Flotabilidad mínima del chaleco en zona 4",
+     "a": "150 N."
+    },
+    {
+     "q": "Flotabilidad mínima en zona 1",
+     "a": "275 N (y un chaleco adicional)."
+    },
+    {
+     "q": "Flotabilidad mínima en zonas 5, 6 y 7",
+     "a": "100 N."
+    },
+    {
+     "q": "¿Quién revisa los chalecos inflables?",
+     "a": "Una estación de servicio autorizada, según el fabricante."
+    },
+    {
+     "q": "¿En qué zonas es obligatorio el aro salvavidas?",
+     "a": "Zonas 1, 2, 3 y 4 (con luz y rabiza; zona 1 un segundo aro)."
+    },
+    {
+     "q": "¿En qué zonas es obligatoria la balsa?",
+     "a": "Zonas 1, 2 y 3, con capacidad para todos."
+    },
+    {
+     "q": "Pirotecnia en zona 4",
+     "a": "3 bengalas de mano y 3 cohetes con paracaídas."
+    },
+    {
+     "q": "Pirotecnia en zonas 5 y 6",
+     "a": "3 bengalas de mano."
+    },
+    {
+     "q": "Pirotecnia en zona 7",
+     "a": "Ninguna."
+    },
+    {
+     "q": "Pirotecnia en zonas 2 y 3",
+     "a": "6 bengalas, 6 cohetes y 1 fumígena."
+    },
+    {
+     "q": "Pirotecnia en zona 1",
+     "a": "6 bengalas, 6 cohetes y 2 fumígenas."
+    },
+    {
+     "q": "Extintores por eslora: barco sin CE de 11 m, uso privado",
+     "a": "1 de tipo 34B."
+    },
+    {
+     "q": "¿Dónde se estiban los aros?",
+     "a": "En las bandas (aletas) o en popa, listos para soltarlos rápidamente."
+    },
+    {
+     "q": "¿Qué debe figurar en el aro?",
+     "a": "El nombre de la embarcación."
+    },
+    {
+     "q": "Pierdes un aro antes de zarpar: ¿qué haces?",
+     "a": "Informar a Salvamento Marítimo para evitar una falsa alarma."
+    },
+    {
+     "q": "Encuentras un aro con nombre y matrícula",
+     "a": "Informar a Salvamento Marítimo."
+    },
+    {
+     "q": "Secuencia de lanzamiento manual de la balsa",
+     "a": "Zafar trinca, asegurar la tira de disparo al barco, lanzar, tirar fuerte para inflar, embarcar y soltar la tira."
+    },
+    {
+     "q": "Longitud mínima de la línea de fondeo",
+     "a": "5 veces la eslora."
+    },
+    {
+     "q": "¿Desde qué eslora es obligatoria la campana?",
+     "a": "20 m de eslora total (≥200 mm de diámetro)."
+    },
+    {
+     "q": "Radio obligatoria en zona 4",
+     "a": "VHF de tipo fijo."
+    }
+   ]
+  },
+  {
+   "id": "3.8",
+   "title": "Hombre al agua",
+   "html": "\n<h4>Prevención</h4>\n<ul>\n<li><b>Arnés de seguridad</b> enganchado a la <b>línea de vida</b>: es la medida de prevención por excelencia (el chaleco no evita la caída; ayuda una vez en el agua).</li>\n<li>Cubierta antideslizante, calzado adecuado, candeleros y guardamancebos fuertes, pero <b>no fiarse de los candeleros</b>.</li>\n<li>«Una mano para el barco»: <b>agarrarse siempre al menos con una mano</b>; desplazarse despacio por cubierta, por barlovento y cerca de asideros.</li>\n<li>Cuidado al hacer las necesidades por la borda (causa frecuente de caídas), sobre todo de noche.</li>\n<li>Buena iluminación de cubierta sin deslumbrar ni afectar a las luces de navegación.</li>\n</ul>\n<h4>Primeras acciones al ver caer a alguien</h4>\n<ol>\n<li><b>Gritar «¡Hombre al agua por babor/estribor!»</b>; nunca saltar al agua sin dar la voz de alarma.</li>\n<li><b>Librar la hélice</b>: meter el timón <b>a la banda de caída</b> (la popa se separa del náufrago) y poner la máquina en punto muerto/parar.</li>\n<li><b>Lanzar ayudas</b>: aro salvavidas con luz, y otros objetos flotantes que marquen la zona.</li>\n<li><b>No perderlo de vista</b>: designar a una persona que lo señale continuamente con el brazo.</li>\n<li>Pulsar <b>MOB</b> en el GNSS/plotter (marca la posición de caída como waypoint). <b>No apagar el receptor GNSS</b>.</li>\n<li>Hacer una <b>llamada de emergencia</b>; si se pierde de vista, alerta de socorro <b>LSD (Distress)</b> en canal 70 y MAYDAY por canal 16. De noche se puede lanzar un cohete con paracaídas para iluminar la zona.</li>\n</ol>\n<p>No es recomendable usar la bocina de niebla «para llamar la atención del náufrago», ni dar atrás hacia él (la hélice), ni saltar a buscarlo.</p>\n<h4>Maniobras cuando SE VE al náufrago</h4>\n<table>\n<thead><tr><th>Maniobra</th><th>Descripción</th></tr></thead>\n<tbody>\n<tr><td><b>Boutakow</b></td><td>Todo el timón <b>a la banda de caída</b> hasta que la proa haya caído <b>70°</b>; entonces timón <b>a la banda contraria</b> hasta quedar a <b>rumbo opuesto</b> al inicial. Describe un arco que lleva de vuelta por la propia estela hasta el náufrago, que aparece por la proa.</td></tr>\n<tr><td><b>Anderson</b> (giro de 270°)</td><td>Timón <b>a la banda de caída</b>, con máquina, hasta que la proa haya caído unos <b>250°</b>; timón a la vía y parar máquina: por inercia sigue cayendo hasta los <b>270°</b> y el náufrago queda por la proa. Muy rápida, para barcos de buena maniobrabilidad.</td></tr>\n</tbody></table>\n<p>Ambas empiezan metiendo el timón <b>a la banda por la que cayó el náufrago</b> (si cae por estribor, se maniobra a estribor). Meter el timón a la banda contraria es incorrecto.</p>\n<h4>Búsqueda cuando NO se ve al náufrago</h4>\n<p>Primero se fija el <b>datum</b> (punto de referencia: posición MOB o la estimada) y se marca con una boya o en el plotter.</p>\n<ul>\n<li><b>Espiral cuadrada</b> (expansión): desde el datum, tramos crecientes con giros de 90°, separando cada vuelta la anchura de barrido (útil con radar/plotter).</li>\n<li><b>Búsqueda por sectores</b>: desde el datum, tramos iguales (≈1 milla en embarcaciones pequeñas) cambiando el rumbo <b>120° a estribor</b> tras cada tramo (triángulos) hasta volver al datum; allí se cambia el rumbo <b>150° a estribor</b> (120° + 30°) y se repite, de modo que el nuevo triángulo queda girado 30° respecto al anterior.</li>\n</ul>\n<h4>GNSS y LSD en hombre al agua</h4>\n<ul>\n<li>Los receptores GNSS obtienen la posición mediante una o varias constelaciones (GPS, Galileo, GLONASS, BeiDou).</li>\n<li>Las alertas de socorro por <b>LSD</b> incluyen automáticamente la posición del GNSS conectado.</li>\n<li>Si el GNSS no proporciona la posición al equipo LSD, hay que <b>introducirla manualmente, al menos cada hora</b>.</li>\n<li><span class=\"hl\">Nunca se apaga el GNSS</span> «para que quede grabada la última posición».</li>\n</ul>\n<h4>Recogida</h4>\n<p>Aproximarse despacio, con poca máquina y la hélice en punto muerto al llegar, dándole <b>socaire</b> (protección del viento y la mar) con el costado; lanzar un aro con rabiza, ofrecer escala. Si está inconsciente, un tripulante sujeto con un cabo/arnés puede ayudar a izarlo. Subirlo en posición horizontal si ha estado tiempo en el agua.</p>\n<h4>Reanimación (RCP) – recomendaciones ERC 2025</h4>\n<ul>\n<li>Comprobar consciencia y respiración (abrir la vía aérea: frente atrás, mentón arriba). Si no respira con normalidad: pedir ayuda (MAYDAY/112) y empezar RCP.</li>\n<li><b>Ahogamiento</b>: comenzar con <b>5 ventilaciones de rescate</b>.</li>\n<li>Después: <b>30 compresiones : 2 ventilaciones</b>, compresiones en el centro del pecho, <b>100–120 por minuto</b>, <b>5–6 cm</b> de profundidad, brazos rectos, dejando reexpandir el tórax.</li>\n<li>Usar desfibrilador (DEA) si hay; no interrumpir hasta que respire, llegue ayuda o el reanimador se agote.</li>\n<li>(Los apuntes de 2015 traen ritmos antiguos —15:2, 60–90/min, 4 cm—: están obsoletos).</li>\n</ul>\n<h4>Hipotermia</h4>\n<p>Descenso de la temperatura corporal <b>por debajo de 35 °C</b> (inicio de cansancio, descoordinación, aturdimiento; por debajo de ≈31–32 °C pérdida de consciencia). En el agua el cuerpo pierde calor unas 25 veces más rápido que en el aire.</p>\n<ul>\n<li><b>En el agua</b> con chaleco: <b>no nadar</b>, mantenerse lo más quieto posible en <b>posición fetal</b> (HELP) o agrupados abrazados; conservar la ropa.</li>\n<li><b>A bordo</b>: trasladarlo en <b>posición horizontal</b>, a un lugar resguardado del viento, seco y templado; quitar la ropa mojada y abrigarlo (mantas); calentar <b>lentamente</b> el tronco; bebidas calientes azucaradas solo si está consciente; <b>nunca alcohol</b>, ni café ni té.</li>\n<li><b>No frotar</b> enérgicamente (y menos las extremidades): manda sangre fría al corazón y puede causar arritmias.</li>\n<li>Si está inconsciente: llamada de socorro y consulta radio-médica; RCP si no respira.</li>\n</ul>\n",
+   "keyFacts": [
+    "Prevención: arnés de seguridad + línea de vida; una mano para el barco; no fiarse de los candeleros",
+    "Gritar, timón a la banda de caída (librar hélice), lanzar aro, no perderlo de vista, MOB en el GNSS",
+    "Boutakow: 70° a la banda de caída, luego timón a la contraria hasta rumbo opuesto",
+    "Anderson: timón a la banda de caída hasta caer 250°, timón a la vía y parar → completa 270°",
+    "Si no se ve: datum + espiral cuadrada o sectores (120° a estribor; en el datum 150°)",
+    "No apagar el GNSS; posición manual en el LSD al menos cada hora si falta el GNSS",
+    "Perdido de vista: pulsar Distress en la LSD",
+    "RCP ERC 2025: 30:2, 100–120/min, 5–6 cm; ahogado: 5 ventilaciones iniciales",
+    "Hipotermia: <35 °C; en el agua posición fetal sin nadar; a bordo horizontal, abrigar, sin frotar ni alcohol"
+   ],
+   "traps": [
+    "«Timón a la banda contraria» para iniciar Boutakow/Anderson → FALSO: a la banda de caída.",
+    "Maniobra de 240° a la banda contraria → no es válida.",
+    "«Activar la bocina de niebla para llamar la atención del náufrago» → no recomendada.",
+    "«Apagar el GNSS para que quede grabada la posición» → INCORRECTO.",
+    "«Saltar al agua en su busca» o «dar atrás y acercarse por la popa» → no.",
+    "El chaleco no es medida de PREVENCIÓN de la caída; el arnés sí.",
+    "«Mantener la ropa puesta y frotar enérgicamente» → incorrecto en hipotermia."
+   ],
+   "upd2026": "RCP según guías ERC 2025 (30:2, 100–120/min, 5–6 cm; 5 insuflaciones iniciales en ahogados) en lugar de las cifras de 2015. GNSS/LSD: introducir la posición manualmente al menos cada hora si el equipo no la recibe.",
+   "sources": [
+    "Apuntes PER pp.27–30",
+    "ERC Guidelines 2025",
+    "Preguntas oficiales 2022–2026"
+   ],
+   "kw": [
+    "hombre al agua",
+    "naufrago",
+    "caida al agua",
+    "boutakow",
+    "anderson",
+    "maniobra",
+    "70",
+    "270",
+    "250",
+    "banda de caida",
+    "mob",
+    "gnss",
+    "gps",
+    "datum",
+    "sectores",
+    "espiral cuadrada",
+    "arnes",
+    "candeleros",
+    "hipotermia",
+    "posicion fetal",
+    "frotar",
+    "35",
+    "reanimacion",
+    "rcp",
+    "masaje cardiaco",
+    "lsd",
+    "distress",
+    "receptores",
+    "posicion manual",
+    "cada hora",
+    "caido",
+    "caida accidental",
+    "pasajero",
+    "busqueda",
+    "persona"
+   ],
+   "flash": [
+    {
+     "q": "¿Cómo se inicia la maniobra de Boutakow?",
+     "a": "Virando 70° a la banda por la que cayó el náufrago."
+    },
+    {
+     "q": "Boutakow: ¿qué se hace al haber caído 70°?",
+     "a": "Timón a la banda contraria hasta navegar a rumbo opuesto al inicial."
+    },
+    {
+     "q": "Anderson: ¿cuándo se pone el timón a la vía?",
+     "a": "Tras caer unos 250°; por inercia llega a 270°."
+    },
+    {
+     "q": "Cae alguien por estribor: ¿hacia dónde maniobras?",
+     "a": "Hacia estribor (librar la hélice)."
+    },
+    {
+     "q": "Medida de prevención de hombre al agua",
+     "a": "Usar arnés de seguridad enganchado a la línea de vida."
+    },
+    {
+     "q": "Búsqueda por sectores: giro tras cada tramo",
+     "a": "120° a estribor; al volver al datum, 150° a estribor."
+    },
+    {
+     "q": "¿Se apaga el GNSS tras un hombre al agua?",
+     "a": "No; se pulsa MOB."
+    },
+    {
+     "q": "Si el equipo LSD no recibe la posición GNSS",
+     "a": "Introducirla manualmente al menos cada hora."
+    },
+    {
+     "q": "¿Qué se hace si perdemos de vista al náufrago?",
+     "a": "Alerta de socorro: botón Distress de la LSD (y MAYDAY por canal 16)."
+    },
+    {
+     "q": "Temperatura de hipotermia",
+     "a": "Por debajo de 35 °C."
+    },
+    {
+     "q": "En el agua con chaleco, ¿cómo evitar la hipotermia?",
+     "a": "Quieto, sin nadar, en posición fetal."
+    },
+    {
+     "q": "¿Se frota al hipotérmico?",
+     "a": "No; se abriga y se traslada en horizontal."
+    },
+    {
+     "q": "RCP adulto (ERC 2025)",
+     "a": "30 compresiones : 2 ventilaciones, 100–120/min, 5–6 cm."
+    },
+    {
+     "q": "Ahogado que no respira: ¿cómo se empieza?",
+     "a": "Con 5 ventilaciones de rescate."
+    },
+    {
+     "q": "Qué NO hacer al ver caer a un pasajero",
+     "a": "Saltar al agua sin dar la voz de alarma."
+    },
+    {
+     "q": "¿Es útil la bocina de niebla para el náufrago?",
+     "a": "No es una acción recomendada."
+    }
+   ]
+  },
+  {
+   "id": "3.9",
+   "title": "Remolque",
+   "html": "\n<p><b>Remolcar</b> es arrastrar a otra embarcación que se ha quedado sin propulsión, sin gobierno o sin ambos. Conviene llevar a bordo un cabo adecuado y coordinar la maniobra por VHF en un canal de trabajo (no el 16).</p>\n<h4>Aproximación y dar el remolque</h4>\n<ul>\n<li>Estudiar viento, mar, corriente y el <b>abatimiento</b> de cada barco.</li>\n<li>Por regla general el remolcador se aproxima <b>a poca máquina por barlovento</b> del averiado, para entregar la guía (cabo fino o sisga que luego arrastra el remolque).</li>\n<li>Si el remolcador <b>abate menos</b>: se sitúa a barlovento y aprovecha el viento para hacer llegar la guía; si no es posible, se queda a sotavento y espera a que el otro abata hacia él.</li>\n<li>Si <b>abaten igual</b>: el remolcador pasa por barlovento y da el remolque <b>desde su popa a la proa del averiado</b>.</li>\n<li>Si el averiado está aproado al viento, el remolcador <b>no</b> se mantiene proa al viento indefinidamente: se sitúa por delante y se atraviesa lo necesario para pasar el cabo de su popa a la proa del otro, y luego arranca.</li>\n<li>El remolcado hace firme el cabo en su punto más fuerte (bita, cornamusa de proa reforzada o alrededor de la base del palo/mástil), repartiendo el esfuerzo.</li>\n</ul>\n<h4>Longitud y navegación</h4>\n<ul>\n<li>Longitud según el estado de la mar, desplazamiento y velocidad. Con mar, la longitud debe ser tal que <b>ambos barcos estén a la vez en una cresta o a la vez en un seno</b> (múltiplo de la longitud de onda) para evitar estrechonazos. Se puede lastrar con un trozo de cadena para que haga catenaria.</li>\n<li>Arrancar a la <b>mínima velocidad de gobierno</b> hasta que el cabo trabaje; después, evitar tirones y cambios bruscos de velocidad.</li>\n<li>Cambios de rumbo suaves (de 10° en 10°), lejos de obstáculos.</li>\n<li>El remolcado desembraga el motor y, si tiene gobierno, sigue la estela del remolcador.</li>\n<li><b>Remolque abarloado</b> (costado con costado, el averiado entre el través y la aleta del remolcador) en espacios reducidos (puertos, ríos): se maniobra <b>como si fuera un solo barco</b>.</li>\n</ul>\n<h4>Señales entre remolcador y remolcado</h4>\n<table><tbody>\n<tr><td>Virar (cobrar)</td><td>Girar la mano en sentido de las agujas del reloj</td></tr>\n<tr><td>Arriar (soltar)</td><td>Subir y bajar la mano</td></tr>\n<tr><td>Parar</td><td>Levantar las manos con las palmas abiertas</td></tr>\n<tr><td>Afirmar</td><td>Cruzar los puños a la altura de las muñecas</td></tr>\n</tbody></table>\n<h4>Si le remolca Salvamento Marítimo</h4>\n<ul>\n<li>Siga las instrucciones de la tripulación del remolcador: <b>ellos dirigen la maniobra</b>.</li>\n<li>Haga firme el cabo en el <b>punto o puntos más fuertes</b> de su embarcación.</li>\n<li>Amarre con un nudo que <b>se pueda deshacer (o largar) bajo tensión</b>, para poder liberarse en caso de emergencia.</li>\n<li><b>Manténgase lejos del cabo</b> o estacha mientras le remolcan (si falta, latiguea con peligro).</li>\n<li>Chalecos puestos y alguien atento al gobierno si lo hay.</li>\n</ul>\n",
+   "keyFacts": [
+    "El remolcador se aproxima a poca máquina por barlovento del averiado",
+    "Si abaten igual: el remolcador da el remolque desde su popa a la proa del averiado",
+    "Longitud: ambos a la vez en cresta o en seno",
+    "Arrancar a la mínima de gobierno y evitar tirones",
+    "Remolque abarloado: se maniobra como un solo barco",
+    "Con Salvamento: ellos dirigen, puntos más fuertes, nudo que se pueda largar bajo tensión, lejos del cabo"
+   ],
+   "traps": [
+    "«El remolcador se mantiene siempre proa al viento sin atravesarse» → afirmación incorrecta.",
+    "«No elija los puntos más fuertes para evitar ser arrastrado si se hunde» → falso.",
+    "«Nudo que no pueda deshacerse bajo tensión» → falso.",
+    "«Usted dirigirá la maniobra del remolcador» → falso."
+   ],
+   "upd2026": null,
+   "sources": [
+    "Apuntes PER pp.30–31",
+    "Recomendaciones de Salvamento Marítimo"
+   ],
+   "kw": [
+    "remolque",
+    "remolcador",
+    "remolcado",
+    "abarloado",
+    "cabo de remolque",
+    "estacha",
+    "guia",
+    "barlovento",
+    "abatimiento",
+    "seno",
+    "cresta",
+    "tirones",
+    "salvamento maritimo",
+    "puntos fuertes"
+   ],
+   "flash": [
+    {
+     "q": "¿Por dónde se aproxima normalmente el remolcador?",
+     "a": "A poca máquina por barlovento del averiado."
+    },
+    {
+     "q": "¿Qué longitud debe tener el remolque con mar?",
+     "a": "Que ambos barcos estén a la vez en una cresta o en un seno."
+    },
+    {
+     "q": "Remolque abarloado: ¿cómo se maniobra?",
+     "a": "Como si fuera un solo barco."
+    },
+    {
+     "q": "¿Quién dirige la maniobra si remolca Salvamento Marítimo?",
+     "a": "La tripulación del remolcador."
+    },
+    {
+     "q": "¿Dónde se hace firme el remolque?",
+     "a": "En el punto o puntos más fuertes de la embarcación."
+    },
+    {
+     "q": "¿Dónde debe estar la tripulación durante el remolque?",
+     "a": "Lejos del cabo o estacha."
+    },
+    {
+     "q": "Señal de «parar»",
+     "a": "Levantar las manos con las palmas abiertas."
+    },
+    {
+     "q": "Velocidad al iniciar el remolque",
+     "a": "La mínima de gobierno hasta que el cabo trabaje."
+    }
+   ]
+  },
+  {
+   "id": "3.10",
+   "title": "Salvamento Marítimo y comunicaciones de emergencia",
+   "html": "\n<p><b>Salvamento Marítimo</b> (SASEMAR, Sociedad de Salvamento y Seguridad Marítima) coordina la búsqueda y rescate en la zona SAR española desde sus Centros de Coordinación de Salvamento (CCS).</p>\n<h4>Cómo contactar</h4>\n<table>\n<thead><tr><th>Medio</th><th>Dato</th></tr></thead>\n<tbody>\n<tr><td>Teléfono de Salvamento Marítimo (gratuito)</td><td><b>900 202 202</b></td></tr>\n<tr><td>Teléfono general de emergencias</td><td><b>112</b></td></tr>\n<tr><td>Radio VHF, <b>voz</b></td><td><b>Canal 16</b> (socorro, urgencia, seguridad y llamada)</td></tr>\n<tr><td>Radio VHF, <b>llamada selectiva digital (LSD/DSC)</b></td><td><b>Canal 70</b> (solo datos; <b>no se habla</b> por el 70)</td></tr>\n<tr><td>MF</td><td>2182 kHz (voz), 2187,5 kHz (LSD)</td></tr>\n<tr><td>Radiobaliza (EPIRB)</td><td>406 MHz vía satélite (Cospas-Sarsat)</td></tr>\n<tr><td>App</td><td><b>SafeTrx</b> (registro de la travesía y alerta)</td></tr>\n</tbody></table>\n<p>Se puede contactar <b>por teléfono o con la estación de radio de a bordo</b>. Números que <b>no</b> son de Salvamento: 091, 900 102 102, 900 112 112, 900 200 200, 900 222 222.</p>\n<h4>Procedimiento de socorro</h4>\n<ol>\n<li>Pulsar el botón <b>DISTRESS</b> del VHF-LSD (≈5 s): emite por el canal 70 una alerta con la identidad MMSI y la posición GNSS (o la introducida a mano, como mínimo cada hora).</li>\n<li>Esperar acuse de recibo y pasar a <b>voz en el canal 16</b>: <b>MAYDAY ×3</b>, «aquí» nombre ×3 y distintivo/MMSI, posición, naturaleza del peligro, ayuda requerida, personas a bordo, otros datos.</li>\n<li>Urgencia (sin peligro inminente): <b>PAN PAN</b>. Seguridad (avisos a la navegación/meteo): <b>SÉCURITÉ</b>.</li>\n</ol>\n<p>Salvamento Marítimo anuncia por el canal 16 la emisión de avisos y boletines meteorológicos en sus canales de trabajo.</p>\n<h4>Notificaciones a Salvamento Marítimo</h4>\n<ul>\n<li>Pérdida de un aro salvavidas (en la mar o antes de zarpar) → avisar para evitar falsas alarmas.</li>\n<li>Hallazgo de un aro u otro equipo identificado → avisar (alguien puede estar en peligro).</li>\n<li>Activación accidental de una radiobaliza o LSD → cancelar y avisar.</li>\n<li>Avistamiento de contaminación, contenedores u objetos a la deriva.</li>\n</ul>\n<h4>Asistencia médica</h4>\n<p><b>Centro Radio-Médico Español</b> (Instituto Social de la Marina): <b>91 310 34 75</b>, 24 h, todos los días, gratuito, en español (ver 8.1).</p>\n",
+   "keyFacts": [
+    "Salvamento Marítimo: 900 202 202 o 112",
+    "VHF canal 16 = voz (MAYDAY); canal 70 = solo alerta LSD/DSC",
+    "Se contacta por teléfono o con la radio de a bordo",
+    "Botón Distress del LSD envía MMSI + posición",
+    "MAYDAY socorro; PAN PAN urgencia; SÉCURITÉ seguridad",
+    "SafeTrx: app de Salvamento Marítimo para registrar travesías",
+    "Radiobaliza 406 MHz"
+   ],
+   "traps": [
+    "«Llamada de voz por el canal 70» → NUNCA; el 70 es solo LSD.",
+    "«Únicamente por teléfono» o «exclusivamente por radio» → falso: por cualquiera de los dos.",
+    "Números falsos: 091, 900 102 102, 900 112 112, 900 200 200, 900 222 222.",
+    "«La LSD tiene prioridad para comunicarse por VOZ» → la voz va por el canal 16."
+   ],
+   "upd2026": "Alerta LSD/DSC por canal 70 (Anexo IV RIPA actualizado), app SafeTrx y obligación de introducir la posición manualmente al menos cada hora si el LSD no recibe GNSS.",
+   "sources": [
+    "Apuntes PER p.31",
+    "RIPA Anexo IV",
+    "RD 1185/2006",
+    "Salvamento Marítimo"
+   ],
+   "kw": [
+    "salvamento maritimo",
+    "900 202 202",
+    "112",
+    "canal 16",
+    "canal 70",
+    "vhf",
+    "lsd",
+    "llamada selectiva digital",
+    "estacion de radio",
+    "telefono",
+    "llamada de socorro",
+    "mayday",
+    "emergencia",
+    "comunicarse",
+    "contactar",
+    "safetrx",
+    "radiobaliza"
+   ],
+   "flash": [
+    {
+     "q": "Teléfono de Salvamento Marítimo",
+     "a": "900 202 202 (también el 112)."
+    },
+    {
+     "q": "¿Por qué canal se habla con Salvamento en emergencia?",
+     "a": "VHF canal 16."
+    },
+    {
+     "q": "¿Para qué es el canal 70?",
+     "a": "Solo para la llamada selectiva digital (alerta LSD); no se usa para voz."
+    },
+    {
+     "q": "¿Se puede llamar a Salvamento por teléfono?",
+     "a": "Sí: 900 202 202 o 112; también por radio."
+    },
+    {
+     "q": "Mensaje de socorro por voz",
+     "a": "MAYDAY (×3)."
+    },
+    {
+     "q": "Mensaje de urgencia",
+     "a": "PAN PAN."
+    },
+    {
+     "q": "¿Qué envía el botón Distress?",
+     "a": "Alerta de socorro con MMSI y posición por el canal 70."
+    },
+    {
+     "q": "¿Es 900 200 200 un número de Salvamento?",
+     "a": "No."
+    }
+   ]
+  }
+ ]
+}
