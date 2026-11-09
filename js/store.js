@@ -90,12 +90,7 @@ export async function init() {
     state.srs = LS.get("srs:__guest", {});
   }
   if (state.me) await loadMySrs();
-  if (state.web && db && state.me) {
-    db.collection(`players/${state.me}/srs`).onSnapshot(snap => {
-      for (const d of snap.docs) if (!dirtySrs.has(d.id)) state.srs[d.id] = clone(d.data()) || {};
-      emit("srs");
-    });
-  }
+  watchMySrs();
   emit("init");
 }
 
@@ -109,12 +104,24 @@ export async function claim(alias) {
     if (!p.claimedBy && state.myId) p.claimedBy = state.myId;
     savePlayer(true);
   }
-  loadMySrs().then(() => emit("me"));
+  loadMySrs().then(() => { watchMySrs(); emit("me"); });
   emit("me");
 }
 export function claimConflict(alias) {
   const p = state.players[alias];
   return !!(p && p.claimedBy && state.myId && p.claimedBy !== state.myId);
+}
+
+let srsWatch = null;
+function watchMySrs() {
+  if (!state.web || !state.db || !state.me) return;
+  srsWatch?.();
+  const alias = state.me;
+  srsWatch = state.db.collection(`players/${alias}/srs`).onSnapshot(snap => {
+    if (state.me !== alias) return;
+    for (const d of snap.docs) if (!dirtySrs.has(d.id)) state.srs[d.id] = clone(d.data()) || {};
+    emit("srs");
+  });
 }
 
 async function loadMySrs() {

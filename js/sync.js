@@ -152,5 +152,6 @@ export function webDb() {
   setInterval(() => { if (!document.hidden) sync(); }, POLL_MS);
   window.addEventListener("online", sync);
   document.addEventListener("visibilitychange", () => { sync(); });
+  sync();
   return db;
 }
