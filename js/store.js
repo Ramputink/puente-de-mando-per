@@ -9,6 +9,8 @@ export const CREW = [
   { alias: "reyero", name: "Reyero", color: "var(--stbd)" },
 ];
 
+import { webDb, isWeb } from "./sync.js";
+
 const LS = {
   get(k, d) { try { const v = localStorage.getItem("per:" + k); return v == null ? d : JSON.parse(v); } catch { return d; } },
   set(k, v) { try { localStorage.setItem("per:" + k, JSON.stringify(v)); } catch {} },
@@ -48,6 +50,12 @@ export async function init() {
       withTimeout(c.use("downloads"), 9000).catch(() => null),
     ]);
   }
+  if (isWeb()) {
+    db = webDb();
+    state.web = true;
+    state.canWrite = !!db;
+    if (db) db.onStatus = s => { state.syncStatus = s; emit("sync"); };
+  }
   state.db = db; state.user = user; state.downloads = downloads;
   if (user) {
     try { state.myId = await user.id(); } catch { state.myId = null; }
@@ -82,6 +90,12 @@ export async function init() {
     state.srs = LS.get("srs:__guest", {});
   }
   if (state.me) await loadMySrs();
+  if (state.web && db && state.me) {
+    db.collection(`players/${state.me}/srs`).onSnapshot(snap => {
+      for (const d of snap.docs) if (!dirtySrs.has(d.id)) state.srs[d.id] = clone(d.data()) || {};
+      emit("srs");
+    });
+  }
   emit("init");
 }
 
@@ -131,7 +145,9 @@ async function flushSrs() {
     for (const b of blks) { try { await state.db.doc(`players/${a}/srs/${b}`).set(state.srs[b] || {}); } catch (e) { console.warn("srs save", e); } }
   } else LS.set("srs:" + a, state.srs);
 }
-window.addEventListener("pagehide", () => { if (pTimer) savePlayer(); if (sTimer) flushSrs(); });
+const flushPending = () => { if (pTimer) savePlayer(); if (sTimer) flushSrs(); };
+window.addEventListener("pagehide", flushPending);
+document.addEventListener("visibilitychange", () => { if (document.hidden) flushPending(); });
 
 // --- duels & plan
 export async function saveDuel(d) {

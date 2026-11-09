@@ -4,3 +4,6 @@ build/
 dev.html
 tools/*
 !tools/build_web.py
+.wrangler/
+node_modules/
+.dev.vars

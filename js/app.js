@@ -1,3 +1,4 @@
+import { syncLinked, syncLink, syncUnlink, isWeb } from "./sync.js";
 import { init, state, onChange, CREW, me, myAlias, claim, claimConflict, modStore, download, saveDuel, savePlan, LS, touchPlayer } from "./store.js";
 import { loadAll, DB, TEMAS, MODULES, loadModule, convLabel } from "./data.js";
 import { BLOCKS, BLK, TEMA_BLOCKS, rankOf, RANKS, PORTS, BOSS, BADGES, addXP, badge, setNotifier, dueList, seenCount, blockAcc, passProbability, daysToExam, weeklyXP, today, scoreExam, EXAM_DATE, srsGet } from "./game.js";
@@ -36,8 +37,9 @@ function renderChrome() {
   else if (p) { const r = rankOf(p.xp); who.innerHTML = `<span class="who-name">${esc(crewName(state.me))}</span><span class="chip acc">${esc(r.name)}</span><span class="mono small">${p.xp} XP</span>`; }
   else who.innerHTML = `<a class="btn sm" href="#tripulacion">Elegir tripulante</a>`;
   const sync = document.getElementById("sync");
-  sync.textContent = state.mode === "crew" ? (state.syncError ? "Error de sincronización" : "Sincronizado") : state.mode === "guest" ? "Solo lectura" : "Sin sincronizar (local)";
-  sync.className = "small " + (state.mode === "crew" && !state.syncError ? "muted" : "warn-t");
+  const pendingWeb = state.web && state.syncStatus?.offline;
+  sync.textContent = pendingWeb ? "Sin conexión: se subirá luego" : state.mode === "crew" ? (state.syncError ? "Error de sincronización" : "Sincronizado") : state.mode === "guest" ? "Solo lectura" : "Sin sincronizar (local)";
+  sync.className = "small " + (state.mode === "crew" && !state.syncError && !pendingWeb ? "muted" : "warn-t");
 }
 
 const NAV = [
@@ -61,8 +63,36 @@ async function route() {
   (views[base] || viewHome)(r);
 }
 
+// ---------- vincular dispositivo (versión web)
+function linkPanel() {
+  const el = h(`<article class="panel stack"><h2>Código de tripulación</h2>
+    <p>Introdúcelo una vez en cada dispositivo para compartir el progreso entre el móvil y el ordenador.</p>
+    <form class="row link-form"><input type="text" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="Código de tripulación" placeholder="xxxx-xxxx-xxxx-xxxx"><button class="btn primary" type="submit">Vincular</button></form>
+    <p class="small link-msg" hidden></p>
+  </article>`);
+  const input = el.querySelector("input"), btn = el.querySelector("button"), msg = el.querySelector(".link-msg");
+  el.querySelector("form").onsubmit = async e => {
+    e.preventDefault();
+    if (!input.value.trim()) return;
+    btn.disabled = true; msg.hidden = true;
+    const r = await syncLink(input.value, CREW.map(c => c.alias));
+    if (r === "ok") { location.hash = "inicio"; location.reload(); return; }
+    btn.disabled = false; msg.hidden = false; msg.classList.add("fb-bad");
+    msg.textContent = r === "bad" ? "Ese código no es correcto." : "No hay conexión. Inténtalo con internet.";
+  };
+  return el;
+}
+function viewLink() {
+  const v = h(`<section class="stack narrow"><p class="eyebrow">Bienvenida a bordo</p><h1>Vincula este dispositivo</h1></section>`);
+  const skip = h(`<div class="row"><button class="btn ghost" type="button">Seguir sin sincronizar</button></div>`);
+  skip.querySelector("button").onclick = () => { sessionStorage.setItem("per:skipLink", "1"); route(); };
+  v.append(linkPanel(), skip);
+  main.replaceChildren(v);
+}
+
 // ---------- crew choice
 function viewChooseCrew() {
+  if (isWeb() && !syncLinked() && !sessionStorage.getItem("per:skipLink")) return viewLink();
   main.replaceChildren(h(`<section class="stack narrow">
     <p class="eyebrow">Bienvenida a bordo</p><h1>¿Quién se pone al timón?</h1>
     <p>Elige tu perfil en este dispositivo. Tu progreso se guarda con tu nombre y lo ve también tu compañero.</p>
@@ -533,10 +563,11 @@ function viewCrew() {
       ${state.mode === "guest" ? `<p>Estás en <b>modo invitado</b>: ves todo y puedes practicar, pero tu progreso se guarda solo aquí.</p>` :
       `<p>${state.me ? `Navegas como <b>${esc(crewName(state.me))}</b>.` : "Aún no has elegido perfil."}</p>
       <div class="row">${CREW.map(c => `<button class="btn ${state.me === c.alias ? "primary" : ""}" data-a="${c.alias}" ${claimConflict(c.alias) ? "disabled" : ""}>Soy ${c.name}</button>`).join("")}</div>`}
-      <p class="small muted">Estado: ${state.mode === "crew" ? "sincronizado con claude.ai" : state.mode === "guest" ? "invitado (solo lectura)" : "sin conexión con claude.ai: progreso guardado en este navegador"}.</p>
+      <p class="small muted">Estado: ${state.web && state.mode === "crew" ? "progreso sincronizado entre tus dispositivos" : state.web ? "progreso guardado solo en este navegador" : state.mode === "crew" ? "sincronizado con claude.ai" : state.mode === "guest" ? "invitado (solo lectura)" : "sin conexión con claude.ai: progreso guardado en este navegador"}.</p>
       <div class="row"><button class="btn" id="tt">Cambiar a tema ${curTheme() === "dark" ? "claro" : "oscuro"}</button></div>
     </article>
-    <article class="panel stack"><h2>Cómo compartir la app</h2>
+    <div id="web-sync"></div>
+    ${isWeb() ? "" : `<article class="panel stack"><h2>Cómo compartir la app</h2>
       <ol>
         <li>Abre el menú <b>Compartir</b> de este artifact en claude.ai.</li>
         <li>Invita a <b>Reyero</b> por email con el permiso <b>Editor</b>. Si le das otro permiso, no podrá guardar su progreso.</li>
@@ -544,7 +575,7 @@ function viewCrew() {
         <li><b>No actives el enlace público.</b> Con el enlace público activo, los editores de fuera de tu organización pasan a ser solo lectores.</li>
       </ol>
       <p class="small muted">Funciona en el móvil, la tablet y el ordenador, desde el navegador o la app de Claude, con la sesión de claude.ai iniciada.</p>
-    </article>
+    </article>`}
     <article class="panel stack"><h2>Sobre el contenido</h2>
       <p class="small">Preguntas: exámenes oficiales de la Dirección General de la Marina Mercante (abril 2022 – junio 2026) con sus plantillas de respuestas. Teoría: apuntes PER (2015) revisados y actualizados con la normativa vigente en noviembre de 2026 (RD 875/2014, RD 1188/2025, RD 339/2021, RD 1185/2006, RD 550/2020, RD 876/2014, MARPOL V, RIPA con enmiendas, IALA MBS 2022, ERC 2025). Lo que no se ha podido confirmar está marcado como «por verificar».</p>
     </article>
@@ -552,6 +583,13 @@ function viewCrew() {
   main.replaceChildren(v);
   v.querySelectorAll("[data-a]").forEach(b => b.onclick = async () => { claim(b.dataset.a); renderChrome(); toast(`Navegas como ${crewName(b.dataset.a)}.`); go("inicio"); });
   v.querySelector("#tt").onclick = () => { toggleTheme(); viewCrew(); };
+  const webSync = v.querySelector("#web-sync");
+  if (isWeb() && !syncLinked()) webSync.replaceWith(linkPanel());
+  else if (isWeb()) {
+    const a = h(`<article class="panel stack"><h2>Sincronización</h2><p>Este dispositivo comparte el progreso con la tripulación.</p><div class="row"><button class="btn" type="button">Desvincular este dispositivo</button></div></article>`);
+    a.querySelector("button").onclick = () => { syncUnlink(); location.reload(); };
+    webSync.replaceWith(a);
+  } else webSync.remove();
 }
 
 // ---------- boot

@@ -1,0 +1,12 @@
+name = "per-sync"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+[vars]
+ORIGINS = "https://ramputink.github.io"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "per-sync"
+database_id = "49f2ea87-7e12-4c00-b543-9979674b7817"

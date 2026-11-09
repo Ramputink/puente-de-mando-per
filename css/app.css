@@ -324,3 +324,5 @@ table.carga td:first-child { min-width: 220px; }
 }
 
 [hidden] { display: none !important; }
+
+.link-form input { flex: 1; min-width: 0; min-height: 40px; padding: .35em .6em; border: 1px solid var(--line); border-radius: var(--r-sm); background: var(--sheet); font-family: var(--f-mono); font-size: max(16px, 1rem); }
